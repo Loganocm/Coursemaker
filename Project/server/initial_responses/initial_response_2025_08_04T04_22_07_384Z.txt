@@ -1,0 +1,110 @@
+{
+  "courseTitle": "Example Course Title",
+  "modules": [
+    {
+      "moduleTitle": "Module 1: Introduction",
+      "notes": {
+        "summary": "This module provides an introduction to the nature of art and creativity. It explores the definition of art, the role of creativity, and the differences between trained and untrained artists, including discussions of outsider art, folk art, and children's art. The module also examines the concepts of representational, abstract, and nonrepresentational art, and discusses the importance of looking and seeing when engaging with works of art.",
+        "keywords": [
+          "art",
+          "creativity",
+          "trained artists",
+          "untrained artists",
+          "outsider art",
+          "folk art",
+          "children's art",
+          "representational art",
+          "abstract art",
+          "nonrepresentational art",
+          "looking and seeing"
+        ]
+      },
+      "flashcards": [
+        {
+          "question": "What is the definition of art?",
+          "answer": "Art is the visual expression of an idea or experience, formed with skill, through the use of a medium."
+        },
+        {
+          "question": "What is the difference between trained and untrained artists?",
+          "answer": "Trained artists generally learn through formal art education and apprenticeships, while untrained artists, also called outsider artists, create art without formal training and often outside of conventional art practices."
+        },
+        {
+          "question": "What is the difference between representational, abstract, and nonrepresentational art?",
+          "answer": "Representational art depicts recognizable subjects, abstract art depicts natural objects in simplified or exaggerated ways, and nonrepresentational art has no reference to anything outside itself."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "Which of the following is a characteristic of untrained or outsider art?",
+          "options": {
+            "A": "It is created within an established tradition of style and craftsmanship.",
+            "B": "It shows a self-conscious awareness of art history.",
+            "C": "It is made by people who are largely unaware of art history or contemporary art trends.",
+            "D": "It is often commissioned by patrons."
+          },
+          "correctAnswer": "C"
+        },
+        {
+          "question": "What is the primary difference between looking and seeing when engaging with a work of art?",
+          "options": {
+            "A": "Looking is a more receptive and passive process, while seeing involves actively connecting the work to one's own memories, imagination, and feelings.",
+            "B": "Looking refers to viewing a work from a distance, while seeing involves closely examining the details.",
+            "C": "Looking is a skill that can be developed through practice, while seeing is an innate ability.",
+            "D": "Looking is a habit, while seeing requires conscious effort."
+          },
+          "correctAnswer": "A"
+        }
+      ]
+    },
+    {
+      "moduleTitle": "Module 2: The Purposes and Functions of Art",
+      "notes": {
+        "summary": "This module explores the various purposes and functions of art, including art for daily use, visual delight, communicating information, public and personal expression, religion and spirituality, and political purposes. The module examines how artists use their work to transform everyday objects, create harmonious and idealized compositions, tell stories, commemorate important events, express personal emotions, depict religious themes, and engage with political issues.",
+        "keywords": [
+          "art for daily use",
+          "art for visual delight",
+          "art for communicating information",
+          "art for public and personal expression",
+          "art for religion and spirituality",
+          "art for political purposes"
+        ]
+      },
+      "flashcards": [
+        {
+          "question": "What are some ways that artists transform everyday objects through their work?",
+          "answer": "Artists can transform everyday objects through design, embellishment, and the creation of utilitarian but visually appealing objects."
+        },
+        {
+          "question": "How can art function to communicate information?",
+          "answer": "Art can communicate information through storytelling, commentary, and the visual depiction of events and ideas."
+        },
+        {
+          "question": "In what ways can art be used for public and personal expression?",
+          "answer": "Art can be used for public commemoration and to express personal emotions and experiences."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "Which of the following is an example of art used for religious or spiritual purposes?",
+          "options": {
+            "A": "The Taj Mahal",
+            "B": "The Vietnam Veterans Memorial",
+            "C": "Käthe Kollwitz's The Outbreak",
+            "D": "Wassily Kandinsky's Composition VI"
+          },
+          "correctAnswer": "A"
+        },
+        {
+          "question": "How can art be used for political purposes?",
+          "options": {
+            "A": "To persuade viewers to submit to authority",
+            "B": "To express protest or encourage revolt",
+            "C": "Both A and B",
+            "D": "Neither A nor B"
+          },
+          "correctAnswer": "C"
+        }
+      ]
+    }
+  ]
+}

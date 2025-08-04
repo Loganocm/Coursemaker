@@ -1,0 +1,365 @@
+{
+  "courseTitle": "The Book of Small",
+  "modules": [
+    {
+      "moduleTitle": "Sunday",
+      "notes": {
+        "summary": "This module provides an overview of the author's family's Sunday routines, including their Presbyterian and Anglican religious observances, family prayers, Sunday walks, and afternoon activities. It highlights the strict adherence to religious practices and the contrast between the stern father's and gentle mother's approaches to faith. The module also describes the family's traditions around Sunday dinner, the singing of the author, and the interactions with neighbors and visitors on Sundays.",
+        "keywords": [
+          "Sunday",
+          "religion",
+          "family",
+          "prayer",
+          "church",
+          "tradition",
+          "singing"
+        ]
+      },
+      "flashcards": [
+        {
+          "question": "What was the author's family's routine on Sundays?",
+          "answer": "The family had a strict religious routine, attending both Presbyterian and Anglican churches, with family prayers, a large Sunday dinner, and afternoon activities like Sunday School and walks around the property."
+        },
+        {
+          "question": "How did the author's father and mother differ in their approaches to religion?",
+          "answer": "The father had a stern, serious approach to religion, while the mother's was more gentle."
+        },
+        {
+          "question": "What was the highlight of the Anglican church service for the author?",
+          "answer": "The Bishop's blessing, which the author eagerly anticipated and found very comforting."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "What time did the family rise on Sundays?",
+          "options": {
+            "A": "7 am",
+            "B": "8 am",
+            "C": "9 am",
+            "D": "10 am"
+          },
+          "correctAnswer": "A"
+        },
+        {
+          "question": "Why did the father choose to attend the Presbyterian church?",
+          "options": {
+            "A": "He was Presbyterian",
+            "B": "He liked the minister",
+            "C": "He was a little deaf and could hear the sermons better",
+            "D": "It was closer to their home"
+          },
+          "correctAnswer": "C"
+        },
+        {
+          "question": "What did the family do after the Anglican church service in the evening?",
+          "options": {
+            "A": "Had a family dinner",
+            "B": "Went for a walk",
+            "C": "Read the Bible together",
+            "D": "Listened to a serialized story"
+          },
+          "correctAnswer": "D"
+        }
+      ]
+    },
+    {
+      "moduleTitle": "The Cow Yard",
+      "notes": {
+        "summary": "This module explores the Cow Yard, which was a central part of the author's childhood. It describes the Cow and the other animals that inhabited the Yard, as well as the changing seasons and events that took place there. The module highlights the author's close connection to the Cow Yard and the sense of wonder and joy she found in observing the natural rhythms and activities within it.",
+        "keywords": [
+          "Cow Yard",
+          "animals",
+          "nature",
+          "seasons",
+          "childhood",
+          "wonder"
+        ]
+      },
+      "flashcards": [
+        {
+          "question": "What was the central animal presence in the Cow Yard?",
+          "answer": "The Cow, a large red-and-white animal with a slow, leisurely demeanor."
+        },
+        {
+          "question": "What event marked the beginning of spring in the Cow Yard?",
+          "answer": "The annual bonfire, which the author and her sisters would roast potatoes in the ashes of."
+        },
+        {
+          "question": "How did the author feel about the Cow Yard compared to her sisters?",
+          "answer": "The author felt a deep connection and sense of wonder about the Cow Yard, while her sisters were less interested."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "How did the Cow react to Bong, the Chinese houseboy, singing to her?",
+          "options": {
+            "A": "She became agitated and ran away",
+            "B": "She ignored him completely",
+            "C": "She stopped chewing and listened intently",
+            "D": "She joined in with her own mooing"
+          },
+          "correctAnswer": "C"
+        },
+        {
+          "question": "What happened when the author tried to climb on the Cow's back?",
+          "options": {
+            "A": "The Cow remained calm and let her climb on",
+            "B": "The Cow kicked her off",
+            "C": "The Cow ran away in fear",
+            "D": "The Cow became aggressive and charged at her"
+          },
+          "correctAnswer": "B"
+        },
+        {
+          "question": "What did the author discover about the old tree in the Cow Yard?",
+          "options": {
+            "A": "It was home to a family of owls",
+            "B": "It had been killed by the ivy growing on it",
+            "C": "It provided shade for the animals",
+            "D": "It had a secret compartment inside the trunk"
+          },
+          "correctAnswer": "B"
+        }
+      ]
+    },
+    {
+      "moduleTitle": "The Bishop and the Canary",
+      "notes": {
+        "summary": "This module tells the story of the author's encounter with the Bishop when she tried to show him her new pet canary. The Bishop's distracted response and the author's subsequent hurt feelings are described, highlighting the author's sensitivity and the contrast between her youthful enthusiasm and the Bishop's aloof manner.",
+        "keywords": [
+          "Bishop",
+          "canary",
+          "pets",
+          "disappointment",
+          "sensitivity"
+        ]
+      },
+      "flashcards": [
+        {
+          "question": "Why was the author so excited to show the Bishop her new canary?",
+          "answer": "She had earned the canary herself and felt a strong sense of ownership and pride over it."
+        },
+        {
+          "question": "How did the Bishop respond when the author tried to show him the canary?",
+          "answer": "The Bishop was distracted and did not pay attention to the canary, much to the author's disappointment."
+        },
+        {
+          "question": "How did the author feel after the Bishop's dismissive response?",
+          "answer": "The author felt hurt and angry that the Bishop did not appreciate her new pet."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "What made the author choose the canary with the topknot?",
+          "options": {
+            "A": "It was the most vibrant color",
+            "B": "It seemed the most energetic",
+            "C": "She felt a special connection to it",
+            "D": "It was the last one remaining"
+          },
+          "correctAnswer": "C"
+        },
+        {
+          "question": "Why did the author feel she could show the Bishop the canary?",
+          "options": {
+            "A": "The Bishop loved all creatures",
+            "B": "The author thought the Bishop would understand her excitement",
+            "C": "The Bishop had given her the canary as a gift",
+            "D": "The author had to get the Bishop's approval to keep the canary"
+          },
+          "correctAnswer": "B"
+        },
+        {
+          "question": "How did the author respond when the Bishop did not pay attention to the canary?",
+          "options": {
+            "A": "She cried",
+            "B": "She angrily scolded the Bishop",
+            "C": "She hid the canary away",
+            "D": "She ran home and refused to leave her room"
+          },
+          "correctAnswer": "A"
+        }
+      ]
+    },
+    {
+      "moduleTitle": "The Blessing",
+      "notes": {
+        "summary": "This module describes the author's experiences with the Anglican and Presbyterian churches in Victoria. It highlights the contrasting styles of the two churches, with the Presbyterian services being more stern and formal, and the Anglican services under the gentle Bishop being more comforting and meaningful to the author. The module emphasizes the importance of the Bishop's blessing and the sense of peace it brought the author.",
+        "keywords": [
+          "religion",
+          "churches",
+          "Anglican",
+          "Presbyterian",
+          "Bishop",
+          "blessing"
+        ]
+      },
+      "flashcards": [
+        {
+          "question": "What did the author find most meaningful about the Anglican church services?",
+          "answer": "The Bishop's blessing, which the author eagerly anticipated and found very comforting."
+        },
+        {
+          "question": "How did the author's father and mother differ in their religious affiliations?",
+          "answer": "The father was more drawn to the stern Presbyterian services, while the mother preferred the gentler Anglican church."
+        },
+        {
+          "question": "What did the author appreciate most about the Anglican church's atmosphere and services?",
+          "answer": "The beautiful music, candlelight, and sense of reverence and peace."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "Why did the author's father choose to attend the Presbyterian church?",
+          "options": {
+            "A": "It was closer to their home",
+            "B": "He was a devout Presbyterian",
+            "C": "He could hear the sermons better there",
+            "D": "The Presbyterian services were more formal"
+          },
+          "correctAnswer": "C"
+        },
+        {
+          "question": "What did the author find comforting about the Anglican church services?",
+          "options": {
+            "A": "The lively music and singing",
+            "B": "The long, elaborate sermons",
+            "C": "The solemn ritual of the Bishop's blessing",
+            "D": "The bright, cheerful atmosphere"
+          },
+          "correctAnswer": "C"
+        },
+        {
+          "question": "How did the author's mother's and father's religious approaches differ?",
+          "options": {
+            "A": "The mother was more stern, the father more gentle",
+            "B": "The mother was Anglican, the father was Presbyterian",
+            "C": "The mother was more devout, the father was more casual",
+            "D": "The mother was more emotionally expressive, the father was more reserved"
+          },
+          "correctAnswer": "D"
+        }
+      ]
+    },
+    {
+      "moduleTitle": "Singing",
+      "notes": {
+        "summary": "This module explores the author's joy in singing, particularly her exuberant singing in the Cow Yard that annoyed her family members. It describes the author's connection to the Cow and other animals in the Yard, who seemed to appreciate her singing. The module also highlights the contrasting attitudes of the author's family, the Bishop, and her mother towards her singing.",
+        "keywords": [
+          "singing",
+          "Cow Yard",
+          "animals",
+          "family",
+          "Bishop",
+          "mother"
+        ]
+      },
+      "flashcards": [
+        {
+          "question": "How did the Cow react to the author's singing in the Cow Yard?",
+          "answer": "The Cow seemed to enjoy the author's singing, rolling her jaws and twitching her ears as if appreciating the music."
+        },
+        {
+          "question": "How did the author's family members typically respond to her singing?",
+          "answer": "They often scolded her for the "vulgar row" of her loud, joyful singing, finding it embarrassing and disruptive."
+        },
+        {
+          "question": "What was the Bishop's reaction when he heard the author singing about "cow-songs" rather than hymns?",
+          "answer": "The Bishop responded with dismay, drawing out a long "a-a-h!" in disapproval."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "Why did the author's mother say she should have her voice "trained" someday?",
+          "options": {
+            "A": "So the author could sing in the church choir",
+            "B": "So the author could perform concerts and make money",
+            "C": "So the author's singing would be more polite and less disruptive",
+            "D": "So the author could become an opera singer"
+          },
+          "correctAnswer": "C"
+        },
+        {
+          "question": "What did the author mean when she said her singing "boiled over the fences" like "jam"?",
+          "options": {
+            "A": "Her singing was messy and out of control",
+            "B": "Her singing was as sweet and irrepressible as boiling jam",
+            "C": "Her singing was so loud it spilled out beyond the Cow Yard",
+            "D": "Her singing was like a physical force, bubbling up and overflowing"
+          },
+          "correctAnswer": "D"
+        },
+        {
+          "question": "Why did the author refuse to have her singing "squeezed little and polite" like her mother suggested?",
+          "options": {
+            "A": "She wanted to keep the natural joy and energy of her singing",
+            "B": "She knew the Cow wouldn't appreciate polite, constrained singing",
+            "C": "She was proud of her unique singing voice and didn't want to change it",
+            "D": "All of the above"
+          },
+          "correctAnswer": "D"
+        }
+      ]
+    },
+    {
+      "moduleTitle": "The Praying Chair",
+      "notes": {
+        "summary": "This module focuses on the author's interactions with the "praying chair" used by her father for family prayers. It describes the author's attempts to use the chair to pray for a puppy, as well as the chair's later reappearance in the author's life when she becomes a dog owner herself. The module explores the author's sense of disappointment and disillusionment with God and religion as a child, and how the chair ultimately comes to represent a cherished connection to her past.",
+        "keywords": [
+          "praying chair",
+          "prayer",
+          "puppy",
+          "disappointment",
+          "religion",
+          "adulthood"
+        ]
+      },
+      "flashcards": [
+        {
+          "question": "What did the author try to do with the praying chair to get a puppy?",
+          "answer": "She tried to use the chair, which her father used for family prayers, to pray for a puppy of her own."
+        },
+        {
+          "question": "How did the author's father and the rest of the family respond to her attempts to pray for a puppy?",
+          "answer": "They were disapproving and dismissed her efforts, with the father firmly refusing to allow a puppy in the garden."
+        },
+        {
+          "question": "How did the praying chair later reappear in the author's life as an adult?",
+          "answer": "The chair was given to the author when she started her own dog breeding business, and she saw it as a cherished connection to her childhood."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "Why did the author think the praying chair would be a good way to pray for a puppy?",
+          "options": {
+            "A": "Her father used it for prayers, so she thought it would be more effective",
+            "B": "The chair made a loud "amen" sound that she thought would get God's attention",
+            "C": "The chair was special and might convince God to grant her request",
+            "D": "All of the above"
+          },
+          "correctAnswer": "D"
+        },
+        {
+          "question": "How did the author's father respond when she asked if she could get a puppy?",
+          "options": {
+            "A": "He angrily refused, saying it was against his principles",
+            "B": "He said he would consider it if she behaved better",
+            "C": "He said he would think about it and discuss it with her mother",
+            "D": "He dismissed the idea, saying his garden was not for dogs"
+          },
+          "correctAnswer": "D"
+        },
+        {
+          "question": "Why was the author so excited when the praying chair reappeared in her adult life?",
+          "options": {
+            "A": "It reminded her of her childhood prayers for a puppy",
+            "B": "It represented a connection to her religious upbringing",
+            "C": "It sparked memories of her family and the comfort of home",
+            "D": "All of the above"
+          },
+          "correctAnswer": "D"
+        }
+      ]
+    },
+    {
+      "

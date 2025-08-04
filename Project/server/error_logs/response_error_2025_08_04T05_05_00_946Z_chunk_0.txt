@@ -1,0 +1,330 @@
+{
+  "courseTitle": "The Book of Small",
+  "modules": [
+    {
+      "moduleTitle": "Sunday",
+      "notes": {
+        "summary": "This module provides an in-depth look at the author's family's Sunday routine, from the preparations on Saturday evening to the family's religious practices and activities throughout the day. It highlights the stark contrast between the sternness of the father's Presbyterian faith and the gentleness of the mother's Anglican faith, as well as the children's varying perspectives and experiences. The module explores the family's traditions, rituals, and relationships, painting a vivid picture of Sunday life in the Carr household.",
+        "keywords": [
+          "Sunday",
+          "religion",
+          "family",
+          "rituals",
+          "traditions",
+          "Presbyterian",
+          "Anglican"
+        ]
+      },
+      "flashcards": [
+        {
+          "question": "What was the family's religious practice on Sundays?",
+          "answer": "The family followed a hybrid religious practice, attending the Presbyterian church in the morning and the Anglican church in the evening."
+        },
+        {
+          "question": "How did the children react to the long Presbyterian sermons?",
+          "answer": "The children often found the Presbyterian sermons tedious and fell asleep, though they dared not do so during the Bishop's blessing at the Anglican church."
+        },
+        {
+          "question": "What was the purpose of the family's Sunday walk around the property?",
+          "answer": "The Sunday walk allowed the father to admire his carefully tended English-style garden and property, while the mother and children enjoyed the natural beauty of the family's land."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "Why did the family attend the Anglican church in the evening rather than the morning?",
+          "options": {
+            "A": "The Anglican church was closer to their home.",
+            "B": "The father preferred the Presbyterian church.",
+            "C": "It was a special privilege that depended on the older sister's willingness.",
+            "D": "The father disliked the Anglican church."
+          },
+          "correctAnswer": "C"
+        },
+        {
+          "question": "What was the purpose of the family's Bible reading session in the evenings?",
+          "options": {
+            "A": "To discuss the day's sermon.",
+            "B": "To enjoy family time together.",
+            "C": "To strictly adhere to the father's religious beliefs.",
+            "D": "To prepare for the next day's church service."
+          },
+          "correctAnswer": "C"
+        }
+      ]
+    },
+    {
+      "moduleTitle": "The Cow Yard",
+      "notes": {
+        "summary": "This module focuses on the Cow Yard, a central feature of the family's property and a place of great importance to the young narrator. It describes the Cow Yard in vivid detail, highlighting the sights, sounds, and smells that made it a vibrant and engaging environment for the children. The module explores the narrator's deep connection to the Cow and the other animals, as well as the seasonal changes and events that brought the Cow Yard to life. Through the narrator's eyes, readers gain a appreciation for the simple pleasures and wonders of this rural childhood setting.",
+        "keywords": [
+          "Cow Yard",
+          "animals",
+          "nature",
+          "seasons",
+          "childhood",
+          "senses"
+        ]
+      },
+      "flashcards": [
+        {
+          "question": "What was the purpose of the Cow Yard's large size?",
+          "answer": "The large size of the Cow Yard allowed it to accommodate the various animals, creatures, and activities that took place there."
+        },
+        {
+          "question": "How did the narrator feel about the Cow?",
+          "answer": "The narrator had a deep affection and connection to the Cow, seeing it as a central and comforting presence in the Cow Yard."
+        },
+        {
+          "question": "What seasonal events occurred in the Cow Yard?",
+          "answer": "The Cow Yard saw the annual spring bonfire, the hatching of chicks, and the arrival of new animal offspring, among other seasonal changes and activities."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "Why was the narrator so drawn to the Cow Yard?",
+          "options": {
+            "A": "It was a place of danger and excitement.",
+            "B": "It was where her favorite pet, the Cow, lived.",
+            "C": "It was a hub of activity and sensory experiences.",
+            "D": "It was the only place on the property she was allowed to play."
+          },
+          "correctAnswer": "C"
+        },
+        {
+          "question": "What did the narrator wish would happen in the Cow Yard?",
+          "options": {
+            "A": "That the Cow would have a colt.",
+            "B": "That the rabbits would multiply more.",
+            "C": "That the hens would lay more eggs.",
+            "D": "That the ducks would learn to swim better."
+          },
+          "correctAnswer": "A"
+        }
+      ]
+    },
+    {
+      "moduleTitle": "The Bishop and the Canary",
+      "notes": {
+        "summary": "This module explores the narrator's brief encounter with the Bishop, a prominent figure in the community, and the narrator's deep disappointment when the Bishop fails to acknowledge her cherished new pet canary. The module highlights the narrator's strong feelings and desire for recognition, as well as the power dynamics between the young narrator and the adult authority figures in her life. Through this incident, readers gain insight into the narrator's inner world and the challenges she faces in navigating the expectations and social hierarchies of her community.",
+        "keywords": [
+          "Bishop",
+          "canary",
+          "authority",
+          "disappointment",
+          "recognition"
+        ]
+      },
+      "flashcards": [
+        {
+          "question": "Why was the narrator so excited to show the Bishop her new canary?",
+          "answer": "The narrator deeply cherished her new pet canary and wanted the Bishop, a respected figure, to acknowledge and appreciate it."
+        },
+        {
+          "question": "How did the Bishop respond to the narrator's attempt to show him the canary?",
+          "answer": "The Bishop did not notice or acknowledge the narrator's canary, much to her disappointment and hurt."
+        },
+        {
+          "question": "What was the narrator's reaction to the Bishop's lack of interest in her canary?",
+          "answer": "The narrator felt deeply ashamed and upset by the Bishop's indifference, and she harbored resentment towards him for not recognizing the importance of her pet."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "Why was the narrator so eager to show the Bishop her canary?",
+          "options": {
+            "A": "She wanted the Bishop to approve of her pet.",
+            "B": "She thought the Bishop would be amused by the canary.",
+            "C": "She believed the Bishop would be impressed by her responsibility.",
+            "D": "She hoped the Bishop would give her a reward for caring for the bird."
+          },
+          "correctAnswer": "A"
+        },
+        {
+          "question": "What did the narrator's encounter with the Bishop reveal about her?",
+          "options": {
+            "A": "She was afraid of authority figures.",
+            "B": "She craved attention and recognition.",
+            "C": "She disliked the Bishop and his religion.",
+            "D": "She was too young to understand social hierarchies."
+          },
+          "correctAnswer": "B"
+        }
+      ]
+    },
+    {
+      "moduleTitle": "The Blessing",
+      "notes": {
+        "summary": "This module focuses on the contrasting religious experiences of the narrator's family, with the stern and formal Presbyterian services led by the father juxtaposed against the gentler and more inviting Anglican services presided over by the Bishop. The module highlights the importance of the Bishop's blessing to the children, and the ways in which the different approaches to religion shaped the family's experiences and dynamics. Through this exploration, readers gain insight into the role of faith and spirituality in the narrator's upbringing and the community.",
+        "keywords": [
+          "religion",
+          "Presbyterian",
+          "Anglican",
+          "Bishop",
+          "blessing",
+          "family"
+        ]
+      },
+      "flashcards": [
+        {
+          "question": "What was the difference between the family's Presbyterian and Anglican church experiences?",
+          "answer": "The Presbyterian services were formal and stern, while the Anglican services led by the Bishop were more gentle and inviting."
+        },
+        {
+          "question": "Why did the children look forward to the Bishop's blessing?",
+          "answer": "The children eagerly anticipated the Bishop's blessing, as they found it to be a profound and meaningful experience compared to the long Presbyterian sermons."
+        },
+        {
+          "question": "How did the father's and mother's religious practices differ?",
+          "answer": "The father's religion was grim and stern, while the mother's was more gentle and Anglican."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "What was the purpose of the family's hybrid religious practice?",
+          "options": {
+            "A": "To allow the children to experience both faiths.",
+            "B": "To appease the father's Presbyterian beliefs and the mother's Anglican faith.",
+            "C": "To ensure the family attended church regularly.",
+            "D": "To provide the children with a more well-rounded religious education."
+          },
+          "correctAnswer": "B"
+        },
+        {
+          "question": "Why did the children look forward to the Bishop's blessing?",
+          "options": {
+            "A": "It was the only part of the Anglican service they enjoyed.",
+            "B": "It provided a break from the long Presbyterian sermons.",
+            "C": "They believed it brought them closer to God.",
+            "D": "It was a meaningful spiritual experience they cherished."
+          },
+          "correctAnswer": "D"
+        }
+      ]
+    },
+    {
+      "moduleTitle": "Singing",
+      "notes": {
+        "summary": "This module explores the narrator's joyful and expressive singing, which often caused disruption and consternation within the family. The module delves into the narrator's deep connection to the natural world, particularly the Cow, and how her singing was an extension of this relationship. It also highlights the tension between the narrator's desire for self-expression and the family's expectations of propriety, as well as the varying reactions of the other family members and community figures to the narrator's unconventional singing. Through this exploration, readers gain insight into the narrator's spirited personality and the dynamics within the family.",
+        "keywords": [
+          "singing",
+          "self-expression",
+          "family dynamics",
+          "Cow",
+          "nature",
+          "community"
+        ]
+      },
+      "flashcards": [
+        {
+          "question": "How did the narrator's singing differ from her sisters'?",
+          "answer": "The narrator's singing was joyful and expressive, in contrast to her sisters' more reserved and proper performances."
+        },
+        {
+          "question": "Why did the narrator's singing often upset her family members?",
+          "answer": "The narrator's loud and uninhibited singing was seen as disruptive and inappropriate by her family, who valued propriety and decorum."
+        },
+        {
+          "question": "How did the Cow respond to the narrator's singing?",
+          "answer": "The Cow seemed to take great pleasure in the narrator's singing, rolling its eyes and chewing its cud in apparent enjoyment."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "What did the narrator's singing represent for her?",
+          "options": {
+            "A": "A way to express her connection to the natural world.",
+            "B": "A rebellious act against her family's expectations.",
+            "C": "An attempt to get attention from her siblings.",
+            "D": "A means of defying the Bishop's authority."
+          },
+          "correctAnswer": "A"
+        },
+        {
+          "question": "Why did the narrator's family members disapprove of her singing?",
+          "options": {
+            "A": "They believed it was disrespectful to the Cow.",
+            "B": "They felt it was inappropriate for a young girl.",
+            "C": "They were concerned it would disturb the neighbors.",
+            "D": "They thought it was a waste of time and energy."
+          },
+          "correctAnswer": "B"
+        }
+      ]
+    },
+    {
+      "moduleTitle": "The Praying Chair",
+      "notes": {
+        "summary": "This module centers around the narrator's experience with the family's "praying chair," a wicker chair used by the father during daily family prayers. The module explores the narrator's desire for a pet, specifically a dog, and her attempts to use the praying chair as a means of obtaining one through prayer. The module also delves into the narrator's strained relationship with her stern and unyielding father, as well as the dynamics within the larger family. Through this episode, readers gain insight into the narrator's creative problem-solving, her yearning for affection and independence, and the complex family dynamics that shaped her upbringing.",
+        "keywords": [
+          "praying chair",
+          "prayer",
+          "pet",
+          "dog",
+          "family dynamics",
+          "father-daughter relationship"
+        ]
+      },
+      "flashcards": [
+        {
+          "question": "What was the narrator's plan for using the praying chair to get a pet dog?",
+          "answer": "The narrator believed that if she and the cat prayed in the praying chair, it would help her receive the dog she desperately wanted."
+        },
+        {
+          "question": "How did the narrator's father react to the idea of the family getting a pet dog?",
+          "answer": "The narrator's father was firmly opposed to the idea of the family having a pet dog, as he did not approve of such things."
+        },
+        {
+          "question": "What happened to the narrator's eventual pet dog that the family did acquire?",
+          "answer": "The family's pet dog was ultimately killed by the father's disapproval and the family's strict rules, much to the narrator's devastation."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "What was the significance of the praying chair for the narrator?",
+          "options": {
+            "A": "It was a sacred space for family prayer.",
+            "B": "It represented her father's authority in the home.",
+            "C": "It was a tool she could use to obtain the pet she desired.",
+            "D": "It was a symbol of the family's religious devotion."
+          },
+          "correctAnswer": "C"
+        },
+        {
+          "question": "How did the narrator's relationship with her father affect her desire for a pet dog?",
+          "options": {
+            "A": "Her father's strict rules made her rebellious.",
+            "B": "Her father's disapproval fueled her determination.",
+            "C": "Her father's indifference led her to seek companionship.",
+            "D": "Her father's stern nature made her fear his reaction."
+          },
+          "correctAnswer": "D"
+        }
+      ]
+    },
+    {
+      "moduleTitle": "Mrs. Crane",
+      "notes": {
+        "summary": "This module focuses on the narrator's experience staying with the Crane family, a well-to-do household in Victoria. The module explores the narrator's perception of Mrs. Crane, a stern and seemingly unapproachable woman, and the narrator's attempts to understand and connect with her. Through the narrator's observations and interactions, readers gain insight into the social dynamics and class differences within the community, as well as the narrator's own personal growth and evolving perspectives.",
+        "keywords": [
+          "Mrs. Crane",
+          "social class",
+          "perception",
+          "family dynamics",
+          "personal growth"
+        ]
+      },
+      "flashcards": [
+        {
+          "question": "How did the narrator initially perceive Mrs. Crane?",
+          "answer": "The narrator found Mrs. Crane to be a tall, stern, and intimidating figure who seemed to have a "pig's heart" and was difficult to approach."
+        },
+        {
+          "question": "What did the narrator learn about Mrs. Crane's family that surprised her?",
+          "answer": "The narrator was surprised to learn that Mrs. Crane's children were not allowed to play freely or touch their mother's belongings, in contrast to the narrator's own family."
+        },
+        {
+          "question": "How did the narrator's perception of Mrs. Crane change by the end of the visit?",
+          "answer": "The narrator's perception of Mrs. Crane softened, and she came to see the woman as more complex and even beautiful, especially after witnessing Mrs. Crane's compassion towards the narrator."
+        }
+      ],
+      "quiz": [

@@ -1,0 +1,111 @@
+{
+  "courseTitle": "Example Course Title",
+  "modules": [
+    {
+      "moduleTitle": "Module 1: Introduction",
+      "notes": {
+        "summary": "This module introduces the fundamental concepts of art and creativity. It discusses the nature of art, the purposes and functions of art, and the essential visual elements that artists use to create works of art. Students will learn about the differences between representational, abstract, and nonrepresentational art, as well as the role of iconography in visual communication. The module also explores the concept of creativity and how it manifests in both trained and untrained artists.",
+        "keywords": [
+          "art",
+          "creativity",
+          "visual elements",
+          "representational art",
+          "abstract art",
+          "nonrepresentational art",
+          "iconography",
+          "trained artists",
+          "untrained artists"
+        ]
+      },
+      "flashcards": [
+        {
+          "question": "What is the definition of a work of art?",
+          "answer": "A work of art is the visual expression of an idea or experience, formed with skill, through the use of a medium."
+        },
+        {
+          "question": "What is the difference between representational, abstract, and nonrepresentational art?",
+          "answer": "Representational art depicts recognizable subject matter, abstract art simplifies or exaggerates natural forms, and nonrepresentational art has no reference to anything outside the work itself."
+        },
+        {
+          "question": "How do trained and untrained artists differ in their approach to art?",
+          "answer": "Trained artists generally have formal art education and are aware of art historical traditions, while untrained artists, also called outsider or folk artists, create art without formal training and often outside of conventional art practices."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "Which of the following is NOT a purpose of art?",
+          "options": {
+            "A": "Art for daily use",
+            "B": "Art for visual delight",
+            "C": "Art for political expression",
+            "D": "Art for economic gain"
+          },
+          "correctAnswer": "D"
+        },
+        {
+          "question": "What is the role of iconography in visual communication?",
+          "options": {
+            "A": "Iconography refers to the symbolic meanings of subjects and signs used to convey ideas important to particular cultures or religions.",
+            "B": "Iconography is the study of the visual elements in a work of art.",
+            "C": "Iconography is the process of creating works of art.",
+            "D": "Iconography is the formal analysis of a work of art."
+          },
+          "correctAnswer": "A"
+        }
+      ]
+    },
+    {
+      "moduleTitle": "Module 2: The Media of Art",
+      "notes": {
+        "summary": "This module explores the various media and techniques used by artists to create works of art. It covers drawing, painting, printmaking, photography, cinema and digital arts, design disciplines, sculpture, craft media, and architecture. Students will learn about the unique properties and expressive possibilities of each medium, as well as how artists have innovated and experimented with these materials over time.",
+        "keywords": [
+          "drawing",
+          "painting",
+          "printmaking",
+          "photography",
+          "digital arts",
+          "design",
+          "sculpture",
+          "craft media",
+          "architecture"
+        ]
+      },
+      "flashcards": [
+        {
+          "question": "What are the three main categories of printmaking?",
+          "answer": "The three main printmaking techniques are relief, intaglio, and lithography."
+        },
+        {
+          "question": "How did the development of digital technology impact the visual arts?",
+          "answer": "Digital technology introduced new art forms like digital video and animation, and also expanded the capabilities of traditional media like photography and design."
+        },
+        {
+          "question": "What is the difference between actual and simulated texture in art?",
+          "answer": "Actual texture refers to the physical, tactile qualities of a surface, while simulated or implied texture is the visual suggestion of texture on a two-dimensional surface."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "Which of the following is NOT a common printmaking technique?",
+          "options": {
+            "A": "Screenprinting",
+            "B": "Encaustic",
+            "C": "Etching",
+            "D": "Linocut"
+          },
+          "correctAnswer": "B"
+        },
+        {
+          "question": "What is the primary purpose of architects when designing a building?",
+          "options": {
+            "A": "To create visually appealing structures",
+            "B": "To showcase the latest construction materials",
+            "C": "To provide functional and habitable spaces",
+            "D": "To make a political statement"
+          },
+          "correctAnswer": "C"
+        }
+      ]
+    }
+  ]
+}

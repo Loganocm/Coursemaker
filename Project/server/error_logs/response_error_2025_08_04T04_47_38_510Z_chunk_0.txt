@@ -1,0 +1,384 @@
+{
+  "courseTitle": "The Book of Small",
+  "modules": [
+    {
+      "moduleTitle": "Sunday",
+      "notes": {
+        "summary": "This module provides a detailed description of the Carr family's typical Sunday routine, including their religious practices, family dinners, and leisure activities. It highlights the strict and unwavering nature of the father's religious beliefs, the gentler approach of the mother, and the children's varied reactions to the day's observances.",
+        "keywords": [
+          "Sunday",
+          "religion",
+          "family",
+          "rituals",
+          "Father",
+          "Mother",
+          "children"
+        ]
+      },
+      "flashcards": [
+        {
+          "question": "What was the family's typical Sunday routine?",
+          "answer": "The family's Sunday routine included attending the Presbyterian church in the morning, returning home for a large family dinner, followed by Bible reading, and an evening trip to the Anglican church."
+        },
+        {
+          "question": "How did the father and mother differ in their religious approaches?",
+          "answer": "The father had a strict, stern approach to religion, while the mother's approach was more gentle and accepting."
+        },
+        {
+          "question": "How did the children react to the day's observances?",
+          "answer": "The children had mixed reactions, with some finding the rituals overly long and tedious, while others, like Lizzie, took them very seriously."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "What did the family do after the Presbyterian church service?",
+          "options": {
+            "A": "Went to a picnic",
+            "B": "Took a nap",
+            "C": "Had a family dinner",
+            "D": "Played games"
+          },
+          "correctAnswer": "C"
+        },
+        {
+          "question": "Who led the family Bible reading in the evening?",
+          "options": {
+            "A": "Mother",
+            "B": "Father",
+            "C": "The eldest sister",
+            "D": "The youngest child"
+          },
+          "correctAnswer": "B"
+        },
+        {
+          "question": "Which child found the Sunday observances the most difficult?",
+          "options": {
+            "A": "Lizzie",
+            "B": "Alice",
+            "C": "Small",
+            "D": "Dede"
+          },
+          "correctAnswer": "C"
+        }
+      ]
+    },
+    {
+      "moduleTitle": "The Cow Yard",
+      "notes": {
+        "summary": "This module provides a vivid description of the Carr family's cow yard and the various animals and activities that took place there. It highlights the centrality of the cow to the family's life and the ways in which the children engaged with and experienced the natural world around them.",
+        "keywords": [
+          "cow yard",
+          "animals",
+          "nature",
+          "children",
+          "seasons",
+          "play"
+        ]
+      },
+      "flashcards": [
+        {
+          "question": "What was the main feature of the cow yard?",
+          "answer": "The main feature of the cow yard was the presence of the large, red-and-white cow, whose leisurely movements and sounds were central to the activities and experiences of the children."
+        },
+        {
+          "question": "How did the different children respond to the cow yard?",
+          "answer": "The three sisters had different reactions to the cow yard - Bigger was afraid of the cow, Middle enjoyed it equally with the garden, while Small was wholly devoted to the cow yard and its creatures."
+        },
+        {
+          "question": "What significant events happened in the cow yard over the course of the seasons?",
+          "answer": "The cow yard saw the arrival of new animal babies in the spring, the burning of the annual bonfire, and the children's imaginative play and exploration of the natural world."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "What was the main sound in the cow yard?",
+          "options": {
+            "A": "The roar of the bonfire",
+            "B": "The crowing of the roosters",
+            "C": "The chewing and swaying of the cow",
+            "D": "The chirping of the birds"
+          },
+          "correctAnswer": "C"
+        },
+        {
+          "question": "Why was Small disappointed when the old tree in the cow yard fell down?",
+          "options": {
+            "A": "She was worried it would hurt the cow",
+            "B": "She had been afraid of the tree",
+            "C": "She had hoped it would sprout a colt",
+            "D": "She liked climbing in the tree"
+          },
+          "correctAnswer": "B"
+        },
+        {
+          "question": "What did the children do during the annual bonfire in the cow yard?",
+          "options": {
+            "A": "Roasted potatoes in the ashes",
+            "B": "Played games around the fire",
+            "C": "Sang songs and told stories",
+            "D": "All of the above"
+          },
+          "correctAnswer": "D"
+        }
+      ]
+    },
+    {
+      "moduleTitle": "The Bishop and the Canary",
+      "notes": {
+        "summary": "This module focuses on Small's encounter with the Bishop and her beloved pet canary. It explores themes of childhood wonder, the power dynamics between adults and children, and Small's growing understanding of the adult world around her.",
+        "keywords": [
+          "Bishop",
+          "canary",
+          "childhood",
+          "wonder",
+          "power dynamics",
+          "adult world"
+        ]
+      },
+      "flashcards": [
+        {
+          "question": "Why was Small excited to show the Bishop her canary?",
+          "answer": "Small was excited to show the Bishop her canary because she felt the Bishop, as a holy figure, would understand and appreciate the beauty of her beloved pet."
+        },
+        {
+          "question": "How did the Bishop respond to Small's attempts to show him the canary?",
+          "answer": "The Bishop did not seem to notice or care about Small's canary, brushing her off and continuing on his way, much to Small's disappointment and hurt."
+        },
+        {
+          "question": "What does this encounter reveal about the power dynamics between adults and children in Small's world?",
+          "answer": "The encounter reveals the adult world's indifference and lack of understanding towards the inner lives and experiences of children like Small."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "Why was Small so excited to show the Bishop her canary?",
+          "options": {
+            "A": "She wanted the Bishop to give it a blessing",
+            "B": "She thought the Bishop would understand the beauty of the bird",
+            "C": "She wanted the Bishop to buy the canary from her",
+            "D": "She was hoping the Bishop would play with the canary"
+          },
+          "correctAnswer": "B"
+        },
+        {
+          "question": "How did the Bishop respond to Small's attempts to show him the canary?",
+          "options": {
+            "A": "He was delighted and praised the canary",
+            "B": "He scolded Small for bothering him",
+            "C": "He ignored Small and continued on his way",
+            "D": "He asked Small questions about the canary"
+          },
+          "correctAnswer": "C"
+        },
+        {
+          "question": "What does this encounter reveal about the power dynamics between adults and children in Small's world?",
+          "options": {
+            "A": "Adults have complete control over children",
+            "B": "Children are free to do as they please",
+            "C": "Adults are indifferent to the inner lives of children",
+            "D": "Adults and children have an equal relationship"
+          },
+          "correctAnswer": "C"
+        }
+      ]
+    },
+    {
+      "moduleTitle": "The Blessing",
+      "notes": {
+        "summary": "This module explores the contrasting religious experiences of the Carr family, with the father's stern Presbyterian approach and the mother's gentler Anglican one. It highlights the children's varying responses to these differing religious practices, particularly the Bishop's soothing and comforting blessing at the Anglican church.",
+        "keywords": [
+          "religion",
+          "Presbyterian",
+          "Anglican",
+          "Bishop",
+          "blessing",
+          "children"
+        ]
+      },
+      "flashcards": [
+        {
+          "question": "How did the father and mother differ in their religious approaches?",
+          "answer": "The father had a strict, stern Presbyterian approach, while the mother's Anglican approach was more gentle and accepting."
+        },
+        {
+          "question": "What was the children's reaction to the Bishop's blessing at the Anglican church?",
+          "answer": "The children eagerly anticipated the Bishop's blessing, finding it soothing and comforting in contrast to the long, tedious Presbyterian services."
+        },
+        {
+          "question": "How did the different religious practices affect the children?",
+          "answer": "The children had mixed reactions, with some finding the Presbyterian rituals overly long and difficult, while others, like Lizzie, took them very seriously."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "What did the father think of the Anglican church?",
+          "options": {
+            "A": "He preferred it to the Presbyterian church",
+            "B": "He disliked it and refused to attend",
+            "C": "He thought it was more appropriate for the children",
+            "D": "He was indifferent to it"
+          },
+          "correctAnswer": "C"
+        },
+        {
+          "question": "What did the children most look forward to during the Anglican service?",
+          "options": {
+            "A": "The hymns",
+            "B": "The sermon",
+            "C": "The Bishop's blessing",
+            "D": "The tea and refreshments"
+          },
+          "correctAnswer": "C"
+        },
+        {
+          "question": "How did the children's reactions to the religious practices differ?",
+          "options": {
+            "A": "They all enjoyed the Anglican services more",
+            "B": "They all disliked the Presbyterian services",
+            "C": "Lizzie took the Presbyterian services more seriously than the others",
+            "D": "There was no difference in their reactions"
+          },
+          "correctAnswer": "C"
+        }
+      ]
+    },
+    {
+      "moduleTitle": "Singing",
+      "notes": {
+        "summary": "This module focuses on Small's joyful singing in the cow yard and the reactions it elicits from her family and community. It explores themes of self-expression, the clash between childhood and adult expectations, and the power of music to connect with the natural world.",
+        "keywords": [
+          "singing",
+          "cow yard",
+          "self-expression",
+          "childhood",
+          "adult expectations",
+          "nature"
+        ]
+      },
+      "flashcards": [
+        {
+          "question": "Why did Small love to sing in the cow yard?",
+          "answer": "Small's singing in the cow yard was a natural expression of her happiness and connection to the animals and natural world around her."
+        },
+        {
+          "question": "How did Small's family and the community react to her singing?",
+          "answer": "Small's family, especially her sister Bigger, often scolded and criticized her singing, viewing it as loud and inappropriate. The Bishop also expressed disapproval, but Small's mother appreciated the joy it brought her."
+        },
+        {
+          "question": "What did Small's singing reveal about the clash between her childhood experiences and adult expectations?",
+          "answer": "Small's singing highlighted the tension between her own natural self-expression and the adult world's desire to constrain and control childhood behavior."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "Why did Small love to sing in the cow yard?",
+          "options": {
+            "A": "To annoy her family",
+            "B": "To impress the cow",
+            "C": "Because it made her happy",
+            "D": "To drown out the sounds of the animals"
+          },
+          "correctAnswer": "C"
+        },
+        {
+          "question": "How did Small's family react to her singing?",
+          "options": {
+            "A": "They encouraged her",
+            "B": "They were indifferent",
+            "C": "They scolded and criticized her",
+            "D": "They joined in with her"
+          },
+          "correctAnswer": "C"
+        },
+        {
+          "question": "What did Small's singing reveal about the clash between her childhood experiences and adult expectations?",
+          "options": {
+            "A": "Adults wanted her to be more like them",
+            "B": "Children should be seen and not heard",
+            "C": "Singing was not an appropriate activity for children",
+            "D": "All of the above"
+          },
+          "correctAnswer": "D"
+        }
+      ]
+    },
+    {
+      "moduleTitle": "The Praying Chair",
+      "notes": {
+        "summary": "This module explores Small's attempts to use the family's "praying chair" to pray for a puppy, highlighting her childlike earnestness and the adult world's dismissal of her desires. It also traces Small's lifelong longing for a dog and the eventual fulfillment of that wish.",
+        "keywords": [
+          "praying chair",
+          "puppy",
+          "prayer",
+          "childhood desires",
+          "adult dismissal",
+          "dog"
+        ]
+      },
+      "flashcards": [
+        {
+          "question": "What did Small try to do with the "praying chair"?",
+          "answer": "Small tried to use the family's "praying chair" to pray for a puppy, believing the chair's association with prayer would help her request be heard."
+        },
+        {
+          "question": "How did the adults in Small's life respond to her desire for a puppy?",
+          "answer": "The adults, especially Small's father and the elder sister, dismissed and disregarded Small's wish for a puppy, seeing it as an inappropriate request for a child."
+        },
+        {
+          "question": "How was Small's lifelong desire for a dog ultimately fulfilled?",
+          "answer": "Years later, when Small was an adult, the elder sister eventually allowed her to have a dog, recognizing the importance of this childhood wish being granted."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "What was Small's goal in using the "praying chair"?",
+          "options": {
+            "A": "To pray for her family's health",
+            "B": "To pray for a new dress",
+            "C": "To pray for a puppy",
+            "D": "To pray for good weather"
+          },
+          "correctAnswer": "C"
+        },
+        {
+          "question": "How did the adults in Small's life respond to her desire for a puppy?",
+          "options": {
+            "A": "They encouraged her and promised to get her one",
+            "B": "They were indifferent to her request",
+            "C": "They dismissed and disregarded her wish",
+            "D": "They promised to get her a puppy if she behaved"
+          },
+          "correctAnswer": "C"
+        },
+        {
+          "question": "How was Small's lifelong desire for a dog ultimately fulfilled?",
+          "options": {
+            "A": "She bought a dog with her own money",
+            "B": "Her father finally agreed to get her one",
+            "C": "The elder sister allowed her to have a dog as an adult",
+            "D": "She never got a dog"
+          },
+          "correctAnswer": "C"
+        }
+      ]
+    },
+    {
+      "moduleTitle": "Mrs. Crane",
+      "notes": {
+        "summary": "This module explores Small's experience of staying with the Crane family and her impressions of Mrs. Crane, a strict and unyielding woman. It highlights the clash between Small's childlike wonder and the adult world's expectations, as well as the power dynamics between children and adults.",
+        "keywords": [
+          "Mrs. Crane",
+          "family visit",
+          "adult expectations",
+          "power dynamics",
+          "childhood wonder"
+        ]
+      },
+      "flashcards": [
+        {
+          "question": "How did Small view Mrs. Crane initially?",
+          "answer": "Small initially disliked Mrs. Crane, finding her strict and unyielding, in contrast to the more gentle and accepting adults in her own family."
+        },
+        {
+          "question": "What incident revealed the power dynamics between Small and Mrs. Crane?",
+          "answer": "When Small accidentally damage

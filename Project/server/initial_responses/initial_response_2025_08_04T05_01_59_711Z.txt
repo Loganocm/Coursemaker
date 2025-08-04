@@ -1,0 +1,336 @@
+{
+  "courseTitle": "The Book of Small",
+  "modules": [
+    {
+      "moduleTitle": "Sunday",
+      "notes": {
+        "summary": "This module covers the routine and rituals of the Carr family's Sundays, from the preparations on Saturday night to the various religious services and activities throughout the day. It highlights the stark contrast between the stern, Presbyterian father's approach to the Sabbath and the more gentle, Anglican influence of the mother and the bishop's church they attend in the evenings. The module provides insight into the family dynamics, class distinctions, and the broader cultural landscape of early Victoria.",
+        "keywords": [
+          "Sunday",
+          "religion",
+          "family",
+          "Victoria",
+          "Presbyterian",
+          "Anglican",
+          "bishop",
+          "rituals"
+        ]
+      },
+      "flashcards": [
+        {
+          "question": "What were the key differences between the family's morning Presbyterian service and their evening Anglican service?",
+          "answer": "The Presbyterian service was long, stern, and formal, while the Anglican service was more gentle, musical, and involved the blessing of the kind bishop."
+        },
+        {
+          "question": "How did the Carr children feel about the different religious services?",
+          "answer": "The children found the Presbyterian service aching and tiring, but looked forward to the more enjoyable Anglican service in the evenings."
+        },
+        {
+          "question": "What role did the Carr children's older sister Dede play on Sundays?",
+          "answer": "Dede took charge of the children's religious education, teaching them prayers and Bible verses, and leading their Sunday School lessons."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "What was the key reason the Carr family attended the Presbyterian church in the mornings?",
+          "options": {
+            "A": "They were devout Presbyterians",
+            "B": "The father was partially deaf and could hear the sermons better",
+            "C": "It was closer to their home",
+            "D": "The bishop preferred the Presbyterian service"
+          },
+          "correctAnswer": "B"
+        },
+        {
+          "question": "What was the Carr family's typical routine on Sunday afternoons?",
+          "options": {
+            "A": "They went for a long drive around Victoria",
+            "B": "They had a quiet time of rest and reflection",
+            "C": "They visited with neighbors and friends",
+            "D": "They played games and had a family picnic"
+          },
+          "correctAnswer": "A"
+        }
+      ]
+    },
+    {
+      "moduleTitle": "The Cow Yard",
+      "notes": {
+        "summary": "This module explores the Carr family's cow yard, which was a central hub of activity and life on their property. It describes the sights, sounds, and rhythms of the cow yard, highlighting the interactions between the young Carr children and the various animals like the cow, chickens, rabbits, and pigeons. The module also touches on the changing of the seasons and the significant events that occurred in the cow yard throughout the year.",
+        "keywords": [
+          "cow yard",
+          "animals",
+          "seasons",
+          "siblings",
+          "nature",
+          "growth",
+          "spring"
+        ]
+      },
+      "flashcards": [
+        {
+          "question": "What was the main role of the cow in the cow yard?",
+          "answer": "The cow was the central figure, with her slow, leisurely movements and sounds setting the rhythm and mood of the yard."
+        },
+        {
+          "question": "How did the Carr children react differently to the cow yard?",
+          "answer": "Bigger was afraid of the cow and preferred the tidier garden, while Middle and Small embraced the freedom and liveliness of the cow yard."
+        },
+        {
+          "question": "What were some of the key seasonal events that happened in the cow yard?",
+          "answer": "The annual spring bonfire, the hens sitting on their nests, the arrival of new animal babies, and the changes in the vegetation and smells."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "What was the Carr children's favorite part of the cow yard?",
+          "options": {
+            "A": "The pond",
+            "B": "The barn",
+            "C": "The woodpile",
+            "D": "The hay loft"
+          },
+          "correctAnswer": "C"
+        },
+        {
+          "question": "What was the Carr family's reaction when Small wanted the cow to have a colt?",
+          "options": {
+            "A": "They were excited by the idea",
+            "B": "They thought it was a silly notion",
+            "C": "They told her the cow could not have a colt",
+            "D": "They said the cow was too old"
+          },
+          "correctAnswer": "B"
+        }
+      ]
+    },
+    {
+      "moduleTitle": "The Bishop and the Canary",
+      "notes": {
+        "summary": "This module focuses on Small's encounter with the kind but distant Bishop, who fails to notice her excitement over her new pet canary. It highlights the contrast between Small's joy and the Bishop's aloofness, as well as the differences between Small's warm, expressive nature and her sister Lizzie's more proper and restrained behavior. The module provides insight into the social dynamics and class distinctions in early Victoria.",
+        "keywords": [
+          "Bishop",
+          "canary",
+          "sisters",
+          "social dynamics",
+          "class",
+          "Victoria"
+        ]
+      },
+      "flashcards": [
+        {
+          "question": "Why was Small so excited to show her new canary to the Bishop?",
+          "answer": "Small felt the Bishop, as a man of the church, would appreciate and understand her joy over her new pet."
+        },
+        {
+          "question": "How did Lizzie react differently than Small when the Bishop failed to notice the canary?",
+          "answer": "Lizzie was ashamed of Small's behavior, while Small felt hurt and angry at the Bishop's indifference."
+        },
+        {
+          "question": "What do Small's interactions with the Bishop reveal about the social dynamics in early Victoria?",
+          "answer": "They highlight the class distinctions and the expectation that children, especially girls, should behave with proper decorum in the presence of their social superiors."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "Why did Small feel the Bishop would understand her excitement over the canary?",
+          "options": {
+            "A": "Birds belonged to the sky, and the Bishop would appreciate that",
+            "B": "The Bishop was known to be fond of animals",
+            "C": "Small thought the Bishop might want to buy the canary",
+            "D": "Small felt the Bishop was a kind and approachable man"
+          },
+          "correctAnswer": "A"
+        },
+        {
+          "question": "How did Lizzie's reaction to Small's behavior differ from Small's own feelings?",
+          "options": {
+            "A": "Lizzie was understanding, while Small felt ashamed",
+            "B": "Lizzie was amused, while Small was embarrassed",
+            "C": "Lizzie was ashamed, while Small felt hurt and angry",
+            "D": "Lizzie was indifferent, while Small was heartbroken"
+          },
+          "correctAnswer": "C"
+        }
+      ]
+    },
+    {
+      "moduleTitle": "The Blessing",
+      "notes": {
+        "summary": "This module explores the contrasting religious influences in the Carr family, with the stern Presbyterianism of the father and the more gentle Anglicanism of the mother and the local bishop. It describes the family's attendance at both churches on Sundays, highlighting the differences in atmosphere, music, and the bishop's distinctive blessing. The module provides insight into the religious landscape of early Victoria and the role of the church in shaping community life.",
+        "keywords": [
+          "religion",
+          "Presbyterianism",
+          "Anglicanism",
+          "bishop",
+          "church",
+          "family",
+          "Victoria"
+        ]
+      },
+      "flashcards": [
+        {
+          "question": "What was the key difference between the family's Presbyterian and Anglican services?",
+          "answer": "The Presbyterian service was long, stern, and formal, while the Anglican service was more gentle, musical, and involved the blessing of the kind bishop."
+        },
+        {
+          "question": "How did the Carr children feel about the two different religious services?",
+          "answer": "The children found the Presbyterian service tiring and uncomfortable, but looked forward to the more enjoyable Anglican service in the evenings."
+        },
+        {
+          "question": "What made the bishop's blessing so special to the Carr family?",
+          "answer": "The bishop's gentle, unhurried delivery of the blessing was a highlight of the Anglican service that the children eagerly anticipated."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "Why did the Carr family attend the Presbyterian church in the mornings?",
+          "options": {
+            "A": "It was the family's long-standing tradition",
+            "B": "The father was partially deaf and could hear the sermons better",
+            "C": "The bishop preferred the Presbyterian service",
+            "D": "It was the only church available in their neighborhood"
+          },
+          "correctAnswer": "B"
+        },
+        {
+          "question": "What was the role of the Carr children's older sister Dede on Sundays?",
+          "options": {
+            "A": "She led the family's Bible study and religious instruction",
+            "B": "She attended the Anglican service with the younger children",
+            "C": "She organized the family's Sunday afternoon activities",
+            "D": "She accompanied the father to the Presbyterian church"
+          },
+          "correctAnswer": "A"
+        }
+      ]
+    },
+    {
+      "moduleTitle": "Singing",
+      "notes": {
+        "summary": "This module focuses on Small's joyful and unrestrained singing in the cow yard, which contrasts with her family's disapproval and attempts to curb her vocal exuberance. It explores Small's deep connection to the animals in the cow yard, especially the cow, and how her singing was an expression of her happiness and sense of belonging in that environment. The module also touches on the differing attitudes towards music and expression between Small and her more reserved family members.",
+        "keywords": [
+          "singing",
+          "cow yard",
+          "animals",
+          "family dynamics",
+          "expression",
+          "nature"
+        ]
+      },
+      "flashcards": [
+        {
+          "question": "Why did Small's family disapprove of her singing in the cow yard?",
+          "answer": "They felt her loud, unrestrained singing was vulgar and embarrassing, and did not fit with the family's more proper and reserved demeanor."
+        },
+        {
+          "question": "How did the cow and other animals in the cow yard react to Small's singing?",
+          "answer": "The cow seemed to enjoy and respond to Small's singing, while the other animals like the hens and pigeons also seemed to be affected by her joyful vocalizations."
+        },
+        {
+          "question": "What did Small's mother and the bishop suggest about her singing?",
+          "answer": "Her mother said she would have her voice trained one day, while the bishop acknowledged the value of song, though he was puzzled by Small's preference for "cow songs" over hymns."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "Why did Small's family members, like her sister Bigger, dislike her singing in the cow yard?",
+          "options": {
+            "A": "They were concerned it would disturb the animals",
+            "B": "They felt it was unladylike and embarrassing behavior",
+            "C": "They were worried it would attract unwanted attention from neighbors",
+            "D": "They believed it interfered with her chores and responsibilities"
+          },
+          "correctAnswer": "B"
+        },
+        {
+          "question": "How did the cow respond to Small's singing in the cow yard?",
+          "options": {
+            "A": "The cow became agitated and tried to silence Small",
+            "B": "The cow ignored Small's singing and continued its routine",
+            "C": "The cow seemed to enjoy and engage with Small's singing",
+            "D": "The cow became frightened and ran away from Small"
+          },
+          "correctAnswer": "C"
+        }
+      ]
+    },
+    {
+      "moduleTitle": "The Praying Chair",
+      "notes": {
+        "summary": "This module explores Small's desire for a dog and her attempts to use the family's "praying chair" to petition God for one. It highlights the contrast between Small's playful imagination and the more rigid religious practices of her father and older sister Lizzie. The module also touches on Small's later experiences with dogs, the family dynamics, and the role of religion in shaping her upbringing.",
+        "keywords": [
+          "dog",
+          "prayer",
+          "religion",
+          "family dynamics",
+          "imagination",
+          "grief"
+        ]
+      },
+      "flashcards": [
+        {
+          "question": "What was Small's strategy for using the "praying chair" to ask God for a dog?",
+          "answer": "Small tried to enlist the help of the family cat, Tibby, to make noises during the family's prayers to signal their request for a dog."
+        },
+        {
+          "question": "How did Small's father and older sister Lizzie react to her desire for a dog?",
+          "answer": "They were firmly opposed to the idea, with Lizzie expressing shame over Small's inappropriate behavior and the father refusing to allow a dog on the property."
+        },
+        {
+          "question": "How did Small's experiences with dogs later in life shape her perspective?",
+          "answer": "After the family later acquired a dog that was eventually killed, Small developed a deep grief and sense of loss, but also a lifelong appreciation for the companionship of dogs."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "What was Small's motivation for trying to use the "praying chair" to ask for a dog?",
+          "options": {
+            "A": "She believed the chair had special powers to grant her wishes",
+            "B": "She thought the cat's noises would make the prayer more effective",
+            "C": "She was hoping the family's regular use of the chair would make God more likely to listen",
+            "D": "She knew her father would be less likely to refuse a request made during family prayers"
+          },
+          "correctAnswer": "C"
+        },
+        {
+          "question": "How did Small's father and sister Lizzie respond to her desire for a dog?",
+          "options": {
+            "A": "They were open to the idea and allowed her to have one",
+            "B": "They were amused by her imagination and encouraged her interest",
+            "C": "They were firmly opposed to the idea and refused to consider it",
+            "D": "They made her feel ashamed for wanting a pet"
+          },
+          "correctAnswer": "C"
+        }
+      ]
+    },
+    {
+      "moduleTitle": "Mrs. Crane",
+      "notes": {
+        "summary": "This module focuses on Small's experience staying with the Crane family, which provides insight into the class and cultural differences between the Carr and Crane households. It explores Small's perceptions of Mrs. Crane's stern demeanor and strict rules, as well as the contrasts between the Crane family's wealth, formality, and disconnection from nature compared to the Carr family's more modest but vibrant household. The module highlights the social dynamics and tensions between the two families.",
+        "keywords": [
+          "class",
+          "culture",
+          "family dynamics",
+          "nature",
+          "wealth",
+          "formality",
+          "perception"
+        ]
+      },
+      "flashcards": [
+        {
+          "question": "How did Small's initial impressions of Mrs. Crane differ from her later understanding?",
+          "answer": "At first, Small saw Mrs. Crane as cold and disapproving, but towards the end, she began to see Mrs. Crane's humanity and potential for kindness."
+        },
+        {
+          "question": "What were the key differences between the Carr and Crane households in terms of values and lifestyle?",
+          "answer": "The Carr family had a more modest, nature-oriented, and informal home life, while the Crane family was wealthy, formal, and disconnected from the natural world."
+        },
+        {
+          "question": "How did Small's experiences with the Crane family shape her perspective on class and social dynamics?",
+          "answer": "The stay highlighted the class divisions and tensions between the two families, as well as Small's growing awareness of the complex human dimensions underlying these differences."
+        }
+      ],
+      

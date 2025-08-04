@@ -1,0 +1,299 @@
+Here is the updated JSON object with the new text integrated:
+
+{
+  "courseTitle": "Example Course Title",
+  "modules": [
+    {
+      "moduleTitle": "Module 1: Introduction",
+      "notes": {
+        "summary": "This module provides an introduction to the nature of art and creativity. It explores the definition of art, the role of creativity, and the differences between trained and untrained artists, including discussions of outsider art, folk art, and children's art. The module also examines the concepts of representational, abstract, and nonrepresentational art, and discusses the importance of looking and seeing when engaging with works of art.",
+        "keywords": [
+          "art",
+          "creativity",
+          "trained artists",
+          "untrained artists",
+          "outsider art",
+          "folk art",
+          "children's art",
+          "representational art",
+          "abstract art",
+          "nonrepresentational art",
+          "looking and seeing"
+        ]
+      },
+      "flashcards": [
+        {
+          "question": "What is the definition of art?",
+          "answer": "Art is the visual expression of an idea or experience, formed with skill, through the use of a medium."
+        },
+        {
+          "question": "What is the difference between trained and untrained artists?",
+          "answer": "Trained artists generally learn through formal art education and apprenticeships, while untrained artists, also called outsider artists, create art without formal training and often outside of conventional art practices."
+        },
+        {
+          "question": "What is the difference between representational, abstract, and nonrepresentational art?",
+          "answer": "Representational art depicts recognizable subjects, abstract art depicts natural objects in simplified or exaggerated ways, and nonrepresentational art has no reference to anything outside itself."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "Which of the following is a characteristic of untrained or outsider art?",
+          "options": {
+            "A": "It is created within an established tradition of style and craftsmanship.",
+            "B": "It shows a self-conscious awareness of art history.",
+            "C": "It is made by people who are largely unaware of art history or contemporary art trends.",
+            "D": "It is often commissioned by patrons."
+          },
+          "correctAnswer": "C"
+        },
+        {
+          "question": "What is the primary difference between looking and seeing when engaging with a work of art?",
+          "options": {
+            "A": "Looking is a more receptive and passive process, while seeing involves actively connecting the work to one's own memories, imagination, and feelings.",
+            "B": "Looking refers to viewing a work from a distance, while seeing involves closely examining the details.",
+            "C": "Looking is a skill that can be developed through practice, while seeing is an innate ability.",
+            "D": "Looking is a habit, while seeing requires conscious effort."
+          },
+          "correctAnswer": "A"
+        }
+      ]
+    },
+    {
+      "moduleTitle": "Module 2: The Purposes and Functions of Art",
+      "notes": {
+        "summary": "This module explores the various purposes and functions of art, including art for daily use, visual delight, communicating information, public and personal expression, religion and spirituality, and political purposes. The module examines how artists use their work to transform everyday objects, create harmonious and idealized compositions, tell stories, commemorate important events, express personal emotions, depict religious themes, and engage with political issues.",
+        "keywords": [
+          "art for daily use",
+          "art for visual delight",
+          "art for communicating information",
+          "art for public and personal expression",
+          "art for religion and spirituality",
+          "art for political purposes"
+        ]
+      },
+      "flashcards": [
+        {
+          "question": "What are some ways that artists transform everyday objects through their work?",
+          "answer": "Artists can transform everyday objects through design, embellishment, and the creation of utilitarian but visually appealing objects."
+        },
+        {
+          "question": "How can art function to communicate information?",
+          "answer": "Art can communicate information through storytelling, commentary, and the visual depiction of events and ideas."
+        },
+        {
+          "question": "In what ways can art be used for public and personal expression?",
+          "answer": "Art can be used for public commemoration and to express personal emotions and experiences."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "Which of the following is an example of art used for religious or spiritual purposes?",
+          "options": {
+            "A": "The Taj Mahal",
+            "B": "The Vietnam Veterans Memorial",
+            "C": "Käthe Kollwitz's The Outbreak",
+            "D": "Wassily Kandinsky's Composition VI"
+          },
+          "correctAnswer": "A"
+        },
+        {
+          "question": "How can art be used for political purposes?",
+          "options": {
+            "A": "To persuade viewers to submit to authority",
+            "B": "To express protest or encourage revolt",
+            "C": "Both A and B",
+            "D": "Neither A nor B"
+          },
+          "correctAnswer": "C"
+        }
+      ]
+    },
+    {
+      "moduleTitle": "Module 3: Purposes of Drawing",
+      "notes": {
+        "summary": "A drawing can function in three ways: as a notation, sketch, or record of something seen, remembered, or imagined; as a study or preparation for another, usually larger and more complex work; or as an end in itself, a complete work of art. We see examples of the first case in Henry Moore's Study for Tube Shelter Perspective, and in the Vincent van Gogh drawings examined earlier. The second case, drawing as preparatory tool, is traditional in Western art, as seen in Michelangelo's detailed studies for his finished painting on the ceiling of the Sistine Chapel. A simple, tiny sketch, quickly done, is often the starting point for a far larger and more complex work, as we see in Picasso's studies for his painting Guernica.",
+        "keywords": [
+          "drawing as notation, sketch, or record",
+          "drawing as study or preparation",
+          "drawing as complete work of art",
+          "Michelangelo's preparatory drawings",
+          "Picasso's studies for Guernica"
+        ]
+      },
+      "flashcards": [
+        {
+          "question": "What are the three main functions of drawing?",
+          "answer": "Drawing can function as a notation, sketch, or record; as a study or preparation for another work; or as a complete work of art in itself."
+        },
+        {
+          "question": "How did Michelangelo use drawing as a preparatory tool?",
+          "answer": "Michelangelo made detailed studies of figures and compositions as preparatory work for his finished paintings, such as the ceiling of the Sistine Chapel."
+        },
+        {
+          "question": "How did Picasso use drawing in preparation for his painting Guernica?",
+          "answer": "Picasso did many quick sketches and studies that show the evolution of the final painting Guernica, which was a large and complex work."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "Which of the following is a characteristic of drawings used as preparatory studies?",
+          "options": {
+            "A": "They are highly finished and polished works.",
+            "B": "They are completely abstract, with no reference to the final painting.",
+            "C": "They are quick sketches that capture the essence of the larger work.",
+            "D": "They are carefully composed to be displayed as independent artworks."
+          },
+          "correctAnswer": "C"
+        },
+        {
+          "question": "Why are preparatory drawings by major artists often treasured and preserved?",
+          "options": {
+            "A": "They are highly valuable because of the artist's fame.",
+            "B": "They reveal the creative process behind the finished work.",
+            "C": "They are the only remaining evidence of works that were never completed.",
+            "D": "They can be sold for high prices to collectors."
+          },
+          "correctAnswer": "B"
+        }
+      ]
+    },
+    {
+      "moduleTitle": "Module 4: Tools and Techniques of Drawing",
+      "notes": {
+        "summary": "Each drawing tool and each type of paper has its own characteristics that influence the nature of the resulting drawing. Dry drawing media include pencil, charcoal, Conté crayon, and pastel. Pencils vary in hardness, affecting the darkness and line quality. Charcoal produces a wide range of light to dark values, from soft grays to deep velvety blacks. Conté crayon can produce varied lines or broad strokes that resist smudging. Pastels yield the most exciting results when not overworked. Liquid media like ink and washes allow artists to create drawings with a painterly quality. The quality and type of paper also has an important impact on the drawing, with some papers having a rough 'tooth' that gives texture to the image.",
+        "keywords": [
+          "drawing tools and their characteristics",
+          "dry media: pencil, charcoal, Conté crayon, pastel",
+          "liquid media: ink and washes",
+          "paper quality and texture"
+        ]
+      },
+      "flashcards": [
+        {
+          "question": "How do the different characteristics of drawing tools affect the resulting lines and textures?",
+          "answer": "Pencils vary in hardness, charcoal produces a wide range of values, Conté crayon resists smudging, and pastels yield the most exciting results when not overworked."
+        },
+        {
+          "question": "What is the impact of paper quality and texture on a drawing?",
+          "answer": "The roughness or 'tooth' of the paper can give texture to the drawing, while smooth papers are better suited for refined, delicate lines."
+        },
+        {
+          "question": "What are the main techniques used to create shaded areas in drawings?",
+          "answer": "Hatching, cross-hatching, and contour hatching are common techniques for building up values and suggesting volume in drawings."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "Which drawing tool is best suited for creating delicate, precise lines?",
+          "options": {
+            "A": "Pencil",
+            "B": "Charcoal",
+            "C": "Conté crayon",
+            "D": "Ink brush"
+          },
+          "correctAnswer": "A"
+        },
+        {
+          "question": "Why are pastels well-suited for bold, expressive drawing?",
+          "options": {
+            "A": "They contain a high proportion of pigment with little binder.",
+            "B": "They allow for easy blending and mixing of colors.",
+            "C": "They produce a smooth, glossy surface when applied thickly.",
+            "D": "Both A and B"
+          },
+          "correctAnswer": "D"
+        }
+      ]
+    },
+    {
+      "moduleTitle": "Module 5: Watercolor",
+      "notes": {
+        "summary": "Watercolor is a staining technique where pigments mixed with water and gum arabic are applied in thin, translucent washes. The absorbency of the paper support is key, as it does not permit easy changes or corrections. The fluid spontaneity of watercolor makes it well-suited for capturing quick impressions, atmospheric effects, and natural phenomena. Winslow Homer used watercolor to depict the bright colors and dappled light of Boys Wading, while traditional Chinese watercolor paintings like Li Shida's Five Deer Hermitage combine ink and color to suggest landscape and atmosphere. The opaque properties of gouache, a type of watercolor with added white chalk, also allow for more controlled, refined details.",
+        "keywords": [
+          "watercolor as a staining technique",
+          "watercolor's fluid spontaneity",
+          "Winslow Homer's watercolor paintings",
+          "traditional Chinese watercolor techniques",
+          "gouache for opaque details"
+        ]
+      },
+      "flashcards": [
+        {
+          "question": "What are the key characteristics of watercolor painting?",
+          "answer": "Watercolor uses pigments mixed with water and gum arabic, resulting in thin, translucent washes that are well-suited for capturing atmospheric effects and spontaneous impressions."
+        },
+        {
+          "question": "How did Winslow Homer use watercolor to depict natural scenes?",
+          "answer": "Homer used the fluid properties of watercolor to suggest the bright colors, dappled light, and atmospheric qualities of outdoor scenes like Boys Wading."
+        },
+        {
+          "question": "What is the role of gouache in watercolor painting?",
+          "answer": "Gouache, a type of opaque watercolor, allows for more controlled, refined details to be added to watercolor paintings."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "Why is the absorbency of the paper support important in watercolor painting?",
+          "options": {
+            "A": "It allows for easy corrections and reworking of the painting.",
+            "B": "It creates a smooth, glossy surface for the paint.",
+            "C": "It does not permit easy changes or corrections once the paint is applied.",
+            "D": "It enhances the translucency and staining properties of the watercolor."
+          },
+          "correctAnswer": "C"
+        },
+        {
+          "question": "What is the primary difference between traditional Chinese watercolor and Western watercolor techniques?",
+          "options": {
+            "A": "Chinese watercolor uses ink, while Western watercolor uses only pigments.",
+            "B": "Chinese watercolor focuses on landscape and atmosphere, while Western watercolor depicts more realistic scenes.",
+            "C": "Chinese watercolor uses more controlled brushwork, while Western watercolor is more fluid and spontaneous.",
+            "D": "Chinese watercolor is always monochromatic, while Western watercolor incorporates color."
+          },
+          "correctAnswer": "A"
+        }
+      ]
+    },
+    {
+      "moduleTitle": "Module 6: Fresco",
+      "notes": {
+        "summary": "In true fresco, pigments suspended in water are applied to a damp lime-plaster surface. The vehicle is water, and the binder is the lime present in the damp plaster. This makes fresco a highly durable medium, as the pigment becomes an integral part of the wall. Fresco was the favored medium for painting on church walls during the Renaissance in Italy, as seen in the works of Michelangelo and Raphael. Fresco requires careful planning, as changes cannot be made once the paint is applied to the fresh plaster. The luminosity and fine surface quality of fresco make it well-suited for large-scale mural paintings. A related technique, fresco secco, involves applying tempera paint to a dried plaster surface. Fresco experienced a revival in Mexico in the 20th century, with artists like Diego Rivera creating large public murals."
+        "keywords": [
+          "true fresco technique",
+          "fresco as a durable medium",
+          "Renaissance fresco painting",
+          "challenges of the fresco process",
+          "fresco secco technique",
+          "20th century Mexican fresco murals"
+        ]
+      },
+      "flashcards": [
+        {
+          "question": "What are the key materials and process of true fresco painting?",
+          "answer": "In true fresco, pigments suspended in water are applied to a damp lime-plaster surface, with the lime acting as the binder to create a durable, integral painting on the wall."
+        },
+        {
+          "question": "Why was fresco a favored medium for Renaissance mural painting?",
+          "answer": "Fresco's luminosity, fine surface quality, and durability made it well-suited for large-scale wall paintings in churches and public buildings during the Renaissance."
+        },
+        {
+          "question": "How does the fresco secco technique differ from true fresco?",
+          "answer": "In fresco secco, tempera paint is applied to a dried plaster surface, rather than being integrated into the wet plaster as in true fresco."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "What is the main challenge of the fresco painting process?",
+          "options": {
+            "A": "Achieving the desired colors and tonalities.",
+            "B": "Preventing mold and mildew on the plaster surface.",
+            "C": "Making changes or corrections once the paint is applied.",
+            "D": "Ensuring the plaster dries evenly across the entire surface."
+          },
+          "correctAnswer": "C"
+        },
+        {
+          "question": "Why did the Mexican government in the 1920s encourage the creation of fresco murals?",
+          "options": {
+            "A": "Fresco was seen as a traditional Mexican artform that should be preserved.",
+            "B": "Fresco murals were a way

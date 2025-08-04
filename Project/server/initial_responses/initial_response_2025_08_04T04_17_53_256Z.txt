@@ -1,0 +1,105 @@
+{
+  "courseTitle": "Example Course Title",
+  "modules": [
+    {
+      "moduleTitle": "Module 1: Introduction",
+      "notes": {
+        "summary": "This module introduces the fundamental concepts of art and creativity. It explores the nature of art, the different types of artists, and how artists relate to reality through representational, abstract, and nonrepresentational art. Students will learn about the importance of looking and seeing, as well as the relationship between form and content in works of art.",
+        "keywords": [
+          "art",
+          "creativity",
+          "representational art",
+          "abstract art",
+          "nonrepresentational art",
+          "form and content"
+        ]
+      },
+      "flashcards": [
+        {
+          "question": "What is the definition of a work of art?",
+          "answer": "A work of art is the visual expression of an idea or experience, formed with skill, through the use of a medium."
+        },
+        {
+          "question": "What are the two main categories of artists?",
+          "answer": "Trained artists and untrained artists (outsider artists and folk artists)."
+        },
+        {
+          "question": "What is the difference between looking and seeing?",
+          "answer": "Looking is a more passive, mechanical process, while seeing involves actively engaging with the work using our memories, imaginations, and feelings."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "Which of the following best describes the purpose of art?",
+          "options": {
+            "A": "To create decorative objects",
+            "B": "To communicate ideas and experiences",
+            "C": "To showcase the artist's technical skills",
+            "D": "All of the above"
+          },
+          "correctAnswer": "B"
+        },
+        {
+          "question": "What is the main difference between representational and abstract art?",
+          "options": {
+            "A": "Representational art depicts recognizable subjects, while abstract art does not.",
+            "B": "Representational art is more technically skilled than abstract art.",
+            "C": "Representational art is more emotionally expressive than abstract art.",
+            "D": "Representational art is always two-dimensional, while abstract art can be three-dimensional."
+          },
+          "correctAnswer": "A"
+        }
+      ]
+    },
+    {
+      "moduleTitle": "Module 2: The Purposes and Functions of Art",
+      "notes": {
+        "summary": "This module explores the various purposes and functions of art, including art for daily use, visual delight, communicating information, public and personal expression, spiritual and religious needs, and political purposes. Students will learn how artists have used their work to meet these diverse human needs across cultures and throughout history.",
+        "keywords": [
+          "art for daily use",
+          "art for visual delight",
+          "art for communicating information",
+          "art for public and personal expression",
+          "art for spiritual and religious needs",
+          "art for political purposes"
+        ]
+      },
+      "flashcards": [
+        {
+          "question": "What are the two main pathways to beauty in art, according to the text?",
+          "answer": "Idealism and harmony."
+        },
+        {
+          "question": "How can art be used to communicate information?",
+          "answer": "Art can be used for storytelling and commentary on social and political issues."
+        },
+        {
+          "question": "What are some ways artists have used art for public and personal expression?",
+          "answer": "Commemoration, self-expression, and protest."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "Which of the following is NOT a primary function of art discussed in the chapter?",
+          "options": {
+            "A": "Art for daily use",
+            "B": "Art for scientific research",
+            "C": "Art for visual delight",
+            "D": "Art for political purposes"
+          },
+          "correctAnswer": "B"
+        },
+        {
+          "question": "Which artist is cited as an example of using art for human concern and social commentary?",
+          "options": {
+            "A": "Käthe Kollwitz",
+            "B": "Georgia O'Keeffe",
+            "C": "Frida Kahlo",
+            "D": "Wassily Kandinsky"
+          },
+          "correctAnswer": "A"
+        }
+      ]
+    }
+  ]
+}

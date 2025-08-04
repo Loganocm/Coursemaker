@@ -1,0 +1,345 @@
+{
+  "courseTitle": "The Book of Small",
+  "modules": [
+    {
+      "moduleTitle": "Sunday",
+      "notes": {
+        "summary": "This module covers the routines and rituals of the Carr family's Sundays, including their attendance at both Presbyterian and Anglican churches, the family meals and prayers, and the activities that filled their Sabbath day. It provides insight into the religious upbringing and social dynamics of the household.",
+        "keywords": [
+          "Sunday",
+          "church",
+          "family",
+          "prayer",
+          "rituals",
+          "Presbyterian",
+          "Anglican"
+        ]
+      },
+      "flashcards": [
+        {
+          "question": "What was the main difference between the Carr family's morning and evening church services?",
+          "answer": "In the morning, they attended the strict Presbyterian church, while in the evening they went to the more gentle Anglican church."
+        },
+        {
+          "question": "How did the Carr children respond to the long Presbyterian sermon and prayers?",
+          "answer": "The children found the Presbyterian service aching and tiring, but felt a "strong 'rightness' about Father's church which made it endurable.""
+        },
+        {
+          "question": "What was the highlight of the Anglican church service for the Carr children?",
+          "answer": "The Bishop's blessing, which they eagerly awaited and which "you dared not nap through.""
+        }
+      ],
+      "quiz": [
+        {
+          "question": "What was the main reason Father preferred to attend the Presbyterian church?",
+          "options": {
+            "A": "He liked the strict discipline of the service.",
+            "B": "He could hear the minister better from the front pews.",
+            "C": "He was particularly Presbyterian in his religious views.",
+            "D": "The church was closer to their home."
+          },
+          "correctAnswer": "B"
+        },
+        {
+          "question": "How did the Carr children get to and from the church services?",
+          "options": {
+            "A": "They walked the two miles each way.",
+            "B": "They rode in a horse-drawn carriage.",
+            "C": "They took the public omnibus.",
+            "D": "Their father drove them in his car."
+          },
+          "correctAnswer": "B"
+        },
+        {
+          "question": "What happened after the family returned home from the Anglican church service in the evening?",
+          "options": {
+            "A": "They had a large family dinner.",
+            "B": "They had a time of Bible reading and prayer.",
+            "C": "They were allowed to play and entertain themselves.",
+            "D": "They went straight to bed."
+          },
+          "correctAnswer": "B"
+        }
+      ]
+    },
+    {
+      "moduleTitle": "The Cow Yard",
+      "notes": {
+        "summary": "This module describes the Carr family's cow yard, which was a central part of their property and a source of fascination and adventure for the young Emily Carr. It details the various animals, activities, and seasonal events that took place in this lively space, as well as the author's deep connection to and observations of the cow itself.",
+        "keywords": [
+          "cow yard",
+          "animals",
+          "nature",
+          "seasons",
+          "childhood",
+          "sensory experience"
+        ]
+      },
+      "flashcards": [
+        {
+          "question": "What was the primary purpose of the Carr family's cow yard?",
+          "answer": "It was where they kept their cow and other livestock, and where the children played and explored."
+        },
+        {
+          "question": "What did Small love most about the cow yard?",
+          "answer": "The sights, sounds, and smells of the animals, especially the cow, which Small felt a deep connection to."
+        },
+        {
+          "question": "What were some of the seasonal events and activities that took place in the cow yard?",
+          "answer": "The annual spring bonfire, the chickens nesting and hatching their chicks, and the arrival of the cow's calf."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "What was the purpose of the ditch that ran through the cow yard?",
+          "options": {
+            "A": "To provide water for the animals.",
+            "B": "To help drain the yard during wet weather.",
+            "C": "To act as a barrier to keep the animals contained.",
+            "D": "It was just a natural feature of the landscape."
+          },
+          "correctAnswer": "B"
+        },
+        {
+          "question": "Why did Small want the cow to have a colt, rather than just more calves?",
+          "options": {
+            "A": "She wanted to learn how to ride a horse.",
+            "B": "Calves were boring, but a colt would be more exciting.",
+            "C": "Horses were more useful on the farm than cows.",
+            "D": "She thought it would be a miracle if the cow could have a colt."
+          },
+          "correctAnswer": "A"
+        },
+        {
+          "question": "What happened when Small tried to ride the cow, thinking it would have a colt?",
+          "options": {
+            "A": "The cow threw her off and she was injured.",
+            "B": "The cow accepted her and let her ride, but it did not have a colt.",
+            "C": "The cow became angry and had to be restrained.",
+            "D": "Small fell off the cow and was scolded by her sister for misbehaving."
+          },
+          "correctAnswer": "D"
+        }
+      ]
+    },
+    {
+      "moduleTitle": "The Bishop and the Canary",
+      "notes": {
+        "summary": "This module describes Small's encounter with the Bishop while she was proudly showing off her new pet canary. It highlights the difference between Small's joyful exuberance and the Bishop's distant, aloof manner, and explores Small's feelings of disappointment and rejection.",
+        "keywords": [
+          "Bishop",
+          "canary",
+          "disappointment",
+          "rejection",
+          "contrast"
+        ]
+      },
+      "flashcards": [
+        {
+          "question": "Why was Small so excited to show her new canary to the Bishop?",
+          "answer": "Small felt a deep connection to the bird and saw it as her own, and she thought the Bishop would appreciate and understand her joy in the canary."
+        },
+        {
+          "question": "How did the Bishop respond when Small tried to show him the canary?",
+          "answer": "The Bishop barely acknowledged Small or the canary, dismissing her excitedly by saying she was a "pretty picture" and moving on."
+        },
+        {
+          "question": "How did Small react to the Bishop's lack of interest in her canary?",
+          "answer": "Small was deeply hurt and disappointed, and felt that the Bishop did not understand or appreciate the meaning of the canary to her."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "Why did Small feel such a strong connection to the canary?",
+          "options": {
+            "A": "It was the first live creature she had ever owned.",
+            "B": "Canaries were her favorite kind of bird.",
+            "C": "The Bishop had given the canary to her as a gift.",
+            "D": "The canary reminded her of her own free spirit."
+          },
+          "correctAnswer": "A"
+        },
+        {
+          "question": "What was Small's perception of the Bishop prior to this encounter?",
+          "options": {
+            "A": "She saw him as a kind and gentle man.",
+            "B": "She was indifferent to him and did not have strong feelings.",
+            "C": "She was afraid of him and saw him as stern and unapproachable.",
+            "D": "She greatly admired and respected him as a holy figure."
+          },
+          "correctAnswer": "D"
+        },
+        {
+          "question": "How did Small's feelings towards the Bishop change after he dismissed her and the canary?",
+          "options": {
+            "A": "She lost all respect for him and saw him as cruel.",
+            "B": "She felt confused and hurt, but still maintained her admiration.",
+            "C": "She became indifferent to him and no longer cared what he thought.",
+            "D": "She felt ashamed and doubted her own worthiness."
+          },
+          "correctAnswer": "A"
+        }
+      ]
+    },
+    {
+      "moduleTitle": "The Blessing",
+      "notes": {
+        "summary": "This module explores the contrasting religious traditions and experiences of the Carr family, focusing on the differences between the stern, disciplined Presbyterianism of the father and the gentle, comforting Anglicanism of the mother and the Anglican Bishop. It highlights the significance and power of the Bishop's blessing for the children.",
+        "keywords": [
+          "religion",
+          "Presbyterianism",
+          "Anglicanism",
+          "Bishop",
+          "blessing",
+          "contrast"
+        ]
+      },
+      "flashcards": [
+        {
+          "question": "What was the main difference between the Carr family's Presbyterian and Anglican church experiences?",
+          "answer": "The Presbyterian service was stern, long, and disciplined, while the Anglican service was gentle, musical, and included the comforting blessing of the Bishop."
+        },
+        {
+          "question": "Why did the Carr children eagerly anticipate the Bishop's blessing during the Anglican service?",
+          "answer": "The Bishop's blessing was seen as a special, powerful moment that the children dared not miss, as it provided a sense of comfort and connection with the divine."
+        },
+        {
+          "question": "How did the Carr children's reactions to the two church services differ?",
+          "answer": "The children found the Presbyterian service tiring and uncomfortable, while they looked forward to the gentler Anglican service and the Bishop's blessing."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "What was the main reason Father preferred the Presbyterian church over the Anglican?",
+          "options": {
+            "A": "He was more devout and believed in the stricter Presbyterian doctrine.",
+            "B": "He could hear the minister better from the front pews.",
+            "C": "He disliked the Anglican church's more ornate and ritualistic style.",
+            "D": "The Presbyterian church was closer to their home."
+          },
+          "correctAnswer": "B"
+        },
+        {
+          "question": "How did the Carr children's experience of the two church services differ?",
+          "options": {
+            "A": "They enjoyed both equally, as their parents required them to attend both.",
+            "B": "They liked the Presbyterian service better, as it was more serious and disciplined.",
+            "C": "They disliked both services, finding them equally boring and uncomfortable.",
+            "D": "They looked forward to the Anglican service and the Bishop's blessing, in contrast to the Presbyterian service."
+          },
+          "correctAnswer": "D"
+        },
+        {
+          "question": "What was the significance of the Bishop's blessing for the Carr children?",
+          "options": {
+            "A": "It was a solemn religious ritual that they were required to participate in.",
+            "B": "It provided a sense of comfort and connection to the divine that the Presbyterian service lacked.",
+            "C": "It was an opportunity for the children to show off their piety and religious knowledge.",
+            "D": "It was the highlight of the Anglican service that the children eagerly anticipated."
+          },
+          "correctAnswer": "B"
+        }
+      ]
+    },
+    {
+      "moduleTitle": "Singing",
+      "notes": {
+        "summary": "This module explores Small's joyful, exuberant singing, which contrasts with the disapproval and scolding she receives from her family members. It highlights the deep connection Small feels to the natural world, especially the cow, through her singing, and how this connection is not fully understood or appreciated by those around her.",
+        "keywords": [
+          "singing",
+          "nature",
+          "cow",
+          "disapproval",
+          "contrast"
+        ]
+      },
+      "flashcards": [
+        {
+          "question": "Why did Small's singing upset her family members?",
+          "answer": "They saw her joyful, loud singing as a "vulgar row" that was embarrassing and disruptive, rather than appreciating its connection to the natural world."
+        },
+        {
+          "question": "How did the cow respond to Small's singing in the cow yard?",
+          "answer": "The cow seemed to appreciate and respond to Small's singing, chewing its cud and moving its ears in time with the music."
+        },
+        {
+          "question": "What was Small's reaction when others, including the Bishop, criticized her singing?",
+          "answer": "Small remained defiant and continued to sing freely, feeling a deep bond with the cow and the natural world that her family did not understand."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "Why did Small's family members find her singing so upsetting?",
+          "options": {
+            "A": "They believed singing was sinful or improper on Sundays.",
+            "B": "They were embarrassed by the volume and perceived lack of refinement in her singing.",
+            "C": "They were concerned the neighbors would complain about the noise.",
+            "D": "They felt her singing was a distraction from her religious and household duties."
+          },
+          "correctAnswer": "B"
+        },
+        {
+          "question": "How did the cow in the cow yard respond to Small's singing?",
+          "options": {
+            "A": "The cow became agitated and tried to escape the noise.",
+            "B": "The cow ignored Small's singing and continued chewing its cud.",
+            "C": "The cow seemed to appreciate and respond to the singing, chewing and moving its ears in time with the music.",
+            "D": "The cow was frightened by Small's loud singing and ran away."
+          },
+          "correctAnswer": "C"
+        },
+        {
+          "question": "How did Small react when the Bishop criticized her singing as inappropriate?",
+          "options": {
+            "A": "She felt ashamed and stopped singing.",
+            "B": "She argued that the cow enjoyed her singing, showing her defiance.",
+            "C": "She became more determined to sing freely, feeling a deep connection to nature.",
+            "D": "She apologized to the Bishop and promised to sing more quietly in the future."
+          },
+          "correctAnswer": "C"
+        }
+      ]
+    },
+    {
+      "moduleTitle": "The Praying Chair",
+      "notes": {
+        "summary": "This module focuses on the Carr family's daily ritual of morning prayers, centered around Father's wicker chair. It explores Small's attempts to use the "praying chair" to pray for a puppy, and how this leads to conflict with her strict, disapproving father.",
+        "keywords": [
+          "prayer",
+          "ritual",
+          "father",
+          "puppy",
+          "conflict"
+        ]
+      },
+      "flashcards": [
+        {
+          "question": "What was the significance of the wicker chair in the Carr family's morning prayers?",
+          "answer": "Father sat in the wicker chair to lead the family in daily prayers, and the chair itself was seen as aiding in the reverence and solemnity of the ritual."
+        },
+        {
+          "question": "What was Small's plan for using the "praying chair" to pray for a puppy?",
+          "answer": "Small believed the chair had special power, so she tried to enlist the cat and the chair itself to help her pray for a puppy, but this backfired."
+        },
+        {
+          "question": "How did Father react when he discovered Small's attempt to use the praying chair for her own purposes?",
+          "answer": "Father was deeply disapproving and saw Small's actions as disrespectful and sinful, leading to conflict between them."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "What was the primary purpose of the family's daily morning prayers?",
+          "options": {
+            "A": "To ask God for blessings and guidance for the day.",
+            "B": "To demonstrate the family's religious devotion and piety.",
+            "C": "To maintain a strict routine and discipline within the household.",
+            "D": "All of the above."
+          },
+          "correctAnswer": "D"
+        },
+        {
+          "question": "Why did Small believe the wicker chair had special powers for prayer?",
+          "options": {
+            "A": "The chair creaked and groaned in a way that sounded like it was praying.",
+            "B": "Father sat in the chair to lead prayers, so Small thought it must be holy.",
+            "C": "
