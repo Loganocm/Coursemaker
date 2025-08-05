@@ -1,4 +1,4 @@
-# Courseforge2: AI-Powered Learning Material Generation
+# Courseforge: AI-Powered Learning Material Generation
 
 ## Project Overview
 
