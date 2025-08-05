@@ -1,0 +1,378 @@
+{"courseTitle": "The Book of Small: A Childhood Memoir",
+  "modules": [
+    {
+      "moduleTitle": "Module 1: The Strict Sunday",
+      "notes": {
+        "summary": "This module delves into the rigid and predictable nature of Sundays in Emily Carr's childhood home, as depicted by 'Small'. It details the strict routines enforced by her Father, including Saturday night preparations with bathing and tidying, Sunday morning prayers with 'awe-ful words', and the obligatory church attendance at Dr. Reid's Presbyterian Church. The module highlights the stark contrast between the children's desire for play and the solemnity of the day, marked by specific attire, cold mutton dinner, and a lengthy Bible reading session. Father's English preferences, such as his special fireplace and imported goods, are emphasized, as is his disdain for the Park Hotel built on his former land. The chapter concludes with the evening ritual, including the 'Sunday at Home' serial story, showing a slight easing of strictness before bedtime. The descriptions vividly paint a picture of Victorian-era family life, discipline, and the protagonist's unique perspective on these events, often seeking small moments of rebellion or wonder amidst the rigidity.",
+        "keywords": [
+          "Victorian Sunday",
+          "Emily Carr",
+          "family routines",
+          "Presbyterian Church",
+          "Dr. Reid",
+          "cold mutton",
+          "Bible reading",
+          "Park Hotel",
+          "lily field",
+          "Father's strictness"
+        ]
+      },
+      "flashcards": [
+        {
+          "question": "What two books were the only ones allowed on Sundays?",
+          "answer": "The Peep of Day and Bunyan's Pilgrim's Progress."
+        },
+        {
+          "question": "What was Father's distinct Sunday smell?",
+          "answer": "Wright's coal-tar soap and camphor."
+        },
+        {
+          "question": "What was the name of the hotel that Father disliked?",
+          "answer": "The Park Hotel, later Colonist Hotel."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "Which activity was NOT permitted on Sundays in the Carr household?",
+          "options": {
+            "A": "Family prayers",
+            "B": "Cooking fresh meals",
+            "C": "Long walks",
+            "D": "Bible reading"
+          },
+          "correctAnswer": "B"
+        },
+        {
+          "question": "Why did Father prefer Dr. Reid's church?",
+          "options": {
+            "A": "It was closest to their home.",
+            "B": "Dr. Reid was a family friend.",
+            "C": "Father was a little deaf and could hear Dr. Reid's sermons.",
+            "D": "The church had the most comfortable pews."
+          },
+          "correctAnswer": "C"
+        }
+      ]
+    },
+    {
+      "moduleTitle": "Module 2: The Cow Yard and Its Life",
+      "notes": {
+        "summary": "This module focuses on the Cow Yard, described as a vibrant, life-filled space, central to the children's play. It introduces the gentle, 'loose-knit Cow' and the characteristics of the three sisters: Bigger (clean, conscious), Middle (maternal), and Small (wholly a Cow Yard child). The narrative explores the Cow Yard's features, including the Pond Place, and seasonal events like the spring bonfire, where children roast potatoes and share stories, revealing their differing aspirations. A significant part of the module details the birth of fluffy chickens and ducklings, highlighting Small's curious observations of nature and her yearning for a horse. This desire leads to a comical, yet painful, attempt to ride the Cow. The module also introduces 'The Killing Tree,' a mysterious ivy-covered tree that evokes fear and sadness, especially after a dead sparrow is found, symbolizing the darker, less understood aspects of nature and death in childhood.",
+        "keywords": [
+          "Cow Yard",
+          "Cow",
+          "Pond Place",
+          "bonfire",
+          "Killing Tree",
+          "chickens",
+          "ducklings",
+          "Small's aspirations",
+          "nature",
+          "childhood play"
+        ]
+      },
+      "flashcards": [
+        {
+          "question": "What animal did Small attempt to ride in the Cow Yard?",
+          "answer": "The Cow."
+        },
+        {
+          "question": "What was the 'Killing Tree' covered with?",
+          "answer": "Ivy."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "What was a main activity for the children during the spring bonfire?",
+          "options": {
+            "A": "Singing hymns",
+            "B": "Playing hide-and-seek",
+            "C": "Roasting potatoes",
+            "D": "Fishing for tadpoles"
+          },
+          "correctAnswer": "C"
+        },
+        {
+          "question": "Why did Small call a particular tree 'The Killing Tree'?",
+          "options": {
+            "A": "It was struck by lightning.",
+            "B": "It looked menacing.",
+            "C": "She found a dead sparrow under it after noticing silence from birds entering it.",
+            "D": "It was where sick animals were taken."
+          },
+          "correctAnswer": "C"
+        }
+      ]
+    },
+    {
+      "moduleTitle": "Module 3: Faith and Perception",
+      "notes": {
+        "summary": "This module explores Small's interactions with religious figures and her evolving understanding of faith and perception, contrasting her innocent view with adult interpretations. It begins with Small's profound joy and sense of ownership upon receiving a canary, which she proudly wishes to show to the Bishop, believing he, as a holy figure, would appreciate a 'sky creature.' However, the Bishop's dismissive reaction leaves Small feeling hurt and furious, revealing the gap between her spiritual connection and his detached holiness. The module then shifts to a broader discussion of the family's 'hybrid' religion, balancing Father's stern Presbyterianism with Mother's gentle Anglican faith. The Anglican evening service, particularly the Bishop's 'Blessing,' is portrayed as a cherished, almost magical experience for the children, contrasting sharply with the arduous morning service. Small’s observations of the Bishop's physical traits, his gentle voice, and the church's atmosphere contribute to her unique, often literal, interpretation of spiritual experiences.",
+        "keywords": [
+          "Canary",
+          "Bishop",
+          "Small's perception",
+          "religious experience",
+          "Presbyterianism",
+          "Anglicanism",
+          "blessing",
+          "faith",
+          "childhood innocence",
+          "disappointment"
+        ]
+      },
+      "flashcards": [
+        {
+          "question": "What did Small name the canary she earned?",
+          "answer": "The text does not state she named it, only that she loved him."
+        },
+        {
+          "question": "What was the Bishop's favorite word?",
+          "answer": "Ah!"
+        }
+      ],
+      "quiz": [
+        {
+          "question": "How did the Bishop react when Small showed him her canary?",
+          "options": {
+            "A": "He praised its beauty.",
+            "B": "He gently moved her aside, not truly seeing the bird.",
+            "C": "He sang a hymn about it.",
+            "D": "He asked her to leave it with him."
+          },
+          "correctAnswer": "B"
+        }
+      ]
+    },
+    {
+      "moduleTitle": "Module 4: Voice and Expression",
+      "notes": {
+        "summary": "This module centers on Small's uninhibited singing, which is described as 'joyful noise more than music,' often annoying her family but appreciated by the Cow. Small's singing is a spontaneous expression of happiness, especially in the freedom of the cow-yard, where the Cow's reactions confirm her enjoyment. The family's complaints highlight societal expectations regarding proper behavior and noise. A significant event is Small's mother's surprising admission of liking Small's 'happy cow-yard songs,' and her revelation of planning voice training, which Small questions if it will diminish the authenticity of her expression. The narrative then shifts to an intimate scene where Small witnesses her mother and Mrs. Gregory, usually prim and proper, letting go of their composure to sing old songs from their youth. This moment is profound for Small, as it reveals a hidden, spontaneous joy in adults, mirroring her own, and reinforces her belief in the power of uninhibited expression, inspiring her to continue singing freely.",
+        "keywords": [
+          "Small's singing",
+          "joyful noise",
+          "cow-yard",
+          "family complaints",
+          "authenticity",
+          "Mrs. Gregory",
+          "old songs",
+          "uninhibited expression",
+          "childhood freedom"
+        ]
+      },
+      "flashcards": [
+        {
+          "question": "Who was the main audience for Small's singing?",
+          "answer": "The Cow and other barnyard creatures."
+        },
+        {
+          "question": "What did Small's mother and Mrs. Gregory sing when alone?",
+          "answer": "Old songs from their youth, including love songs, nursery rhymes, hymns, 'God Save the Queen,' and 'Rule Britannia.'"
+        }
+      ],
+      "quiz": [
+        {
+          "question": "How did Small's family generally react to her singing?",
+          "options": {
+            "A": "They encouraged her musical talent.",
+            "B": "They found it 'disgusting' and a 'horrible row.'",
+            "C": "They ignored it completely.",
+            "D": "They joined in her songs."
+          },
+          "correctAnswer": "B"
+        }
+      ]
+    },
+    {
+      "moduleTitle": "Module 5: The Praying Chair and A Dog's Desire",
+      "notes": {
+        "summary": "This module explores Small's deep, lifelong desire for a dog, a wish that contrasts sharply with her strict Father's disapproval. The central object is the wicker 'praying chair,' used by Father for daily family prayers and noted for its 'Amen' squeaks. Small attempts to use this chair, along with the cat Tibby, to pray for a puppy, embodying her belief in direct communication with God. Her hopes are dashed when her birthday gift is merely a picture of a dog, leading to profound disappointment and a temporary loss of faith. The narrative spans years, illustrating Small's persistent longing for a canine companion even after her parents' death and the Elder's continued opposition. Eventually, as an adult, Small finally gets her own dog, Adam, and builds a kennel for Bobtail Sheepdogs. The story culminates in the 'praying chair' finding its place in Small's dog nursery, symbolizing the fulfillment of her childhood dream and the merging of her spiritual and animal-loving sides.",
+        "keywords": [
+          "Praying Chair",
+          "dog desire",
+          "childhood wish",
+          "family prayers",
+          "disappointment",
+          "Adam the dog",
+          "Bobtail Sheepdogs",
+          "Small's maturity",
+          "fulfillment"
+        ]
+      },
+      "flashcards": [
+        {
+          "question": "What was Small's ultimate childhood wish?",
+          "answer": "To have a dog."
+        },
+        {
+          "question": "What was Small's birthday gift that disappointed her?",
+          "answer": "A picture of a little girl holding a dog."
+        },
+        {
+          "question": "What kind of dogs did adult Small breed?",
+          "answer": "Bobtail Sheepdogs."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "Why did Small initially believe the wicker chair was 'good' for prayer?",
+          "options": {
+            "A": "It was Father's favorite chair.",
+            "B": "It 'amened splendidly' with its creaks.",
+            "C": "It was very comfortable.",
+            "D": "It had been blessed by the Bishop."
+          },
+          "correctAnswer": "B"
+        },
+        {
+          "question": "How did Small react to not getting a real dog for her birthday?",
+          "options": {
+            "A": "She was understanding and grateful.",
+            "B": "She immediately asked for another gift.",
+            "C": "She cried and stated, 'God's deaf.'",
+            "D": "She threw the picture away and stomped off."
+          },
+          "correctAnswer": "C"
+        }
+      ]
+    },
+    {
+      "moduleTitle": "Module 6: A Stay at Mrs. Crane's",
+      "notes": {
+        "summary": "This module recounts Small and Alice's challenging stay at Mrs. Crane's house while their mother is ill. The initial description of Mrs. Crane's 'large heart' contrasts sharply with her stern demeanor and 'cold and stale-looking' eyes towards Small. The Crane household operates with strict rules, a confusing layout, and a focus on hunting, highlighting a different family dynamic than Small's own. Small struggles with Mrs. Crane's strictures, leading to several incidents: the quicksilver spillage in Mr. Crane's 'Den,' the 'desecration' of an antimacassar by braiding its fringe, and the disastrous attempt to 'cure' a sick hen with castor oil, which results in the hen spitting oil on Mrs. Crane's books. Despite her dislike for Mrs. Crane's sternness and the discomfort of the visit, Small finds solace in Cricket, a pinto pony, and gains a moment of understanding, perceiving a 'wide heart' in Mrs. Crane despite her harshness. The module vividly portrays childhood mischief, misunderstanding, and the complexities of adult figures.",
+        "keywords": [
+          "Mrs. Crane",
+          "childhood illness",
+          "strict upbringing",
+          "Cricket the pony",
+          "hunting dogs",
+          "Mr. Crane's Den",
+          "antimacassar",
+          "castor oil",
+          "misunderstanding",
+          "perception of adults"
+        ]
+      },
+      "flashcards": [
+        {
+          "question": "Why did Small and Alice stay at Mrs. Crane's house?",
+          "answer": "Their Mother was seriously ill."
+        },
+        {
+          "question": "What animal provided Small comfort at Mrs. Crane's?",
+          "answer": "Cricket, a pinto pony."
+        },
+        {
+          "question": "What did Small do to the antimacassar that upset Mrs. Crane?",
+          "answer": "She braided its fringe into pigtails."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "What did Small and Helen try to give a sick hen?",
+          "options": {
+            "A": "Chicken feed",
+            "B": "Warm milk",
+            "C": "Castor oil",
+            "D": "Water"
+          },
+          "correctAnswer": "C"
+        }
+      ]
+    },
+    {
+      "moduleTitle": "Module 7: The Wonders of the Garden",
+      "notes": {
+        "summary": "This module takes the reader into the magical and imaginative world of Small's garden, specifically focusing on a secluded corner with white currant bushes and a 'mauvy-pink flower' called Rocket. Small's experience in this spot transcends reality, as she feels a profound connection to nature, where everything 'trembled' and combined into 'one most lovely thing.' The white currants, with their transparent skins, become a metaphor for an 'almost-told secret,' hinting at deeper truths or experiences just beyond grasp. This sacred space is where Small rides imaginary white horses with an unseen boy, experiencing pure, uninhibited joy and a sense of belonging to a larger, unified natural world. The sudden interruption by a grown-up voice calling for her to gather currants shatters this beautiful illusion, bringing her back to the mundane. The module vividly captures the power of a child's imagination, the sensory richness of nature, and the bittersweet abruptness of returning to adult realities.",
+        "keywords": [
+          "White currants",
+          "Rocket flower",
+          "garden magic",
+          "imagination",
+          "sensory experience",
+          "secret",
+          "childhood wonder",
+          "nature connection",
+          "illusion",
+          "reality"
+        ]
+      },
+      "flashcards": [
+        {
+          "question": "What fruit ripened first on the last bush in the garden row?",
+          "answer": "White currants."
+        },
+        {
+          "question": "What was the name of the 'mauvy-pink flower' growing in the garden rubbish pile?",
+          "answer": "Rocket."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "What did Small imagine she was doing in the garden's secret corner?",
+          "options": {
+            "A": "Having a picnic with her sisters.",
+            "B": "Riding white horses with an unseen boy.",
+            "C": "Searching for hidden treasures.",
+            "D": "Planting new flowers."
+          },
+          "correctAnswer": "B"
+        }
+      ]
+    },
+    {
+      "moduleTitle": "Module 8: The Orange Lily and Lizzie's Shame",
+      "notes": {
+        "summary": "This module combines two distinct narratives, exploring Small's profound connection with a living flower and the social dynamics of her first party experience. The first part introduces Small's visit to Henry Mitchell's nursery, where she encounters a vibrant Orange Lily. Unlike the 'everlasting flowers' dried by Anne Mitchell, the Orange Lily embodies life and mystery, captivating Small despite its 'gaudy' appearance to adults. This experience leaves an indelible mark, burning 'soundless, formless, white' in her heart, signifying a deep, almost spiritual, appreciation for living beauty. The second part, 'How Lizzie was Shamed Right Through,' vividly recounts Small's very first party at the Langleys' from her four-year-old perspective. It highlights the stark contrast between Small's uninhibited, often messy, behavior and her older sister Lizzie's intense desire for social propriety. Lizzie's constant mortification at Small's innocent missteps—like feeling the cab's interior, saying 'busted,' needing a bib, or stuffing cake—provides a humorous yet poignant portrayal of childhood embarrassment and the struggle to conform to adult expectations.",
+        "keywords": [
+          "Orange Lily",
+          "nursery garden",
+          "living beauty",
+          "Anne Mitchell",
+          "everlasting flowers",
+          "first party",
+          "Lizzie's shame",
+          "social conduct",
+          "childhood innocence",
+          "embarrassment"
+        ]
+      },
+      "flashcards": [
+        {
+          "question": "What did Small do to the Orange Lily's petals?",
+          "answer": "Wiped them with her pocket-handkerchief after rusting them with stamens."
+        },
+        {
+          "question": "Who was 'shamed right through' by Small's behavior at the party?",
+          "answer": "Lizzie."
+        },
+        {
+          "question": "What was the main cause of Lizzie's embarrassment at the party?",
+          "answer": "Small's unrestrained and messy behavior, such as stuffing cake and needing a bib."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "What distinguished the Orange Lily from Anne Mitchell's 'everlasting flowers'?",
+          "options": {
+            "A": "Its strong perfume.",
+            "B": "Its bright color.",
+            "C": "Its aliveness and mystery.",
+            "D": "Its location in the garden."
+          },
+          "correctAnswer": "C"
+        },
+        {
+          "question": "At the party, what did Small do that particularly mortified Lizzie regarding the cake?",
+          "options": {
+            "A": "She refused to eat any cake.",
+            "B": "She stole a piece of cake from another child.",
+            "C": "She stuffed currant cake into her cheeks to make room for jelly cake.",
+            "D": "She threw cake at the hostess."
+          },
+          "correctAnswer": "C"
+        }
+      ]
+    }
+  ]
+}---end of response---

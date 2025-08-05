@@ -1,0 +1,96 @@
+--- AI RESPONSE THAT CAUSED ERROR ---
+```json
+[
+  {
+    "front": "What is the central setting of The Cow Yard?",
+    "back": "A rural, idyllic setting, likely a farm or homestead, emphasizing nature and rural life."
+  },
+  {
+    "front": "What does the cow symbolize in The Cow Yard?",
+    "back": "The power and unpredictability of nature; nurture (milk) and potential danger (strength)."
+  },
+  {
+    "front": "Describe the character 'Small'.",
+    "back": "The youngest girl, representing curiosity, impulsiveness, and a yearning for adventure."
+  },
+  {
+    "front": "What is the significance of Bong's Song?",
+    "back": "It adds atmosphere and emotional depth, setting the mood and tone of the story."
+  },
+  {
+    "front": "What might the pond symbolize in The Cow Yard?",
+    "back": "Reflection, stillness, or a contrast to the active energy of the cow and children."
+  },
+  {
+    "front": "What does the bonfire symbolize?",
+    "back": "Warmth, community, or the end of a season."
+  },
+  {
+    "front": "What does the spring growth symbolize?",
+    "back": "Renewal, growth, and new beginnings."
+  },
+  {
+    "front": "What is the significance of the chickens hatching?",
+    "back": "New life and the cyclical nature of life and death; passage of time."
+  },
+  {
+    "front": "What is the importance of Small's attempt to ride the cow?",
+    "back": "A pivotal moment showing her adventurous spirit and naivete; conflict between human desire and nature's power."
+  },
+  {
+    "front": "What does the killing tree represent?",
+    "back": "The darker side of nature, the cycle of life and death; mystery and foreshadowing."
+  },
+  {
+    "front": "How does the setting of the Cow Yard impact the story?",
+    "back": "It's the central location for most events, highlighting the importance of nature and rural life."
+  },
+  {
+    "front": "What role does Bigger likely play among the three girls?",
+    "back": "The oldest, possibly showing responsibility or leadership qualities."
+  },
+  {
+    "front": "What is Middle's likely role in the story?",
+    "back": "Represents a middle ground, potentially mediating between Bigger and Small."
+  },
+  {
+    "front": "What is a key theme explored through the cow?",
+    "back": "The duality of nature – both nurturing and potentially dangerous."
+  },
+  {
+    "front": "What is a key theme explored through seasonal events?",
+    "back": "The passage of time and the cyclical nature of life."
+  },
+  {
+    "front": "What is a key theme explored through Small's actions?",
+    "back": "The conflict between human ambition and the power of nature."
+  },
+  {
+    "front": "What key theme is introduced by the Killing Tree?",
+    "back": "The darker, less benign aspects of nature and the inevitability of death."
+  },
+  {
+    "front": "How do the three girls differ in their personalities?",
+    "back": "Bigger shows responsibility; Middle mediates; Small displays impulsiveness and adventure."
+  },
+  {
+    "front": "What contrast is presented by the setting and the killing tree?",
+    "back": "Idyllic rural beauty contrasted with the ominous presence of death and the cycle of life."
+  },
+  {
+    "front": "What kind of lesson might Small learn from her experience?",
+    "back": "Respect for the power of nature and the limits of human control."
+  }
+]
+```
+
+
+--- ERROR DETAILS ---
+Error during step: flashcards-The Cow Yard
+
+Error: Unexpected non-whitespace character after JSON at position 157 (line 1 column 158)
+
+Stack: SyntaxError: Unexpected non-whitespace character after JSON at position 157 (line 1 column 158)
+    at JSON.parse (<anonymous>)
+    at processPdfWithAgent (C:\Users\Logan\Desktop\Github\courseforge2\Coursemaker\server\agentProcessor.js:181:31)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)

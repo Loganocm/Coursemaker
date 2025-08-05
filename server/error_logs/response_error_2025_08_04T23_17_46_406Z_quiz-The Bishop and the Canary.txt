@@ -1,0 +1,116 @@
+--- AI RESPONSE THAT CAUSED ERROR ---
+```json
+[
+  {
+    "question": "What best describes Small's relationship with her canary?",
+    "options": [
+      "A casual owner-pet relationship.",
+      "A deep and affectionate bond.",
+      "A relationship of convenience.",
+      "A purely materialistic attachment."
+    ],
+    "correct_answer": "A deep and affectionate bond."
+  },
+  {
+    "question": "What literary device is used when Small attributes human emotions to her canary?",
+    "options": [
+      "Metaphor",
+      "Simile",
+      "Anthropomorphism",
+      "Personification"
+    ],
+    "correct_answer": "Anthropomorphism"
+  },
+  {
+    "question": "What does the canary symbolize in the story?",
+    "options": [
+      "Religious devotion",
+      "Societal conformity",
+      "The importance of individual emotions",
+      "Material wealth"
+    ],
+    "correct_answer": "The importance of individual emotions"
+  },
+  {
+    "question": "How does the Bishop's character contrast with Small's?",
+    "options": [
+      "They share similar values and beliefs.",
+      "The Bishop is more compassionate than Small.",
+      "Their viewpoints on the importance of emotional connection differ.",
+      "They have an amicable relationship."
+    ],
+    "correct_answer": "Their viewpoints on the importance of emotional connection differ."
+  },
+  {
+    "question": "The story primarily uses irony and satire to critique:",
+    "options": [
+      "The importance of pet ownership.",
+      "Rigid adherence to religious dogma and societal expectations.",
+      "The value of unconventional connections.",
+      "The need for compassion and empathy."
+    ],
+    "correct_answer": "Rigid adherence to religious dogma and societal expectations."
+  },
+  {
+    "question": "What is a significant thematic element explored in 'The Bishop and the Canary'?",
+    "options": [
+      "The superiority of religious belief.",
+      "The importance of material possessions.",
+      "The conflict between individuality and societal expectations.",
+      "The dangers of anthropomorphism."
+    ],
+    "correct_answer": "The conflict between individuality and societal expectations."
+  },
+  {
+    "question": "What is the story's resolution?",
+    "options": [
+      "Small successfully cures her canary.",
+      "The Bishop changes his perspective.",
+      "The conflict remains unresolved and ambiguous.",
+      "Small abandons her canary."
+    ],
+    "correct_answer": "The conflict remains unresolved and ambiguous."
+  },
+  {
+    "question": "Which of these is NOT a major theme of the story?",
+    "options": [
+      "The importance of compassion and empathy",
+      "Challenging social norms",
+      "The value of material wealth",
+      "The value of unconventional connections"
+    ],
+    "correct_answer": "The value of material wealth"
+  },
+  {
+    "question": "The canary's illness serves to highlight:",
+    "options": [
+      "The Bishop's superior wisdom.",
+      "Small's lack of responsibility.",
+      "The importance of compassion and empathy.",
+      "The insignificance of pets."
+    ],
+    "correct_answer": "The importance of compassion and empathy."
+  },
+  {
+    "question": "What kind of ending does the story have?",
+    "options": [
+      "A happy ending",
+      "A tragic ending",
+      "An open ending",
+      "A conclusive ending"
+    ],
+    "correct_answer": "An open ending"
+  }
+]
+```
+
+
+--- ERROR DETAILS ---
+Error during step: quiz-The Bishop and the Canary
+
+Error: Unexpected non-whitespace character after JSON at position 278 (line 1 column 279)
+
+Stack: SyntaxError: Unexpected non-whitespace character after JSON at position 278 (line 1 column 279)
+    at JSON.parse (<anonymous>)
+    at processPdfWithAgent (C:\Users\Logan\Desktop\Github\courseforge2\Coursemaker\server\agentProcessor.js:200:25)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)

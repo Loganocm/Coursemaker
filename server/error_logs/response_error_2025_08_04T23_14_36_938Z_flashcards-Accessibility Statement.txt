@@ -1,0 +1,96 @@
+--- AI RESPONSE THAT CAUSED ERROR ---
+```json
+[
+  {
+    "front": "What is web accessibility?",
+    "back": "Ensuring digital content is usable by everyone, regardless of disability."
+  },
+  {
+    "front": "What is keyboard navigation?",
+    "back": "Allows users to navigate a website using only a keyboard, crucial for users with motor impairments."
+  },
+  {
+    "front": "Why is proper markup (semantic HTML) important for accessibility?",
+    "back": "Screen readers and assistive technologies rely on correct HTML tags to interpret the page and provide accurate information to users."
+  },
+  {
+    "front": "What is the purpose of alt text for images?",
+    "back": "To provide text alternatives for images, conveying their meaning and purpose for blind and visually impaired users."
+  },
+  {
+    "front": "What is a PDF?",
+    "back": "Portable Document Format; widely compatible and easily printable, but requires proper tagging for accessibility."
+  },
+  {
+    "front": "What is an EPUB?",
+    "back": "Electronic Publication; designed for digital reading, typically more accessible than PDFs due to features like text resizing."
+  },
+  {
+    "front": "What is LibriVox Audio?",
+    "back": "An audio version of content, beneficial for users with visual impairments or learning disabilities."
+  },
+  {
+    "front": "What are feedback mechanisms in an accessibility statement?",
+    "back": "Methods (e.g., email, contact form) for users to report accessibility problems."
+  },
+  {
+    "front": "Why is prompt response to accessibility issues important?",
+    "back": "It shows users that their feedback is valued and builds confidence in the organization's commitment to accessibility."
+  },
+  {
+    "front": "How does keyboard navigation improve accessibility?",
+    "back": "It enables users with motor impairments to interact with all website elements without a mouse."
+  },
+  {
+    "front": "What makes an accessible PDF?",
+    "back": "Searchable text, proper tagging of tables, figures, and headers."
+  },
+  {
+    "front": "Give an example of bad alt text.",
+    "back": "\"Image\" or other generic descriptions; alt text should describe the image's content and purpose."
+  },
+  {
+    "front": "What is the benefit of offering multiple content formats?",
+    "back": "It caters to diverse needs and preferences, ensuring wider accessibility."
+  },
+  {
+    "front": "Why is semantic HTML crucial for screen reader users?",
+    "back": "It provides the correct structure and meaning of the content, ensuring accurate and logical reading order."
+  },
+  {
+    "front": "What is the main goal of an accessibility statement?",
+    "back": "To ensure inclusivity by making information usable by everyone, regardless of disability."
+  },
+  {
+    "front": "What are some examples of assistive technologies?",
+    "back": "Screen readers, keyboard navigation software, speech recognition software."
+  },
+  {
+    "front": "Besides visual impairments, who else benefits from audio formats?",
+    "back": "Users with learning disabilities or cognitive impairments."
+  },
+  {
+    "front": "What should an accessibility statement include regarding reporting issues?",
+    "back": "Clear instructions on how to report problems and a commitment to timely resolution."
+  },
+  {
+    "front": "How does providing multiple formats contribute to inclusivity?",
+    "back": "It allows people with diverse needs and preferences (e.g., visual, auditory, cognitive) to access the information."
+  },
+  {
+    "front": "What is the core principle behind accessibility?",
+    "back": "Inclusivity: making information and technology usable by everyone."
+  }
+]
+```
+
+
+--- ERROR DETAILS ---
+Error during step: flashcards-Accessibility Statement
+
+Error: Unexpected non-whitespace character after JSON at position 124 (line 1 column 125)
+
+Stack: SyntaxError: Unexpected non-whitespace character after JSON at position 124 (line 1 column 125)
+    at JSON.parse (<anonymous>)
+    at processPdfWithAgent (C:\Users\Logan\Desktop\Github\courseforge2\Coursemaker\server\agentProcessor.js:181:31)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)

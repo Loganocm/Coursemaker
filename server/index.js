@@ -1,20 +1,19 @@
-
 const express = require('express');
 const path = require('path');
 const multer = require('multer');
 const cors = require('cors');
 require('dotenv').config();
 const { processPdfWithAI } = require('./aiProcessor');
+const { processPdfWithAgent } = require('./agentProcessor');
+const fs = require('fs');
 
 const app = express();
 app.use(cors());
-const port = 3000;
+const port = 3001;
 
-// Multer setup for handling file uploads in memory
 const storage = multer.memoryStorage();
 const upload = multer({ storage: storage });
 
-// Serve static files from the 'public' directory
 app.use(express.static(path.join(__dirname, 'public')));
 
 // API endpoint for generating the course
@@ -23,24 +22,45 @@ app.post('/generate-course', upload.single('pdfFile'), async (req, res) => {
         return res.status(400).json({ error: 'No PDF file uploaded.' });
     }
 
+    const fileBuffer = req.file.buffer;
+    const mimeType = req.file.mimetype;
+    const modelChoice = process.env.GEMINI_MODEL || 'gemini-1.5-flash';
+
     try {
-        const fileBuffer = req.file.buffer;
-        const mimeType = req.file.mimetype;
-        const modelChoice = req.body.aiModel; // e.g., 'gemini'
-
-        console.log(`Received file: ${req.file.originalname}, processing with ${modelChoice}...`);
-
-        const aiResponse = await processPdfWithAI(fileBuffer, mimeType, modelChoice);
-        
-        res.send(aiResponse);
-
+        const courseMarkdown = await processPdfWithAI(fileBuffer, mimeType, modelChoice);
+        const courseFileName = `course_${new Date().toISOString().replace(/[:.-]/g, '_')}.txt`;
+        const outputPath = path.join(__dirname, 'generated_courses', courseFileName);
+        fs.writeFileSync(outputPath, courseMarkdown, 'utf8');
+        console.log(`Course generated and saved to ${outputPath}`);
+        res.status(200).send(courseMarkdown); // Send markdown directly
     } catch (error) {
-        console.error('Error processing file with AI:', error);
-        res.status(500).json({ error: 'An error occurred while generating the course.' });
+        console.error('Error generating course:', error);
+        res.status(500).json({ error: error.message || 'Failed to generate course.' });
     }
 });
 
-const fs = require('fs');
+// API endpoint for the AI agent to generate a course from a PDF
+app.post('/create-course-agent', upload.single('pdfFile'), async (req, res) => {
+    if (!req.file) {
+        return res.status(400).json({ error: 'No PDF file uploaded.' });
+    }
+
+    const fileBuffer = req.file.buffer;
+    const mimeType = req.file.mimetype;
+    const modelChoice = process.env.GEMINI_MODEL || 'gemini-1.5-flash';
+
+    try {
+        const courseMarkdown = await processPdfWithAgent(fileBuffer, mimeType, modelChoice);
+        const courseFileName = `course_${new Date().toISOString().replace(/[:.-]/g, '_')}.txt`;
+        const outputPath = path.join(__dirname, 'generated_courses', courseFileName);
+        fs.writeFileSync(outputPath, courseMarkdown, 'utf8');
+        console.log(`Agent Course generated and saved to ${outputPath}`);
+        res.status(200).send(courseMarkdown); // Send markdown directly
+    } catch (error) {
+        console.error('Error generating agent course:', error);
+        res.status(500).json({ error: error.message || 'Failed to generate agent course.' });
+    }
+});
 
 // API endpoint to get all courses for a user
 app.get('/courses/:userId', (req, res) => {
@@ -48,7 +68,8 @@ app.get('/courses/:userId', (req, res) => {
     const userCoursesDir = path.join(__dirname, 'users', userId, 'courses');
 
     if (!fs.existsSync(userCoursesDir)) {
-        return res.status(404).json({ message: 'User or courses directory not found.' });
+        // This is not an error, just no courses yet. Return an empty array.
+        return res.json([]);
     }
 
     fs.readdir(userCoursesDir, (err, files) => {
@@ -86,25 +107,56 @@ app.post('/save-course/:userId', express.text({ type: '*/*' }), (req, res) => {
     const courseContent = req.body; // Markdown content
     const userCoursesDir = path.join(__dirname, 'users', userId, 'courses');
 
-    if (!fs.existsSync(userCoursesDir)) {
-        fs.mkdirSync(userCoursesDir, { recursive: true });
-    }
-
-    const timestamp = new Date().toISOString().replace(/[:.-]/g, '_');
-    const courseFileName = `course_${timestamp}.txt`;
-    const coursePath = path.join(userCoursesDir, courseFileName);
-
-    fs.writeFile(coursePath, courseContent, 'utf8', (err) => {
-        if (err) {
-            console.error('Error saving course file:', err);
-            return res.status(500).json({ error: 'Failed to save course.' });
+    try {
+        if (!fs.existsSync(userCoursesDir)) {
+            fs.mkdirSync(userCoursesDir, { recursive: true });
         }
-        res.status(200).json({ message: 'Course saved successfully!', fileName: courseFileName });
-    });
+
+        const timestamp = new Date().toISOString().replace(/[:.-]/g, '_');
+        const courseFileName = `course_${timestamp}.txt`;
+        const coursePath = path.join(userCoursesDir, courseFileName);
+
+        fs.writeFile(coursePath, courseContent, 'utf8', (err) => {
+            if (err) {
+                console.error('Error saving course file:', err);
+                return res.status(500).json({ error: 'Failed to save course.' });
+            }
+            res.status(200).json({ message: 'Course saved successfully!', fileName: courseFileName });
+        });
+    } catch (error) {
+        console.error('Error in save-course endpoint:', error);
+        res.status(500).json({ error: 'Failed to save course.' });
+    }
 });
 
-const server = app.listen(port, () => {
-    console.log(`Server is running at http://localhost:${port}`);
+// Generic error handler for all routes
+app.use((err, req, res, next) => {
+    console.error("Generic error handler caught an error:", err);
+    res.status(500).json({ error: 'An unexpected error occurred.', details: err.message });
 });
+
+let server;
+
+if (require.main === module) {
+    server = app.listen(port, () => {
+        console.log(`Server is running at http://localhost:${port}`);
+    });
+
+    server.on('error', (err) => {
+        console.error('Server error:', err);
+    });
+}
+
+// Catch unhandled promise rejections
+process.on('unhandledRejection', (reason, promise) => {
+  console.error('Unhandled Rejection at:', promise, 'reason:', reason);
+  // Application specific logging, throwing an error, or other logic here
+});
+
+// Catch uncaught exceptions
+process.on('uncaughtException', (err, origin) => {
+  console.error(`Caught exception: ${err}\n` + `Exception origin: ${origin}`);
+});
+
 
 module.exports = app; // Export app for testing

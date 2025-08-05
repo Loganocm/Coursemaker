@@ -28,15 +28,18 @@ function App() {
     setCurrentCourse(savedCourses[index]);
   };
 
-  // Add this function to handle AI-generated courses
   const handleAIGeneratedCourse = (aiCourse: Course | AIGeneratedCourse) => {
-    // If you use a parser for AI courses, parse it here
     const parsedCourse: Course =
       "lessons" in aiCourse ? aiCourse : parseAIGeneratedCourse(aiCourse);
     setCurrentCourse(parsedCourse);
     const updated = [...savedCourses, parsedCourse];
     setSavedCourses(updated);
     localStorage.setItem("savedCourses", JSON.stringify(updated));
+  };
+
+  const handleClearCourses = () => {
+    setSavedCourses([]);
+    localStorage.removeItem("savedCourses");
   };
 
   return (
@@ -47,15 +50,18 @@ function App() {
           onBack={handleBackToCourseCreator}
         />
       ) : (
-        <div className="p-4">
-          <h1 className="text-2xl font-bold mb-4">CourseForge</h1>
-          <h2 className="text-xl font-semibold mb-2">Create Course</h2>
-          <CourseCreator onCourseCreate={handleCourseCreate} />
-          <CourseList
-            courses={savedCourses}
-            onViewCourse={handleViewCourse}
-            onAIGeneratedCourse={handleAIGeneratedCourse} // <-- Pass the handler here
-          />
+        <div className="grid grid-cols-1 lg:grid-cols-3 gap-8 p-8">
+          <div className="lg:col-span-2">
+            <CourseCreator onCourseCreate={handleCourseCreate} />
+          </div>
+          <div>
+            <CourseList
+              courses={savedCourses}
+              onViewCourse={handleViewCourse}
+              onAIGeneratedCourse={handleAIGeneratedCourse}
+              onClearCourses={handleClearCourses} // Pass the clear function
+            />
+          </div>
         </div>
       )}
     </div>

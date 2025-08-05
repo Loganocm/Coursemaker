@@ -1,0 +1,10 @@
+Error: Unexpected token '`', "```json
+{
+"... is not valid JSON
+
+Stack: SyntaxError: Unexpected token '`', "```json
+{
+"... is not valid JSON
+    at JSON.parse (<anonymous>)
+    at processPdfWithAgent (C:\Users\Logan\Desktop\Github\courseforge2\Coursemaker\server\agentProcessor.js:102:31)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)

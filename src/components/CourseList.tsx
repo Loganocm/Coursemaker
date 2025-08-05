@@ -5,6 +5,7 @@ interface CourseListProps {
   courses: Course[];
   onViewCourse: (index: number) => void;
   onAIGeneratedCourse?: (course: Course) => void; // Optional prop for AI courses
+  onClearCourses: () => void; // Add this line
 }
 
 // Example button to simulate AI API course generation
@@ -21,9 +22,20 @@ const CourseList: React.FC<CourseListProps> = ({
   courses,
   onViewCourse,
   onAIGeneratedCourse,
+  onClearCourses,
 }) => (
   <div className="mt-8">
-    <h2 className="text-xl font-bold mb-2">Saved Courses</h2>
+    <div className="flex justify-between items-center mb-2">
+      <h2 className="text-xl font-bold">Saved Courses</h2>
+      {courses.length > 0 && (
+        <button
+          className="px-3 py-1 bg-red-600 text-white rounded"
+          onClick={onClearCourses}
+        >
+          Clear Courses
+        </button>
+      )}
+    </div>
     {onAIGeneratedCourse && (
       <button
         className="mb-4 px-3 py-1 bg-green-600 text-white rounded"

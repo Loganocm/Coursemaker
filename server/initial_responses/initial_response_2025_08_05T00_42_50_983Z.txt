@@ -1,0 +1,481 @@
+{
+  "courseTitle": "The Book of Small: A Memoir of Early Victoria",
+  "modules": [
+    {
+      "moduleTitle": "Module 1: Childhood Sundays and Family Life",
+      "notes": {
+        "summary": "This module delves into the rigid and ritualistic nature of Sundays in the Carr household, offering insights into Victorian-era family dynamics, religious observance, and childhood experiences. Sundays were marked by strict routines, from Saturday night baths and prepared meals to formal church attendance at Dr. Reid's Presbyterian Church, despite Father's partial deafness. The narrative highlights the contrasting religious approaches of Father (stern Presbyterian) and Mother (gentle Anglican), shaping a hybrid religious upbringing for the children. Family prayers and Bible readings were central, often met with childhood boredom and the challenge of remembering sermons. Sunday School, led by the elder sister Dede, emphasized rote learning of texts and hymns. Leisure activities were strictly controlled, with the Sunday walk around the family's English-style grounds providing a rare opportunity for observation. The module also touches upon the children's imaginative play and the strictures against 'pleasuring' on the Sabbath, especially when contrasted with the freedom of other families. The contrast between rigid expectations and childhood desires is a recurring theme, subtly revealing the character of 'Small' and her developing perspectives.",
+        "keywords": [
+          "Victorian childhood",
+          "Sunday routines",
+          "family dynamics",
+          "Presbyterianism",
+          "Anglicanism",
+          "Emily Carr",
+          "religious upbringing",
+          "childhood imagination",
+          "strict discipline",
+          "Sabbath"
+        ]
+      },
+      "flashcards": [
+        {
+          "question": "What two books were allowed out on Sundays in the Carr household?",
+          "answer": "The Peep of Day and Bunyan's Pilgrim's Progress."
+        },
+        {
+          "question": "What was Father's Sunday smell?",
+          "answer": "Wright’s coal-tar soap and camphor."
+        },
+        {
+          "question": "Where did Father attend church?",
+          "answer": "Dr. Reid's Presbyterian Church at the corner of Pandora and Blanshard streets."
+        },
+        {
+          "question": "What was the typical Sunday dinner at the Carr house?",
+          "answer": "Cold saddle of mutton with red currant jelly, potato salad, pickled cabbage, and deep apple pie with Devonshire cream."
+        },
+        {
+          "question": "What was the significance of the Bishop's blessing in the Anglican church for the children?",
+          "answer": "It was the most anticipated part of the service, eagerly awaited for its splendor."
+        },
+        {
+          "question": "What animal appreciated Small's singing the most?",
+          "answer": "The cow."
+        },
+        {
+          "question": "What did Small initially use the praying chair for?",
+          "answer": "To pray for a puppy."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "Which family member was responsible for leading Sunday School?",
+          "options": {
+            "A": "Mother",
+            "B": "Father",
+            "C": "Dede",
+            "D": "Tallie"
+          },
+          "correctAnswer": "C"
+        },
+        {
+          "question": "What did Father keep in his splendid camphor-wood chest?",
+          "options": {
+            "A": "Old books",
+            "B": "Clean clothes",
+            "C": "Candies",
+            "D": "Important papers"
+          },
+          "correctAnswer": "B"
+        },
+        {
+          "question": "What was the 'killing tree' in the Cow Yard?",
+          "options": {
+            "A": "A tree struck by lightning",
+            "B": "A tree where animals were culled",
+            "C": "An ivy-covered tree that had died",
+            "D": "A tree with dangerous fruit"
+          },
+          "correctAnswer": "C"
+        },
+        {
+          "question": "What did Small learn about 'Mother-ladies' singing?",
+          "options": {
+            "A": "They only sang when there were babies to soothe.",
+            "B": "Their voices became softer with age.",
+            "C": "They could sing love songs and hymns even when older.",
+            "D": "They preferred modern songs over old ones."
+          },
+          "correctAnswer": "C"
+        }
+      ]
+    },
+    {
+      "moduleTitle": "Module 2: Home and Encounters",
+      "notes": {
+        "summary": "This module explores the domestic world of Small's childhood, centered around the Cow Yard and significant encounters that shaped her understanding of the world. The Cow Yard is depicted as a vibrant, living space, contrasting with the tidier garden favored by her older sister, Bigger. Seasonal events like bonfires, roasted potatoes, and the birth of new animals are highlighted, revealing the children's imaginative play and early aspirations. Small's unique bond with the animals, particularly the Cow and the canary, underscores her empathetic nature. The poignant story of the 'killing tree' (an ivy-strangled tree) introduces themes of death and unanswered childhood questions, reflecting a deeper, unspoken fear. The encounter with the Bishop and the canary illustrates Small's innocence and disappointment when adults fail to meet her emotional expectations. The subsequent stay at Mrs. Crane's house presents a stark contrast to her own home, with its rigid rules, stuffed animals, and the unsettling discovery of a dog being shot. Small's observation of Mrs. Crane's 'heart' and her empathetic connection with suffering animals reveal her keen sensitivity. The module also features the magical experience of the white currants and the orange lily, symbolizing moments of profound, personal wonder that contrast with the mundane or harsh realities of the adult world.",
+        "keywords": [
+          "Cow Yard",
+          "childhood play",
+          "animal care",
+          "imagination",
+          "empathy",
+          "loss",
+          "adult world",
+          "disappointment",
+          "nature",
+          "wonder"
+        ]
+      },
+      "flashcards": [
+        {
+          "question": "What did Small wish the Cow could have?",
+          "answer": "A colt."
+        },
+        {
+          "question": "What did Small call the ivy-covered tree?",
+          "answer": "The Killing Tree."
+        },
+        {
+          "question": "Why was Small disappointed by the Bishop's reaction to her canary?",
+          "answer": "He didn't acknowledge the bird, only Small's 'pretty picture'."
+        },
+        {
+          "question": "What kind of cake did Small's family have on Christmas Day?",
+          "answer": "Plain currant cake and a beautiful pink iced jelly cake."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "What was the Cow Yard's most dominant feature for Small?",
+          "options": {
+            "A": "The old barn",
+            "B": "The pond",
+            "C": "The spirit of maternity (life-giving existence)",
+            "D": "The bonfires"
+          },
+          "correctAnswer": "C"
+        },
+        {
+          "question": "What did Mrs. Crane's husband do for sport?",
+          "options": {
+            "A": "Fishing",
+            "B": "Killing things 'just for fun'",
+            "C": "Croquet",
+            "D": "Hunting for food"
+          },
+          "correctAnswer": "B"
+        },
+        {
+          "question": "What was the 'Rocket' flower known for?",
+          "options": {
+            "A": "Its vibrant color",
+            "B": "Its tall stalks",
+            "C": "Its powerful smell",
+            "D": "Its medicinal properties"
+          },
+          "correctAnswer": "C"
+        },
+        {
+          "question": "What did the Orange Lily's trumpet symbolize for Small?",
+          "options": {
+            "A": "A new toy",
+            "B": "The emptiness of a church after service",
+            "C": "A place of secrets",
+            "D": "A sweet fragrance"
+          },
+          "correctAnswer": "B"
+        }
+      ]
+    },
+    {
+      "moduleTitle": "Module 3: Victoria's Beginnings and Environment",
+      "notes": {
+        "summary": "This module introduces Victoria, British Columbia, as the setting for Small's formative years, detailing its origins and unique environment. We learn about Father's journey to the New World, his initial disillusionment with the 'Old Country' upon return, and his eventual settlement in Victoria, a Crown Colony striving to emulate England. His property, Beckley Farm, is described as meticulously English in its layout, contrasting with a 'new field' that retained its wild Canadian character. The module highlights Victoria's geographical features, including James' Bay, Dallas Road, and Beacon Hill Park, showcasing natural beauty alongside man-made structures like sailor graves and coastal cannons. The pervasive silence of the Western forests is emphasized, a stark difference from the bustle of the Old World, and a habitat for silent birds of prey. The section also pays tribute to the early pioneers and their arduous struggle to tame the land, symbolized by the constant battle with roots and undergrowth. Stories of Fort Camosun and early settlers like Mrs. Lewis provide a historical context, painting a picture of a challenging yet exciting frontier life. Small's preference for 'wild, western things' over 'old things' reflects her growing connection to her Canadian home. The initial descriptions of Victoria present a blend of English aspiration and raw Canadian nature, forming the backdrop for the young girl's developing identity.",
+        "keywords": [
+          "Victoria, BC",
+          "Crown Colony",
+          "pioneer life",
+          "English influence",
+          "Canadian wilderness",
+          "James' Bay",
+          "Beacon Hill Park",
+          "Fort Camosun",
+          "settlement history",
+          "cultural identity"
+        ]
+      },
+      "flashcards": [
+        {
+          "question": "What was Victoria initially called as a Hudson's Bay Post?",
+          "answer": "Fort Camosun."
+        },
+        {
+          "question": "What was Beacon Hill Park known for in Spring nights?",
+          "answer": "Millions of frogs croaking, sounding like crackling paper."
+        },
+        {
+          "question": "What were the two white picket fences on Dallas Road?",
+          "answer": "Graves of two sailors who died of smallpox."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "What material was Father's house built of?",
+          "options": {
+            "A": "Local stone",
+            "B": "California redwood",
+            "C": "Imported English brick",
+            "D": "Pacific cedar"
+          },
+          "correctAnswer": "B"
+        },
+        {
+          "question": "What type of fence was used in Father's 'new field'?",
+          "options": {
+            "A": "Picket fence",
+            "B": "Wire fence",
+            "C": "Snake fence",
+            "D": "Stone wall"
+          },
+          "correctAnswer": "C"
+        },
+        {
+          "question": "What was the most striking characteristic of the Western forests?",
+          "options": {
+            "A": "Their vibrant colors",
+            "B": "Their profound silence",
+            "C": "Their abundant wildlife",
+            "D": "Their towering height"
+          },
+          "correctAnswer": "B"
+        },
+        {
+          "question": "How was the first piano in British Columbia transported from Esquimalt Harbour to Langford?",
+          "options": {
+            "A": "By horse-drawn cart",
+            "B": "By boat upriver",
+            "C": "On the backs of Indians in relays",
+            "D": "By railway"
+          },
+          "correctAnswer": "C"
+        }
+      ]
+    },
+    {
+      "moduleTitle": "Module 4: Town Life and Social Fabric",
+      "notes": {
+        "summary": "This module delves into the social and commercial landscape of early Victoria, highlighting its unique customs and characters. Saloons, both in town and as 'road-houses' along driving routes, are presented as mysterious, forbidden places that sparked childhood curiosity. The text describes the unsettling sight of cattle drives through Fort Street and Small's accidental entry into a saloon, offering a rare glimpse into a hidden world. Transportation methods are detailed, from plank sidewalks and roaming cows to various horse-drawn vehicles like chaises and dog-carts, emphasizing the leisurely pace of life. Father's wholesale store on Wharf Street provides another window into Victoria's commerce, showcasing his diverse inventory and the presence of Indigenous traders and the store's resident cats. The module explores the evolving neighborhood dynamics with new houses replacing wild fields, signifying Victoria's growth. Social gatherings, such as family evening parties, church conversaziones, and socials, illustrate the community's entertainment and social norms, often driven by English traditions. The role of Chinese 'Chinaboy' servants like Bong and Indian washerwomen like Mary is examined, contrasting their cultural differences and contributions to household life. The narrative also touches on the broader 'East and West' dynamic, comparing the industrious Chinese with the leisurely Indian approach to nature. Finally, an 'A Cup of Tea' vignette offers a poignant example of quiet human connection and mutual aid between different cultural groups.",
+        "keywords": [
+          "Victoria social life",
+          "saloons",
+          "transportation",
+          "commerce",
+          "urban development",
+          "social customs",
+          "servants",
+          "Chinese culture",
+          "Indigenous culture",
+          "community interaction"
+        ]
+      },
+      "flashcards": [
+        {
+          "question": "What were the 'pinafore doors' of the saloons like?",
+          "answer": "Slatted doors that swung to noiselessly and flapped shut quickly, obscuring the view inside."
+        },
+        {
+          "question": "What was Father's wholesale business?",
+          "answer": "Importer of provisions, wines, and cigars."
+        },
+        {
+          "question": "What were Victoria's Matrons always anxious about when their children visited?",
+          "answer": "The enormous quantities of fruit their children ate off the trees."
+        },
+        {
+          "question": "What was Wash Mary's profession?",
+          "answer": "An Indian woman who came to wash clothes."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "What did Mrs. McConnell shout to gather her animals and children?",
+          "options": {
+            "A": "Here, here, here!",
+            "B": "Come along, everyone!",
+            "C": "Chuck, Chuck, Chuckie!",
+            "D": "Time for dinner!"
+          },
+          "correctAnswer": "C"
+        },
+        {
+          "question": "What was a common characteristic of Chinese servants' appearance?",
+          "options": {
+            "A": "They wore elaborate traditional robes.",
+            "B": "They wore long black pants, loose white shirts, and had pigtails.",
+            "C": "They were always dressed in formal suits.",
+            "D": "They wore brightly colored silk clothes."
+          },
+          "correctAnswer": "B"
+        },
+        {
+          "question": "What was the Indian woman's role in the 'Cup of Tea' story when rescuing the Chinaman?",
+          "options": {
+            "A": "She steered the canoe and gave the final push to launch it.",
+            "B": "She paddled with strength but no guidance.",
+            "C": "She stayed by the fire and watched.",
+            "D": "She called for help from other villagers."
+          },
+          "correctAnswer": "A"
+        },
+        {
+          "question": "What was a common mode of transport for butcher and baker boys?",
+          "options": {
+            "A": "Walking with handcarts",
+            "B": "Riding bicycles",
+            "C": "Delivering on horseback with wicker baskets",
+            "D": "Driving small wagons"
+          },
+          "correctAnswer": "C"
+        }
+      ]
+    },
+    {
+      "moduleTitle": "Module 5: Victoria's Institutions and Challenges",
+      "notes": {
+        "summary": "This module explores the institutional and infrastructural development of Victoria, alongside the societal challenges and characters that populated the growing city. The narrative details the Christ Church Cathedral, its symbolic significance as an emblem of 'National Faith,' and the 'High' vs. 'Low' church controversy. Cemeteries are examined, from the old, wild Quadra Street one with its Chinese altar, to the new, rigidly segregated Ross Bay Cemetery, highlighting Victorian attitudes towards death and social stratification. The evolution of schooling is presented, contrasting the traditional English 'Ladies' Deportment Academies' focused on manners, with the Canadian public schools emphasizing academic learning. Small's own school experiences, including Mrs. Fraser's unique setting, are shared. Christmas celebrations are meticulously described, from home preparations like plum puddings and tree decorations to the lively, yet sometimes unsettling, town sights like butchers' shops. The annual Regatta on the Gorge waters emerges as a major public event, showcasing naval and Indigenous canoe races, concluding with the cruel 'greased pole' pig contest, revealing a darker aspect of entertainment. The module also introduces key community figures like Dr. Helmcken, the all-around family doctor, and the dentist, whose practices are vividly recalled. The Chain Gang, representing penal labor and early infrastructure projects like road building, and the transformation of Cook Street from a garbage dump to a paved road, illustrate the city's physical development. Finally, the shift from traditional water sources to modern plumbing and its unforeseen challenges like freezing pipes, along with new city regulations and the arrival of a circus, mark Victoria's bumpy transition into modernity.",
+        "keywords": [
+          "Victoria institutions",
+          "Cathedral",
+          "cemeteries",
+          "education",
+          "Christmas traditions",
+          "Regatta",
+          "medicine",
+          "dentistry",
+          "urban development",
+          "social class"
+        ]
+      },
+      "flashcards": [
+        {
+          "question": "What did the Chinese place on their stone altar in Quadra Street Cemetery?",
+          "answer": "Whole roasted pigs and piles of white cakes."
+        },
+        {
+          "question": "What was the primary focus of English Ladies' Deportment Academies?",
+          "answer": "Teaching good manners."
+        },
+        {
+          "question": "What was the name of the rock-chewing monster that replaced the Chain Gang?",
+          "answer": "Lizzie."
+        },
+        {
+          "question": "What was Dr. Helmcken's old brown mare named?",
+          "answer": "Julia."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "What was the significance of the Christ Church Cathedral for Britons in Victoria?",
+          "options": {
+            "A": "It was only for Anglicans.",
+            "B": "It was an emblem of National Faith and security.",
+            "C": "It was a popular tourist attraction.",
+            "D": "It hosted frequent music concerts."
+          },
+          "correctAnswer": "B"
+        },
+        {
+          "question": "What was considered the most dignified part of a funeral procession?",
+          "options": {
+            "A": "The speed of the horses.",
+            "B": "The black plumes waving over Hayward's hearse.",
+            "C": "The quietness of the mourners.",
+            "D": "The flowers on the coffin."
+          },
+          "correctAnswer": "B"
+        },
+        {
+          "question": "What was the traditional New Year's Day custom for ladies?",
+          "options": {
+            "A": "Visiting friends and family.",
+            "B": "Staying home to receive gentlemen callers.",
+            "C": "Attending church services.",
+            "D": "Going for a picnic."
+          },
+          "correctAnswer": "B"
+        },
+        {
+          "question": "What was the initial use of the unmade end of Cook Street?",
+          "options": {
+            "A": "A public park",
+            "B": "A market area",
+            "C": "The town's rubbish dump",
+            "D": "A residential area"
+          },
+          "correctAnswer": "C"
+        }
+      ]
+    },
+    {
+      "moduleTitle": "Module 6: Journeys and Transformations",
+      "notes": {
+        "summary": "This module portrays Small's expanding world as she grows, from her daily walks with Father to the significant transformations shaping Victoria into a modern city. The detailed description of her journey 'From Carr Street to James' Bay' maps out her neighborhood, introducing various eccentric and memorable characters like the Fawcetts, Uncle Jack, Mrs. McConnell, and the Wylies, each contributing to the unique social fabric of early Victoria. These personal encounters, from Mrs. Swannick with no nose to the Johnson girl who silently endured humiliation, offer intimate glimpses into the community's diversity and quirks. The narrative then shifts to 'Grown Up,' chronicling Victoria's grand aspirations and its rivalry with Vancouver. The construction of the magnificent Parliament Buildings, the Empress Hotel, and the Causeway symbolizes the city's drive for modernization, transforming the old mud flats into a showcase of progress. This development, while physically impressive, often came at the cost of older, more natural elements, leading to the disappearance of familiar landmarks and ways of life. The change from naval station to cannery, the rise of automobiles over horse-drawn carriages, and the re-landscaping of old cemeteries reflect a pervasive modernization. However, the underlying character of Victoria, described as 'reticent, calm, deliberate,' resists wholesale change, maintaining a unique blend of Western vastness and lingering English sensibilities, even as its physical form rapidly evolves.",
+        "keywords": [
+          "neighborhood exploration",
+          "character studies",
+          "urban transformation",
+          "Victoria history",
+          "modernization",
+          "city rivalry",
+          "infrastructure",
+          "social change",
+          "childhood perspective",
+          "adult perspective"
+        ]
+      },
+      "flashcards": [
+        {
+          "question": "What was Carr Street named after?",
+          "answer": "Small's Father, who gave a strip of his land to widen the street."
+        },
+        {
+          "question": "What was Mrs. Swannick's distinguishing physical feature?",
+          "answer": "She had no nose, only a wrinkle and two holes."
+        },
+        {
+          "question": "What was the most important building in Victoria, according to the text, when it was 'grown up'?",
+          "answer": "The Driard Hotel (initially) and later the Empress Hotel."
+        },
+        {
+          "question": "What happened to the old James' Bay Bridge during Victoria's modernization?",
+          "answer": "It was torn down and replaced by a wide concrete causeway."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "What were the Lombardy poplars at the Carr gate said to allow you to do from their tops?",
+          "options": {
+            "A": "See the whole town",
+            "B": "Speak right into God's ear",
+            "C": "Wave to passing ships",
+            "D": "Observe wild birds"
+          },
+          "correctAnswer": "B"
+        },
+        {
+          "question": "What unique feature did Mrs. Plummer's corrugated iron cottage have?",
+          "options": {
+            "A": "A retractable roof",
+            "B": "Windows that were also floor-length doors",
+            "C": "Underground passages",
+            "D": "A revolving foundation"
+          },
+          "correctAnswer": "B"
+        },
+        {
+          "question": "What was the main reason for the rivalry between Victoria and Vancouver?",
+          "options": {
+            "A": "Different political ideologies",
+            "B": "Vancouver's faster growth and status as end-of-rail vs. Victoria's English ties and capital status",
+            "C": "Disputes over natural resources",
+            "D": "Varying architectural styles"
+          },
+          "correctAnswer": "B"
+        },
+        {
+          "question": "What was built on the site of the old city garbage dump near the Empress Hotel?",
+          "options": {
+            "A": "A new sports arena",
+            "B": "Beautiful conservatories with rare flowers",
+            "C": "More government buildings",
+            "D": "A residential complex"
+          },
+          "correctAnswer": "B"
+        }
+      ]
+    }
+  ]
+}

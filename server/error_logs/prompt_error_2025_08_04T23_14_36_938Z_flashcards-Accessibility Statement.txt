@@ -1,0 +1,34 @@
+Based on the notes for Accessibility Statement, generate 20 flashcards. Each flashcard must be a JSON object with a 'front' (the question) and a 'back' (the answer). Focus on fundamental terms and concepts. Return a valid JSON array of these objects. Example format: [{ "front": "What is [term]?", "back": "[Explanation]" }, ...].
+
+**Accessibility Statement Notes: Making Information Accessible to All**
+
+* **I. Web Accessibility:**  Ensuring digital content is usable by everyone, regardless of disability.
+
+    * **A. Keyboard Navigation:**
+        *  Allows users to navigate the website using only a keyboard, bypassing the need for a mouse.  Crucial for users with motor impairments.
+        *  Proper implementation ensures all interactive elements (buttons, links, forms) can be accessed and activated via keyboard commands (usually Tab key).
+    * **B. Proper Markup (Semantic HTML):**
+        *  Uses HTML tags correctly to define the structure and meaning of content.  Screen readers and assistive technologies rely on this to interpret the page.
+        *  Improves accessibility for users who rely on screen readers, which read the content aloud.  Correct markup ensures accurate and logical reading order.
+    * **C. Image Descriptions (alt text):**
+        *  Provides text alternatives for images, conveying their meaning and purpose.
+        *  Essential for blind and visually impaired users who rely on screen readers.  Accurate descriptions are crucial; avoid generic phrases like "image".
+
+
+* **II. Available Formats:** Offering content in multiple formats caters to diverse needs and preferences.
+
+    * **A. PDF (Portable Document Format):**
+        * Widely compatible, easily printable, and maintains formatting.  Accessibility requires proper tagging and creation techniques. Check for accessible PDFs: searchable text, proper tagging of tables, figures and headers.
+    * **B. EPUB (Electronic Publication):**
+        *  Designed for digital reading, supports features like text resizing, font changes, and screen reader compatibility. Typically more accessible than PDFs.
+    * **C. LibriVox Audio:**
+        *  Provides an audio version of the content, beneficial for users with visual impairments or learning disabilities.
+
+
+* **III. Reporting Accessibility Issues:**  Open channels for feedback enable continuous improvement.
+
+    * **A.  Feedback Mechanisms:**  The statement should clearly outline how users can report accessibility problems. This might involve a dedicated email address, contact form, or reporting tool.
+    * **B. Prompt Response and Resolution:**  A commitment to addressing reported issues within a reasonable timeframe is essential.  Users should be confident their feedback is valued and acted upon.
+
+
+**In Summary:** Accessibility is about inclusivity. By providing multiple formats and ensuring the web version adheres to accessibility standards, we can make information usable by everyone.  Continuous feedback is key to maintaining and improving accessibility.

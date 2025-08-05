@@ -1,16 +1,46 @@
-const Anthropic = require('@anthropic-ai/sdk');
-const pdfParse = require('pdf-parse');
-const fs = require('fs'); // Added for file system operations
+const { GoogleGenerativeAI } = require("@google/generative-ai");
+const pdfParse = require("pdf-parse");
+const fs = require("fs");
+const path = require("path");
 
-// --- Prompt Engineering: The Core Instruction for the AI ---
-const generationPrompt = `You are an expert instructional designer and content generator. Your primary task is to meticulously analyze the entire provided PDF document and synthesize its information into a comprehensive set of learning materials.
+const delay = (ms) => new Promise(resolve => setTimeout(resolve, ms));
+
+// Rate Limiter
+const requestTimestamps = [];
+const MAX_REQUESTS_PER_MINUTE = 15;
+
+async function rateLimiter() {
+    const now = Date.now();
+    // Remove timestamps older than 60 seconds
+    while (requestTimestamps.length > 0 && now - requestTimestamps[0] > 60000) {
+        requestTimestamps.shift();
+    }
+
+    if (requestTimestamps.length >= MAX_REQUESTS_PER_MINUTE) {
+        const timeToWait = 60000 - (now - requestTimestamps[0]);
+        console.log(`Rate limit approaching. Waiting for ${timeToWait}ms...`);
+        await delay(timeToWait);
+    }
+
+    requestTimestamps.push(Date.now());
+}
+
+const generationPrompt = `You are an expert instructional designer and content generator. Your primary task is to meticulously analyze the entire provided document and synthesize its information into a comprehensive set of learning materials.
 
 **Your output MUST be a single, complete, and valid JSON object. No exceptions.**
+**You are NOT allowed to truncate the end of any responses, they must be fully completed within the length limit.**
 
 **Strict Output Formatting Rules:**
 1.  **NO extraneous text:** Do not include any introductory phrases, conversational filler, concluding remarks, or any text whatsoever outside of the pure JSON object.
-2.  **NO markdown fences:** Do NOT wrap the JSON object in markdown code block fences (e.g., \`\`\`json or \`\`\`). The response must be a plain JSON string that can be directly parsed by \`JSON.parse()\`.
-3.  **Syntactic correctness:** Ensure the JSON is always syntactically correct, including proper commas, brackets, braces, and escaped characters. Do not truncate the JSON response; ensure all arrays and objects are properly closed.
+2.  **NO markdown fences:** Do NOT wrap the JSON object in markdown code block fences . The response must be a plain JSON string that can be directly parsed by JSON.parse().
+3.  **Syntactic correctness:** Ensure the JSON is always syntactically correct, including proper QUOTATION MARKS (important), commas, brackets, braces, and escaped characters. Do not truncate the JSON response; ensure all arrays and objects are properly closed.
+4.  **Completeness:** The generated JSON must be a complete and valid JSON object. It should not be a partial or incomplete response.
+5.  **Character Limit:** The entire response must not exceed 200,000 characters.
+6.  **Token Limit:** The entire response must not exceed 65,536 tokens.
+7.  **No Truncation:** The response must be fully completed and not truncated.
+8.  **Valid JSON:** The response must have a complete beginning and ending with valid JSON.
+
+
 
 **JSON Structure and Content Requirements:**
 
@@ -38,7 +68,7 @@ Example JSON Structure:
         },
         {
           "question": "How many flashcards should there be?",
-          "answer": "At least 10 in total across all modules."
+          "answer": "Between 3 and 8 flashcards per module."
         }
       ],
       "quiz": [
@@ -53,253 +83,220 @@ Example JSON Structure:
           "correctAnswer": "A"
         },
         {
-          "question": "What is the capital of France?",
+          "question": "How many quiz questions should there be?",
           "options": {
-            "A": "Berlin",
-            "B": "Madrid",
-            "C": "Paris",
-            "D": "Rome"
+            "A": "1-2",
+            "B": "2-3",
+            "C": "4-6",
+            "D": "7-8"
           },
           "correctAnswer": "C"
-        }
-      ]
-    },
-    {
-      "moduleTitle": "Module 2: Advanced Topics",
-      "notes": {
-        "summary": "Summary for module 2.",
-        "keywords": [
-          "advanced",
-          "topics"
-        ]
-      },
-      "flashcards": [
-        {
-          "question": "Advanced question?",
-          "answer": "Advanced answer."
-        }
-      ],
-      "quiz": [
-        {
-          "question": "Advanced quiz question?",
-          "options": {
-            "A": "Opt A",
-            "B": "Opt B",
-            "C": "Opt C",
-            "D": "Opt D"
-          },
-          "correctAnswer": "B"
         }
       ]
     }
   ]
 }
+`;
 
+const summarizationPrompt = `You are an expert summarizer. Your task is to read the following text chunk, which is part of a larger document, and create a detailed, structured summary. The summary should capture all the essential information, key concepts, headings, and topics in the order they appear. This summary will be used by another AI to generate a course, so it needs to be comprehensive.\n\nDo not omit any major topics. Preserve the structure of the original text as much as possible in your summary. The response should not be too large and must end with - END OF RESPONSE -.\n\nHere is the text chunk:\n`;
 
-**Detailed Requirements for Content Generation:**
+const verificationPrompt = `You are a JSON syntax validator and corrector. Your task is to analyze the provided text, which is supposed to be a JSON object, and ensure it is a single, complete, and valid JSON object.\n\n**Strict Rules:**\n1.  **Analyze the input:** Check for any syntax errors, missing brackets, incorrect commas, or any other JSON validation issues.\n2.  **Correct the input:** If the JSON is invalid or incomplete, fix it. Ensure all objects and arrays are properly closed.\n3.  **Escape Quotes:** Pay special attention to unescaped double quotes within string values. These are a common source of errors. Find any double quotes that are part of the text content and escape them with a backslash (e.g., "hello" becomes "hello").\n4.  **Return ONLY the JSON:** Your output MUST be ONLY the corrected, valid JSON object. Do not include any other text, explanations, or markdown fences. The output must be directly parseable by \`JSON.parse()\`. \n5.  **If the input is already valid:** Simply return the original, unmodified JSON.\n\nHere is the JSON to validate and correct:\n`;
 
-1.  **courseTitle**: A concise and descriptive string (e.g., "Introduction to Computer Architecture").
-2.  **modules**: An array of module objects. Structure the modules logically based on the PDF's chapters or main sections. Each module object must contain:
-    * **moduleTitle**: A clear and concise string for the module title.
-    * **notes**: An object containing:
-        * **summary**: A string (200-300 words) providing a comprehensive summary of the module's core content, key concepts, and important details.
-        * **keywords**: An array of strings (minimum 10, maximum 50 words total) containing important keywords, terms, and concepts from the module, relevant for studying.
-    * **flashcards**: An array of flashcard objects. Each flashcard object must contain:
-        * **question**: A concise string for the flashcard question, designed to test recall of a specific fact or concept.
-        * **answer**: A concise string for the flashcard answer.
-        * Ensure there are at least 10 high-quality flashcards in total across all modules, focusing on essential definitions, facts, and concepts.
-    * **quiz**: An array of quiz objects. Each quiz object must contain:
-        * **question**: A clear, unambiguous string for the quiz question, designed to test understanding of the module's content.
-        * **options**: An object with exactly four keys ("A", "B", "C", "D") and string values for the multiple-choice options. Ensure options are distinct and plausible distractors.
-        * **correctAnswer**: A single character string representing the correct option (e.g., "A", "B", "C", or "D").
-        * Ensure there are at least 5 high-quality, well-thought-out quiz questions in total across all modules, testing core concepts and avoiding ambiguity.
+const factCheckPrompt = `You are an expert fact-checker and content improver. Your task is to review the provided course content (in JSON format) for factual accuracy, clarity, and completeness. If you find any inaccuracies, ambiguities, or areas that could be improved for better learning, correct them. Ensure the information is truthful and well-presented. Maintain the original JSON structure. Your output MUST be a single, complete, and valid JSON object, representing the fact-checked and corrected course content. Do not include any extraneous text, explanations, or markdown fences outside of the pure JSON object.\n\nHere is the course content (JSON) to fact-check and correct:\n`;
 
-`
-// Function to estimate token count (very rough, character-based)
-function estimateTokens(text) {
-    return Math.ceil(text.length / 4); // Claude uses ~4 characters per token
-}
+async function factCheckWithAI(jsonString, modelChoice) {
+    if (!process.env.GOOGLE_API_KEY) {
+        throw new Error("Google API Key is missing.");
+    }
+    const genAI = new GoogleGenerativeAI(process.env.GOOGLE_API_KEY);
+    const model = genAI.getGenerativeModel({ model: modelChoice });
 
-// Function to chunk text based on token limit
-function chunkText(text, maxTokens) {
-    const chunks = [];
-    let currentChunk = "";
-    const paragraphs = text.split(/\n\s*\n/); // Split by paragraphs
+    const prompt = `${factCheckPrompt}
 
-    for (const paragraph of paragraphs) {
-        if (estimateTokens(currentChunk + paragraph) < maxTokens) {
-            currentChunk += (currentChunk ? "\n\n" : "") + paragraph;
+${jsonString}`;
+
+    try {
+        await rateLimiter();
+        const result = await model.generateContent(prompt);
+        const response = await result.response;
+        const factCheckedText = response.text();
+
+        const sanitizedFactCheckedText = extractJson(factCheckedText);
+        if (sanitizedFactCheckedText) {
+            console.log("AI fact-check successful. Returning fact-checked JSON.");
+            return sanitizedFactCheckedText;
         } else {
-            chunks.push(currentChunk);
-            currentChunk = paragraph;
+            console.warn("AI fact-check did not return a valid JSON object. Returning original string.");
+            return jsonString;
         }
+    } catch (error) {
+        console.error("Error during AI fact-check:", error);
+        return jsonString;
     }
-    if (currentChunk) {
-        chunks.push(currentChunk);
-    }
-    return chunks;
 }
 
-async function processPdfWithAI(fileBuffer, mimeType) {
-    if (!process.env.ANTHROPIC_API_KEY) {
-        throw new Error("Anthropic API Key is missing.");
+// Function to extract JSON from a string
+function extractJson(text) {
+    const jsonStartIndex = text.indexOf("{");
+    const jsonLastIndex = text.lastIndexOf("}");
+    if (jsonStartIndex !== -1 && jsonLastIndex !== -1 && jsonLastIndex > jsonStartIndex) {
+        return text.substring(jsonStartIndex, jsonLastIndex + 1);
     }
-    const anthropic = new Anthropic({
-        apiKey: process.env.ANTHROPIC_API_KEY,
-    });
+    const arrayStartIndex = text.indexOf("[");
+    const arrayLastIndex = text.lastIndexOf("]");
+    if (arrayStartIndex !== -1 && arrayLastIndex !== -1 && arrayLastIndex > arrayStartIndex) {
+        return text.substring(arrayStartIndex, arrayLastIndex + 1);
+    }
+    return null;
+}
+
+async function verifyJsonWithAI(jsonString, modelChoice) {
+    if (!process.env.GOOGLE_API_KEY) {
+        throw new Error("Google API Key is missing.");
+    }
+    const genAI = new GoogleGenerativeAI(process.env.GOOGLE_API_KEY);
+    const model = genAI.getGenerativeModel({ model: modelChoice });
+
+    const prompt = `${verificationPrompt}\n\n${jsonString}`;
+
+    try {
+        await rateLimiter();
+        const result = await model.generateContent(prompt);
+        const response = await result.response;
+        const validatedText = response.text();
+
+        const sanitizedValidatedText = extractJson(validatedText);
+        if (sanitizedValidatedText) {
+            console.log("AI verification successful. Returning validated JSON.");
+            return sanitizedValidatedText;
+        } else {
+            console.warn("AI verification did not return a valid JSON object. Returning original string.");
+            return jsonString;
+        }
+    } catch (error) {
+        console.error("Error during AI verification:", error);
+        return jsonString;
+    }
+}
+
+async function processPdfWithAI(fileBuffer, mimeType, modelChoice) {
+    if (!process.env.GOOGLE_API_KEY) {
+        throw new Error("Google API Key is missing.");
+    }
+    const genAI = new GoogleGenerativeAI(process.env.GOOGLE_API_KEY);
 
     try {
         let contentToSendToAI;
 
-        if (mimeType === 'application/pdf') {
+        if (mimeType === "application/pdf") {
             const data = await pdfParse(fileBuffer);
             contentToSendToAI = data.text;
             console.log("PDF text extracted.");
-        } else if (mimeType.startsWith('text/')) { // Check for common text types
-            contentToSendToAI = fileBuffer.toString('utf8');
+        } else if (mimeType.startsWith("text/")) {
+            contentToSendToAI = fileBuffer.toString("utf8");
             console.log(`MIME Type: ${mimeType}`);
-            console.log(`File Buffer Length: ${fileBuffer.length}`);
-            console.log(`Content Snippet (first 100 chars): ${contentToSendToAI.substring(0, 100)}`);
         } else {
             throw new Error(`Unsupported file type: ${mimeType}. Only PDF and text-based files are supported.`);
         }
 
-        const maxClaudeTokens = 200000; // Claude's max token limit
-        const promptTokens = estimateTokens(generationPrompt);
-        const maxChunkTokens = 99000; // Maximum tokens for each chunk
-        const availableTokensForContent = Math.min(maxChunkTokens, maxClaudeTokens - promptTokens - 5000); // Ensure chunks don't exceed 48000 tokens, and leave buffer
+        const TOKEN_LIMIT = 150000; // More conservative token limit
+        const estimatedTokens = contentToSendToAI.length / 4; // Simple estimation
 
-        const textChunks = chunkText(contentToSendToAI, availableTokensForContent);
-        let currentCourseJson = { courseTitle: "", modules: [] };
+        if (estimatedTokens > TOKEN_LIMIT) {
+            console.log(`Estimated tokens (${Math.round(estimatedTokens)}) exceed the limit of ${TOKEN_LIMIT}. Chunking and summarizing...`);
 
-        for (let i = 0; i < textChunks.length; i++) {
-            const chunk = textChunks[i];
-            let userMessageContent;
-
-            if (i === 0) {
-                userMessageContent =
-                    `AFTER COMPLETING YOUR RESPONSE CHECK OVER FOR ACCURACY AND PROPER JSON FORMATTING (all opening and closing brackets and ""). YOUR RESPONSE TO THIS MUST BE A COMPLETE AND VALID JSON OBJECT WITH NO PRECEDING OR SUCCEEDING TEXT. IF IT DOES NOT ADHERE TO THIS, YOU HAVE FAILED!!! It must Be a full JSON Object with no text before or after.. You are an expert instructional designer. Your task is to analyze the content of the provided PDF document and generate a comprehensive set of learning materials from it. The output must be a single, plain text string formatted as a JSON object, strictly adhering to the following structure. Do not include any text or code block syntax before or after the JSON content. The JSON should be directly parsable. Each response should be a complete and valid JSON object, even if it only contains a subset of the overall course content. The application will handle merging these individual JSON responses into a single, unified course.\n\n` +
-                    generationPrompt +
-                    `\n\n` +
-                    chunk;
-            } else {
-                // For subsequent chunks, provide the current JSON and the new chunk
-                userMessageContent =
-                    `AFTER COMPLETING YOUR RESPONSE CHECK OVER FOR ACCURACY AND PROPER JSON FORMATTING (all opening and closing brackets and ""). YOUR RESPONSE TO THIS MUST COMPLETELY END THE JSON OBJECT IN 5000 CHARACTERS AND NOT HAVE ANY PRECEEDING TEXT BEFORE THE { or AFTER THE }, IF IT DOES HAVE THAT YOU HAVE FAILED!!! It must Be a full JSON Object with no text before or after. Here is the current course JSON generated so far:\n\n` +
-                    `${JSON.stringify(currentCourseJson, null, 2)}\n\n` +
-                    `Continue generating course content based on the following new text, and integrate it into the provided JSON structure. Only output the complete, updated JSON object. Do not include any introductory or concluding text.\n\n` +
-                    chunk;
+            const charLimit = TOKEN_LIMIT * 3; // Use a character limit that's safely under the token limit
+            const chunks = [];
+            for (let i = 0; i < contentToSendToAI.length; i += charLimit) {
+                chunks.push(contentToSendToAI.substring(i, i + charLimit));
             }
 
-            const stream = anthropic.messages.stream({
-                max_tokens: 4000, // Max tokens for the response from Claude
-                messages: [
-                    {
-                        role: "user",
-                        content: [
-                            {
-                                type: "text",
-                                text: userMessageContent,
-                            },
-                        ],
-                    },
-                ],
-                model: "claude-3-haiku-20240307",
-            });
+            console.log(`Split content into ${chunks.length} chunks.`);
 
-            let streamedResponse = "";
-            for await (const chunk of stream) {
-                if (chunk.type === "content_block_delta") {
-                    streamedResponse += chunk.delta.text;
+            const summaries = [];
+            for (let i = 0; i < chunks.length; i++) {
+                console.log(`Summarizing chunk ${i + 1} of ${chunks.length}...`);
+                const summarizationContent = `${summarizationPrompt}\n\n${chunks[i]}`;
+                
+                const model = genAI.getGenerativeModel({ model: modelChoice });
+                await rateLimiter();
+                const result = await model.generateContent(summarizationContent);
+                const response = await result.response;
+                const summary = response.text();
+                summaries.push(summary);
+
+                if (i < chunks.length - 1) {
+                    console.log("Waiting for 65 seconds before next API call to respect rate limits...");
+                    await delay(65000);
                 }
             }
-            const message = { content: [{ text: streamedResponse }] };
 
-            // Add a delay to avoid hitting rate limits
-            if (i < textChunks.length - 1) {
-                const delayMs = 31000; // Minimum 25 seconds, or calculated based on 2000 tokens/2 seconds
-                await new Promise(resolve => setTimeout(resolve, delayMs));
+            console.log("All chunks summarized. Combining summaries...");
+            contentToSendToAI = summaries.join("\n\n---\n\n");
+        }
+
+        const userMessageContent = `${generationPrompt}\n\n${contentToSendToAI}`;
+
+        const model = genAI.getGenerativeModel({ model: modelChoice });
+        await rateLimiter();
+        const result = await model.generateContent(userMessageContent, { maxOutputTokens: 65536 });
+        const response = await result.response;
+        const text = response.text();
+
+        if (text) {
+            const initialResponseDir = "./initial_responses";
+            if (!fs.existsSync(initialResponseDir)) {
+                fs.mkdirSync(initialResponseDir);
             }
+            const timestamp = new Date().toISOString().replace(/[:.-]/g, "_");
+            const initialResponseFileName = `initial_response_${timestamp}.txt`;
+            const initialResponsePath = path.join(initialResponseDir, initialResponseFileName);
+            fs.writeFileSync(initialResponsePath, text, "utf8");
+            console.log(`Initial AI response saved to: ${initialResponsePath}`);
 
-            if (message && message.content && message.content[0] && message.content[0].text) {
-                // Save the first initial response from the AI
-                if (i === 0) {
-                    const initialResponseDir = './initial_responses';
-                    if (!fs.existsSync(initialResponseDir)) {
-                        fs.mkdirSync(initialResponseDir);
-                    }
-                    const timestamp = new Date().toISOString().replace(/[:.-]/g, '_');
-                    const initialResponseFileName = `initial_response_${timestamp}.txt`;
-                    const initialResponsePath = `${initialResponseDir}/${initialResponseFileName}`;
-                    fs.writeFileSync(initialResponsePath, message.content[0].text, 'utf8');
-                    console.log(`Initial AI response saved to: ${initialResponsePath}`);
-                }
-                try {
-                    const jsonStartIndex = message.content[0].text.indexOf('{');
-                    const jsonEndIndex = message.content[0].text.lastIndexOf('}');
-                    let jsonString = message.content[0].text;
+            try {
+                const jsonStartIndex = text.indexOf("{");
+                const jsonEndIndex = text.lastIndexOf("}");
+                let jsonString = text;
 
-                    if (jsonStartIndex !== -1 && jsonEndIndex !== -1 && jsonEndIndex > jsonStartIndex) {
-                        jsonString = message.content[0].text.substring(jsonStartIndex, jsonEndIndex + 1);
-                    } else if (jsonStartIndex === -1 && jsonEndIndex === -1) {
-                        // If no curly braces are found, assume the entire response *should* be JSON
-                        // and let JSON.parse handle the error if it's not.
-                        console.warn("No curly braces found in AI response. Attempting to parse full response as JSON.");
-                    } else {
-                        // Handle cases where only one brace is found or braces are in wrong order
-                        console.error("Malformed JSON response: Incomplete curly braces.", message.content[0].text);
-                        throw new Error("Malformed JSON response: Incomplete curly braces.");
-                    }
-                    currentCourseJson = JSON.parse(jsonString);
-                } catch (parseError) {
-                    console.error(`Error parsing JSON from Claude response for chunk ${i}:`, parseError);
-                    const errorLogsDir = './error_logs';
-                    if (!fs.existsSync(errorLogsDir)) {
-                        fs.mkdirSync(errorLogsDir);
-                    }
-                    const timestamp = new Date().toISOString().replace(/[:.-]/g, '_');
-                    const promptFileName = `${errorLogsDir}/prompt_error_${timestamp}_chunk_${i}.txt`;
-                    const responseFileName = `${errorLogsDir}/response_error_${timestamp}_chunk_${i}.txt`;
-                    fs.writeFileSync(promptFileName, userMessageContent, 'utf8');
-                    fs.writeFileSync(responseFileName, message.content[0].text, 'utf8');
-                    console.log(`Error prompt saved to: ${promptFileName}`);
-                    console.log(`Error response saved to: ${responseFileName}`);
-                    throw new Error("Claude API response was not valid JSON for chunk " + i);
+                if (jsonStartIndex !== -1 && jsonEndIndex !== -1 && jsonEndIndex > jsonStartIndex) {
+                    jsonString = text.substring(jsonStartIndex, jsonEndIndex + 1);
+                } else {
+                    throw new Error("Malformed JSON response: No valid JSON object found.");
                 }
-            } else {
-                const errorLogsDir = './error_logs';
+
+                console.log("Verifying generated JSON with AI...");
+                const verifiedJsonString = await verifyJsonWithAI(jsonString, modelChoice);
+                console.log("Fact-checking generated JSON with AI...");
+                const factCheckedJsonString = await factCheckWithAI(verifiedJsonString, modelChoice);
+
+                const finalCourseJson = JSON.parse(factCheckedJsonString);
+                const finalMarkdown = convertJsonToMarkdown(finalCourseJson);
+
+                return finalMarkdown;
+
+            } catch (parseError) {
+                console.error(`Error parsing JSON from Gemini response:`, parseError);
+                const errorLogsDir = "./error_logs";
                 if (!fs.existsSync(errorLogsDir)) {
                     fs.mkdirSync(errorLogsDir);
                 }
-                const timestamp = new Date().toISOString().replace(/[:.-]/g, '_');
-                const promptFileName = `${errorLogsDir}/prompt_malformed_${timestamp}_chunk_${i}.txt`;
-                const responseFileName = `${errorLogsDir}/response_malformed_${timestamp}_chunk_${i}.txt`;
-                fs.writeFileSync(promptFileName, userMessageContent, 'utf8');
-                fs.writeFileSync(responseFileName, message.content[0].text || '[EMPTY RESPONSE]', 'utf8');
-                console.log(`Malformed/Empty response prompt saved to: ${promptFileName}`);
-                console.log(`Malformed/Empty response saved to: ${responseFileName}`);
-                throw new Error("Claude API response was malformed or empty for chunk " + i);
+                const timestamp = new Date().toISOString().replace(/[:.-]/g, "_");
+                const promptFileName = path.join(errorLogsDir, `prompt_error_${timestamp}.txt`);
+                const responseFileName = path.join(errorLogsDir, `response_error_${timestamp}.txt`);
+                fs.writeFileSync(promptFileName, userMessageContent, "utf8");
+                fs.writeFileSync(responseFileName, text, "utf8");
+                console.log(`Error prompt saved to: ${promptFileName}`);
+                console.log(`Error response saved to: ${responseFileName}`);
+                throw new Error("Gemini API response was not valid JSON.");
             }
+        } else {
+            throw new Error("Gemini API response was malformed or empty.");
         }
-
-        const finalMarkdown = convertJsonToMarkdown(currentCourseJson);
-
-        // Save the final markdown to a local file
-        const userCoursesDir = './users/admin/courses'; // Hardcoded 'admin' for now
-        if (!fs.existsSync(userCoursesDir)) {
-            fs.mkdirSync(userCoursesDir, { recursive: true });
-        }
-        const timestamp = new Date().toISOString().replace(/[:.-]/g, '_');
-        const outputFileName = `course_${timestamp}.txt`;
-        const outputPath = `${userCoursesDir}/${outputFileName}`;
-        fs.writeFileSync(outputPath, finalMarkdown, 'utf8');
-        console.log(`Generated course saved to: ${outputPath}`);
-
-        return finalMarkdown;
 
     } catch (error) {
-        console.error("Error in Claude API call:", error.message);
-        throw new Error(`Claude API call failed.`);
+        console.error("Error in Gemini API call:", error.message);
+        throw new Error(`Gemini API call failed.`);
     }
 }
 
@@ -309,12 +306,10 @@ function convertJsonToMarkdown(jsonData) {
     jsonData.modules.forEach(module => {
         markdown += `## ${module.moduleTitle}\n\n`;
 
-        // Notes
         if (module.notes && module.notes.summary) {
             markdown += `### notes - ${module.notes.summary}\n\n`;
         }
 
-        // Flashcards
         if (module.flashcards && module.flashcards.length > 0) {
             markdown += `### flashcards\n`;
             module.flashcards.forEach(card => {
@@ -323,7 +318,6 @@ function convertJsonToMarkdown(jsonData) {
             });
         }
 
-        // Quiz
         if (module.quiz && module.quiz.length > 0) {
             markdown += `### quiz\n`;
             module.quiz.forEach(q => {

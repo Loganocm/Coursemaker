@@ -1,0 +1,2222 @@
+Your number ONE responsibility is to make sure the response ends with ---end of response--- after the last closing bracket }. It must Be a full JSON Object with no text before or after.. You are an expert instructional designer. Your task is to analyze the content of the provided PDF document and generate a comprehensive set of learning materials from it. The output must be a single, plain text string formatted as a JSON object, strictly adhering to the following structure. Do not include any text or code block syntax before or after the JSON content. The JSON should be directly parsable. Each response should be a complete and valid JSON object, even if it only contains a subset of the overall course content. The application will handle merging these individual JSON responses into a single, unified course.
+
+You are an expert instructional designer and content generator. Your primary task is to meticulously analyze the entire provided PDF document and synthesize its information into a comprehensive set of learning materials.
+
+**Your output MUST be a single, complete, and valid JSON object. No exceptions.**
+**You are NOT allowed to truncate the end of any responses, they must be fully completed within the length limit.**
+
+**Strict Output Formatting Rules:**
+1.  **NO extraneous text:** Do not include any introductory phrases, conversational filler, concluding remarks, or any text whatsoever outside of the pure JSON object.
+2.  **NO markdown fences:** Do NOT wrap the JSON object in markdown code block fences . The response must be a plain JSON string that can be directly parsed by JSON.parse().
+3.  **Syntactic correctness:** Ensure the JSON is always syntactically correct, including proper QUOTATION MARKS (important), commas, brackets, braces, and escaped characters. Do not truncate the JSON response; ensure all arrays and objects are properly closed.
+4.  **Completeness:** The generated JSON must be a complete and valid JSON object. It should not be a partial or incomplete response.
+5.  **Character Limit:** The entire response must not exceed 10,000 characters.
+6.  **Token Limit:** The entire response must not exceed 8000 tokens.
+7.  **No Truncation:** The response must be fully completed and not truncated.
+8.  **Valid JSON:** The response must have a complete beginning and ending with valid JSON.
+
+
+
+**JSON Structure and Content Requirements:**
+
+Adhere strictly to the following JSON structure. If a section is not applicable or insufficient content is found, ensure the structure remains (e.g., empty array or null if explicitly allowed, but try to always provide content where relevant).
+
+Example JSON Structure:
+
+{
+  "courseTitle": "Example Course Title",
+  "modules": [
+    {
+      "moduleTitle": "Module 1: Introduction",
+      "notes": {
+        "summary": "This is a summary of the module content, covering key concepts and important details. It should be 200-300 words.",
+        "keywords": [
+          "keyword1",
+          "keyword2",
+          "keyword3"
+        ]
+      },
+      "flashcards": [
+        {
+          "question": "What is a flashcard?",
+          "answer": "A learning tool with a question on one side and an answer on the other."
+        },
+        {
+          "question": "How many flashcards should there be?",
+          "answer": "At least 10 in total across all modules."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "Which of the following is true?",
+          "options": {
+            "A": "Option A",
+            "B": "Option B",
+            "C": "Option C",
+            "D": "Option D"
+          },
+          "correctAnswer": "A"
+        },
+        {
+          "question": "What is the capital of France?",
+          "options": {
+            "A": "Berlin",
+            "B": "Madrid",
+            "C": "Paris",
+            "D": "Rome"
+          },
+          "correctAnswer": "C"
+        }
+      ]
+    },
+    {
+      "moduleTitle": "Module 2: Advanced Topics",
+      "notes": {
+        "summary": "Summary for module 2.",
+        "keywords": [
+          "advanced",
+          "topics"
+        ]
+      },
+      "flashcards": [
+        {
+          "question": "Advanced question?",
+          "answer": "Advanced answer."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "Advanced quiz question?",
+          "options": {
+            "A": "Opt A",
+            "B": "Opt B",
+            "C": "Opt C",
+            "D": "Opt D"
+          },
+          "correctAnswer": "B"
+        }
+      ]
+    }
+  ]
+}
+
+
+**Detailed Requirements for Content Generation:**
+
+1.  **courseTitle**: A concise and descriptive string (e.g., "Introduction to Computer Architecture").
+2.  **modules**: An array of module objects. Structure the modules logically based on the PDF's chapters or main sections. Each module object must contain:
+    * **moduleTitle**: A clear and concise string for the module title.
+    * **notes**: An object containing:
+        * **summary**: "A string (200-300 words) providing a comprehensive summary of the module's core content, key concepts, and important details."
+        * **keywords**: "An array of strings (minimum 10, maximum 50 words total) containing important keywords, terms, and concepts from the module, relevant for studying."
+    * **flashcards**: An array of flashcard objects. Each flashcard object must contain:
+        * **question**: "A concise string for the flashcard question, designed to test recall of a specific fact or concept."
+        * **answer**: "A concise string for the flashcard answer."
+        * Ensure there are at least 10 high-quality flashcards in total across all modules, focusing on essential definitions, facts, and concepts.
+    * **quiz**: An array of quiz objects. Each quiz object must contain:
+        * **question**: "A clear, unambiguous string for the quiz question, designed to test understanding of the module's content."
+        * **options**: An object with exactly four keys ("A", "B", "C", "D") and string values for the multiple-choice options. Ensure options are distinct and plausible distractors.
+        * **correctAnswer**: "A single character string representing the correct option (e.g., "A", "B", "C", or "D")."
+        * Ensure there are at least 5 high-quality, well-thought-out quiz questions in total across all modules, testing core concepts and avoiding ambiguity.
+
+
+
+The Book of Small
+
+The Book of Small
+EMILYCARR
+RYERSONUNIVERSITY
+TORONTO
+
+This work (The Book of Smallby Emily Carr) is free of known copyright restrictions.
+Front and back matter is licensed under aCreative Commons Attribution
+(CC BY) 4.0 licenseunless otherwise noted.
+Cover image byJesse DoddsonUnsplashmodified by cropping and
+desaturating.
+This book was produced with Pressbooks (https://pressbooks.com) and
+rendered with Prince.
+
+Series Introduction
+PUBLIC DOMAIN CORE COLLECTION TEAM
+ThePublic  Domain  Core  Collectionconsists  of  over  50  titles  of
+public domain works that have been created using Pressbooks and
+made available in online, epub, pdf and editable formats. Although
+the  primary  audience  for  this  collection  is  students  and  faculty
+members  in  the  post-secondary  education  sector  in  Ontario,  the
+titles are freely available on the web to anyone who wants to read or
+adapt them for their own use.
+Titles  were  chosen  for  this  collection  based  on  the  following
+criteria:
+•Relevance to post-secondary courses taught in Ontario
+•Frequency of appearance on syllabi listed in theOpen Syllabus
+Project
+•Proposed usage in open assignments in courses at Ryerson and
+Brock universities during the Fall 2021 semester
+•Inclusion of underrepresented voices (including titles by
+BIPOC authors)
+•In the public domain
+All texts are in the public domain (50 years after the death of the
+author) in Canada as of 2021. If you are accessing these texts from
+another country, please be aware that some of these works may not
+be in the public domain in your country. Supplementary materials
+(introductions,   acknowledgements,   etc.)   are   licensed   under   a
+Creative Commons CC BY 4.0license.
+Credit Statement
+Adaptations  of  public  domain  texts  do  not  require  attribution;
+however, we would appreciate acknowledgement of the source of
+the work as follows:
+Series Introduction|1
+
+This work has been adapted fromThe Book of Small, a title
+from  the  eCampusOntarioPublic  Domain  Core  Collection.
+This work is in the Public Domain.
+Content  from  the  front  and  back  matter  is  licensed  under  CC  BY
+4.0, and should be attributed according toCreative Commons best
+practices.
+If  you  have  suggestions  for  additional  public  domain  titles  that
+you  would  like  to  see  in  this  collection,  please  complete  this
+suggestion form.
+This project is made possible with funding by the Government of
+Ontario and the Virtual Learning Strategy. To learn more about the
+Virtual Learning Strategy visit:https://vls.ecampusontario.ca/.
+2|The Book of Small
+
+Introduction to the Book
+PUBLIC DOMAIN CORE COLLECTION TEAM
+This Public Domain Core Collection book was created using the1942
+Oxford University PresseditionofThe Book of Smallcourtesy of the
+Faded Page.
+Introduction to the Book|3
+
+Accessibility Statement
+PUBLIC DOMAIN CORE COLLECTION TEAM
+Accessibility Features of the Web Version of this
+Resource
+The web version ofThe Book of Smallhas been optimized for people
+who  use  screen-reading  technology  and  includes  the  following
+features:
+•All content can be navigated using a keyboard,
+•Links, headings, and tables use proper markup, and
+•All images have text descriptions.
+Other Formats Available
+In addition to the web version, this book is available in a number of
+file formats including digital PDF, epub (for eReaders) and LibriVox
+audio   recordings   (where   available).   You   candownload   these
+alternative formatsfrom the book’s home page.
+4|Accessibility Statement
+
+Known Accessibility Issues and Areas for
+Improvement
+There are no known accessibility issues at this time.
+Let us know if you are having problems accessing this book.
+If   accessibility   issues   are   stopping   you   from   accessing   the
+informationinthisbook,pleasecontactusat
+pressbooks@ryerson.cato let us know and we will get i  t f   ixed. If you
+discover any other issues, please let us know of those as well.
+Please include the following information:
+•The location of the problem by providing a web address or
+page description
+•A description of the problem
+•The computer, software, browser, and any assistive technology
+you are using that can help us diagnose and solve your issue
+e.g., Windows 10, Google Chrome (Version 65.0.3325.181),
+NVDA screen reader
+This statement was last updated on February 15, 2022.
+Accessibility Statement|5
+
+Acknowledgements
+PUBLIC DOMAIN CORE COLLECTION TEAM
+The  Public  Domain  Core  Collection  Project  would  not  have  been
+possible   without   the   enthusiastic   collaboration   between   staff,
+faculty  members  and  students  at  Ryerson  and  Brock  universities.
+We  came  together  with  a  shared  desire  to  make  commonly  used
+public domain texts more accessible to instructors and students in
+our institutions, Ontario and beyond. We also wanted to encourage
+instructors   to   use   the   texts   as   a   basis   for   open   pedagogy
+assignments  with  the  aim  of  empowering  students  to  become
+knowledge creators rather than just knowledge consumers.
+Core Project Team
+Ryerson University
+•Payton Flood, Digital Publication Coordinator
+•Nipuni Kuruppu, 4th year, Creative Industries student
+•Val Lem, Collections Lead, Faculty of Arts
+•Ann Ludbrook, Research Lead, Copyright and Scholarly
+Engagement Librarian
+•Emma Seston, 4th year, New Media student
+•Sally Wilson, Web Services Librarian, Project Lead
+Brock University
+•Giulia Forsythe, Associate Director, Centre for Pedagogical
+6|Acknowledgements
+
+Innovation
+•Cal Murgu, Liaison and Instructional Design Librarian
+•Jennifer Thiessen, Head, Liaison Services
+This  project  is  made  possible  with  funding  by  the  Government  of
+Ontario  and  through  eCampusOntario’s  support  of  the  Virtual
+Learning   Strategy.   To   learn   more   about   the   Virtual   Learning
+Strategy visit:https://vls.ecampusontario.ca.”
+Acknowledgements|7
+
+THE BOOK OF SMALL
+The Book of Small|9
+
+Sunday
+All our Sundays were exactly alike. They began on Saturday night
+after Bong the Chinaboy had washed up and gone away, after our
+toys, dolls and books, all butThe Peep of Dayand Bunyan’sPilgrim’s
+Progress, had been stored away in drawers and boxes till Monday,
+and every Bible and prayerbook in the house was puffing itself out,
+looking more important every minute.
+Then  the  clothes-horse  came  galloping  into  the  kitchen  and
+straddled round the stove inviting our clean clothes to mount and
+be  aired.  The  enormous  wooden  tub  that  looked  half  coffin  and
+half  baby-bath  was  set  in  the  middle  of  the  kitchen  floor  with  a
+rag  mat  for  dripping  on  laid  close  beside  it.  The  great  iron  soup
+pot, the copper wash-boiler and several kettles covered the top of
+the  stove,  and  big  sister  Dede  filled  them  by  working  the  kitchen
+pump-handle furiously. I  t was a sad old pump and always groaned
+several times before it poured. Dede got the brown Windsor soap,
+heated the towels and put on a thick white apron with a bib. Mother
+unbuttoned us and by that time the pots and kettles were steaming.
+Dede scrubbed hard. If you wriggled, the flat of the long-handled
+tin dipper came down spankety on your skin.
+As soon as each child was bathed Dede took it pick-a-back and
+rushed  it  upstairs  through  the  cold  house.  We  were  allowed  to
+say our prayers kneeling in bed on Saturday night, steamy, brown-
+windsory   prayers—then   we   cuddled   down   and   tumbled   very
+comfortably into Sunday.
+At seven o’clock Father stood beside our bed and said, “Rise up!
+Rise up! It’s Sunday, children.” He need not have told us; we knew
+Father’s Sunday smell—Wright’s coal-tar soap and camphor. Father
+had  a  splendid  chest  of  camphor-wood  which  had  come  from
+England round the Horn in a sailing-ship with him. His clean clothes
+lived in it and on Sunday he was very camphory. The chest was high
+and very heavy. I  t had brass handles and wooden knobs. The top let
+Sunday|11
+
+down as a writing desk with pigeon-holes; below there were little
+drawers for handkerchiefs and collars and long drawers for clothes.
+On top of the chest stood Father’s locked desk for papers. The key of
+it was on his ring with lots of others. This desk had a secret drawer
+and a brass plate with R. H. CARR engraved on it.
+On top of the top desk stood the little Dutchman, a china figure
+with  a  head  that  took  off  and  a  stomach  full  of  little  candies  like
+coloured  hailstones.  If  we  had  been  very  good  all  week  we  got
+hailstones Sunday morning.
+Family prayers were uppish with big words on Sunday—reverend
+awe-ful words that only God and Father understood.
+No work was done in the Carr house on Sunday. Everything had
+been polished frightfully on Saturday and all Sunday’s food cooked
+too. On Sunday morning Bong milked the cow and went away from
+breakfast until evening milking-time. Beds were made, the dinner-
+table  set,  and  then  we  got  into  our  very  starchiest  and  most
+uncomfortable clothes for church.
+Our family had a big gap in the middle of i   t where William, John
+and Thomas had all been born and died in quick succession, which
+left  a  wide  space  between  Dede  and  Tallie  and  the  four  younger
+children.
+Lizzie,  Alice  and  I  were  always  dressed  exactly  alike.  Father
+wanted my two big sisters to dress the same, but they rebelled, and
+Mother stood behind them. Father thought we looked like orphans
+if  we  were  clothed  differently.  The  Orphans  sat  in  front  of  us  at
+church.  No  two  of  them  had  anything  alike.  People  gave  them  all
+the things their own children had grown out of—some of them were
+very strange in shape and colour.
+When we were all dressed, we went to Mother’s room to be looked
+over. Mother was very delicate and could not get up early or walk
+the two miles to church, and neither could Tallie or little Dick.
+Father  went  to  Dr.  Reid’s  Presbyterian  Church  at  the  corner  of
+Pandora   and   Blanshard   streets.   Father   was   not   particularly
+Presbyterian, but he was a little deaf and he liked Dr. Reid because,
+if we sat at the top of the church, he could hear his sermons. There
+12|The Book of Small
+
+was just the Orphans in front of us, and the stove in front of them.
+The heat of the stove sent them all to sleep. But Dr. Reid was a kind
+preacher—he  did  not  bang  the  Bible,  nor  shout  to  wake  them  up.
+Sometimes I went to sleep too, but I tried not to because of what
+happened at home after Sunday’s dinner.
+If the road had not been so crooked it would have been a straight
+line from the gate of our lily field to the church door. We did not
+have to turn a single corner. Lizzie, Alice and I walked in the middle
+of the road and took hands. Dede was on one end of us and Father
+on the other. Dede carried a parasol, and Father, a fat yellow stick,
+not  a  flourish  stick  but  one  to  walk  with.  If  we  met  anything,  we
+dangled in a row behind Father like the tail of a kite.
+We  were  always  very  early  for  church  and  could  watch  the
+Orphans march in. The Matron arranged every bad Orphan between
+two good ones, and put very little ones beside big ones, then she
+set herself down behind them where she could watch and poke any
+Orphan that needed it. She was glad when the stove sent them all to
+sleep and did not poke unless an Orphan had adenoids and snored.
+The minute the church bell stopped a little door in front of the
+Orphans opened, and Dr. Reid came out and somebody behind him
+shut  the  door,  which  was  rounded  at  the  top  and  had  a  reverend
+shut.
+Dr. Reid had very shiny eyes and very red lips. He wore a black
+gown with two little white tabs like the tail of a bird sticking out
+from under his beard. He carried a roll in his hand like Moses, and on
+it were all the things that he was going to say to us. He walked slowly
+between the Orphans and the stove and climbed into the pulpit and
+prayed. The S’s sizzled in his mouth as if they were frying. He was
+a very nice minister and the only parson that Father ever asked to
+dinner.
+The  moment  Dr.  Reid  amened,  we  rushed  straight  out  of  the
+church  off  home.  Father  said  it  was  very  bad  taste  for  people  to
+stand gabbing at church doors. We came down Church Hill, past the
+Convent Garden, up Marvin’s Hill, through the wild part of Beacon
+Hill Park into our own gate. The only time we stopped was to gather
+Sunday|13
+
+some catnip to take home to the cats, and the only turn we made
+was into our own gate.
+Our Sunday dinner was cold saddle of mutton. It was roasted on
+Saturday  in  a  big  tin  oven  on  legs,  which  was  pushed  up  to  the
+open  grate  fire  in  the  breakfast-room.  Father  had  this  fire-place
+specially built just like the ones in England. The oven fitted right up
+to it. He thought everything English was much better than anything
+Canadian.  The  oven  came  round  the  Horn  with  him,  and  the  big
+pewter hot-water dishes that he ate his chops and steaks off, and
+the  heavy  mahogany  furniture  and  lots  of  other  things  that  you
+could not buy in Canada then. The tin oven had a jack which you
+wound up like a clock and it turned the roast on a spit. It said ‘tick,
+tick, tick’ and turned the meat one way, and then ‘tock, tock, tock’
+and turned it the other. The meat sizzled and sputtered. Someone
+was always opening the little tin door in the back to baste it, using a
+long iron spoon, with the dripping that was caught in a pan beneath
+the  meat.  Father  said  no  roast  under  twenty  pounds  was  worth
+eating because the juice had all run out of i  t, so it was lucky he had
+a big family.
+Red  currant  jelly  was  served  with  the  cold  mutton,  and  potato
+salad  and  pickled  cabbage,  afterwards  there  was  deep  apple  pie
+with  lots  of  Devonshire  cream.  In  the  centre  of  the  dinner-table,
+just  below  the  cruet  stand,  stood  an  enormous  loaf  of  bread.  Mr.
+Harding,  the  baker,  cooked  one  for  Father  every  Saturday.  I  t  was
+four loaves baked in one so that i   t did not get as stale as four small
+loaves  would  have.  It  was  made  cottage-loaf-shape—two  storeys
+high with a dimple in the top.
+When dinner was finished, Father folded his napkin very straight,
+he even slipped his long fingers inside each fold again after it was
+in the ring, for Father always wanted everything straight and right.
+Then  he  looked  up  one  side  of  the  table  and  down  the  other.  We
+all  tried  not  to  squirm  because  he  always  picked  the  squirmiest.
+When he had decided who should start, he said, “Tell me what you
+remember of the sermon.”
+If Dede was asked first, she “here and there’d” all over the sermon.
+14|The Book of Small
+
+If i  t was Lizzie, she plowed steadily through from text to amen. Alice
+always remembered the text. Sometimes I remembered one of Dr.
+Reid’s  jokes,  that  is  if  I  was  asked  first—if  not  I  usually  said,  “The
+others  have  told  it  all,  Father,”  and  was  dreadfully  uncomfortable
+when Father said, “Very well; repeat it, then.”
+When we had done everything we could with Dr. Reid’s sermon,
+Father went into the sitting-room to take his Sunday nap, Mother
+read, and Dede took hold of our religion.
+She  taught  Sunday  School  in  Bishop  Cridge’s  house,  to  a  huge
+family  of  Balls  and  an  enormous  family  of  Fawcetts,  a  smarty  boy
+called Eddy, a few other children who came and went, and us. The
+Bishop’s invalid sister sat in the room all the time. Her cheeks were
+hollow, she had sharp eyes with red rims, sat by the fire, wore a cap
+and coughed, not because she had to, but just to remind us that she
+was watching and listening.
+From  dinner  till  it  was  time  to  go  to  the  Bishop’s,  we  learned
+collects, texts and hymns. Dede was shamed because the Balls, the
+Fawcetts and all the others did better than I who was her own sister.
+You got a little text-card when you knew your lessons. When you
+had six little cards you had earned a big text-card. I hardly ever got a
+little card and always lost it on the way home, so that I never earned
+a big one. I could sing much better than Addie Ball who just talked
+the hymns out very loud, but Dede only told me not to shout and let
+Addie groan away without any tune at all.
+When Dede marched us home, Father was ready, and Mother had
+her  hat  on,  to  start  for  the  Sunday  walk  around  our  place.  Dede
+stayed  home  to  get  the  tea,  but  first  she  played  very  loud  hymns
+on the piano. They followed us all round the fields. Tallie was not
+strong enough for the walking so she lay on the horsehair sofa in the
+drawing-room looking very pretty, r  esting up for her evening visitor.
+Lizzie squeezed out of coming whenever she could because she had
+rather creep into a corner and learn more texts. She had millions
+of texts piled up inside her head just waiting for things to happen,
+then she pushed the right text over onto them. If you got mad any
+time after noon, the sun was going to set on your wrath. You could
+Sunday|15
+
+feel the great globe getting hotter and hotter and making your mad
+fiercer because of the way the text stirred it up. If you did not see
+things just in Lizzie’s way, you were dead in your sins.
+So the rest of us started for the Sunday walk. We went out the side
+door into the garden, through ever so many gates and the cow-yard,
+on into a shrubbery which ran round two sides of the cow pasture,
+but was railed off to keep the cows from destroying the shrubs. A
+twisty little path ran through the shrubbery. F  ather wanted his place
+to look exactly like England. He planted cowslips and primroses and
+hawthorn  hedges  and  all  the  Englishy  flowers.  He  had  stiles  and
+meadows and took away all the wild Canadian-ness and made it as
+meek and English as he could.
+We  did  not  take  the  twisty  path  but  a  straight  little  one  of  red
+earth, close up under the hedge. We went singly, Father first, then
+Mother with little Dick by the hand. Because of William, John and
+Thomas  being  dead,  Mother’s  only  boy  was  Dick.  He  had  a  lovely
+little  face  with  blue  eyes  and  yellow  curls.  He  wore  a  little  pant
+suit with a pleated skirt over the pants which came half-way down
+over his thin little legs. These suits were very fashionable for small
+boys—Mr.  Wilson  knew  that  they  would  sell,  because  of  the  jack-
+knife  on  a  knotted  cord  brought  through  the  buttonhole  and
+dropping  into  a  pocket  on  the  chest.  When  boys  saw  these  knife
+suits they teased and teased till they got one. Alice plodded along
+behind  Dick,  her  arms  hung  loose  and  floppy.  Father  thought  all
+make-believes were wicked on Sunday, even make-believe babies,
+so her darling dolls sat staring on the shelf in our bedroom all day. I
+came last and wished that our Sunday walk was not quite so much
+fenced. First there was the thorny hedge and then the high pickets.
+Mr. Green, my friend Edna’s father, took his family to the beach
+every Sunday. They clattered and chattered past our place having
+such jokes. I poked my head through the hedge to whisper,
+“Hello, Edna!”
+“Hello! How dull you do look walking round your own cow-field!
+Come to the beach with us.”
+“I don’t think I can.”
+16|The Book of Small
+
+“Ask your mother.”
+I scraped between Alice and the hedge.
+“Can I Mother?”
+“Your Father likes you to walk with him on Sunday.”
+I stuck my head through the thorns again, and shook it. Once I
+actually asked Father myself if I could go with the Greens, and he
+looked as hurt as if I’d hit him.
+“Are my nine acres not enough, but you must want to tear over
+the whole earth? Is the Sabbath a right day to go pleasuring on the
+beach?” he said.
+But one Sunday I did go with the Greens. Father had the gout and
+did not know. We had fun and I got “show-off” from being too happy.
+The boys dared me to walk a log over the sea, and I fell in. When I
+came home dripping, Lizzie had a text about my sin finding me out.
+But I was telling about the family taggling along the path under
+the hedge. Father’s stick was on the constant poke, pushing a root
+down  or  a  branch  up,  or  a  stone  into  place,  for  he  was  very
+particular about everything being just right.
+As we neared the top corner of our big field, that one wild place
+where the trees and bushes were allowed to grow thick and tangled,
+and where there was a deep ditch with stinging-nettles about it, and
+a rank, muddy smell, Father began to frown and to walk faster and
+faster  till  we  were  crouched  down  in  the  path,  running  after  one
+another like frightened quail. If there were voices on the other side
+of the hedge, we raced like mad.
+This corner of Father’s property always made him very sore. When
+he came from England he bought ten acres of fine land adjoining
+Beacon Hill Park which was owned by the City of Victoria. It took
+Father a lot of money to clear his land. He left every fine tree he
+could,  because  he  loved  trees,  but  he  cleared  away  the  scrub  to
+make meadows for the cows, and a beautiful garden. Then he built
+what  was  considered  in  1863  a  big  fine  house.  It  was  all  made  of
+California redwood. The chimneys were of California brick and the
+mantlepieces of black marble. Every material used in the building of
+Father’s house was the very best, because he never bought anything
+Sunday|17
+
+cheap or shoddy. He had to send far away for most of i  t, and all the
+time his family was getting bigger and more expensive, too; so, when
+a Mrs. Lush came and asked if he would sell her the corner acre next
+to the Park and farthest away from our house, and as she offered a
+good price, he sold. But first he said, “Promise me that you will never
+build a Public House on the land,” and Mrs. Lush said, “No, Mr. Carr,
+I never will.” But as soon as the land was hers, Mrs. Lush broke her
+word, and put up one of the horridest saloons in Victoria right there.
+Father felt dreadful, but he could not do anything about it, except
+to put up a high fence and coax that part of the hawthorn hedge to
+grow as tall and be as prickly as it could.
+Mrs. Lush’s Public House was called the Park Hotel, but afterwards
+the name was changed to the Colonist Hotel. It was just a nice drive
+from  Esquimalt,  which  was  then  a  Naval  Station,  and  hacks  filled
+with tipsy sailors and noisy ladies drove past our house going to the
+Park Hotel in the daytime and at night. It hurt Father right up till he
+was seventy years old, when he died.
+After we had passed the Park Hotel acre we went slow again so
+that Father could enjoy his land. We came to the “pickets”, a sort of
+gate without hinges; we lifted the pickets out of notches in the fence
+and made a hole through which we passed into the lily field.
+Nothing, not even fairyland, could have been so lovely as our lily
+field. The wild lilies blossomed in April or May but they seemed to be
+always in the field, because, the very first time you saw them, they
+did something to the back of your eyes which kept themselves there,
+and  something  to  your  nose,  so  that  you  smelled  them  whenever
+you thought of them. The field was roofed by tall, thin pine trees.
+The  ground  underneath  was  clear  and  grassed.  The  lilies  were
+thickly sprinkled everywhere. They were white, with gold in their
+hearts and brown eyes that stared back into the earth because their
+necks hooked down. But each lily had five sharp white petals rolling
+back  and  pointing  to  the  tree-tops,  like  millions  and  millions  of
+tiny quivering fingers. The smell was fresh and earthy. I  n all your
+thinkings  you  could  picture  nothing  more  beautiful  than  our  lily
+field.
+18|The Book of Small
+
+We turned back towards our house then, and climbed a stile over
+a snake fence. On the other side of the fence was a mass of r  ock, rich
+and soft with moss, and all round it were mock-orange and spirea
+and oak trees.
+Father  and  Mother  sat  down  upon  the  rock.  You  could  see  the
+thinking  in  their  eyes.  Father’s  was  proud  thinking  as  he  looked
+across the beautiful place that he had made out of wild Canadian
+land—he  thought  how  splendidly  English  he  had  made  it  look.
+Mother’s eyes followed our whispered Sunday playing.
+When  Father  got  up,  Mother  got  up  too.  We  walked  round  the
+lower hay field, going back into the garden by the black gate, on the
+opposite side of the house from which we had left. Then we admired
+the vegetables, fruit and flowers until the front door flew open and
+Dede jangled the big brass dinner bell for us to come in to tea.
+When  the  meal  was  finished  the  most  sober  part  of  all  Sunday
+came,  and  that  was  the  Bible  reading.  Church  and  Sunday  School
+had partly belonged to Dr. Reid and Dede. The Bible reading was all
+God’s. We all came into the sitting-room with our faces very straight
+and our Bibles in our hands.
+There  was  always  a  nice  fire  in  the  grate,  because,  even  in
+summer, Victoria nights are chilly. The curtains were drawn across
+the windows and the table was in front of the fire. It was a round
+table with a red cloth, and the brass lamp sitting in the middle threw
+a fine light on all the Bibles when we drew our chairs in close.
+Father’s chair was big and stuffed, Mother’s low, with a high back.
+They faced each other where the table began to turn away from the
+fire. Between their chairs where it was too hot for anyone to sit, the
+cats lay sprawling on the rug before the fire. We circled between
+Father and Mother on the other side of the table.
+Father  opened  the  big  Family  Bible  at  the  place  marked  by  the
+cross-stitch  text  Lizzie  had  worked.  In  the  middle  of  the  Bible,
+between the “old” and the “new”, were some blank pages, and all of
+us were written there. Sometimes Father let us look at ourselves and
+at William, John and Thomas who were each written there twice,
+once  for  being  born,  and  once  for  dying.  That  was  the  only  time
+Sunday|19
+
+that John, Thomas and William seemed to be real and take part in
+the  family’s  doings.  We  did  little  sums  with  their  Bible  dates,  but
+could never remember if they had lived for days or years. As they
+were dead before we were born, and we had never known them as
+Johnny- or Tommy- or Willie-babies, they felt old and grown up to
+us.
+Tallie was more interested in the marriage page. There was only
+one  entry  on  it,  “Richard  and  Emily  Carr”,  who  were  Father  and
+Mother.
+Tallie said, “Father, Mother was only eighteen when she married
+you, wasn’t she?”
+“Yes,”  said  Father,  “  and  had  more  sense  than  some  girls  I  could
+name at t  wenty.” He was always very frowny when the doorbell rang
+in the middle of Bible reading and Tallie went out and did not come
+back.
+We read right straight through the Bible, begat chapters and all,
+though even Father stuck at some of the names.
+On and on we read till the nine o’clock gun went off at Esquimalt.
+Father, Mother, and Dede set their watches by the gun and then we
+went on reading again until we came to the end of the chapter. The
+three smallest of us had to spell out most of the words and be told
+how  to  say  them.  We  got  most  dreadfully  sleepy.  No  matter  how
+hard  you  pressed  your  finger  down  on  the  eighth  verse  from  the
+last one you had read, when the child next to you was finishing and
+kicked your shin you jumped and the place was lost. Then you got
+scolded and were furious with your finger. Mother said, “Richard,
+the  children  are  tired,”  but  Father  said,  “Attention!  Children”  and
+went right on to the end of the chapter. He thought i   t was rude to
+God to stop in a chapter’s middle nor must we shut our Bibles up
+with a glad bang when at last we were through.
+No  matter  how  sleepy  we  had  been  during  Bible  reading,  when
+Father  got  out  theSunday  at  Homewe  were  wide  awake  to  hear
+the short chapter of the serial story. Father did not believe in fairy
+stories  for  children.At  the  Back  of  the  North  Windwas  as  fairy  as
+20|The Book of Small
+
+anything, but, because it was in theSunday at Home, F  ather thought
+it was all right.
+We  kissed  Mother  good  night.  While  the  others  were  kissing
+Father I ran behind him (I did so hate kissing beards) and, if Father
+was leaning back, I could just reach his bald spot and slap the kiss
+there.
+Dede  lighted  the  candle  and  we  followed  her,  peeping  into  the
+drawing-room  to  say  good  night  to  Tallie  and  her  beau.  We  did
+not like him much because he kissed us and was preachy when we
+cheeked pretty Tallie, who did not rule over us as Dede did; but he
+brought candy—chocolates for Tallie and a bag of “broken mixed”
+for the children, big hunky pieces that sucked you right into sleep.
+Dede put Dick to bed. Lizzie had a room of her own. Alice and I
+shared.  We  undid  each  other  and  brushed  our  hair  to  long  sweet
+suckings.
+“I wish he’d come in the morning before church.”
+“What for?”
+“Sunday’d be lots nicer if you could have a chunk of candy in your
+cheek all day.”
+“Stupid! Could you go to church with candy poking out of your
+cheek like another nose? Could you slobber candy over your Sunday
+School Lesson and the Bible reading?”
+Alice was two years older than I. She stopped brushing her long
+red hair, jumped into bed, leaned over the chair that the candle sat
+on.
+Pouf! ... Out went Sunday and the candle.
+Sunday|21
+
+The Cow Yard
+The Cow Yardwas large. Not length and breadth alone determined
+its  dimensions,  it  had  height  and  depth  also.  Above  it  continually
+hovered  the  spirit  of  maternity.  I  ts  good  earth  floor,  hardened  by
+many   feet,   pulsed   with   rich   growth   wherever   there   was   any
+protection from the perpetual movement over its surface.
+Across the ample width of the Cow Yard, the old Barn and the New
+Barn  faced  each  other.  Both  were  old,  but  one  was  very  old;  in  it
+lodged the lesser creatures. The Cow alone occupied the New Barn.
+But it was in the Cow Yard that you felt most strongly the warm
+life-giving  existence  of  the  great  red-and-white,  loose-knit  Cow.
+When  she  walked,  her  great  bag  swung  slowly  from  side  to  side.
+From one end of her large-hipped square body nodded a massive
+head, surmounted by long, pointed horns. From the other dangled
+her  tail  with  its  heavy  curl  and  pendulum-like  movement.  As  her
+cloven  hoofs  moved  through  the  mud,  they  made  a  slow  clinging
+squelch, all in tune with the bagging, sagging, nodding, leisureliness
+of the Cow’s whole being.
+Of the three little girls who played in the Cow Yard, Bigger tired
+of i  t soonest. Right through she was a pure, clean child, and had an
+enormous conscience. The garden rather than the Cow Yard suited
+her crisp frocks and tidy ways best, and she was a little afraid of the
+Cow.
+Middle was a born mother, and had huge doll families. She liked
+equally the tidy garden and the free Cow Yard.
+Small was wholly a Cow Yard child.
+When the Cow’s nose was deep in her bran mash, and her milk
+purring  into  the  pail  in  long,  even  streams,  first  sounding  tinny
+in  the  empty  pail  and  then  making  a  deeper  and  richer  sound  as
+the pail filled, Bong, sitting on his three-legged stool, sang to the
+Cow—a  Chinese  song  in  a  falsetto  voice.  The  Cow  took  her  nose
+out  of  the  mash  bucket,  threw  back  her  great  ears,  and  listened.
+22|The Cow Yard
+
+She pulled a tuft of sweet hay from her rack, and stood quite still,
+chewing softly, her ears right about, so that she might not miss one
+bit of Bong’s song.
+One  of  the  seven  gates  of  the  Cow  Yard  opened  into  the  Pond
+Place.  The  Pond  was  round  and  deep,  and  the  primroses  and
+daffodils  that  grew  on  its  bank  leaned  so  far  over  to  peep  at
+themselves  that  some  of  them  got  drowned.  Lilacs  and  pink  and
+white may filled the air with sweetness in Spring. Birds nested there.
+The Cow walked on a wide walk paved with stones when she came
+to  the  Pond  to  drink.  Hurdles  of  iron  ran  down  each  side  of  the
+walk and into the water, so that she should not go too far, and get
+mired. The three little girls who came to play used to roost on the
+hurdles and fish for tadpoles with an iron dipper that belonged to
+the  hens’  wheat-bin.  From  the  brown  surface  of  the  water  three
+upside-down  little  girls  laughed  up  and  mocked  them,  just  as  an
+upside-down Cow looked up from the water and mocked the Cow
+when  she  drank.  Doubtless  the  tadpoles  laughed,  because  down
+under the water where they darted back and forth no upside-down
+tadpoles mocked.
+The  overflow  from  the  Pond  meandered  through  the  Cow  Yard
+in a wide, rock-bordered ditch. There were two bridges across the
+ditch;  one  made  of  two  planks  for  people  to  walk  over,  and  the
+other made of logs, strong and wide enough for the Cow. The hens
+drank from the running water. Musk grew under the Cow’s bridge;
+its yellow blossoms gleamed like cats’ eyes in the cool dark.
+Special things happened in the Cow Yard at each season of the
+year, but the most special things happened in Spring.
+First  came  the  bonfire.  All  winter  the  heap  in  the  centre  of  the
+Cow Yard had mounted higher and higher with orchard prunings,
+branches that had blown down in the winter winds, old boxes and
+hens’  nests,  garbage,  and  now,  on  top  of  all,  the  spring-cleaning
+discards.
+The three little girls sat on three upturned barrels. Even Bigger,
+her hands folded in a spotless lap, enjoyed this Cow Yard event. The
+Cow,  safely  off  in  the  pasture,  could  not  stamp  and  sway  at  her.
+The Cow Yard|23
+
+Middle,  hugging  a  doll,  and  Small,  hugging  a  kitten,  banged  their
+heels on the sides of the hollow barrels, which made splendid noises
+like drums.
+The man came from the barn with paper and matches, and off the
+bonfire blazed with a tremendous roar. I  t was so hot that the barrels
+had  to  be  moved  back.  The  hens  ran  helter-skelter.  The  rabbits
+wiggled their noses furiously as the whiffs of smoke reached their
+hutches.  The  ducks  waddled  off  to  the  Pond  to  cool  themselves.
+Soon there was nothing left of the bonfire but ashes and red embers.
+Then  the  barrels  were  rolled  up  close,  and  the  three  little  girls
+roasted potatoes in the hot ashes.
+Bigger told stories while the potatoes roasted. Her stories were
+grand  and  impossible,  and  when  they  soared  beyond  imagining,
+Small said, “Let’s have some real ones now,” and turned to Middle,
+“Will you marry?”
+“Of course,” came the prompt reply. “  And I shall have a hundred
+children. Will you?”
+Small considered. “Well, that depends. If I don’t join a circus and
+ride a white horse through hoops of fire, I may marry a farmer, if
+he has plenty of creatures. That is, I wouldn’t marry just a vegetable
+man.”
+“I  am  going  to  be  a  missionary,”  said  Bigger,  “  and  go  out  to  the
+Heathen.”
+“Huh!  if  you’re  scared  of  our  old  cow,  what  will  you  be  of
+cannibals?” said Small. “Why not marry a missionary, and send him
+out first, so they wouldn’t be so hungry when you got there?”
+“You  are  a  foolish  child,”  said  Bigger.  “The  potatoes  are  cooked.
+You fish them out, Small, your hands and pinafore are dirty anyway.”
+The ashes of the bonfire were scarcely cold before Spring burst
+through the brown earth, and the ashes and everything. The Cow
+and the chickens kept the tender green shoots cropped down, but
+every night more pushed up and would not be kept under. The Cow
+watched the willow trees that grew beside the Pond. Just before the
+silky grey pussies burst their buds, she licked up as far as she could
+reach and ate them, blowing hard, upside-down sniffs—all puff-out
+24|The Book of Small
+
+and no pull-in—as though the bitter-sweet of the pussy-willows was
+very agreeable to her. She stood with half-closed eyes, chewing and
+rolling her jaws from side to side, with delighted slobbering.
+About this time, the fussy old hens got fussier. After sticking their
+feathers  on  end,  and  clucking  and  squawking  and  being  annoyed
+at everybody, they suddenly sat down on their nests, and refused
+to  get  up,  staring  into  space  as  though  their  orange  eyes  saw
+something away off. Then they were moved into a quiet shed and
+put into clean boxes of hollowed-out hay, f  illed with eggs. They sat
+on top of the eggs for ages and ages. If you put your hand on them,
+they flattened their feathers to their bodies and their bodies down
+on their eggs and gave beaky growls. Then, when you had almost
+forgotten that they ever had legs and could walk, you went to the
+shed and put food and water before them. Fluffy chickens peeped
+out  of  every  corner  of  the  hen’s  feathers,  till  she  looked  as  fat  as
+seven hens. Then she strutted out into the yard, to brag before the
+other creatures, with all the chicks bobbing behind her.
+One  old  hen  was  delighted  with  her  chickens  and  went  off,
+clucking to keep them close, and scratching up grubs and insects
+for them by the way, but when they came to the ditch her little ones
+jumped into the water and swam off. She felt that life had cheated
+her, and she sat down and sulked.
+“How mad she must be, after sitting so long,” said Bigger.
+“As long as they are alive, I don’t see why she should care,” said
+Middle. “They’ll come to her to be cuddled when they are tired and
+cold.”
+“Oh,  girls,”  cried  Small,  bursting  with  a  big  idea,  “if  the  hen
+hatched  ducks,  why  couldn’t  the  Cow  have  a  colt?  It  would  be  so
+splendid to have a horse!”
+Bigger got up from the stone where she was sitting. “Come on,”
+she said to Middle, “she is such a foolish child. Let’s play ladies in the
+garden, and leave her to mudpuddle in the Cow Yard.”
+The  ducklings  crept  back  to  the  old  hen  when  they  were  tired,
+just  as  Middle  had  said  they  would.  The  old  hen  squatted  down
+The Cow Yard|25
+
+delightedly, loosening up her feathers, and the little ducks snuggled
+among them.
+“Aren’t  they  beastly  wet  and  cold  against  your  skin?”  shouted
+Small across the ditch to the hen. “Gee, don’t mothers love hard!”
+She cast a look around the yard. Through the fence she saw the
+cow in the pasture, chewing drowsily. Spring sunshine, new grass,
+daisies and buttercups filled the pasture. The Cow had not a trouble
+in the world.
+Small nodded to the Cow. “  All the same, old Cow, I do wish you
+could do something about a colt. Oh dear, I do want to learn to ride!”
+Suddenly she sprang up, jumped the ditch, tiptoed to reach the
+iron hoop that kept the pasture-gate fast, and ran up to the cow. “Be
+a sport, old girl,” she whispered in the great hairy ear, and taking her
+by the horn she led the Cow up to the fence.
+The Cow stood meek and still. Small climbed to the top rail of the
+fence, and jumped on the broad expanse of r  ed back, far too wide for
+her short legs to grip. For one still moment, while the slow mind of
+the Cow surmounted her astonishment, Small sat in the wide valley
+between horns and hip-bones. Then it seemed as though the Cow
+fell apart, and as if every part of her shot in a different direction.
+Small   hurled   through   space   and   bumped   hard.   “Beast!”   she
+gasped, when she had sorted herself from the mud and the stones.
+“Bong may call you the Old Lady, but I call you a mean, miserable old
+cow.” And she shook her fist at the still-waving heels and tail at the
+other end of the pasture.
+That night, when Small showed Middle the bruises, and explained
+how they had come, Middle said, “I expect you had better marry a
+farmer; maybe you’re not exactly suited for a circus rider.”
+Spring had just about filled up the Cow Yard. The rabbits’ secrets
+were all out now. They had bunged up the doors of their sleeping
+boxes with hay and stuff, and had pretended that there was nothing
+there at all. But if you went too close, they stamped their feet and
+wagged their ears, and made out that they were brave as lions. But
+now that i   t had got too stuffy in the boxes, the mother pulled down
+26|The Book of Small
+
+the barricade and all the fluffy babies scampered out, more than you
+could count.
+One day when the Cow was standing under the loft, the loveliest
+baby pigeon fell plumb on her back. But there were so many young
+things around, all more or less foolish, that the Cow was not even
+surprised.
+Then one morning the Father called the little girls into the Cow
+Yard, to see the pigmy image of the Old Cow herself, spot for spot,
+except that i   t had no wisdom. He had a foolish baby face and foolish
+legs;  he  seemed  to  wonder  whose  legs  these  were,  and  never
+dreamed that they were his own. But he was sure that he owned his
+tail, and flipped it joyously.
+The Cow was terribly proud of him, and licked him and licked him
+till all his hair crinkled up.
+Now, the Cow Yard was not Heaven, so of course bad things and
+sad things happened there too.
+Close  by  the  side  of  the  ditch  was  a  tree  covered  with  ivy.  The
+running water had washed some of the roots bare, and they stuck
+out.  When  the  little  girls  sailed  boats  down  the  ditch,  the  roots
+tipped the boats and tried to drown the dolls.
+It was not a very big tree, but the heavy bunch of ivy that hung
+about  it  made  it  look  immense.  The  leaves  of  the  ivy  formed  a
+dense dark surface about a foot away from the bole of the tree, for
+the leaves hung on long stems. The question was—what filled the
+mysterious space between the leaves and the tree? Away above the
+ivy, at the top, the bare branches of the tree waved skinny arms, as
+if they warned you that something terrible was there.
+One day the children heard the Father say to the Mother, “  The ivy
+has killed that tree.”
+It was strange that the ivy could kill anything. Small thought about
+it a lot, but she did not like to ask the older ones, who thought her
+questions silly. She would not have thrust her arm into that space
+for anything.
+The  pigeons  flew  over  the  tree,  from  the  roof  of  one  barn  to
+the roof of the other, but they never lighted on it. Sometimes the
+The Cow Yard|27
+
+noisy barn sparrows flew into the ivy; they were instantly silent, and
+you never saw them come out. Sometimes owls hoo-hoo-hooed in
+there. Once when Small was sitting on the chopping block, one flew
+out, perfectly silently, as though its business were very secret. Small
+crept home and up to bed, although it was not quite time, and drew
+the  covers  tight  up  over  her  head.  To  herself  she  called  that  tree
+“The Killing Tree”.
+Then one day she found a dead sparrow under the Killing Tree.
+She  picked  it  up.  The  bird  was  cold,  its  head  flopped  over  her
+hand; the rest of i   t was stiff and its legs stuck up. Queer grey lids
+covered its eyes.
+Small buried it in a little box filled with violets. A week later she
+dug it up, to see just what did happen to dead things. The bird’s eyes
+were  sunk  away  back  in  its  head.  There  were  some  worms  in  the
+box, and it smelled horrid. Small buried the bird in the earth again
+quickly.
+Winter  came  by  and  by  and,  looking  out  from  their  bedroom
+window, Middle said, “The Old Cow Yard tree is down.” They dressed
+quickly and went to look.
+The tree had broken the Cow’s bridge and lay across the ditch, the
+forlorn top broken and pitiful. The heavy ivy, looking blacker than
+ever against the snow, still hid the mystery place.
+“Mercy, i  t’s good it did not fall on the Cow and kill her,” said Small.
+“It’s a beastly tree and I’m glad it is down!”
+“Why should it fall on the Cow? And why was it a beastly tree?”
+asked Middle.
+“Because and because,” said Small, and pressed her lips together
+tight.
+“Youaresilly,” retorted Middle.
+When  they  came  back  from  school,  the  top  branches  were
+chopped  up,  and  the  ivy  piled  ready  for  burning.  The  little  tawny
+roots of the ivy stuck out all over the bole like coarse hair. The Man
+was sawing the tree in lengths. He rolled one towards the children.
+“Here’s a seat f  or you,” he said. Middle sat down. Small came close to
+the Man.
+28|The Book of Small
+
+“Mr.  Jack,  when  you  chopped  the  ivy  off  the  tree  did  you  find
+anything in there?”
+“Why, I found the tree.”
+“I mean,” said Small in a tense voice, “anything between the tree
+and the ivy?”
+“There wasn’t nothing in there that I saw,” replied the man. “Did
+you lose a ball or something maybe?”
+“When are you going to burn the ivy?”
+“Just  waiting  till  you  came  home  from  school,”  and  he  struck  a
+match.
+Dense,  acrid  smoke  blinded  the  children.  When  they  could  see
+again, long tongues of flame were licking the leaves, which hissed
+back like a hundred angry cats, before they parched, crackled, and
+finally burst into flames.
+“Isn’t   it   a   splendid   bonfire?”   asked   Middle.   “Shall   we   cook
+potatoes?”
+“No,” said Small.
+The next spring, when everyone had forgotten that there ever had
+been a Cow Yard tree, the Father bought a horse. The Cow Yard was
+filled with excitement; children shouted, hens ran, ducks waddled
+off  quacking,  but  the  Cow  did  not  even  look  up.  She  went  right
+on eating some greens from a pile thrown over the fence from the
+vegetable garden.
+“I suppose we shall have to call it the Horse Yard now,” said Small.
+“He’s bigger and so much grander than the Cow.”
+Middle  gave  the  horse  an  appraising  look.  “Higher,  but  not  so
+thick,” she said.
+The horse saw the pile of greens. He held his head high, and there
+was confidence in the ring of his iron shoes as he crossed the bridge.
+The Cow munched on, flapping the flies off her sides with a lazy
+tail. When she got a particularly juicy green, her tail forgot to flap,
+and lay curled across her back.
+When the horse came close, the tail jumped off the cow’s back and
+swished across his nose. He snorted and pulled back, but still kept
+his eyes on the pile of greens. He left his four feet and the tips of his
+The Cow Yard|29
+
+ears just where they had been, but the roots of his ears, and his neck
+and lips stretched forward towards the greens till he looked as if he
+would fall for crookedness. The Cow’s head moved ever so little; she
+gave him a look, and pointed one horn right at his eye. His body shot
+back to where it should be, square above his legs, and he sighed and
+turned away, with his ears and tail pressed down tight.
+“I guess it will be all right f   or us to call it the Cow Yard still,” said
+Middle.
+30|The Book of Small
+
+The Bishop and the Canary
+Small had earned the canary and loved him. How she did love him!
+When they had told her, “  You may take your pick,” and she leaned
+over the cage and saw the four fluffy yellow balls, too young to have
+even sung their first song, her breath and her heart acted so queerly
+that it seemed as if she must strangle.
+She chose the one with the topknot. He was the first live creature
+she had ever owned.
+“Mine! I shall be his God,” she whispered.
+How could she time her dancing feet to careful stepping? She was
+glad  the  cage  protected  him  sufficiently  so  that  she  could  hug  it
+without hurting him.
+Save  for  the  flowers  that  poked  their  faces  through  the  fences,
+and for the sunshine, the long street was empty. She wished that
+there was someone to show him to—someone to say, “He is lovely!”
+A gate opened and the Bishop stepped into the street. The Bishop
+was very holy—everybody said so. His eyes were blue, as if by his
+perpetual  contemplation  of  Heaven  they  had  taken  its  colour.  His
+gentle voice, vague and distant, came from up there too. His plump
+hands were transparent against the clerically black vest.
+Though she played ladies with his little girls, Small stood in great
+awe of the Bishop. She had never voluntarily addressed him. When
+they were playing in his house, the children tiptoed past his study.
+God and the Bishop were in there making new hymns and collects.
+Her lovely bird! Because there was no one else to show him to she
+must show him to the Bishop. Birds belonged to the sky. The Bishop
+would understand. She was not at all afraid now. The bird gave her
+courage.
+She ran across the street.
+“Look, Bishop! Look at my bird!”
+The Bishop’s thoughts were too far away, he did not heed nor even
+hear the cry of joy.
+The Bishop and the Canary|31
+
+She stood before him with the cage held high. “Bishop! Oh please
+Bishop, see!”
+Dimly  the  Bishop  became  aware  of  some  object  obstructing  his
+way. He laid a dimpled hand upon the little girl’s head.
+“Ah, child, you are a pretty picture,” he said, and moved her gently
+from his path.
+The Bishop went his way. The child stood still.
+“My beautiful bird!”
+The look of hurt fury which she hurled at the Bishop’s back might
+have singed his clerical broadcloth.
+32|The Book of Small
+
+The Blessing
+Father’sreligion   was   grim   and   stern,   Mother’s   gentle.   Father’s
+operated through the Presbyterian, Mother’s through the Anglican
+Church.Ourreligion  was  hybrid:  on  Sunday  morning  we  were
+Presbyterian, Sunday evening we were Anglican.
+Our little Presbyterian legs ached from the long walk to church on
+Sunday morning. Our hearts got heavy and our eyes tired before the
+Presbyterian prayers and the long Presbyterian sermon were over.
+Even  so,  we  felt  a  strong  “rightness”  about  Father’s  church  which
+made it endurable. Through scorch of summer heat, through snow
+and rain, we all taggled along behind Father. Toothaches, headaches,
+stomach-aches—nothing  was  strong  enough  to  dodge  or  elude
+morning religion.
+Mother’s  religion  was  a  Sunday  evening  privilege.  The  Anglican
+church  was  much  nearer  our  house  than  the  Presbyterian,  just  a
+little walk down over Marvin’s Hill to our own James’ Bay mud flats.
+The little church sat on the dry rim just above the far side.
+Evening service was a treat that depended on whether big sister
+wanted to be bothered with us. Being out at night was very special
+too—moon and stars so high, town lights and harbour lights low and
+twinkly when seen from the top of Marvin’s Hill on our side of the
+mud  flats.  A  river  of  meandering  sludge  loitered  its  way  through
+the mud—a huge silver snake that twisted among the sea-grass. On
+the opposite side of the little valley, on a rocky ridge, stood Christ
+Church  Cathedral,  black  against  the  night-blue  of  the  sky.  Christ
+Church had chimes and played scales on them to walk her people
+to church. As we had no chimes, not even a bell on our church, we
+marched along on the spare noise of the Cathedral chimes.
+The mud flats did not always smell nice although the bushes of
+sweet-briar on the edge of the high-water rim did their best, and
+the  sea  crept  in  between  the  calfless  wooden  legs  of  James’  Bay
+Bridge, washed the muddied grass and stole out again.
+The Blessing|33
+
+Our  Church  was  mellow.  I  t  had  a  gentle,  mild  Bishop.  He  wore
+a long black gown with a long white surplice over it. His immense
+puffed sleeves were caught in at the wrists by black bands and fluted
+out again in little white frills round his wrists. There was a dimple
+on each knuckle of his hands. He was a wide man and looked wider
+in his surplice, especially from our pew which was close up under
+the pulpit. He looked very high above us and every time he caught
+his breath his beard hoisted and waved out.
+The  Bishop’s  voice  was  as  gentle  as  if  it  came  from  the  moon.
+Every one of his sentences was separated from the next by a wheezy
+little gasp. His face was round and circled by a mist of white hair. He
+kept the lids shut over his blue, blue eyes most of the time, as if he
+was afraid their blueness would fade. When you stood before him
+you felt it was the lids of his own eyes he saw, not you.
+The  Bishop’s  favourite  word  was  “Ah!”,  not  mournful  or  vexed
+“ahs”, just slow contemplating “ahs”. But it was the Bishop’s Blessing!
+He blessed most splendidly! From the moment you went into church
+you waited for it. You could nap through most of the Presbyterian
+sermon,   but,   although   the   pews   were   most   comfortable,   red
+cushions, footstools and all, you dared not nap through the Bishop’s
+for fear you’d miss the blessing.
+Our Evangelical church was beautiful. There was lots of music. A
+lady in a little red velvet bonnet, with strings under the chin, played
+the organ.
+There  were  four  splendid  chandeliers  dangling  high  under  the
+roof.  They  had  round,  wide  reflectors  made  of  very  shiny,  very
+crinkly tin. Every crinkle caught i   ts own particular bit of light and
+tossed it round the church—and up there ever so high the gas jets
+hissed  and  flickered.  Music  stole  whispering  from  the  organ  and
+crept up among the chandeliers and the polished rafters to make
+echoes.
+Our  choir  was  mixed  and  sang  in  every  sort  of  clothes,  not  in
+surplices like the Cathedral choir on the hill.
+The  Bishop  climbed  into  the  pulpit.  He  laid  the  sheets  of  his
+sermon on the open Bible which sat on a red velvet cushion; then he
+34|The Book of Small
+
+shut his eyes and began to preach. Once in a while he would stop,
+open his eyes, put on his glasses and read back to be sure he had not
+skipped.
+When the last page was turned the Bishop said a gentle “Amen”
+and then he lifted his big round sleeves with his hands dangling out
+of  the  ends.  We  all  stood  up  and  drooped  our  heads.  The  church
+was full of stillness. The Bishop curved his palms out over us—they
+looked pink against his white sleeves. He gave the blessing just as if
+he was taking it straight from God and giving it to us.
+Then  the  Bishop  came  down  the  pulpit  stairs;  the  organ  played
+and the choir sang him into the vestry; the verger nipped the side
+lights off in such a hurry that everyone fell over a footstool.
+Big doors rolled back into the wall on either side of the church
+door to let us out. As soon as we were all in the night the verger
+rolled shut the doors and blotted out the chandeliers.
+We climbed Marvin’s Hill, each of us carrying home a bit of the
+Bishop’s blessing.
+The Blessing|35
+
+Singing
+Small’s  singing  was  joyful  noise  more  than  music;  what  it  lacked
+in elegance it made up in volume. As fire cannot help giving heat
+so Small’s happiness could not help giving song, in spite of family
+complaint.  They  called  her  singing  a  “horrible  row”,  and  said  it
+shamed them before the neighbours, but Small sang on. She sang
+in the cow-yard mostly, not that she went there specially to sing,
+but she was so happy when she was there among the creatures that
+the singing did itself. She had but to open her mouth and the noise
+jumped out.
+The moment Small sat down upon the cow-yard woodpile the big
+rooster would jump into her lap and the cow amble across the yard
+to plant her squareness, one leg under each corner right in front of
+Small and, to shut out completely the view of the old red barn, the
+hen houses, and the manure-pile.
+The straight outline of the cow’s back in front of Small was like a
+range of mountains with low hills and little valleys. The tail end of
+the cow was as square as a box. Horns were her only curve—back,
+front, tail, neck and nose in profile, were all straight lines. Even the
+slobber dripping from her chin fell in slithery streaks.
+When  Small  began  to  sing  the  old  cow’s  nose-line  shot  from
+straight  down  to  straight  out,  her  chin  rose  into  the  air,  her  jaws
+rolled. The harder Small sang, the harder the cow chewed and the
+faster she twiddled her ears around as if stirring the song into the
+food to be rechewed in cud along with her breakfast.
+Small  loved  her  cow-yard  audience—hens  twisting  their  silly
+heads  and  clawing  the  earth  with  mincing  feet,  their  down  eye
+looking for grubs, their up eye peering at Small, ducks trying hard
+to out-quack the song, pigeons clapping their white wings, rabbits
+hoisting   and   sinking   their   noses—whether   in   appreciation   or
+derision Small could never tell.
+White   fluttered   through   the   cow-yard   gate,   Bigger’s   apron
+36|Singing
+
+heralding an agitated Bigger, both hands wrestling with the buttons
+of  her  apron  behind  and  her  tongue  ready  sharpened  to  attack
+Small’s singing.
+“It’s  disgusting!  Stop  that  vulgar  row,  Small!  What  must  the
+neighbours think? Stop it, I say!”
+Small sang harder, bellowing the words, “The cow likes it and this
+is her yard.”
+“I wish to goodness that she would roof her yard then, or that you
+would sing under an umbrella, Small, and so keep the sound down
+and not let i   t boil over the fences. There’s the breakfast bell! Throw
+that  fowl  out  of  your  lap  and  come!  Song  before  breakfast  means
+tears before night.”
+“Whose tears—mine, the cow’s or the rooster’s?”
+“Oh, oh, oh! That cow-brute has dripped slobber down my clean
+apron! You’re a disgusting pair,” shrieked Bigger and rushed from the
+yard.
+Breakfast over, the Elder detained Small.
+“Small, this singing of yours is scandalous! Yesterday I was walking
+up the street with a lady. Half a block from our gate she stopped
+dead. ‘Listen! Someone is in trouble,’ she said. How do you think I
+felt saying, ‘Oh, no, it is only my little sister singing’?”
+Small reddened but said stubbornly, “The cow likes my singing.”
+Cows are different from humans; perhaps the hairiness of their
+ears strains sound.
+The Bishop came to pay a sick-visit to Small’s mother. He prayed
+and  Small  watched  and  listened.  His  deliberate  chewing  of  the
+words, with closed eyes, reminded her of the cow chewing her cud.
+The  Bishop  was  squarely  built,  a  slow  calm  man.  “They  are  very
+alike,” thought Small.
+Rising from his knees, the Bishop, aware of the little girl’s stare,
+said, “You grow, child!”
+“She does,” said Small’s mother. “So does her voice; her singing is
+rather a family problem.”
+“Song is good,” replied the Bishop. “Is it hymns you sing, child?”
+“No, Mr. Bishop, I prefer cow-songs.”
+Singing|37
+
+The Bishop’s “a-a-h!” long-drawn and flat lasted all the way down
+the stairs.
+“You should not have said that,” said Small’s mother. “  A Bishop is a
+Bishop.”
+“And a cow is a cow. Is it so wicked to sing to a cow?”
+“Not wicked at all. I love your happy cow-yard songs coming into
+my window. We will have your voice trained some day. Then perhaps
+the others will not scold so much about your singing.”
+“But will the cow like my voice squeezed little and polite? It won’t
+be half so much fun singing beautifully as boiling over like the jam
+kettle.”
+Small’s four sisters and her brother went holidaying to a farm in
+Metchosin.  Small  was  left  at  home  with  her  mother.  Just  at  first
+Small,  to  whom  animal  life  was  so  dear,  f   elt  a  pang  that  she  was
+not of the farm party. But the quiet of the empty house was a new
+experience and something happened.
+Mrs. Gregory, her mother’s friend of long standing, came to spend
+an afternoon.
+Both ladies were nearing the age of f   ifty—straight-backed, neatly
+made  little  ladies  who  sat  primly  on  the  horsehair  chairs  in  the
+drawing-room   wearing   little   lace-trimmed   matron’s   caps   and
+stitching each on a piece of plain sewing as they chatted.
+Having  exchanged  recipes  for  puddings,  discussed  the  virtue  of
+red flannel as against white, the problem of Chinese help and the
+sewing-circle where they made brown holland aprons for orphans,
+all topics were exhausted.
+They sewed in silence, broken after a bit by Mrs. Gregory saying,
+“There  was  English  mail  this  morning,  Emily.  Do  you  ever  get
+homesick for the Old Country?”
+Small’s  mother  looked  with  empty  eyes  across  the  garden.  “My
+home and my family are here,” she replied.
+The   ladies   began   “remembering”.   One   would   say,   “Do   you
+remember?”  and  the  other  would  say,  “I  call  to  mind.”  Soon  this
+remembering carried them right away from that Canadian drawing-
+room.  They  were  back  in  Devonshire  lanes,  girl  brides  rambling
+38|The Book of Small
+
+along  with  their  Richard  and  William,  pausing  now  and  then  to
+gather primroses and to listen to the larks and cuckoos.
+Small’s mother said, “Richard was always one for wanting to see
+new countries.”
+“My  William’s  hobby,”  said  Mrs.  Gregory,  “was  growing  things.
+Here or there made no difference to him as long as there was earth
+to dig and flowers to grow.”
+Small  knew  that  Richard  and  William  were  her  father  and  Mr.
+Gregory or she would never have recognized the ladies’ two jokey
+boys  of  the  Devonshire  lanes  in  the  grave  middle-aged  men  she
+knew as her father and Mrs. Gregory’s husband.
+The  ladies  laid  their  sewing  upon  the  table  and,  dropping  their
+hands into their laps, sat idle, relaxing their shoulders into the hard
+backs  of  the  chairs.  Small  felt  it  extraordinary  to  see  them  doing
+nothing, to see Canada suddenly spill out of their eyes as if a dam
+had burst and let the pent-up England behind drown Canada, to see
+them sitting in real chairs and yet not there at all.
+The house was quite still. In the yard Bong was chopping kindling
+and droning a little Chinese song.
+Suddenly Mrs. Gregory said, “Emily, let’s sing!” and began:
+“I cannot sing the old songs now I sang long years ago. . . .”
+Small’s  mother  joined,  no  shyness,  no  hesitation.  The  two  rusty
+little voices lifted, found to their amazement that they could sing
+the old songs still, and their voices got stronger and stronger with
+each song.
+Sitting on a stool between them, half hidden by the table-cloth
+and  entirely  forgotten  by  the  ladies,  Small  watched  and  listened,
+saw their still fingers, unornamented except for the plain gold band
+on the third left of each hand, lying in sober-coloured stuff-dress
+laps, little white caps perched on hair yet brown, lace jabots pinned
+under  their  chins  by  huge  brooches.  Mrs.  Gregory’s  brooch  was
+composed  of  tiny  flowers  woven  from  human  hair  grown  on  the
+heads of various members of her family. The flowers were glassed
+over the top and framed in gold, and there were earrings to match
+dangling from her ears. The brooch Small’s mother wore was made
+Singing|39
+
+of  quartz  with  veins  of  gold  running  through  it.  Richard  had  dug
+the  quartz  himself  from  the  California  gold  mines  and  had  had  it
+mounted in gold for his wife with earrings of the same.
+Each lady had winds and winds of thin gold watch-chain round
+her  neck,  chains  which  tethered  gold  watches  hiding  in  stitched
+pockets on the fronts of their dresses. There the ladies’ hearts and
+their watches could tick duets.
+Small  sat  still  as  a  mouse.  The  singing  was  as  solemn  to  her
+as  church.  She  had  always  supposed  that  Mother-ladies  stopped
+singing  when  there  were  no  more  babies  in  their  nurseries  to  be
+sung to. Here were two ladies nearly fifty years old, throwing back
+their heads to sing love songs, nursery songs, hymns, God Save the
+Queen, Rule Britannia—songs that spilled over the drawing-room as
+easily as Small’s cow songs spilled over the yard, only Small’s songs
+were new, fresh grass snatched as the cow snatched pasture grass.
+The ladies’ songs were re-chews—cudded fodder.
+Small sneezed!
+Two  mouths  snapped  like  mousetraps!  Four  cheeks  flushed!
+Seizing  her  sewing,  Mrs.  Gregory  said  sharply,  “Hunt  my  thimble,
+child!”
+Small’s mother said, “I clean forgot the tea,” and hurried from the
+room.
+Small never told a soul about that singing but now, when she sat
+on the cow-yard woodpile she raised her chin and sang clean over
+the cow’s back, over the yard and over the garden, straight into her
+mother’s window . . . let Bigger and the Elder scold!
+40|The Book of Small
+
+The Praying Chair
+The  wicker  chair  was  new  and  had  a  crisp  creak.  At  a  quarter  to
+eight every morning Father sat in it to read family prayers. The little
+book the prayers came out of was sewed into a black calico pinafore
+because its own cover was a vivid colour and Father did not think
+that was reverent.
+The Elder, a sister much older than the rest of the children, knelt
+before a hard, straight chair; Mother and little Dick knelt together
+at a low soft chair. The three little girls, Bigger, Middle, and Small
+usually  knelt  in  the  bay  window  and  buried  their  faces  in  its
+cushioned  seat  but  Small’s  Father  liked  her  to  kneel  beside  him
+sometimes. If she did not get her face down quickly he beckoned
+and Small had to go from the window-seat to under the arm of the
+wicker chair. I  t was stuffy under there. Small liked the window-seat
+best, where she could peep and count how many morning-glories
+were out, how many new rosebuds climbing to look in through the
+window at her.
+Father’s wicker chair helped pray. I  t creaked and whispered more
+than  the  children  would  ever  have  dared  to.  When  finally  Father
+leaned across the arm to reach for the cross-work book-mark he
+had laid on the table during prayers, the chair squawked a perfectly
+grand Amen.
+One  morning  Father  had  a  bit  of  gout  and  Small  thought  that
+instead  of  Amen  Father  said  “Ouch!”  She  could  not  be  quite  sure
+because just at the very moment that the chair amened, Tibby, the
+cat,  gave  a  tremendous  “meow”  and  a  splendid  idea  popped  into
+Small’s head.
+Small had wanted a dog—she did not remember how long she had
+wanted it—it must have been from the beginning of the world. The
+bigger she got the harder she wanted.
+As  soon  as  everyone  had  gone  about  their  day’s  business  Small
+took Tibby and went back to the praying chair.
+The Praying Chair|41
+
+“Look, Tibby, let’s you and me and the praying chair ask God to
+give  you  a  puppy  for  me.  Hens  get  ducks,  why  couldn’t  you  get  a
+puppy? Father always sits in that chair to pray. I  t must be a good
+chair; it amens splendidly. I  ’ll do the words: you and the chair can
+amen. I don’t mind what kind of a puppy it is as long as it’s alive.”
+She tipped the chair and poked Tibby underneath into the cage-
+like base. Tibby left her tail out.
+“So  much  the  better,”  said  Small.  “It’ll  pinch  when  the  time  for
+amen is ready.”
+Tibby’s  amen  was  so  effective  that  Small’s  Mother  came  to  see
+what was the trouble.
+“Poor cat! Her tail is pinched. Take her out into the garden, Small.”
+“It’s all spoilt now!”
+“What is?”
+“We were praying for a puppy.”
+“Your father won’t hear of a puppy in his garden, Small.”
+Small’s birthday was coming.
+The  Elder  said,  “I  know  something  that  is  coming  for  your
+birthday!”
+“Is it—is it—”
+“Wait and see.”
+“Does it commence with ‘d’? Or, if it’s just a little one, maybe with
+‘p’?”
+“I think it does.”
+The  day  before  the  great  day  Small’s  singing  was  a  greater
+nuisance  than  usual.  Everyone  scolded  ’til  she  danced  off  to  the
+woodshed to sing there, selected three boxes of varying sizes and
+brushed them out.
+“Which  size  will  fit  him?  Middle,  when  you  got  your  new  hair-
+brush what did you do with the old one?”
+“Threw it out.”
+Small searched the rubbish pile which was waiting for the Spring
+bonfire and found the brush-back with its few remaining bristles.
+“A lot of brushing with a few is as good as a little brushing with a
+lot . . .”
+42|The Book of Small
+
+“Rosie,” she said to the wax doll whose face had melted smooth
+because a mother, careless of dead dolls, had left her sitting in the
+sun, “Rosie, I shall give your woollie to my new pup. You are all cold
+anyhow. You melt if you are warmed. Pups are live and shivery . . .”
+“He . . . she . . . Oh, Rosie, whatshallI do if it’s a she? It took years
+to think up a good enough name and it’s a boy’s name. Oh, well, if
+it’s a girl she’ll have thousands of puppies; the Elder says they always
+do.”
+She  plaited  a  collar  of  bright  braid,  sewing  on  three  hooks  and
+eyes at varying distances.
+“Will he be so big—or so big—or so big? I don’t care about his size
+or shape or colour as long as he’s alive.”
+She put the collar into the pocket of tomorrow’s clean pinafore.
+“Hurry up and go, day, so that tomorrow can come!” And she went
+off to bed so as to hurry night.
+Small’s  father  drew  back  the  front-door  bolt;  that  only  half
+unlocked the new day—the little prayerbook in its drab covering did
+the rest. It seemed a terrible time before the chair arm squeaked
+Amen. The Elder rose, slow as a snail. Small wanted to shout, “Hurry,
+hurry! Get the pup for me!”
+Everyone  kissed  Small  for  her  birthday;  then  all  went  into  the
+breakfast-room. On Small’s plate was a flat, flat parcel. Small’s eyes
+filled, drowning the gladness.
+“Open it!” shouted everyone.
+The Elder cut the string. “I am glad to see,” she remarked, noting
+Small’s quivering blue hands, “that you did not shirk your cold bath
+because it was your birthday.”
+The present was the picture of a little girl holding a dog in her
+arms.
+“She looks like you,” said Middle.
+“No, she isn’t like me, she has a dog.”
+Small  went  to  the  fire  pretending  to  warm  her  blue  hands.  She
+took something from her apron pocket, dropped it into the flames.
+“I’m not hungry—can I go and feed my ducks?” In the cow-yard
+she could cry.
+The Praying Chair|43
+
+The birthday dawdled. Small went to bed early that night too.
+“Small, you forgot your prayers!” cried Bigger.
+“I didn’t—God’s deaf.”
+“You’re  dreadfully,  dreadfully  wicked—maybe  you’ll  die  in  the
+night.”
+“Don’t care.”
+Years  passed.  Small’s  father  and  mother  were  dead.  The  Elder
+was no more reasonable than Small’s father had been about dogs.
+Small never asked now, but the want was still there, grown larger.
+Bigger, Middle and Small were grown up, but the Elder still regarded
+them as children, allowed them no rights. Like every girl Small built
+castles in the air. Her castle was an ark, her man a Noah, she tended
+the beasts.
+Unexpected as Amen in a sermon’s middle came Small’s dog. She
+had been away for a long, long time; on her return the Elder was
+softened. Wanting to keep Small home, she said, “There’s a dog in
+the yard for you.”
+Dabbing  a  kiss  on  the  Elder’s  cheek  Small  rushed.  Kneeling  she
+took  the  dog’s  muzzle  between  her  hands.  He  sniffed,  licked,
+accepted.  Maybe  he  too  had  waited  for  a  human  peculiarly  his.
+She loosed him. He circled round and round. Was he scenting the
+dream-pup jealously?
+He had been named already. The dream-pup would always keep
+the name that had been his for his own.
+“He’ll run away—chain him. Remember he must not come in the
+house Small!”
+Small roamed beach and woods, the dog with her always. Owning
+him was better even than she had dreamed.
+Small sat on a park bench waiting for a pupil, the dog asleep at her
+feet. The child-pupil, planning a surprise for Small, stole up behind
+her and threw her arms round her neck. Small screamed. The dog
+sprang,  caught  the  child’s  arm  between  his  teeth,  made  two  tiny
+bruises and dropped down—shamed.
+“That dog is vicious,” said the Elder.
+44|The Book of Small
+
+“Oh, no, he thought someone was hurting me; he was dreadfully
+ashamed when he saw that it was a child.”
+“He must be kept chained.”
+Chickens for table use were killed close to the dog’s kennel. He
+smelled  the  blood—heard  their  squawks.  The  maid  took  a  long
+feather and tickled his nose with it. He sprang, caught the girl’s hand
+instead of the feather. The Elder’s mouth went hard and grim.
+“I teased him beyond endurance,” pleaded the maid.
+That day Small was hurt in an accident. The dog was not allowed
+to go to her room. Broken-hearted he lay in his kennel, disgraced,
+forsaken. Small was sent away to an old friend to recuperate. The
+day  before  she  was  to  return,  the  old  lady’s  son  came  to  Small
+blurting, “They’ve killed your dog.”
+“Cruel, unjust, beastly!” shrieked Small.
+“Hush!” commanded the old lady. “The dog was vicious.”
+“He was not! He was not! Both times he was provoked!”
+Small ran and ran across fields till she dropped face down among
+the standing grain. There was a dark patch on the earth where her
+tears fell among roots of the grain.
+“Only a dog! This is wrong, Small,” said the not-understanding old
+woman.
+Small  went  home  and  for  six  weeks  spoke  no  word  to  the
+Elder—very  few  to  anybody.  She  loathed  the  Elder’s  hands;  they
+made  her  sick.  Finally  the  Elder  lost  patience.  “I  did  not  kill  the
+vicious brute,” she cried. “The police shot him.”
+“You made them!”
+Small could look at the Elder’s hands again.
+Small was middle-aged; she built a house. The Elder had offered
+her another dog. “Never till I have a home of my own,” she had said.
+The Elder shrugged.
+Now  that  Small  had  her  house,  the  Elder  criticized  it.  “Too  far
+forward,” she said. “You could have a nice front garden.”
+“I wanted a large back yard.”
+“A glut of dogs, eh Small?”
+“A kennel of Bobtail Sheep dogs.”
+The Praying Chair|45
+
+The Elder poked a head, white now, into Small’s puppy nursery.
+“What are you doing, Small?”
+“Bottling puppies—too many for the mothers.”
+“Why not bucket them?”
+“There is demand for them—sheep dogs—cattle dogs.”
+“How many pups just now?”
+“Eve’s eight, Rhoda’s seven, Loo’s nine.”
+“Twenty-four—mercy!  and,  besides,  those  absurd  bearded  old
+patriarchs—Moses, Adam and the rest.”
+“Open the door for Adam.”
+The  kennel  sire  entered,  shaggy,  noble,  majestic.  He  rested  his
+chin  a  moment  on  Small’s  shoulder  where  she  sat  with  pup  and
+feeding  bottle,  ran  his  eye  round  the  walls  where  his  mates  and
+their families cuddled in boxes. He embraced all in good fellowship,
+including the Elder, picked the sunniest spot on the nursery floor
+and sprawled out.
+“Oh,  Small,  I  was  throwing  out  Father’s  old  wicker  chair.  Would
+you like it in the kennel nursery to sit in while bottling the pups?”
+“The praying chair?—Oh, yes.”
+So  the  Praying  Chair  came  to  Small’s  kennel.  Sitting  in  it  Small
+remembered Tibby, the picture pup, the want, her first dog. Adam
+rested  his  chin  on  the  old  chair’s  arm.  Small  leaned  forward  to
+rest her cheek against his woolly head. All rasp, all crispness gone,
+“Amen”, whispered the Praying Chair.
+46|The Book of Small
+
+Mrs. Crane
+I heard two women talking. One said to the other, “Mrs. Crane has a
+large heart.”
+“Yes,” replied her companion, “and it is in the right place too.”
+I thought, “That’s queer—hearts are in the middle of people. How
+can any person know if another person’s heart is big or small, or if it
+is in the right or the wrong place?”
+Soon after I heard this conversation about Mrs. Crane’s heart, our
+Mother was seized with a very serious illness. My sister Alice and
+I—she was two years older—were hushed into the garden with our
+dolls and there, peeping from behind the currant bushes, we saw a
+high yellow dogcart stop in front of our gate. Mrs. Crane descended
+from it and came stalking up our garden walk.
+“Come to enquire, I s’pose,” whispered Alice.
+“My! Isn’t she long and narrow?” I replied.
+Silently I fell to trying to make all the different hearts I knew fit
+into  Mrs.  Crane’s  body—the  gold  locket  one  that  made  your  neck
+shiver, beautiful valentine ones with forget-me-nots around them,
+sugar hearts, with mottoes, a horrible brown thing Mother said was
+a pig’s heart and boiled for the cat—none of these would fit into Mrs.
+Crane’s long narrow body.
+She seemed to grow taller and taller as she came nearer. When
+she tiptoed up the steps, to us, crouched behind the currant bushes,
+she seemed a giant.
+My  big  sister  opened  the  door  to  Mrs.  Crane.  They  whispered.
+Then my sister came to us and said, “Children, kind Mrs. Crane is
+going to take you home with her until Mother is better.”
+Alice’s big eyes darkened with trouble. Obediently she picked up
+her doll and turned towards the house. I set my doll down with a
+spank, planted my feet wide apart and said, “Don’t want to go!”
+My sister gave me an impatient shake. Mrs. Crane ahemmed.
+We were scrubbed hard, and buttoned into our starchiest. Mrs.
+Mrs. Crane|47
+
+Crane took one of Alice’s hands and one of mine into a firm black kid
+grip and marched us to the gate. While she opened the gate, she let
+go of Alice’s hand but doubled her grip on mine. Her eyes were like
+brown chocolate drops, hot and rich in colour when she looked at
+Alice, but when she looked at me they went cold and stale-looking.
+We  were  hoisted  up  to  the  back  seat  of  the  dogcart.  Father’s
+splendid carpet bag with red roses on its sides and the great brass
+lock, was put under our feet to keep them from dangling. The bag
+was full of clean frocks and handkerchiefs and hairbrushes.
+Mrs. Crane climbed up in front beside Mr. Crane. His seat was half
+a storey higher than hers. Mr. Crane cracked his whip and the yellow
+wheels spun furiously. Our house got smaller and smaller, then the
+road twisted and it was gone altogether. The world felt enormous.
+We crossed two bridges. Mud flats were under one and the gas-
+works  were  under  the  other—they  both  smelt  horrid.  The  horse’s
+hoofs  made  a  deafening  clatter  on  the  bridges,  and  then  they
+pounded  steadily  on  and  on  over  the  hard  road.  When  at  last  we
+came to the Crane’s house, it seemed as if we must have gone all
+around  the  world,  and  then  somehow  got  there  hind-before.  You
+passed the Crane’s back gate first, and then you came to the front
+gate. The front door was on the back of the house. The house faced
+the water, which looked like a river, but was really the sea and salt.
+You went down the hill to the house and up the hill to the stable;
+everything was backwards to what i  t was at home and made you feel
+like Mother’s egg-timer turned over.
+Mrs. Crane had three little girls. The two younger were the same
+age as Alice and I.
+The three little Cranes ran out of the house when they heard us
+come. They kissed Mama politely and, falling on Papa, hugged him
+like bears.
+A  man  came  to  lead  the  horse  away.  The  little  Cranes  were  all
+busy  guessing  what  was  in  the  parcels  that  came  from  under  the
+seat of the dogcart, but the receding clop! clop! of the horse’s hoofs,
+hammered desolation into the souls of Alice and me.
+The Crane’s hall was big and warm and dark, except for the glow
+48|The Book of Small
+
+from a large heater, which pulled out shiny things like the noses of
+a lot of guns hanging in a rack on the wall and the fire irons and the
+stair rods. It picked out the brass lock of Father’s bag and the poor
+glassy eyes of stuffed bear and wolves and owls and deer. Helen saw
+me looking at them as we went upstairs and said, “My Papa shot all
+those.”
+“What for?”
+Helen stared at me. “What f  or? Doesn’t your Papa go in for sport?”
+“What is sport, Helen?”
+Helen   considered.   “Why   it’s—killing   things   just   for   fun,   not
+because  you  are  hungry,  chasing  things  with  dogs  and  shooting
+them.”
+“My Father does not do that.”
+“My Papa is a crack shot,” boasted Helen.
+Alice and I had a grown-up bedroom. One window looked over the
+water and had a window-seat. The other window looked into a little
+pine wood. There was a pair of beautiful blue china candlesticks on
+the mantlepiece.
+We children had nursery tea. Mrs. Crane had Grace the biggest
+girl pour tea and Grace was snobbish. After tea we went into the
+drawing-room.
+Mrs. Crane’s drawing-room was a most beautiful room. There was
+a big three-cornered piano in it, two sofas and a lot of lazy chairs
+for  lolling  in.  At  home  only  Father  and  Mother  sat  in  easy  chairs:
+they  did  not  think  it  was  good  for  little  girls  to  sit  on  any  kind
+but straight up-and-down chairs of wood or cane. Mrs. Crane’s lazy
+chairs  were  fat  and  soft  and  were  dressed  up  in  shiny  stuff  with
+rosebuds sprinkled all over it. But bowls of real roses everywhere
+made the cloth ones look foolish and growing ones poking their pink
+faces into the open windows were best of all and smelled lovely. A
+bright little fire burned in the grate and kept the little sea breeze
+from being too cold and the breeze kept the fire from being too hot.
+In front of the fire was a big fur rug; a brown-and-white dog was
+sprawled out upon it.
+When we five little girls trooped into the drawing-room, I thought
+Mrs. Crane|49
+
+that the dog was the only creature in the room. Then I saw the top
+of Mr. Crane’s head and his slippers sticking out above and below
+a  mound  of  newspapers  in  an  easy  chair  on  one  side  of  the  fire.
+On  the  other  side  the  fire  lit  up  Mrs.  Crane’s  hands  folded  in  her
+lap.  Her  face  was  hidden  behind  a  beaded  drape  hanging  from  a
+brass rod which shaded her eyes from the fire-light. One hand lifted
+and  patted  a  stool  at  her  knee—this  Helen  went  and  sat  on.  Mrs.
+Crane’s lap was deep and should have been splendid to sit in, but her
+little girls never sat there. Helen said it was because Mama’s heart
+was weak and I said, “But Helen, I thought big things were always
+strong?”
+Helen did not know what I meant, because of course she had not
+heard those ladies discussing her Mother’s heart and so she did not
+know what I knew about it.
+Mrs. Crane told “Gracie dear”, to play one of her “pieces” on the
+piano. She always added dear to her children’s names as if it was a
+part of them.
+Mary  Crane  and  our  Alice  were  shy  little  girls.  They  sat  on  the
+sofa  with  their  dolls  in  their  laps.  Their  eyes  stared  like  the  dolls’
+eyes. Mrs. Crane would not allow dolls to be dressed or undressed
+in  the  drawing-room;  she  said  it  was  not  nice.  I  sat  on  the  edge
+of a chair till it tipped, then I found myself in the very best place
+in all the room—right down on the fur rug beside the dog. When I
+put my head down on his side, he thumped his tail and a lovely live
+quiver ran through his whole body. I had meant to fight off sleep
+because of that strange bed upstairs, but the fire was warm and the
+dog comforting . . . I couldn’t think whose far-off voice it was saying,
+“Come to bed, children,” or whose hand it was shaking me.
+The  cold  upstairs  woke  us  up.  Mrs.  Crane  looked  black  and  tall
+standing by the mantlepiece lighting the blue candles. The big room
+ran  away  into  dark  corners.  The  bed  was  turned  down  and  our
+nighties were ready, but we did not seem to know what to do next
+unless it was to cry. Mrs. Crane did not seem to know what to do
+either, so she said, “Perhaps you little girls would like to come into
+my little girls’ room while they undress?” So we sat on their ottoman
+50|The Book of Small
+
+and watched. They brushed themselves a great deal—their hair and
+nails  and  teeth.  They  folded  their  clothes  and  said  their  prayers
+into  Mrs.  Crane’s  front,  then  stepped  into  bed  very  politely.  Mrs.
+Crane told them to lie on their right sides, keep their mouths shut
+and breathe through their noses, then she threw the windows up
+wide. The wind rushed in, sputtered the candle and swept between
+Mrs. Crane’s kisses and the children’s foreheads. Then she blew the
+candle gently as if she was trying to teach the wind manners.
+Back  in  our  room,  Mrs.  Crane  said  something  about  “undoing
+buttons”. I backed up to Alice very quickly and she told Mrs. Crane
+that we could undo each other.
+“Very well,” said Mrs. Crane, “I’ll come back and put out the candle
+presently.”
+We scurried into bed, pulled the covers up over our heads and lay
+very still.
+She   came   and   stood   beside   the   two   white   mounds   for   a
+second—then two gentle puffs, the up-screech of the window, long
+soft footsteps receding down the hall.
+Two heads popped up from the covers.
+“Weren’t you scared she’d kiss us?”
+“Awfully! Or that she’d want to hear our prayers?”
+“The Crane girls are very religious.”
+“How’d you know?”
+“They said two verses of ‘Now I lay me’. We only know one.”
+Alice always slept quickly and beautifully. I tossed every way and
+did not sleep, till all my troubles were pickled away in tears.
+At breakfast while Mrs. Crane was busy with the tea-cups I got
+the first chance of staring at her hard. The light was good and she
+was much lower, sitting. She talked to Mr. Crane as she poured the
+tea, using big polite words in a deep voice. The words rolled round
+her  wisdom  teeth  before  they  came  out.  Her  hair,  skin  and  dress
+were brown like her eyes. Her heart could not help being in the right
+place,  it  was  clasped  so  tight  by  her  corset  and  her  brown  stuff-
+dress was stretched so taut above that and buttoned from chin to
+waist. Her heart certainly could not be a wide one. Her hands were
+Mrs. Crane|51
+
+clean  and  strong,  with  big  knuckles.  The  longer  I  looked  at  Mrs.
+Crane the less I liked her. But I did like a lot of her things—the vase
+in the middle of the dining-room table for instance. Helen called it
+Mama’s “epergne”. I  t was a two-storey thing of glass and silver and
+was  always  full  of  choice  flowers,  pure  white  geraniums  that  one
+longed to stroke and kiss to see if they were real, fat begonias and
+big heavy-headed fuchsias. Flowers loved Mrs. Crane and grew for
+her.
+Mrs.  Crane’s  garden  was  not  as  tidy  as  Father’s  but  the  flowers
+had a good time and were not so prim. Mrs. Crane was lenient with
+her flowers. She let the wild ones scramble up and down each side
+of the clay path that ran down the bank to the sea. They jumbled
+themselves   up   like   dancers—roses   and   honeysuckle   climbed
+everywhere. The front drive, which was really behind the house, was
+circular and enclosed a space filled with fruit trees and raspberry
+canes. The vegetable garden was in the front and the flowerbeds in
+the back, because, of course, the front of the house was at the back.
+There was a little croquet lawn too and the little pine wood that our
+bedroom looked out on.
+In the middle of this wood was a large platform with lots of dog-
+kennels on it—to these Mr. Crane’s hunting dogs were chained.
+The dogs did not know anything about women or girls and Mrs.
+Crane did not like them. Mr. Crane would not let the children handle
+them;  he  said  it  spoilt  them  for  hunting.  I  wanted  to  go  to  them
+dreadfully but Helen said that I must not. The children were allowed
+to have the old one who had been in the drawing-room because he
+was no good for hunting.
+Helen said, “Once I had a little black dog. I loved him very much,
+but Papa said he was a mongrel. So he got his gun and shot him.
+When  the  little  dog  saw  the  gun  pointed  at  him  he  sat  up  and
+begged. The shot went through his heart, but he still sat up with the
+beg frozen in his paws.”
+“Oh Helen, how could your father? Why didn’t your mother stop
+him?”
+“It did not make any difference to Mama. It was not her dog.”
+52|The Book of Small
+
+In  our  house  nobody  would  have  thought  of  telling  Father  “not
+to”. Nor would we have thought of meddling with Father’s things. In
+the Cranes’ home it was different. When Helen took me into a funny
+little room built all by itself in the garden and said, “This is Papa’s
+Den,” I was frightened and said, “Oh Helen! surely we ought not to.”
+There  was  not  a  single  woman’s  thing  in  the  Den.  There  were
+guns and fishing rods and wading boots and there was a desk with
+papers and lots of big books. There was a bottle of quicksilver. Helen
+uncorked  it  and  poured  it  onto  the  table.  It  did  amazing  things,
+breaking  itself  to  bits  and  then  joining  itself  together  again,  but
+presently it rolled off the table and we could not find it. Whenever
+Mr. Crane came home after that, I was in terror for fear he would
+ask about the quicksilver and I hated him because he had shot the
+little begging dog.
+The little Cranes never took liberties with Mama’s things.
+It seemed years since we left home, but neither Alice nor I had
+had a birthday and there had been only one Sunday at Mrs. Crane’s.
+There was one splendid thing though and that was Cricket. He was
+a pinto pony belonging to the children. Every day he was saddled
+and  we  rode  him  in  turns.  The  older  girls  rode  in  a  long  habit.
+Helen’s legs and mine were too young to be considered improper by
+Mrs. Crane. So our frillies flapped joyously. Helen switched Cricket
+to  make  him  go  fast,  but  fast  or  slow  were  alike  to  me.  It  was  a
+delight to feel his warm sides against my legs. The toss of his mane,
+the switch of his tail, his long sighs and short snorts, the delicious
+tickle of his lips when you fed him sugar—everything about him was
+entrancing, even the horsy smell. Just the thought of Cricket, when
+you were crying yourself to sleep, helped.
+There was no more room for Cricket in Mrs. Crane’s heart than
+there  was  for  the  dogs,  but  Mrs.  Crane’s  heart  did  take  in  an  old
+lady called Mrs. Miles. Mrs. Miles was almost deaf and almost blind.
+She wore a lace cap and a great many shawls and she knitted and
+blinked,  knitted  and  blinked,  all  day.  She  came  to  stay  with  Mrs.
+Crane  while  we  were  there.  Mrs.  Miles  liked  fresh  raspberries  for
+her breakfast and to make up for being nearly blind and nearly deaf,
+Mrs. Crane|53
+
+Mrs. Crane gave her everything she could that she was fond of. We
+children had to get up earlier to pick raspberries and Mrs. Crane did
+not even mind if our fresh frocks got wetted with dew, because she
+wanted to comfort Mrs. Miles for being old and deaf and blind.
+On Sunday afternoon Mrs. Miles draped her fluffiest shawl over
+her  cap  and  face  and  everything  and  presently  big  snores  came
+straining  through  it.  Mr.  Crane’s  newspaper  was  sitting  on  top  of
+his bald spot and he was snoring too—the paper flapped in and out
+above his mouth. Mr. Crane’s “awk, awk” and Mrs. Miles’ “eek, eek”
+wouldn’t keep step and we little girls giggled.
+Mrs.  Crane  said,  “It  is  very  rude  for  little  girls  to  laugh  at  their
+elders.”
+Helen asked, “Even at their snores, Mama?”
+“Even at their snores,” said Mrs. Crane. She hushed us into the far
+corner of the drawing-room and read us a very dull story.
+Helen on the stool at her mother’s knee and the three others on
+the sofa were all comfortable enough to shut their eyes and forget,
+but how could anyone on a three-legged stool under the high top of
+the sofa sleep? Especially if the fringe of an antimacassar lolled over
+the top and tickled your neck? My fingers reached up to the little
+tails  of  wool  bunched  in  colours  and  began  to  plait—red,  yellow,
+black, red, yellow, black. A neat little row of pigtails hung there when
+the story was done and I thought it looked fine.
+When we trooped down the stairs next morning, Mrs. Crane was
+waiting at the foot. Her teeth looked very long, the chocolate of her
+eyes very stale. From the upper landing we must have looked like a
+long caterpillar following her to the drawing-room.
+Of  course  she  knew  it  was  me,  because  she  had  told  me  to  sit
+there, but she put me through five separate agonies, her pointing
+finger getting longer and her voice deeper, with every “Did you do
+it?” When it came to me, her finger touched the antimacassar and
+her voice dragged me into a deep pit. When I said my, “Yes, Mrs.
+Crane,”  she  said  that  I  had  desecrated  the  work  of  her  dear  dead
+mother’s hands, that i   t was Satan that had told my idle fingers to do
+54|The Book of Small
+
+it, that I was a naughty mischievous child and that after breakfast I
+must undo all the little pigtails.
+Not the boom of the breakfast gong, nor the bellow of Mr. Crane’s
+family  prayers,  nor  the  leather  cushion  that  always  smelt  so  real
+and  nice  when  your  nose  went  into  it,  could  drown  those  horrid
+sobs. They couldn’t be swallowed nor would they let my breakfast
+pass  them.  So  Mrs.  Crane  excused  me  and  I  went  to  the  beastly
+antimacassar and wished her mother had taken it to Heaven with
+her. Mrs. Miles came and sat near and blinked and clicked, blinked
+and clicked.
+“Please! Please! Mrs. Crane, can’t we go home?”
+“And make your poor Mama worse?”
+I did not even want to ride Cricket that day.
+After tea we went to visit a friend of Mrs. Crane’s. We went in the
+boat. Mr. Crane rowed. Night came. Under the bridges the black was
+thick and the traffic thundered over our heads. Then we got into a
+boom of loose logs. They bumped our boat and made it shiver and
+when  Mr.  Crane  stood  up  and  pushed  them  away  with  his  oar,  i   t
+tipped. Helen and I were one on each side of Mrs. Crane in the stern.
+When she pulled one tiller rope her elbow dug into me, when she
+pulled the other her other elbow dug into Helen.
+The ropes rattled in and out and the tiller squeaked. I began to
+shake and my teeth to chatter.
+“Stop it, child!” said Mrs. Crane.
+But I could not stop. I stared down into the black water and shook
+and shook and was deadly cold.
+Mrs. Crane said I must have taken a chill. I had not eaten anything
+all day, so she gave me a large dose of castor oil when we got home.
+I f   elt dreadfully bad, especially in bed, when Alice said, “Why can’t
+you behave? You’ve annoyed Mrs. Crane all day.”
+“I hate her! I hate her!” I cried. “She’s got a pig’s heart.”
+Alice   said,   “For   shame!”—hitched   the   bedclothes   over   her
+shoulder and immediately long breaths came from her.
+Next morning was wet, but about noon there was meek sunshine
+and Helen and I were sent to run up and down the drive.
+Mrs. Crane|55
+
+Everything was so opposite at Mrs. Crane’s that sometimes you
+had to feel your head to be sure you were not standing on it. For
+instance you could do all sorts of things in the garden, climb trees
+and swing on gates. It was not even wicked to step on a flower bed.
+But it was naughty to play in the stable yard among the creatures,
+or to tumble in the hay in the loft, or to lift a chicken, or to hold a
+puppy. Every time we came to the stable end of the drive, I just had
+to stop and talk to Cricket through the bars and peer into his great
+big eyes and whisper into his ears.
+In the yard behind Cricket I saw a hen.
+“Oh Helen just look at that poor hen! How bad she does feel!”
+“How do you know she feels bad?”
+“Well, look at her shut eyes and her head and tail and wings all
+flopped. She feels as I did yesterday. Maybe oil . . .”
+“I’ll pour if you’ll hold,” said Helen.
+We took the hen to the nursery. She liked the holding, but was
+angry at the pouring. When her throat was full she flapped free. I did
+not know a hen could fly so high. She knocked several things over
+and gargled the oil in her throat, then her big muddy feet clutched
+the top of the bookcase and she spat the oil over Mrs. Crane’s books
+so  that  she  could  cackle.  She  had  seemed  so  meek  and  sick  we
+could not believe it. I was still staring when I heard a little squashed
+“Mama” come from Helen, as if something had crushed it out of her.
+Sometimes I have thought that Mrs. Crane had the power to grow
+and shrivel at will. She filled the room, her eyes burnt and her voice
+froze.
+“Catch that fowl!”
+As I mounted the chair to catch the hen, I saw what her muddy
+feet and the oil had done to me. Helen’s hair was long and she could
+hide  behind  it,  but  mine  was  short.  I  stepped  carefully  over  the
+hateful blue bottle oozing sluggishly over the rug.
+Out on the drive I plunged my burning face down into the fowl’s
+soft feathers.
+“Oh,  old  hen,  I  wish  I  could  shrivel  and  get  under  your  wing!”  I
+cried. I had to put her down and go back alone.
+56|The Book of Small
+
+It seemed almost as if I had shrivelled, I felt so shamed and small
+when I saw Mrs. Crane on her knees scrubbing the rug.
+I went close. “I’m sorry, Mrs. Crane.”
+No answer. I went closer. “I wanted to help your hen. She’s better.
+Perhaps it was only a little cuddling she wanted.”
+Oh, why didn’t she speak! Why didn’t she scold or even smack, not
+just scrub, scrub, scrub!
+I stood looking down at Mrs. Crane. I had never seen the top of
+her before. I saw the part of her hair, the round of her shoulders, her
+broad back, her thickness when you saw her from on top. Perhaps
+after all there was room for quite a wide heart.
+Suddenly now while I could reach her, I wanted to put my arms
+round her and cry.
+Mrs. Crane rose so suddenly that she almost trod on me. I stepped
+back. The wings of her nose trembled. Mrs. Crane was smelling.
+She strode to the doll cupboard and doubled down into it. When
+she  backed  out,  a  starfish  dangled  from  the  tips  of  the  fingers  of
+each hand. Helen and I had caught some under the boathouse ten
+days before and dressed them up in dolls’ clothes. Mrs. Crane’s nose
+and hands were as far as they could get away from each other.
+Mrs.  Crane  looked  at  me  hard.  “Such  things  never  enter  my
+Helen’s head,” she said. “Your mama is better; they are coming for
+you tonight.”
+In spite of the bad-smell-nose she wore, and the disgust in her
+fingertips,  Mrs.  Crane  seemed  to  me  just  then  a  most  beautiful
+woman.
+“Oh, Mrs. Crane!”
+My hands trembled up in that silly way pieces of us have of doing
+on their own, but the rest of me pulled them down quickly before
+Mrs. Crane saw.
+Mrs. Crane|57
+
+White Currants
+It happened many times, and it always happened just in that corner
+of the old garden.
+When  it  was  going  to  happen,  the  dance  in  your  feet  took  you
+there without your doing anything about it. You danced through the
+flower garden and the vegetable garden till you came to the row of
+currant bushes, and then you danced down it.
+First came the black currants with their strong wild smell. Then
+came the red currants hanging in bright tart clusters. On the very
+last bush in the row the currants were white. The white currants
+ripened first. The riper they got, the clearer they grew, till you could
+almost see right through them. You could see the tiny veins in their
+skins and the seeds and the juice. Each currant hung there like an
+almost-told secret.
+Oh! you thought, if the currants were just a wee bit clearer, then
+perhaps you could see themliving, inside.
+The white currant bush was the finish of the garden, and after it
+was a little spare place before you came to the fence. Nobody ever
+came there except to dump garden rubbish.
+Bursting higgledy-piggledy up through the rubbish everywhere,
+grew a half-wild mauvy-pink flower. The leaves and the blossoms
+were not much to look at, because it poured every drop of i  ts glory
+into its smell. When you went there the colour and the smell took
+you and wrapped you up in themselves.
+The smell called the bees and the butterflies from ever so far. The
+white butterflies liked it best; there were millions of them flickering
+among the pink flowers, and the hum of the bees never stopped.
+The  sun  dazzled  the  butterflies’  wings  and  called  the  smell  out
+of the flowers. Everything trembled. When you went in among the
+mauvy-pink flowers and the butterflies you began to tremble too;
+you  seemed  to  become  a  part  of  it—and  then  what  do  you  think
+58|White Currants
+
+happened? Somebody else was there too. He was on a white horse
+and he had brought another white horse for me.
+We  flew  round  and  round  in  and  out  among  the  mauvy-pink
+blossoms, on the white horses. I never saw the boy; he was there
+and I knew his name, but who gave it to him or where he came from
+I did not know. He was different from other boys, you did not have to
+see him, that was why I liked him so. I never saw the horses either,
+but I knew that they were there and that they were white.
+In and out, round and round we went. Some of the pink flowers
+were  above  our  heads  with  bits  of  blue  sky  peeping  through,  and
+below  us  was  a  mass  of  pink.  None  of  the  flowers  seemed  quite
+joined to the earth—you only saw their tops, not where they went
+into the earth.
+Everything  was  going  so  fast—the  butterflies’  wings,  the  pink
+flowers, the hum and the smell, that they stopped being four things
+and became one most lovely thing, and the little boy and the white
+horses and I were in the middle of i   t, like the seeds that you saw
+dimly inside the white currants. In fact, the beautiful thing was like
+the  white  currants,  like  a  big  splendid  secret  getting  clearer  and
+clearer every moment—just a second more and——.
+“Come  and  gather  the  white  currants,”  a  grown-up  voice  called
+from the vegetable garden.
+The most beautiful thing fell apart. The bees and the butterflies
+and the mauvy-pink flowers and the smell, stopped being one and
+sat  down  in  their  own  four  places.  The  boy  and  the  horses  were
+gone.
+The grown-up was picking beans. I took the glass dish.
+“If we left the white currants, wouldn’t they ripen a little more?
+Wouldn’t they get—clearer?”
+“No, they would shrivel.”
+“Oh!”
+Then I asked, “What is the name of that mauvy-pink flower?”
+“Rocket.”
+“Rocket?”
+“Yes—the same as the fireworks.”
+White Currants|59
+
+Rockets! Beautiful things that tear up into the air and burst!
+60|The Book of Small
+
+The Orange Lily
+Henry  Mitchell’s  nursery  garden  was  set  with  long  rows  of  trees,
+shrubs and plants. It sat on the edge of the town. In one corner of i  ts
+acreage was the little grey cottage where Henry and his wife, Anne,
+lived. They were childless and well on in years, trying honestly to
+choke down homesickness and to acclimatize themselves as well as
+their Old Country plants to their step-land.
+Small  came  into  the  nursery  garden  taking  the  gravel  path  at  a
+gallop,  the  steps  at  a  jump,  tiptoeing  to  reach  the  doorbell—then
+she  turned  sharp  against  the  temptation  of  peering  through  the
+coloured glass at the door-sides to see sombre Anne Mitchell come
+down the hall multicoloured—green face, red dress, blue hair. The
+turn brought Small face to face with the Orange Lily.
+The lily grew in the angle made by the front of the house and the
+side of the porch. Small’s knees doubled to the splintery porch floor.
+She leaned over to look into the lily’s trumpet, stuck out a finger to
+feel the petals. They had not the greasy feel of the wax lilies they
+resembled, they had not the smooth hard shininess of china. They
+were cool, slippery and alive.
+Lily rolled her petals grandly wide as sentinelled doors roll back
+for royalty. The entrance to her trumpet was guarded by a group of
+rust-powdered stamens—her powerful perfume pushed past these.
+What  was  in  the  bottom  of  Lily’s  trumpet?  What  was  it  that  the
+stamens  were  so  carefully  guarding?  Small  pushed  the  stamens
+aside  and  looked.  The  trumpet  was  empty—the  emptiness  of  a
+church after parson and people have gone, when the music is asleep
+in the organ and the markers dangle from the Bible on the lectern.
+Anne Mitchell opened the cottage door.
+“Come see my everlasting flowers, Small—my flowers that never
+die.”
+With a backward look Small said, “What a lovely lily!”
+The Orange Lily|61
+
+“Well   enough   but   strong-smelling,   gaudy.   Come   see   the
+everlastings.”
+The  front  room  of  the  cottage  was  empty;  newspapers  were
+spread  over  the  floor  and  heaped  with  the  crisping  everlasting
+flowers, each colour in a separate pile. The sunlight in the room was
+dulled by drawn white blinds. The air was heavy—dead, dusty as the
+air of a hay loft.
+The  flowers  crackled  at  Anne’s  touch.  “Enough  to  wreathe  the
+winter’s dead,” she said with a happy little sigh and, taking a pink
+bud from the pile, twined it in the lace of her black cap. It drooped
+against her thin old cheek that was nearly as pink, nearly as dry as
+the flower.
+“Come, Mrs. Gray’s wreath!” She took Small to the sitting-room.
+Half of Mrs. Gray’s wreath was on the table, Anne’s cat, an invalid
+guinea  hen  and  Henry  huddled  round  the  stove.  The  fire  and  the
+funereal everlastings crackled cheerfully.
+Presently Small said, “I had better go now.”
+“You shall have a posy,” said Anne, laying down the wreath.
+“Will there be enough for Mrs. Gray and me too?” asked Small.
+“We will gather flowers from the garden for you.”
+The  Orange  Lily!  Oh  if  Mrs.  Mitchell  would  only  give  me  the
+Orange Lily! Oh, if only I could hold it in my hand and look and look!
+Anne passed the lily. Beyond was the bed of pinks—white, clove,
+cinnamon.
+“Smell like puddings, don’t they?” said Small.
+“My dear!”
+Anne’s scissors chawed the wiry stems almost as sapless as the
+everlastings. Life seemed to have rushed to the heads of the pinks
+and flopped them face down to the ground. Anne blew off the dust
+as she bunched the pinks. Small went back to the lily. With pocket-
+handkerchief she wiped the petals she had rusted by pushing aside
+the stamens.
+“There are four more lilies to come, Mrs. Mitchell!”
+Anne lifted the corner of her black silk apron.
+“That lily has rusted your nose, Small.”
+62|The Book of Small
+
+She scrubbed.
+Small went home.
+“Here’s pinks,” she said, tossing the bunch upon the table.
+In her heart she hugged an Orange Lily. I  t had burned itself there
+not with flaming petals, not through the hot, rich smell. Soundless,
+formless, white—it burned there.
+The Orange Lily|63
+
+How Lizzie was Shamed
+Right Through
+Now that I am eight, the same age that Lizzie was when the party
+happened, and am getting quite near to being grown-up, I can see
+how shamed poor Lizzie must have been of me then.
+Now  I  know  why  the  Langleys,  who  were  so  old,  gave  a  party
+for  us  who  were  so  little,  but  then  I  was  only  four  so  I  did  not
+wonder about it at all, nor notice that the fair, shy boy was their own
+little brother, hundreds and hundreds of years younger than his big
+brother and two big sisters. They did not poke his party in the little
+boy’s face, did not say, “  Albert, this is your party. You must be kind
+and polite to the boys and girls.” That would have made Albert shyer
+than he was already. They let him enjoy his own party just as the
+other children were enjoying it.
+The Langleys’ party was the first one we had ever been to. Mother
+made us look very nice. We had frilly white dresses, very starched.
+Lizzie who was eight, and Alice who was six, had blue sashes and
+hair ribbons. There was pink ribbon on me and I was only four.
+Sister  Dede  bustled  round  saying,  “Hurry!  Hurry!”  scrubbing
+finger  nails  and  polishing  shoes.  She  knotted  our  ribbons  very
+tightly so that we should not lose them,—they pulled the little hairs
+under our curls and made us “ooch” and wriggle. Then Dede gave
+us little smacks and called us boobies. The starch in the trimming
+about our knees was very scratchy. Dede snapped the white elastics
+under our chins as she put on our hats and said to Mother, “I wonder
+how long these youngsters will stay clean.” Being fixed up for the
+party was very painful.
+There were three pairs of white cotton gloves waiting on the hall
+stand, like the mitts of the three little kittens. Mother sorted them
+and  stroked  them  onto  the  fingers  we  held  out  as  stiff  as  they’d
+64|How Lizzie was Shamed Right
+Through
+
+go, and by the time that Mr. Russell’s hansom-cab, the only one in
+Victoria, jingled up to the door, we were quite ready.
+Mother kissed us. Dede kissed us.
+“Have you all got clean pocket handkerchiefs?”
+Yes, we had.
+“Don’t forget to use them.”
+No, we wouldn’t.
+“Be sure to thank Miss Langley for the nice time.”
+“S’pose it isn’t nice?”
+“Say ‘thank you’ even more politely.”
+We sat in a row on the seat; Mr. Russell slammed the apron of the
+cab down in front of us, jumped up like a monkey to his perch at the
+back, and we were off—eight, six and four years old going to our first
+party.
+It was such fun sitting there and being taken by the horse, just
+as if he knew all by himself where to find parties for little girls, for,
+after Mr. Russell had climbed up behind so that you could not see
+him, you forgot that there was a driver.
+Lizzie looked over my hat and said to Alice, “I do hope this child
+will behave decently, don’t you? There! See, already!” She pointed to
+the tips of my gloves which were all black from feeling the edges and
+buttons of the cab’s inside.
+“Stop it, bad child,” she squealed so shrilly that a little door in the
+roof of the cab opened and Mr. Russell put his head in. When he saw
+it was only a “mad” squeal he took his head out again and shut up
+the hole.
+We  drove  a  long  way  before  we  came  to  the  Langleys’.  Their
+gate did not know which road it liked best, Moss or Fairfield, so it
+straddled the corner and gaped wide. We drove up to the door. The
+two  Miss  Langleys  and  Mr.  Langley  were  there,  shaking  boys  and
+girls by the hands.
+The  three  Langleys  had  been  grown-up  a  long,  long  time.  They
+had big shining teeth which their lips hugged tight till smiles pushed
+them back and then you saw how strong and white the teeth were.
+How Lizzie was Shamed Right Through|65
+
+They had yellow hair, blue eyes, and had to double down a long way
+to reach the children’s hands.
+Mr. Russell flung back the apron of his cab but we still kept on
+sitting there in a close row like the three monkeys, “See no evil, hear
+no evil, and speak no evil.” He said, “Come now, little leddies. Me ’   oss
+and ’ansom baint inwited.” He lifted me out and Mr. Langley had to
+pull the others from the cab, for now that we were in the middle of
+the party Lizzie was as scared as any of us. She took Alice by one
+hand and me by the other and we shook hands with all the Langleys,
+for no matter how scared Lizzie was she always did, and made us do,
+what she knew was right.
+The house was the wide, sitting sort. Vines and creepers tied it
+down to the ground.
+The garden was big. It had trees, bushes and lawns—there were
+rocks covered with ivy, too.
+The  Langleys  tried  to  mix  the  children  by  suggesting  “hide  and
+seek” among the bushes. Everybody hid but no one would seek. Each
+child wanted to hold a hand belonging to another of i  ts own family.
+The boys were very, very shy and the girls’ clothes so starchy they
+rattled if they moved.
+By and by Miss Langley counted . . . “Sixteen”, she said, “That is all
+we have invited so we had better start.” Something was coming up
+the drive. Lizzie thought i  t was our cab and that Miss Langley meant
+that i  t was time to be going home, so she took us up to Miss Langley
+to say what Mother had told us to, but it was not Mr. Russell at all.
+It was Mr. Winter’s big picnic carriage, all shiny and new, the one
+he had got specially for taking children to parties and picnics. There
+seemed to be no end to the amount of children he could stuff into
+this carriage, but there was, because, when they put me in, there
+was not a crack of space left except the door handle, so I sat on that.
+The boys were all up in the front seat, swarming over Mr. Winter like
+sparrows. Behind sat all the little girls—so still—so polite. Suddenly I
+had a thought and cried, “If this door busted open I’d fall out!”
+“Millie, don’t say ‘busted’. I  t’s horrible! Say ‘bursted’.” Lizzie’s face
+was red with shame.
+66|The Book of Small
+
+We went to Foul Bay and had games on the beach. After we had
+played a long time Lizzie was just as clean as when we left home,
+Alice was almost as clean, and I was all mussed up, but they were
+not having half such a good time as I.
+We went back to the Langleys’ house for tea. There were all sorts
+of sandwiches and there was cocoa and two kinds of cake—one just
+plain currant, the other a most beautiful cake with pink icing and
+jelly.
+Lizzie  and  Alice  sat  across  the  table  from  me  and  were  being
+frightfully polite, taking little nibbling bites like ladies, holding their
+cups with one hand, and never forgetting “thank you”.
+My mug was big, it took both my hands. Even then it was heavy
+and slopped. Miss Langley said, “Oh, your pretty frock!” and tied a
+bib round me and pulled the little neck hairs so hard that I could
+not help one or two squeaks . . . they weren’t big, but Lizzie scowled
+and whispered to Alice. I was sure she said, “Bad, dirty little thing.” I
+was just going to make a face at her when Miss Kate Langley came
+with the splendid pink cake. I had a piece of the currant kind on my
+plate. I was so afraid Miss Kate would see it and pass me—maybe she
+would never come back—that I stuffed the currant cake into both
+cheeks and held my hand up as the girls did at lessons if they wanted
+something.
+“Jelly cake, dear?”
+I  couldn’t  speak,  but  I  nodded.  Lizzie’s  forehead  crinkled  like
+cream when mother was skimming for butter. She mouthed across
+at  me,  “I’m  going  to  tell.”  My  mouth  was  too  busy  to  do  anything
+with, but I did the worst I could at her with my eyes and nose. She
+had spoilt everything. Somehow the jelly cake was not half as nice as
+I thought it was going to be.
+The  moment  tea  was  over  Miss  Langley  took  my  bib  off  and,
+holding me by the wrists with my hands in the air, said:
+“Come, dear. Let me wash you before . . .”
+She washed beautifully and was a lovely lady. I told her about my
+cat Tibby, and after she had washed my face she kissed it.
+How Lizzie was Shamed Right Through|67
+
+I f  elt very special going back to the others with my hand in that of
+the biggest and best Miss Langley.
+Out  on  the  lawn  they  were  playing  “Presents  for  shies.”  Mr.
+Langley  stuck  up  four  wobbly  poles  and  put  a  prize  on  top  of
+each—bells  and  tops  and  whistles.  If  your  shy  hit  a  pole  so  that
+a  prize  fell  off,  it  was  yours  to  keep.  I  wanted  a  whistle  most
+dreadfully.  When  my  turn  came  my  shy  flew  right  over  the  other
+side  of  the  garden.  I  had  been  quite  sure  that  I  could  knock  the
+whistle off the pole but my shy stick just would not do it. I had three
+tries and then I ran to Alice who was sitting on a bench and put my
+head down in her lap and howled. She lifted me by the ribbon and
+spread her handkerchief under my face so that I should not spoil her
+dress. Miss Langley heard my crying.
+“There, there!” she said and gave me a little muslin bag with six
+candies in it—but it was not a whistle.
+Lizzie told Miss Langley that she was very ashamed of me and that
+I always did behave dreadfully at parties. That made me stop crying
+and shout, “I never, never went to one before.” Then I did make the
+very worst face I knew how at Lizzie and gave two sweets to Alice,
+two  to  Miss  Langley,  two  to  myself,  and  threw  the  empty  bag  at
+Lizzie as she went off to have her shy. I don’t know how I should
+have felt if she had won a whistle but when she came back without
+any prize I picked up the bag and put the candy I was not eating in
+it and gave it to her.
+Jingle,  jingle,  clop,  clop—Mr.  Russell’s  cab  was  coming  up  the
+drive. Again Lizzie marched us to Miss Langley.
+“Thank you for a very nice party, Miss Langley,” she said.
+Then she poked at Alice, but Alice only went red as a geranium!
+She  had  forgotten  what  it  was  she  had  to  say.  Poor  Lizzie  looked
+down at me and saw the spot of jelly, the cocoa and the front part
+of me where I’d gone under the bush after my shy stick. She pushed
+me back and pulled her own clean skirt across me quickly.
+When Lizzie wasn’t looking at her Alice could remember all right.
+She said, “Miss Langley, I liked myself, and I’m glad I came.”
+Miss Langley gave her such a lovely smile that I tore my hand from
+68|The Book of Small
+
+Lizzie’s, ran up and tiptoed, with my face as high as it would go, for
+Miss Langley to kiss.
+We  all  jumped  into  the  cab  then  and  the  apron  slammed  off
+everything but our heads and waving hands. The cab whisked round.
+The party was gone.
+“Where’re your gloves?”
+“L-l-lost.”
+“Where’s your hankie?”
+“L—l—lost.”
+Lizzie took out her own and nearly twisted the nose off my face.
+“I’m going to tell Mother about ‘busted’, about grabbing the jelly
+cake  with  your  mouth  full,  about  having  to  wear  a  bib  and  be
+washed. Oh! and there’s the two lost things as well. I expect you’ll
+get spanked, you disgusting child. I’m shamed right through about
+you, and I’m never, never, never going to take you to a party again.”
+One of my eyes cried for tiredness and the other because I was
+mad.
+Alice got out her hankie, her very best one with Christmas scent
+on  it.  “Keep  it,”  she  whispered,  pushing  it  into  my  hand.  “Then
+there’ll be only one lost thing instead of two.”
+How Lizzie was Shamed Right Through|69

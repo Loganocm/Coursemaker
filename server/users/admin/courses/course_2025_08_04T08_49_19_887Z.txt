@@ -1,0 +1,774 @@
+# The Book of Small: A Childhood Memoir by Emily Carr
+
+## Module 1: Introduction and Context
+
+### notes - This module serves as an introduction to "The Book of Small" by Emily Carr, detailing its inclusion in the Public Domain Core Collection, an initiative of Ryerson University. This collection aims to provide over 50 public domain works in various open formats (online, epub, pdf, editable) to make them freely available for reading and adaptation, primarily targeting post-secondary students and faculty in Ontario. The selection criteria for titles included relevance to Ontario courses, frequency on Open Syllabus Project syllabi, proposed usage in open assignments at Ryerson and Brock, and the inclusion of underrepresented voices, all while ensuring the works are in the public domain in Canada. The specific edition of "The Book of Small" used for this digital version is the 1942 Oxford University Press edition. The module also emphasizes the resource's accessibility features, such as keyboard navigation, proper markup for links, headings, and tables, and text descriptions for all images, along with the availability of alternative formats. The acknowledgements highlight the collaborative spirit of the project, made possible by funding from the Government of Ontario and eCampusOntario's Virtual Learning Strategy, with a shared goal of empowering students as knowledge creators.
+
+### flashcards
+Q: What is the primary purpose of the Public Domain Core Collection mentioned in the introduction?
+A: To provide openly accessible educational resources, especially for post-secondary education in Ontario.
+
+Q: Which edition of "The Book of Small" was used for this digital version?
+A: The 1942 Oxford University Press edition.
+
+### quiz
+Q: Which organization primarily funded the creation of the Public Domain Core Collection?
+A) Ryerson University
+B) Brock University
+C) Government of Ontario
+D) Oxford University Press
+CORRECT: C
+
+## Module 2: Sunday
+
+### notes - This module meticulously details the rigid and deeply ingrained Sunday routine of the Carr family, showcasing a blend of strict Presbyterianism from Father and a gentler Anglican influence from Mother. The week culminates on Saturday night with preparatory rituals including a vigorous bath, putting away toys, and airing clean clothes, setting the tone for the solemn day ahead. Sundays commence with Father's early morning summons, followed by formal family prayers characterized by "awe-ful words." No work is permitted; all food is cooked beforehand. The family, dressed in stiff, uncomfortable attire, embarks on a long, straight walk to Dr. Reid's Presbyterian church. Small often struggles with wakefulness during the lengthy sermon. Post-church, the Sunday dinner consists of a cold saddle of mutton, prepared in Father's English-style oven, accompanied by unique side dishes and a massive cottage-loaf of bread. A mandatory sermon recall follows dinner, where children recount details to Father's satisfaction. The afternoon transitions to Sunday School taught by Dede and a family walk across their English-styled property, contrasted sharply by the nearby "Park Hotel," a saloon that profoundly displeases Father. The day concludes with tea and a prolonged, mandatory Bible reading, which the younger children, including Small, find particularly challenging due to sleepiness, before a brief serial story brings the day to a close.
+
+### flashcards
+Q: What was the primary difference between Father's and Mother's religious practices?
+A: Father's was strict Presbyterian on Sunday mornings, while Mother's was gentler Anglican on Sunday evenings.
+
+Q: What was the main source of Father's displeasure regarding his property's corner acre?
+A: Mrs. Lush built a "Public House" (saloon) there, breaking her promise not to.
+
+### quiz
+Q: What type of church did the Carr family attend on Sunday mornings?
+A) Anglican
+B) Methodist
+C) Presbyterian
+D) Baptist
+CORRECT: C
+
+## Module 3: The Cow Yard
+
+### notes - This module provides a vivid portrayal of the "Cow Yard," a significant space for play and exploration for Small and her older sisters, Bigger and Middle. The yard's vastness is defined not just by its physical dimensions but also by the "spirit of maternity" hovering above it, embodying the gentle, life-giving presence of the large, red-and-white Cow. Key features of the yard include the old and new barns, a pond where the girls fish for tadpoles, and a rock-bordered ditch with two bridges. The narrative highlights seasonal events, particularly the Spring bonfire, a central gathering where orchard prunings and winter debris are burned. During this event, the girls roast potatoes and engage in imaginative storytelling, revealing their distinct future aspirations: Bigger's missionary calling, Middle's desire for a large doll family, and Small's yearning for a circus life or marrying a farmer with many animals, contrasting her practical views with Bigger's idealism. The module also covers the natural cycle of the farm, including the hatching of fluffy chickens and a memorable instance of a hen raising ducklings. Small's attempt to ride the placid Cow, motivated by a desire for a "colt," hilariously backfires, resulting in a fall. A more somber element is the "Killing Tree," an ivy-covered tree believed to mysteriously kill birds, a source of childhood fear and curiosity that is eventually cut down, its enigma remaining unsolved. The module concludes with the Father acquiring a horse, but the Cow's enduring dominance ensures the space remains affectionately known as "The Cow Yard."
+
+### flashcards
+Q: What did Small, Bigger, and Middle do during the bonfire?
+A: They roasted potatoes and told stories about their future aspirations.
+
+Q: What was the "Killing Tree" believed to do?
+A: It was believed to silently kill sparrows and other creatures that entered its dense ivy.
+
+### quiz
+Q: What was Small's primary aspiration discussed during the bonfire story-telling?
+A) To be a missionary
+B) To have a hundred children
+C) To join a circus or marry a farmer with many animals
+D) To own a large vegetable garden
+CORRECT: C
+
+## Module 4: The Bishop and the Canary
+
+### notes - This module intimately explores Small's pure joy and overwhelming sense of connection upon receiving her first live creature, a little canary with a distinctive topknot. The experience is profoundly personal for Small, who feels an almost divine responsibility and whispers, "Mine! I shall be his God." Her excitement is so intense that her movements become careful, yet she yearns to share her newfound treasure. Her opportunity arises when she encounters the Bishop, a figure of great holiness whom Small holds in awe. Believing that birds, belonging to the sky, would be understood by the holy man, Small bravely approaches him, holding the cage high and eagerly calling out. However, the Bishop's thoughts are distant, focused on higher contemplations. Despite Small's earnest attempts to attract his attention and share her joy, he remains oblivious to the significance of the moment for her. He offers a kind but vague compliment about her being "a pretty picture" and gently moves her out of his path. This dismissive encounter leaves Small with a powerful, unspoken "hurt fury," deeply disappointed by the Bishop's inability to recognize or engage with her profound joy and the wonder of her cherished new pet. This moment underscores the often-unseen emotional depths of childhood and the disconnect between adult perception and a child's intense inner world.
+
+### flashcards
+Q: What type of bird did Small receive as her first pet?
+A: A canary.
+
+Q: How did the Bishop react when Small tried to show him her bird?
+A: He was oblivious, gave a polite but dismissive comment, and gently moved her aside.
+
+### quiz
+Q: What was Small's whispered sentiment upon receiving her canary?
+A) I shall teach him to sing!
+B) Mine! I shall be his God.
+C) He will be my best friend.
+D) This bird is so beautiful.
+CORRECT: B
+
+## Module 5: The Blessing
+
+### notes - This module vividly contrasts the two distinct religious experiences that shaped the Carr children's Sundays: the stern, unyielding Presbyterianism led by Father in the morning, and the gentler, more privileged Anglican service influenced by Mother in the evening. The morning involved an arduous, lengthy walk to Dr. Reid's church, characterized by long, tiring prayers and sermons that were endured more out of a sense of "rightness" than enjoyment. In stark contrast, the evening Anglican service was considered a special treat, located much closer to their home near James' Bay mud flats. Attending this service meant being out at night, a rare and magical experience under the moon and stars, with twinkling town and harbor lights. The Anglican church environment is depicted as "mellow," presided over by a mild, wide Bishop whose soft, moon-like voice and unique blessing were the highlight. The children eagerly anticipated this blessing, daring not to nap through it despite the comfortable pews. The church itself was beautiful, with music from an organ, splendid chandeliers casting light, and a mixed choir. The Bishop's sermon, though read from sheets, was delivered with a gentle "Amen." The departure from this service was marked by a feeling of carrying "a bit of the Bishop's blessing" home, emphasizing the profound emotional and spiritual impact of the evening ritual compared to the more rigid and dutiful morning one.
+
+### flashcards
+Q: What feature of the Anglican service did the children most look forward to?
+A: The Bishop's blessing.
+
+Q: How did the evening Anglican church differ geographically from the morning Presbyterian church?
+A: The Anglican church was much nearer their house, down over Marvin's Hill, while the Presbyterian church required a long walk.
+
+### quiz
+Q: What characteristic best describes the Anglican Bishop's voice?
+A) Loud and booming
+B) Gentle and moon-like
+C) Harsh and demanding
+D) Quick and hurried
+CORRECT: B
+
+## Module 6: Singing
+
+### notes - This module explores Small's uninhibited, joyful singing, which her family, especially Bigger, disapproves of, calling it a "horrible row" that shames them. Small primarily sings in the cow-yard, where her happiness among the animals spontaneously translates into song. The cow, in particular, enjoys her singing, chewing contentedly and twiddling her ears in appreciation. Small finds an appreciative audience in the cow-yard creatures, who react in various ways. Bigger's constant scolding about the "vulgar row" and fears of what neighbors think contrast sharply with Small's unapologetic expression. Even the Elder attempts to shame Small by recounting an incident where a lady mistook Small's singing for someone in "trouble." The Bishop also offers a gentle, albeit detached, comment on her singing. Later, during her siblings' holiday absence, Small observes her mother and Mrs. Gregory, usually prim and proper, unexpectedly singing old English songs. This moment of shared, uninhibited joy inspires Small to continue her cow-yard songs even more defiantly, sending them "straight into her mother's window."
+
+### flashcards
+Q: Where did Small mostly do her singing?
+A: In the cow-yard.
+
+Q: How did the cow react to Small's singing?
+A: It chewed harder and twiddled its ears, seeming to enjoy it.
+
+### quiz
+Q: What did Bigger usually call Small's singing?
+A) A beautiful melody
+B) A joyful noise
+C) A horrible row
+D) A family problem
+CORRECT: C
+
+## Module 7: The Praying Chair
+
+### notes - This module introduces the "praying chair," a new wicker chair Father used for daily family prayers. Small, who often preferred to gaze out the window during prayers, sometimes had to kneel beside Father, finding it stuffy. The chair itself seemed to "help pray," creaking and squawking its own "Amen." Small's deep desire for a dog, a long-standing wish, leads her to enlist the chair and the cat, Tibby, in a prayer for a puppy, believing the chair's "splendid Amen" would be effective. Despite her mother's dismissal of the idea, Small's birthday approaches with hints of a "d" or "p" present. Her excitement is palpable as she prepares for a puppy, even finding an old hairbrush and crafting a collar. However, her present is a picture of a girl with a dog, crushing her hopes. She throws the collar into the fire and declares God "deaf." Years later, as an adult, Small finally gets a dog, fulfilling her lifelong wish. She builds a house with a large backyard for her kennel of Bobtail Sheepdogs. The old "praying chair" finds its final purpose in her puppy nursery, where Small bottles pups, and reflects on her journey, ending with the chair's whispered "Amen."
+
+### flashcards
+Q: What was Small's long-standing childhood wish?
+A: To have a dog.
+
+Q: What was Small's birthday present when she hoped for a puppy?
+A: A picture of a little girl holding a dog.
+
+### quiz
+Q: Where did the "praying chair" ultimately find its purpose in Small's adult life?
+A) In her personal study
+B) As a garden decoration
+C) In her puppy nursery
+D) As a replacement for the old cow-yard woodpile
+CORRECT: C
+
+## Module 8: Mrs. Crane
+
+### notes - This module details Small and Alice's stay at Mrs. Crane's house during their mother's illness. Mrs. Crane is initially perceived as a tall, narrow woman with a "large heart" (a source of literal and figurative confusion for Small). The Crane house is described as being "backwards" (front door at the back, facing the sea), and filled with Mr. Crane's hunting trophies, unsettling Small. Mrs. Crane's children are formal and well-behaved, a stark contrast to Small's own uninhibited nature. Small finds comfort only in the Cranes' old, retired dog, who is not used for hunting. The strict rules, particularly about dolls and wild dogs, and an unsettling story from Helen about her father shooting a beloved mongrel, further emphasize the differences. Small is caught in a mischievous act (playing with quicksilver) and later, a well-intentioned but disastrous attempt to give castor oil to a sick hen, leading to chaos and Mrs. Crane's cold disapproval. Small's emotional distress is palpable, culminating in her declaring she "hates" Mrs. Crane and believes she has a "pig's heart," yet later sees a momentary beauty in her, recognizing her depth. The freedom of riding Cricket, the pinto pony, offers a temporary escape. The module concludes with Small's deep shame and Mrs. Crane's decision to send the girls home, accusing Small of desecrating her dead mother's antimacassar, highlighting the cultural clash and Small's difficulty conforming.
+
+### flashcards
+Q: Why did Small and Alice stay at Mrs. Crane's house?
+A: Their mother was seriously ill.
+
+Q: What happened when Small tried to give the sick hen castor oil?
+A: The hen flapped free, gargled oil, and spat it over Mrs. Crane's books and the rug, causing a mess.
+
+### quiz
+Q: What was Mrs. Crane's house described as, in comparison to Small's home?
+A) Smaller and cozier
+B) Grand and traditional
+C) Backwards with the front door at the back
+D) Modern and spacious
+CORRECT: C
+
+## Module 9: White Currants
+
+### notes - This module delves into a unique, almost mystical corner of the old garden, where the highly anticipated white currants grow. These currants are not just fruit; as they ripen, they attain an extraordinary clarity, becoming so transparent that Small feels she can "almost see right through them," envisioning them as "an almost-told secret" on the verge of revealing life itself. Beyond the white currant bush lies a seemingly mundane rubbish dump, transformed by the vibrant presence of a "half-wild mauvy-pink flower" named "Rocket." This flower, though visually modest, releases an incredibly powerful and intoxicating smell that attracts an abundance of white butterflies and buzzing bees, creating a symphony of sensory experience. When Small immerses herself in this space, the collective elements—the fluttering butterflies, the vibrant pink flowers, the constant hum of the bees, and the pervasive, sweet aroma—all merge into "one most lovely thing." In this heightened state of sensory fusion, Small's imagination takes flight, conjuring a boy and two unseen white horses, with whom she "flies round and round" among the blossoms. This secret, beautiful moment, poised for complete revelation, is abruptly shattered by the mundane call of a grown-up from the vegetable garden, signaling it's time to pick the currants. The magical spell is broken instantly; the integrated sensory experience "falls apart," and the boy and horses vanish. Small is left with the prosaic reality, her profound wonder giving way to the simple act of gathering currants and the disheartening knowledge that if left longer, the beautiful, clear fruit would merely "shrivel."
+
+### flashcards
+Q: What unique quality did the white currants possess as they ripened?
+A: They became so clear you could almost see through them, like an "almost-told secret."
+
+Q: What was the name of the "half-wild mauvy-pink flower" growing in the rubbish dump?
+A: Rocket.
+
+### quiz
+Q: What happened to Small's imaginative experience with the boy and white horses?
+A) It gradually faded as she grew older.
+B) It was abruptly shattered by a grown-up's call.
+C) She shared it with her sisters.
+D) It led to her learning to ride a real horse.
+CORRECT: B
+
+## Module 10: The Orange Lily
+
+### notes - This module introduces Henry Mitchell's nursery garden, situated at the town's edge, and his wife, Anne Mitchell. This elderly, childless couple, despite their efforts, harbor a quiet homesickness for their "Old Country." Small's visit brings her directly to the striking "Orange Lily" growing outside their cottage, captivated by its vibrant presence. She examines its cool, slippery petals and rust-powdered stamens, peering into its trumpet only to find an unexpected emptiness, which she likens to a church after everyone has departed. Anne then draws Small inside to her front room, filled with "everlasting flowers" – dried, crackling blooms that fill the air with a heavy, dusty scent, embodying a stark contrast to the living lily. Anne, with a wistful sigh, cherishes these preserved flowers, even twining a pink bud into her lace cap, which mirrors her own thin, dry cheek. She begins assembling a wreath for "Mrs. Gray," finding a somber cheerfulness in the task, surrounded by her cat, an invalid guinea hen, and Henry. Small, however, remains drawn to the vitality of the Orange Lily. When offered a posy, she wistfully hopes for the Lily but receives pinks, which she notes smell "like puddings" but appear wilted and sapless, lacking the Orange Lily's life. Small attempts to clean the lily's petals, acknowledging four more lilies are yet to come. Upon returning home, Small carries the physical pinks but, more profoundly, the indelible image of the Orange Lily, which has "burned itself" into her heart, a "Soundless, formless, white" internal experience that transcends its physical form, representing a deep, lasting impression of beauty and life.
+
+### flashcards
+Q: What did Small find when she looked into the trumpet of the Orange Lily?
+A: Emptiness.
+
+Q: What kind of flowers did Anne Mitchell collect that "never die"?
+A: Everlasting flowers.
+
+### quiz
+Q: How did Small ultimately "keep" the Orange Lily?
+A) She took it home in a posy.
+B) Anne Mitchell gave it to her.
+C) It burned itself into her heart.
+D) She planted a seed from it in her own garden.
+CORRECT: C
+
+## Module 11: How Lizzie was Shamed Right Through
+
+### notes - This module recounts Small's first party experience, given by the elderly Langleys for their much younger brother Albert. The narrative is framed by adult Small's understanding of Lizzie's embarrassment. As children (Lizzie 8, Alice 6, Small 4), they are meticulously prepared by Dede and Mother, with stiff, uncomfortable dresses and strict instructions on behavior. The cab ride to the party reveals Small's mischievous nature (dirtying her gloves), much to Lizzie's chagrin. At the party, the children are shy and cling to family. A trip to Foul Bay for beach games leaves Small messy but happy, while Lizzie and Alice remain tidy. Tea at the Langleys' house becomes a source of great shame for Lizzie: Small slopping cocoa, needing a bib, and crudely stuffing currant cake into her cheeks to make room for jelly cake. Lizzie's threats to tell Mother are met with defiance. Later, during a game of "Presents for shies," Small howls when she fails to win a whistle, further embarrassing Lizzie. Despite the chaos, Miss Langley's kindness leaves a positive impression on Small. The cab ride home is dominated by Lizzie's furious recounting of Small's misdeeds, particularly the "lost" gloves and handkerchief, threatening a spanking and vowing never to take Small to a party again. Alice offers Small comfort with her own handkerchief.
+
+### flashcards
+Q: What was Small's age when she attended her first party?
+A: Four years old.
+
+Q: What did Lizzie find particularly shameful about Small's behavior at the tea party?
+A: Small slopped cocoa, needed a bib, and stuffed currant cake into her cheeks before asking for jelly cake.
+
+### quiz
+Q: What item did Small want to win most during the "Presents for shies" game?
+A) A bell
+B) A top
+C) A whistle
+D) A candy bag
+CORRECT: C
+
+## Module 12: British Columbia Nightingale
+
+### notes - Small's curiosity is piqued by a new, loud, grating spring noise heard at dusk, which she attributes to a giant creature despite her sisters' dismissals. Father and Mother jokingly refer to it as "British Columbia's nightingale" from the Beacon Hill skunk-cabbage swamp. Small imagines a terrifying monster, influencing her desire to avoid Beacon Hill Park. Her fear is finally dispelled when Mother reveals the noise is merely little green frogs, allowing Small to sleep peacefully.
+
+### flashcards
+Q: What new noise did Small hear that made her wonder?
+A: A grating, clattering sound, like sticks being dragged across a picket fence.
+
+Q: What did Small's father call the source of the noise?
+A: British Columbia's nightingale.
+
+Q: What was the actual source of the noise?
+A: Little green frogs.
+
+### quiz
+Q: Where did the "nightingale" noise seem to come from?
+A) The cow-yard
+B) The Beacon Hill skunk-cabbage swamp
+C) The Park Hotel
+D) The church organ
+CORRECT: B
+
+## Module 13: Time
+
+### notes - Father, a stern and punctual man, organizes a family picnic to Mill Stream. The children, especially Small, perceive time as incredibly slow while awaiting the day. The journey in the bumpy yellow omnibus is marked by Auntie Hays's complaints. At the stream, Small observes the varied flow, mosses, ferns, and rich forest smells. She finds a golden-brown toad, which her big sister later confiscates and throws out of the bus. Small profoundly reflects on the subjective nature of time, how a stream can condense an afternoon into a minute, or a clock can stretch a week into a year. The return journey is perceived as fast, highlighting the relativity of time based on experience.
+
+### flashcards
+Q: What type of transportation did the family use for the picnic?
+A: A yellow omnibus with two horses.
+
+Q: What animal did Small find and try to keep during the picnic?
+A: A golden-brown toad.
+
+Q: According to Small, how could a stream's perception of time differ from a clock's?
+A: A stream could squeeze a whole afternoon into one minute, while a clock could spread one week out into a whole year.
+
+### quiz
+Q: What was Auntie Hays's main complaint during the bus journey?
+A) The lack of comfortable seats
+B) The terrible racket over the stones and dust ruining her new dust coat
+C) The slow pace of the horses
+D) The absence of proper tea-making facilities
+CORRECT: B
+
+## Module 14: Beginnings
+
+### notes - This module introduces Victoria, British Columbia, as the setting and the author as "the little girl." Father's journey to Victoria is detailed: after extensive world travels, including the California gold rush, he found England's limitations stifling and eventually settled in Victoria with his wife and two daughters, accepting Canada as home before Small's birth. Their ten-acre property, part of Beckley Farm, was meticulously cultivated in an English style with hawthorn hedges, imported fruit stock, and farm animals. However, a later acquired "New Field" remained distinctly Canadian, featuring firs, oaks, and wild Canadian lilies, symbolizing the blend of cultures. Small also recalls the initial isolation of their home, being only one mile from town, and a memorable hug from Mrs. Bissett, a former pioneer neighbor, years later.
+
+### flashcards
+Q: What did Father do after returning to England from California before moving to Victoria?
+A: He chartered a vessel to take the first shipment of California wheat to England.
+
+Q: How did Father's property in Victoria reflect his English heritage?
+A: It was primly tended with hawthorn hedges, primrose banks, and imported English fruit stock.
+
+Q: What distinctively Canadian feature was found in Father's 'New Field'?
+A: Tall fir trees, oaks, and wild Canadian lilies.
+
+### quiz
+Q: What was the name of the farm where Father bought his ten acres of land?
+A) Camosun Farm
+B) Langford Farm
+C) Beckley Farm
+D) Beacon Hill Farm
+CORRECT: C
+
+## Module 15: James' Bay and Dallas Road
+
+### notes - This module details the James' Bay District, south of Victoria, where the Carr family resided. It describes the wooden bridge over the malodorous mud flats and the area's early settlement by prominent figures. The layout of Belville Street and its connection to Dallas Road, which skirts the Straits of Juan de Fuca, is explained. Beacon Hill Park, a wild land gifted by Sir James Douglas, offered panoramic views and hosted millions of croaking frogs in spring nights. Dallas Road was a popular scenic drive, characterized by wind-swept trees, camass, buttercups, fragrant wild roses, and significant landmarks like the graves of smallpox sailors and cannons guarding Esquimalt Harbour. The pebbly beaches below were piled with driftwood, and their icy waters were where children occasionally bathed.
+
+### flashcards
+Q: What was a notable feature of James' Bay mud flats at low tide?
+A: They emitted a "fearful smell" which annoyed the nose but was said to be healthy.
+
+Q: What natural phenomenon did Beacon Hill Park experience in spring nights?
+A: Millions of frogs croaked, sounding like crackling paper.
+
+Q: What historical feature was found along Dallas Road, marking early deaths in Victoria?
+A: The graves of two sailors who died of smallpox.
+
+### quiz
+Q: Who gifted Beacon Hill Park to the people of Victoria?
+A) Mr. James Bissett
+B) Sir James Douglas
+C) Dr. Helmcken
+D) Senator Macdonald
+CORRECT: B
+
+## Module 16: Silence and Pioneers
+
+### notes - This module contrasts the profound silence of Western forests, inhabited by birds of prey, with the arduous efforts of early settlers to tame the "rebellious, untutored land." Pioneers like Mr. Scaife found deep satisfaction in creating homes from nothing, a joy their children would not fully know. Small recounts falling into Mr. Scaife's deep ditch, where she was rescued by Willie Scaife, her first hero. The narrative then shifts to the oral histories of early Fort Camosun (Victoria) recounted by middle-aged residents. Small eagerly listened to Mrs. Lewis's vivid tales of daring horseback rides through panther-infested trails and the difficult transport of British Columbia's first piano, carried by Indians. The module highlights the challenges and excitement of pioneer life, contrasting it with later generations' experiences and Small's own preference for the wild, Western stories over traditional "Old Country" history.
+
+### flashcards
+Q: What type of birds primarily inhabited the Western forests?
+A: Birds of prey, such as eagles, hawks, and owls.
+
+Q: What was special about the first piano brought to the Colony?
+A: It sailed around Cape Horn and was carried on the backs of Indians in relays.
+
+Q: Who was Small's 'first hero' when she fell into a ditch?
+A: Willie Scaife, a farm lad.
+
+### quiz
+Q: What was the original name of Victoria when it was a Hudson's Bay Post?
+A) Fort Langford
+B) Fort Camosun
+C) Fort Esquimalt
+D) Fort Douglas
+CORRECT: B
+
+## Module 17: Saloons and Roadhouses
+
+### notes - Victoria was abundant with saloons and road-houses, which Small initially associated with the Navy. She was curious about the mysterious "pinafore doors" of saloons and the appealing verandahs of road-houses, often adorned with flower-boxes and caged wild animals. Small recounts being prevented by her Aunt from seeing raccoons at one. A dramatic incident occurred when she was snatched from a cattle stampede and pulled into a saloon, finally satisfying her curiosity about the interior—which, to her surprise, contained only bottles, glasses, and the smell of beer and sawdust, not singing. The family's new horse, Benny, habitually stopped at every road-house bar, much to the embarrassment of Small's sister who drove ailing passengers.
+
+### flashcards
+Q: What did Small initially believe saloons belonged to?
+A: The Navy.
+
+Q: What kind of animal was on the verandah of the Colonist Hotel?
+A: A panther.
+
+Q: How did Small finally get inside a saloon?
+A: She was snatched from a cattle stampede and pulled inside by a man.
+
+### quiz
+Q: What did Small's sister's new horse, Benny, habitually do at every road-house bar?
+A) Began to gallop quickly
+B) Swerved gently to the bar door and stopped dead
+C) Neigh loudly for attention
+D) Tried to enter the 'Parlour' door
+CORRECT: B
+
+## Module 18: Ways of Getting Round
+
+### notes - This module describes Victorian Victoria's transportation methods and infrastructure. Roads were mostly dirt with plank sidewalks, often used by cows whose meanderings dictated early town layouts. Personal transport relied on human or horse power, with English-style vehicles like low chaises and high dog-carts common, used mostly for pleasure rather than speed. Livery stables were prevalent, contributing to the pervasive smell of horse manure. Special vehicles included the imported hansom-cab and Mr. Winter’s huge picnic carriage. Delivery boys on horseback exemplified the active lifestyle. Small reflects on Victoria’s slower pace of life, a perception confirmed during her first visit to a faster American city at age twelve. She notes the Canadian preference for durable English goods over "jerry-built" American ones, even if it meant long waits.
+
+### flashcards
+Q: What was a common issue with chaise wheels on dry roads?
+A: The spokes would loosen, requiring the wheels to be soaked in a stream to swell again.
+
+Q: What was the baker and butcher boys' unique method of delivery?
+A: On horseback, carrying huge wicker baskets rested against their hips.
+
+Q: How did Small first learn that Victoria was considered "slow" compared to other towns?
+A: During a trip to a faster American city at age twelve, hearing people call her town "sleepy old Victoria."
+
+### quiz
+Q: What did Victoria cows prefer to walk on in winter instead of muddy roads?
+A) The middle of the street
+B) The plank sidewalks
+C) Through private gardens
+D) Only on paved areas
+CORRECT: B
+
+## Module 19: Father's Store
+
+### notes - Victoria is metaphorically described as a "lying-down cow," reluctant to fully embrace new-world practices. The city's layout featured shops on Government and Fort Streets, with Bastion Street for the Courthouse/Jail, and Chinatown on other streets. Father's wholesale import store was on Wharf Street, uniquely having only one side and facing the harbor and Songhees Indian Reserve. Indians traded there, accepting "maggoty" raisins without complaint. Nearby were the Hudson's Bay Company and the Customs House, where the Gregory family resided. Small was fascinated by the Customs House, hoping to see ships sail into its hall at high tide. Father's store interior was deep and dark, piled with cases, leading to a shed ("the yard") filled with "empties" and cats, which Father fed milk daily. His office, next to the main store, featured a green baize table, a round stove, and sample English sweets, reflecting his preference for quality.
+
+### flashcards
+Q: What type of goods did Father's store import wholesale?
+A: Provisions, wines, and cigars.
+
+Q: What unique feature did Father's store have, concerning its location on Wharf Street?
+A: It only had one side, facing the harbor.
+
+Q: Why did Small want to visit Mrs. Gregory at the Customs House?
+A: She hoped to meet a ship sailing directly into the hallway during high tide.
+
+### quiz
+Q: What did Father feed the many cats living in his store's 'yard'?
+A) Leftover fish scraps
+B) Only rats they caught themselves
+C) Fresh milk from home, in addition to rats
+D) Discarded meat from the butcher
+CORRECT: C
+
+## Module 20: New Neighbours
+
+### notes - The James' Bay district, initially wild, underwent rapid development with houses replacing open fields. Small mourns the sale of Bishop Cridge's wild field, a cherished play area where the children played "ladies" and she was always the "bad child." The street in front of their home was widened by Father, leading to it being named Carr Street. During a game in the Bishop's field, surveyors appeared, disrupting their imaginative play by taking measurements and sitting on their pretend kitchen logs. This intrusion soon led to the construction of real houses where their imaginary ones had been, marking the end of their wild playtime and the inevitable march of urban expansion. Small's mother then sent the children to offer assistance to the new neighbours, symbolizing the shift to a more settled community.
+
+### flashcards
+Q: What role did Small always play during "ladies" games in the Bishop's field?
+A: The "bad child."
+
+Q: Why was the street in front of Father's house named Carr Street?
+A: Father gave a good strip of his land to make the street wider.
+
+Q: What did the men do that disrupted the children's play in the Bishop's field?
+A: They climbed the fence, set up surveying instruments, and sat on their play logs.
+
+### quiz
+Q: What kind of animal was the "ferocious wild beast" in the children's game, which was actually harmless?
+A) A large dog
+B) The Bishop's gentle cow 'Colie'
+C) A wild pony
+D) A grumpy goat
+CORRECT: B
+
+## Module 21: Visiting Matrons
+
+### notes - Victorian matrons, with large families and Chinese help, made visiting an all-day affair, bringing their children and babies. Visits were planned well in advance, and children played freely, often eating abundant fruit from the hosts' gardens. Small recounts visiting friends across town, highlighting the contrast in their lifestyles and the sensory journey through unpleasant smells from mud flats, Chinatown, a gas-works, a saw-mill, and a tannery, juxtaposed with the lovely wild roses near home. Early Victoria's evening entertainment included family parties with charades and music, and church "conversaziones" or "socials," which fostered community. Father, however, disapproved of the social maneuvering for husbands for daughters. As Victoria grew, social groups became more selective and entertainment standards rose.
+
+### flashcards
+Q: What did Victorian matrons typically bring with them on their long visits?
+A: Their entire families, including babies in prams, along with necessities and needlework.
+
+Q: What specific unpleasant smells did Small encounter on the way to her friends' house across town?
+A: Mud flats, Chinatown's foreign smells, gas-works, a saw-mill, and a tannery.
+
+Q: What was Father's opinion on mothers "scrambling" for husbands for their daughters at Navy balls?
+A: He disapproved, believing his daughters should stay at home.
+
+### quiz
+Q: What was the cost to attend a church "conversazione"?
+A) One dollar
+B) Fifty cents
+C) Two bits (twenty-five cents)
+D) It was free for members
+CORRECT: C
+
+## Module 22: Servants
+
+### notes - Victorian households relied on young Chinese boys, like Bong, who arrived at age twelve without English and maintained their cultural distance, returning to Chinatown after work. In contrast, English servants sought quick marriages and independence, often complaining about Western inconveniences. Bong, despite being pock-marked and homesick, was a part of Small's childhood, finding comfort in the cow. His departure left a "queer, foreign hole" in the family. The module also introduces Wash Mary, a small, gentle Indian woman who came every Monday to do laundry. She was a "wonderful washer" and, unlike Bong, was described as more "human and understandable," embodying a distinct integration into Victorian life.
+
+### flashcards
+Q: At what age did Chinese boys typically arrive in Canada to work as servants?
+A: Twelve years old.
+
+Q: How did Bong, the Chinese servant, comfort himself when homesick or distressed?
+A: He would sing a little Chinese song to the cow in the barn.
+
+Q: What distinctive feature did Wash Mary's hair have?
+A: It was roped into two thick plaits that united again at her shoulder blades like a strong handle.
+
+### quiz
+Q: According to the text, what was the primary motivation for English servants coming to Canada?
+A) To earn more money than in England
+B) To find a husband quickly and become masters
+C) To experience a new culture
+D) To avoid strict English social hierarchies
+CORRECT: B
+
+## Module 23: East and West
+
+### notes - This module contrasts the roles and characteristics of Chinese men and Indian women in young Victoria. Chinese men, like vegetable peddlers, were industrious, frugal, and constantly worked, sending money home to China, exploiting the land without replenishing it. Indian women, conversely, carried burdens in woven baskets while their men walked empty-handed. Indians rested frequently, took from nature what came easiest, spent money immediately, and found happiness with minimum exertion. They enriched the landscape with their "careless picturesqueness" and were seen as a link between primitive and civilization. The white man understood the "childlike Indian" better than the elusive "Oriental," highlighting distinct cultural approaches to labor, wealth, and nature within the colonial context.
+
+### flashcards
+Q: How did the Chinese man and Indian woman typically carry burdens?
+A: The Chinese man swung baskets, while the Indian woman carried them in a woven burden basket on her back.
+
+Q: What was a key difference in how Chinese and Indian people handled money?
+A: Chinese men sent earnings home to China, while Indians spent money immediately, having no idea of its value or saving.
+
+### quiz
+Q: According to the author, which group did the white man find more understandable?
+A) The Chinese
+B) The Oriental
+C) The childlike Indian
+D) Both equally
+CORRECT: C
+
+## Module 24: A Cup of Tea
+
+### notes - An Indian family, on a canoe journey, camps on a beach near Cook Street, setting up their tent and cooking. The tired Indian woman spots a lone Chinaman struggling with his clumsy fish-boat in high waves. Without hesitation, the Indian man and woman launch their heavy canoe, the woman competently steering while also managing their baby, and rescue the Chinaman, towing his boat ashore. Back at their fire, the Indians share their clam supper with the grateful but embarrassed Chinaman. The moment of true human connection occurs when the Indian woman silently offers him a cup of tea. His "Oriental mask" drops as he noisily savors the warmth, and the woman's nod and smile symbolize a shared moment of simple humanity and empathy, transcending cultural barriers.
+
+### flashcards
+Q: What items did the Indian family's canoe contain besides the family?
+A: A dog, two cats, a crate of fowls, a tent, bedding, cooking utensils, fishing gear, clothes, and various possessions.
+
+Q: What did the Indian man and woman do when they saw the Chinaman struggling in the bay?
+A: They launched their canoe and rescued him, towing his boat ashore.
+
+Q: What significant act symbolized warmth and connection between the Indian woman and the Chinaman?
+A: She poured him a cup of tea.
+
+### quiz
+Q: What was the Chinaman struggling with in the bay?
+A) His fishing nets
+B) A broken paddle
+C) His clumsy fish-boat and its sail
+D) A strong current
+CORRECT: C
+
+## Module 25: Cathedral
+
+### notes - Christ Church Cathedral, atop Church Hill, is depicted as Victoria's national emblem of British faith. Roccabella, a boarding-house below it, was favored by English guests for its traditional charm and views. The original Cathedral burned down, replaced by a squat wooden structure that continually expanded, yet maintained its significance despite the emergence of other brick and stone churches. The Carr family attended the Reformed Episcopal Church on Humboldt Street, preferred by Mother for its evangelical service and easier access. This church was a product of a bitter "High" and "Low" clash between Bishop Cridge (former Dean of the Cathedral) and Bishop Hills, leading to a denominational split where Victorians chose based on personal comfort.
+
+### flashcards
+Q: What was the main material of the Cathedral that Small remembered?
+A: Wood, with a square tower.
+
+Q: Why did the Carr family's mother prefer the Reformed Episcopal Church over the Cathedral?
+A: Church Hill was too steep for her, and she liked the evangelical service.
+
+Q: What was the main controversy that led to the split between the Cathedral and Bishop Cridge's church?
+A: A bitter clash of conscience over "High" and "Low" church practices.
+
+### quiz
+Q: What was the Christ Church Cathedral considered to be in Victoria?
+A) The largest church in Canada
+B) An architectural marvel
+C) The emblem of our National Faith
+D) A simple parish church
+CORRECT: C
+
+## Module 26: Cemetery
+
+### notes - This module describes Victoria's two cemeteries: the old, wild Quadra Street Cemetery, a dense nesting place for birds, with a unique Chinese section where bones were temporarily buried before being shipped to China. Once full, it was left to wild growth. The new, larger Ross Bay Cemetery further out of town, was characterized by long, slow funeral processions featuring elaborate hearses (like Hayward's with black plumes or Storey's with "fuzzy black things"), designed for maximum mournfulness. Dead children had a small white hearse. This cemetery was strictly segregated by religious denomination and belief, with separate sections for various groups. The booming waves of Ross Bay against the cemetery bank are portrayed as the sea's attempt to reclaim the dead, offering a universal mingling unlike the segmented earth.
+
+### flashcards
+Q: What distinct practice did the Chinese have in the old Quadra Cemetery?
+A: They temporarily buried bodies, then gathered the bones to ship back to China.
+
+Q: How did Mr. Storey's hearse differ from Hayward's in appearance?
+A: Mr. Storey's had "six fuzzy black things" on top, resembling angry monkeys, unlike Hayward's plumes.
+
+Q: What was the significance of the Ross Bay Cemetery being divided by denominations?
+A: Episcopalians could not lie beside Nonconformists, nor Catholics beside Episcopalians, and other groups also had separate sections.
+
+### quiz
+Q: What was the maximum speed allowed for funeral horses as long as the corpse was behind them?
+A) A brisk trot
+B) A walk
+C) A slow canter
+D) They could go any speed once outside town
+CORRECT: B
+
+## Module 27: Schools
+
+### notes - English settlers in Victoria initially disdained Canadian public schools, preferring expensive "Ladies’ Academies" that prioritized manners and English deportment over academic learning, aiming to prevent "Colonial" crudeness. Small's two eldest sisters attended such a private school, but the younger children, including Small, were sent to public school, as Father believed manners could be learned at home. Angela College, a costly church school, was later built but Father remained prejudiced against private education. Small hated school, except for her first two years at Mrs. Fraser's small school, where she enjoyed sneaking potatoes and reading Grimm's Fairy Tales, often finding comfort on the "dunce stool." These old-fashioned private schools eventually faded as Canadian public schools set standards for employment, and the module ends by noting the affected English manners of those who returned from finishing schools abroad.
+
+### flashcards
+Q: What was the primary focus of the English Ladies' Academies in Victoria?
+A: Teaching good manners and proper English deportment.
+
+Q: Why did Small's father send his younger children to public school instead of private academies?
+A: He believed they could learn manners at home but needed academic education from public schools.
+
+Q: What was Small's favorite book to read during her first two years at Mrs. Fraser's school?
+A: Grimm's Fairy Tales.
+
+### quiz
+Q: What was the reputation of Canadian public schools among early English settlers?
+A) They were highly esteemed for academic rigor.
+B) They were called "free schools" and often disdained.
+C) They were seen as superior to English academies.
+D) They were only for the very poor.
+CORRECT: B
+
+## Module 28: Christmas
+
+### notes - Victorian Christmases in Victoria were nippy, often with snow. Preparations included sewing gifts, decorating a fragrant fir tree, and making plum puddings weeks in advance. Christmas Eve involved a trip to town to see festively lit shop windows, displaying everything from mock snow and flannel coats to chemists' glowing medicine globes and Mr. Hibben's hidden school books. Food shops were especially grand: Mr. Saunders' grocer's featured a grinding Santa Claus, while Goodacre's butcher shop, grimly adorned with dead animals made to look festive, horrified Small. Traditions included hanging stockings, singing carols around the tree with Bong, and attending the Reformed Episcopal Church on Christmas morning. New Year's Day was marked by ladies hosting gentlemen callers and naval officers, solidifying community traditions.
+
+### flashcards
+Q: What special preparation was made for plum puddings weeks before Christmas?
+A: Stoning raisins and everyone giving the pudding a good-luck stir before boiling.
+
+Q: What did Small find particularly disturbing about Goodacre's butcher shop at Christmas?
+A: The way the dead, naked animals were displayed, especially the baby pigs made to 'smile' with apples in their mouths.
+
+Q: Which church did the Carr family attend on Christmas morning, as the Presbyterian Church had no service?
+A: The Reformed Episcopal Church.
+
+### quiz
+Q: What kind of decorations were typically found on Victoria's lamp posts at Christmas?
+A) Strings of electric lights
+B) Large bows and ribbons
+C) Fresh cut fir trees
+D) Paper lanterns
+CORRECT: C
+
+## Module 29: Regatta
+
+### notes - The Gorge, a three-mile arm of the sea, was a central location for Victoria's popular regattas and water sports, drawing visitors on May 24th (Queen's Birthday). It featured a dangerous rocky pass. Naval boats from Esquimalt, manned by bluejackets, raced against slender Indian dugout canoes, noted for their synchronized paddling and vibrant participants. The Kloochman's (women's) race was particularly grand. The regatta culminated in a "mean and cruel" event: men attempting to walk a greased pole to dislodge a crate containing a terrified, squealing pig, which was then plunged into the sea. This disturbing spectacle concluded with "God Save The Queen," highlighting a stark contrast between patriotic celebration and animal cruelty.
+
+### flashcards
+Q: What was the main annual event held on the Gorge waters?
+A: Regattas and water sports.
+
+Q: Which group's canoe races were described as the most exciting?
+A: The Indian canoe races.
+
+Q: What was the "mean and cruel" event at the end of the Regatta?
+A: Men trying to walk a greased pole to dislodge a crate with a pig.
+
+### quiz
+Q: On what specific date were the Victoria Regattas typically held?
+A) July 1st (Dominion Day)
+B) May 24th (Queen's Birthday)
+C) August 12th (Local Holiday)
+D) September 1st (Labor Day)
+CORRECT: B
+
+## Module 30: Characters
+
+### notes - Victoria attracted "strange characters," often English immigrants 'pushed' from the Old Country who struggled with adapting to the New World and homesickness. These included 'glued-together' siblings and maiden aunts, whose attempts to correct 'colonial' manners were often met with rebellion. The O'Flahty siblings—Fat, Lean, and Miss O'Flahty—are presented as eccentrics living in a shanty built entirely of driftwood; upon Miss O'Flahty's death, her embalmed body was famously wheeled to the wharf in their wheelbarrow. Other memorable figures include Elizabeth Pickering, an often intoxicated woman in a red shawl, and Old Teenie, a half-negro, half-crazy woman. Doddering old gentlemen driven by 'nursemaid horses' and a critical 'Papa's-sister' aunt further populate this gallery of distinct Victorian personalities, highlighting the city's unique social fabric.
+
+### flashcards
+Q: What kind of dwelling did the O'Flahty siblings live in?
+A: A shanty built entirely of driftwood, with logs used in their natural lengths.
+
+Q: How did the O'Flahty brothers transport their deceased sister's coffin to the wharf?
+A: In the same wheelbarrow they used for hauling building wood.
+
+Q: What was one common type of 'strange character' who came to Victoria from the Old Country?
+A: Bachelor brothers and spinster sisters, or maiden aunts who struggled to adapt.
+
+### quiz
+Q: What distinctive item did Elizabeth Pickering, the intoxicated woman, wear?
+A) A large feathered hat
+B) A bright red shawl
+C) Tattered gloves
+D) An old black bonnet
+CORRECT: B
+
+## Module 31: Loyalty
+
+### notes - Victoria, named after Queen Victoria, showed exceptional loyalty, with May 24th (Queen's Birthday) as a major celebration. Families enjoyed picnics in Medina’s Grove, a 'gently wild' fairy land. Small contrasts these early, personal picnics with later, more public regattas where the Queen's Birthday became less intimate. Her understanding of royalty transitioned from 'fairy' to real through Mrs. Mitchell, an English nurseryman's wife who, despite homesickness, loved Small for her 'English' rosiness and her creatures. Small learns about the Royal Family, realizing they are real people with a family, especially when Princess Louise and the Marquis of Lorne visit Victoria. Mrs. Mitchell's intense homesickness is reawakened by this visit, leading her and Henry to return to England, where she eventually dies, symbolizing a lasting connection through memories and symbolic everlasting flowers.
+
+### flashcards
+Q: What was the significance of May 24th in Victoria?
+A: It was the Queen's Birthday, the most important day after Christmas, celebrated with great fuss.
+
+Q: What type of animals did Mr. and Mrs. Mitchell cherish like children?
+A: Guinea fowl.
+
+Q: How did Small's understanding of Queen Victoria change after talking to Mrs. Mitchell?
+A: She realized the Queen was a real woman with a family, not just a vague historical figure or owner of Victoria and holidays.
+
+Q: What Royal visitors came to Victoria the same year Mrs. Mitchell explained the Royal Family to Small?
+A: Princess Louise and the Marquis of Lorne.
+
+### quiz
+Q: What gift did Mrs. Mitchell give Small before leaving Victoria?
+A) A collection of everlasting flowers
+B) A doctor's book on diseases and an empty box with a lock and key
+C) A new guinea fowl
+D) A portrait of Princess Alice
+CORRECT: B
+
+## Module 32: Doctor and Dentist
+
+### notes - This module introduces Dr. Helmcken, Victoria's quintessential family doctor, known for his broad expertise, quick responses, and a kind but traditional approach to medicine, despite his 'horrible medicines.' He treated all ailments, from gout to fixing an injured leg with needle and thread. The narrative contrasts him with the dentist, portrayed as a deceptive and painful figure who used 'pretend' sympathy before violently pulling teeth. Small, after a traumatic experience, secretly renames the dentist 'Royal Beast,' finding personal solace in this act of defiance.
+
+### flashcards
+Q: What was Dr. Helmcken known for besides treating ailments?
+A: Being a generalist who handled everything, including family pets, and being very quick to respond.
+
+Q: What was Small's personal nickname for the dentist?
+A: Royal Beast.
+
+### quiz
+Q: What common medicine did Dr. Helmcken often prescribe?
+A) Penicillin
+B) Castor oil
+C) Aspirin
+D) Cough syrup
+CORRECT: B
+
+## Module 33: The Chain Gang and Urban Transformation
+
+### notes - Small encounters the Chain Gang—shaved-headed men with leg irons, crushing rocks under guard by the Parliament Buildings. Her sister hushes her questions about them. The arrival of "Lizzie," a noisy, rock-chewing machine, mechanizes the process, moving the Chain Gang's labor to Government House grounds. The module further details Marvin's Hill and Church Hill, the 'high sidewalk' connecting them, and Kanaka Row on Humboldt Street, where working men with Indian wives lived, known for their Monday laundry. The mud flats continued to serve as the town's rubbish dump, providing salvage for Indians and a feeding ground for seagulls.
+
+### flashcards
+Q: What were the men in the Chain Gang doing when Small first saw them?
+A: Crushing rocks by the roadside with sharp pointed hammers.
+
+Q: What machine replaced the Chain Gang's rock-smashing labor?
+A: “Lizzie,” a noisy rock-chewing monster.
+
+### quiz
+Q: Where was Kanaka Row located?
+A) On Fort Street
+B) On Humboldt Street
+C) On Dallas Road
+D) On Carr Street
+CORRECT: B
+
+## Module 34: Cook Street's Evolution
+
+### notes - Cook Street, initially a nearly impassable skunk-cabbage bog (King's Pond in winter), undergoes a slow transformation. It becomes the town's new rubbish dump, with loads of garbage gradually creating a solid foundation, pounded by horses' hooves and children's boots. Small enjoys riding her pony through this chaotic landscape, observing wild roses growing through discarded items. The street later becomes home to Chinese vegetable gardens, where patient workers meticulously irrigate by hand, carrying water in coal oil cans. Despite modernization, discarded rubbish often returns to the beach, symbolizing the persistent cycle of human waste.
+
+### flashcards
+Q: What was Cook Street originally between Fairfield Road and the sea?
+A: A streak of skunk-cabbage bog.
+
+Q: How did the Chinese gardeners on Cook Street water their plants?
+A: By hand, carrying water in five-gallon coal oil cans balanced on a bamboo pole over their shoulder.
+
+### quiz
+Q: What was the primary material used to build the foundation of Cook Street?
+A) Wood planks
+B) Clay from excavations
+C) Pounded urban rubbish
+D) River stones
+CORRECT: C
+
+## Module 35: Water, Plumbing, and Modern Victoria
+
+### notes - Victoria's water supply evolves from bucket delivery and public springs to piped water systems (Spring Ridge, then Beaver Lake), leading to the installation of modern taps and bathrooms. The module contrasts this progress with Father's earlier, often failed, attempts at home plumbing and the family's reliance on communal wooden tubs and cold morning plunges. The excitement of modern conveniences is tempered by the harsh realities of Victoria's cold winters, which cause pipes to freeze and burst. As the city modernizes, regulations emerge: cows are impounded, dogs are taxed, and small farms are replaced by city lots. Jim Phillips' field becomes Caledonian Park, a public space for sports, and the Barnum and Bailey Circus arrives, offering a glimpse of grand entertainment.
+
+### flashcards
+Q: What was the major water source that brought taps into Victoria's kitchens?
+A: Beaver Lake.
+
+Q: What event caused widespread problems with Victoria's new plumbing system during the winter?
+A: The pipes froze and burst due to lack of protection.
+
+Q: What was the name of the park created from Jim Phillips' turnip field?
+A: Caledonian Park.
+
+### quiz
+Q: What traditional morning ritual was believed to "harden" the Carr children?
+A) Drinking cold milk
+B) Plunging into cold water from under-bed tubs
+C) Running around the garden barefoot
+D) Eating porridge with ice-cream
+CORRECT: B
+
+## Module 36: A Walk Through James' Bay Neighborhood
+
+### notes - This module details Small's daily walks with Father through their James' Bay neighborhood, revealing its unique landscape and eccentric inhabitants. From the family's home on Carr Street near Bishop Cridge's 'wild field,' the journey introduces various neighbors: the Fawcett family with their many children, the loud and kind Irish Mrs. McConnell and her farm, Mrs. Swannick with no nose, Mrs. Lipsett with her sunned mattresses, the musical Mrs. Cameron, and Mrs. Plummer, who lived in a corrugated iron house with many glass doors. Small also encounters Miss Wylie (squeaky and afraid of cows), the wealthy Greens, and the rough Masons. The module culminates in two poignant events: Small's innocent encounter with the death of Mrs. McConnell's baby, and her deep regret after a mean prank on the quiet Johnson girl, highlighting the complex emotional landscape of her childhood.
+
+### flashcards
+Q: Who was Mrs. McConnell, and what was her notable characteristic?
+A: A busy, kind Irish farm lady with a very loud voice, who sold milk, eggs, and pork.
+
+Q: What tragic event occurred concerning Mrs. McConnell's family?
+A: Her baby died, and Small was taken to see the cold, unresponsive child.
+
+Q: What was the outcome of Small's mean prank on the Johnson girl?
+A: The girl spilled her potatoes and silently cleaned them, making Small feel intense guilt.
+
+### quiz
+Q: What was unique about Mrs. Plummer's house?
+A) It was built entirely of wood.
+B) Every window was a glass door to the floor.
+C) It had a hidden underground tunnel.
+D) It floated on a pond in winter.
+CORRECT: B
+
+## Module 37: Victoria Transformed: A City Grows Up
+
+### notes - This concluding module depicts Victoria's transformation from a quaint, English-leaning town to a modern city. The grand Empress Hotel, built on reclaimed James' Bay mud flats by the CPR, supplants the older Driard Hotel as a symbol of progress, intensifying the rivalry with Vancouver. Major urban changes include the construction of the concrete Causeway, draining of the mud flats (leading to the demise of Kanaka Row and the soap works), and the relocation of the Songhees Indians. The Gorge, once a beauty spot, becomes industrialized, and the Navy's departure signals the end of many social traditions. Old cemeteries are tidied, and horses give way to automobiles. Despite these significant developments, Victoria retains its tranquil, deliberate character, balancing modernization with its inherent natural beauty and history.
+
+### flashcards
+Q: What major hotel replaced the Driard as Victoria's premier accommodation?
+A: The Empress Hotel.
+
+Q: How did the James' Bay mud flats transform?
+A: They were drained and filled with wood and earth by the CPR to build the Causeway and Empress Hotel.
+
+Q: What happened to the Gorge as Victoria modernized?
+A: It became infested with log booms and saw-mills, making it unfashionable for bathing and residential use.
+
+### quiz
+Q: What replaced the old wooden James' Bay bridge?
+A) A new suspension bridge
+B) A wide concrete causeway
+C) A ferry service
+D) An underground tunnel
+CORRECT: B
+

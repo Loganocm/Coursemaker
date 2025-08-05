@@ -1,0 +1,41 @@
+From the notes on The Cow Yard, create a 10-question multiple-choice quiz. Each question should be a JSON object with a 'question' string, an array of 'options', and a string indicating the 'correct_answer'. Ensure distractors are plausible. Return a valid JSON array of these objects. Example format: [{ "question": "...", "options": [...], "correct_answer": "..." }, ...].
+
+**The Cow Yard: Key Concepts & Themes**
+
+* **The Setting: The Cow Yard**
+    * A rural, idyllic setting, likely a farm or homestead.  Provides a backdrop for the children's interactions with nature and animals.
+    * Central location for most events, reflecting the importance of nature and rural life in the story.
+    *  Contains various elements impacting the narrative: the cow, the pond, the killing tree.
+
+* **The Cow:**
+    *  A central character, representing the power and unpredictability of nature.
+    *  Symbol of nurture (milk) and potential danger (strength).
+    *  Subject of the children's curiosity and attempts at interaction (Small's riding attempt).
+
+* **The Three Little Girls:**
+    * **Bigger:**  Likely the oldest, possibly showing responsibility or leadership qualities.
+    * **Middle:** Represents the middle ground, potentially mediating between Bigger and Small.
+    * **Small:** The youngest, representing curiosity, impulsiveness, and a yearning for adventure.  Her attempt to ride the cow highlights these traits.
+
+
+* **Bong's Song:**
+    *  Adds atmosphere and emotional depth to the narrative.
+    *  Likely sets the mood and tone of the story, possibly linked to specific events or feelings. (Further details are needed to elaborate.)
+
+* **The Pond:**
+    *  Another element of the natural environment.
+    *  Could symbolize reflection, stillness, or a contrast to the active energy of the cow and children.  Potential for further symbolic interpretation depending on the story's events involving it.
+
+* **Seasonal Events:**
+    * **Bonfire:**  Represents warmth, community, or the end of a season.
+    * **Spring Growth:** Symbolizes renewal, growth, and new beginnings.
+    * **Chickens Hatching:** Represents new life and the cyclical nature of life and death. These events demonstrate the passage of time and the changing nature of the landscape.
+
+* **Small's Attempt to Ride the Cow:**
+    * A pivotal moment highlighting Small's adventurous spirit and naivete.
+    *  Illustrates the potential conflict between human desire and the power of nature.
+    *  Likely results in a lesson learned about respecting the power of the cow and the natural world.
+
+* **The Killing Tree:**
+    * The most ominous element, suggesting the darker side of nature or the inevitable cycle of life and death.
+    *  Introduces a sense of mystery and potentially foreshadows future events, though the nature of the 'killing' needs clarification. Its presence acts as a counterpoint to the idyllic setting, suggesting a deeper, less benign element within the natural world.

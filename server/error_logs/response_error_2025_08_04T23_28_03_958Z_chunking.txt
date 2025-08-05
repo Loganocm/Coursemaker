@@ -1,0 +1,11 @@
+--- AI RESPONSE THAT CAUSED ERROR ---
+
+
+--- ERROR DETAILS ---
+Error during step: chunking
+
+Error: Max retries reached. Could not complete the API request.
+
+Stack: Error: Max retries reached. Could not complete the API request.
+    at generateWithBackoff (C:\Users\Logan\Desktop\Github\courseforge2\Coursemaker\server\agentProcessor.js:72:11)
+    at async processPdfWithAgent (C:\Users\Logan\Desktop\Github\courseforge2\Coursemaker\server\agentProcessor.js:156:32)

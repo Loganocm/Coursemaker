@@ -1,20 +1,12 @@
 
 const request = require('supertest');
-const express = require('express');
-const multer = require('multer');
+const app = require('../index'); // Import the Express app
 const { processPdfWithAI } = require('../aiProcessor');
 
 // Mock the aiProcessor module
 jest.mock('../aiProcessor', () => ({
   processPdfWithAI: jest.fn(),
 }));
-
-const app = express();
-const storage = multer.memoryStorage();
-const upload = multer({ storage: storage });
-
-// Re-import the main server file after mocking aiProcessor
-const server = require('../index'); // Assuming your main server file is index.js
 
 describe('POST /generate-course', () => {
   beforeEach(() => {
@@ -23,7 +15,7 @@ describe('POST /generate-course', () => {
   });
 
   it('should return 400 if no file is uploaded', async () => {
-    const res = await request(server)
+    const res = await request(app)
       .post('/generate-course')
       .send();
     expect(res.statusCode).toEqual(400);
@@ -40,7 +32,7 @@ describe('POST /generate-course', () => {
 
     const pdfBuffer = Buffer.from('This is a test PDF content.');
 
-    const res = await request(server)
+    const res = await request(app)
       .post('/generate-course')
       .attach('pdfFile', pdfBuffer, 'test.pdf')
       .field('aiModel', 'claude');
@@ -60,7 +52,7 @@ describe('POST /generate-course', () => {
 
     const pdfBuffer = Buffer.from('This is a test PDF content.');
 
-    const res = await request(server)
+    const res = await request(app)
       .post('/generate-course')
       .attach('pdfFile', pdfBuffer, 'test.pdf')
       .field('aiModel', 'claude');
@@ -75,7 +67,7 @@ describe('POST /generate-course', () => {
 
     const pdfBuffer = Buffer.from('This is a test PDF content.');
 
-    const res = await request(server)
+    const res = await request(app)
       .post('/generate-course')
       .attach('pdfFile', pdfBuffer, 'test.pdf')
       .field('aiModel', 'claude');

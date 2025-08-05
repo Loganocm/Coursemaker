@@ -1,0 +1,425 @@
+```json
+{
+  "courseTitle": "The Book of Small: A Study of Emily Carr's Childhood in Victoria",
+  "modules": [
+    {
+      "moduleTitle": "Module 1: Sundays and Family Life",
+      "notes": {
+        "summary": "This module explores Emily Carr's detailed account of her Sundays, highlighting the rigid structure and traditions of her family life in Victoria, British Columbia. It describes the routines of bath time, family prayers, church attendance, and the post-church dinner discussions about the sermon. The family's dynamics, including the impact of the deaths of three brothers, and the contrasting religious practices of the father and mother, are explored. The module also examines Carr's descriptions of her siblings and their personalities, emphasizing the unique dynamics within the Carr family.",
+        "keywords": [
+          "Sunday routine",
+          "family dynamics",
+          "religious practices",
+          "childhood memories",
+          "Victorian era",
+          "Emily Carr",
+          "family prayers",
+          "church",
+          "sermon",
+          "sibling relationships"
+        ]
+      },
+      "flashcards": [
+        {
+          "question": "Describe the Carr family's Sunday routine.",
+          "answer": "Their Sundays began with bath time, followed by prayers, church attendance, and a post-church dinner where they discussed the sermon.  No work was done on Sundays."
+        },
+        {
+          "question": "What was the significance of the camphor chest?",
+          "answer": "It held Father's clean clothes and had a strong camphor smell, which was associated with Sundays."
+        },
+        {
+          "question": "How did the Carr sisters dress for church?",
+          "answer": "Lizzie, Alice, and Emily were always dressed alike in their starchiest clothes, reflecting their father's preference."
+        },
+        {
+          "question": "What was the significance of Dr. Reid's sermon discussions?",
+          "answer": "They were a post-dinner ritual where family members recounted their recollection of the sermon, revealing aspects of their personalities and relationship with their father."
+        },
+        {
+          "question": "What role did Dede play in the family's Sunday activities?",
+          "answer": "Dede supervised the children's Sunday School lessons and played hymns loudly on the piano."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "What was the family's primary religious affiliation on Sunday mornings?",
+          "options": {
+            "A": "Anglican",
+            "B": "Catholic",
+            "C": "Presbyterian",
+            "D": "Methodist"
+          },
+          "correctAnswer": "C"
+        },
+        {
+          "question": "What was the name of the book containing the family's prayers?",
+          "options": {
+            "A": "The Book of Common Prayer",
+            "B": "The Pilgrim's Progress",
+            "C": "The Peep of Day",
+            "D": "Unspecified"
+          },
+          "correctAnswer": "D"
+        },
+        {
+          "question": "What was the significance of the 'big gap' in the Carr family?",
+          "options": {
+            "A": "A period of financial hardship.",
+            "B": "The death of three brothers.",
+            "C": "A period of family separation.",
+            "D": "A time of travel."
+          },
+          "correctAnswer": "B"
+        }
+      ]
+    },
+    {
+      "moduleTitle": "Module 2: The Cow Yard and its Inhabitants",
+      "notes": {
+        "summary": "This module focuses on Emily Carr's vivid descriptions of her family's cow yard, portraying it as a microcosm of life, with its mix of joy, sadness, and the natural cycle of birth and death. The module examines the interactions of the children with the cow, chickens, rabbits, and other animals, highlighting their observations of animal behavior and the lessons they learn about life and death. The descriptions emphasize the sensory details of the environment and the emotional connection Carr had with the animals and the setting itself.  It also highlights the contrast between the children's perspectives on the events and their understanding of death and loss.",
+        "keywords": [
+          "cow yard",
+          "animal interactions",
+          "seasons",
+          "birth and death",
+          "childhood observations",
+          "sensory details",
+          "emotional connections",
+          "nature",
+          "The Killing Tree"
+        ]
+      },
+      "flashcards": [
+        {
+          "question": "Describe the cow's characteristics.",
+          "answer": "The cow was large, red and white, and moved with a slow, deliberate manner.  She was a maternal presence in the cow yard."
+        },
+        {
+          "question": "What were the children's roles in the cow yard?",
+          "answer": "Bigger was tidy and cautious; Middle was nurturing; Small was adventurous and closely connected to the cow yard's life."
+        },
+        {
+          "question": "What was the significance of the bonfire?",
+          "answer": "It marked the beginning of spring and was a shared event for the children and others who lived on the property."
+        },
+        {
+          "question": "What happened to the tree in the cow yard?",
+          "answer": "The ivy killed the tree, leading to Small's fear and fascination with the mysterious space between the tree and the ivy."
+        },
+        {
+          "question": "What event marked a turning point for Small's relationship with the cow?",
+          "answer": "Her attempt to ride the cow resulted in a fall and a changed perception of the animal."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "What happened to the baby pigeon that fell on the cow's back?",
+          "options": {
+            "A": "The cow ate it.",
+            "B": "The cow was startled and moved away.",
+            "C": "The cow showed little reaction.",
+            "D": "The children rescued it."
+          },
+          "correctAnswer": "C"
+        },
+        {
+          "question": "What was the significance of the 'Killing Tree'?",
+          "answer": "It was a tree slowly killed by ivy, symbolizing death and mystery for Small."
+        },
+        {
+          "question": "What did Small want most from the cow?",
+          "options": {
+            "A": "Milk",
+            "B": "A calf",
+            "C": "To befriend the cow",
+            "D": "A colt"
+          },
+          "correctAnswer": "D"
+        }
+      ]
+    },
+    {
+      "moduleTitle": "Module 3: Encounters with Religious Figures and Institutions",
+      "notes": {
+        "summary": "This module examines Emily Carr's interactions with religious figures and institutions, revealing her complex relationship with faith and spirituality. It contrasts the stark Presbyterianism of her father with the gentler Anglicanism of her mother, highlighting the contrasting styles of worship and the impact of these differences on the children. The module explores the experiences of attending both Presbyterian and Anglican services, emphasizing the sensory details and emotional responses to the rituals and sermons. The descriptions of the Bishop and his blessing provide insight into Carr's perception of religious authority and the power of religious experience.",
+        "keywords": [
+          "religion",
+          "Presbyterianism",
+          "Anglicanism",
+          "Bishop",
+          "church services",
+          "sermons",
+          "religious experience",
+          "faith",
+          "spiritualty",
+          "Sunday School"
+        ]
+      },
+      "flashcards": [
+        {
+          "question": "Compare and contrast the Carr family's experiences with Presbyterian and Anglican services.",
+          "answer": "Presbyterian services were austere and involved a long walk to church, while Anglican services were closer and more musically rich. The Presbyterian sermon was longer and less engaging, while the Anglican Bishop's blessing was a highlight."
+        },
+        {
+          "question": "Describe the Bishop's personality and manner.",
+          "answer": "The Bishop was gentle and kind, with a soft, distant voice and a tendency to use the word 'Ah!' contemplatively."
+        },
+        {
+          "question": "What was significant about the Bishop's blessing?",
+          "answer": "It was a powerful and moving experience for Carr, contrasting with the stricter atmosphere of Presbyterian services."
+        },
+        {
+          "question": "How did Dede's approach to Sunday School differ from the Bishop's approach to church services?",
+          "answer": "Dede's lessons were more focused on memorization and performance, while the Bishop's services prioritized a contemplative and emotional experience."
+        },
+        {
+          "question": "Describe the setting and atmosphere of the Anglican church.",
+          "answer": "The Anglican church was near the mudflats, had a mellow atmosphere, beautiful music, and four chandeliers."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "What was the Bishop's favorite word?",
+          "options": {
+            "A": "Amen",
+            "B": "God",
+            "C": "Ah!",
+            "D": "Hallelujah"
+          },
+          "correctAnswer": "C"
+        },
+        {
+          "question": "What was the setting of the Anglican church?",
+          "options": {
+            "A": "Atop Church Hill",
+            "B": "Near the mudflats",
+            "C": "In a wealthy neighborhood",
+            "D": "In the country"
+          },
+          "correctAnswer": "B"
+        },
+        {
+          "question": "What was the significance of the text-cards in Sunday School?",
+          "options": {
+            "A": "They were rewards for good behavior.",
+            "B": "They were rewards for memorizing texts.",
+            "C": "They were used for games.",
+            "D": "They were used for decorations."
+          },
+          "correctAnswer": "B"
+        }
+      ]
+    },
+    {
+      "moduleTitle": "Module 4:  Small's World:  Singing, the Praying Chair, and Mrs. Crane",
+      "notes": {
+        "summary": "This module delves into more personal aspects of Emily Carr's childhood, focusing on her unique experiences and perspectives.  It begins with Small's joyful singing, highlighting the contrast between her uninhibited expression and the disapproval of her family.  It moves to the story of Small's desire for a dog and her prayer to God using the 'praying chair,' illustrating her faith and determination.  Finally, the module covers Small's stay with Mrs. Crane, revealing a contrasting family dynamic and highlighting the exploration of complex emotions and relationships.",
+        "keywords": [
+          "Small's singing",
+          "The Praying Chair",
+          "Mrs. Crane",
+          "childhood desires",
+          "prayer",
+          "family relationships",
+          "emotional development",
+          "contrasting families",
+          "Victorian society"
+        ]
+      },
+      "flashcards": [
+        {
+          "question": "Describe Small's singing and the family's reaction.",
+          "answer": "Small's singing was loud and joyful, often causing disapproval from her family who considered it a 'vulgar row'."
+        },
+        {
+          "question": "What was the significance of the praying chair?",
+          "answer": "It was a focal point for family prayers, and Small used it to pray for a dog."
+        },
+        {
+          "question": "Describe Small's experience staying with Mrs. Crane.",
+          "answer": "Small's time with Mrs. Crane offered a contrast to her own family life, revealing a different family structure and dynamic. It showed different approaches to child-rearing and presented contrasting values and personalities."
+        },
+        {
+          "question": "What did Small learn from Mrs. Crane's family?",
+          "answer": "Small observed different approaches to discipline, family interactions, and relationships between family members and their possessions."
+        },
+        {
+          "question": "What was the final resolution to Small's desire for a dog?",
+          "answer": "Years later, after her parents' deaths, Small finally received a dog."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "What was Small's attitude towards her singing?",
+          "options": {
+            "A": "She was ashamed of it.",
+            "B": "She was indifferent to her family's disapproval.",
+            "C": "She was joyful and unconcerned.",
+            "D": "She stopped singing."
+          },
+          "correctAnswer": "C"
+        },
+        {
+          "question": "What did Small initially receive as a birthday present?",
+          "options": {
+            "A": "A puppy",
+            "B": "A picture of a girl with a dog",
+            "C": "A doll",
+            "D": "A whistle"
+          },
+          "correctAnswer": "B"
+        },
+        {
+          "question": "Describe Mrs. Crane's personality and approach to her children.",
+          "answer": "Mrs. Crane was strict and formal, maintaining a distance from her children, contrasting with the more nurturing approach of Carr's mother."
+        }
+      ]
+    },
+    {
+      "moduleTitle": "Module 5:  Victoria's Landscape and its Inhabitants",
+      "notes": {
+        "summary": "This module focuses on the physical and social environment of Carr's childhood in Victoria, providing a rich tapestry of detailed descriptions.  It explores the natural landscape of James Bay, Beacon Hill Park, and the Gorge, emphasizing Carr's sensory experiences and emotional responses to these settings.  The module also examines the diverse population of Victoria, including the Chinese and Indigenous communities, contrasting their lifestyles and interactions with the European settlers. It also examines the social structures, and institutions of Victorian society, providing a detailed account of daily life in the town.",
+        "keywords": [
+          "Victoria, BC",
+          "landscape",
+          "James Bay",
+          "Beacon Hill Park",
+          "Gorge",
+          "Indigenous communities",
+          "Chinese community",
+          "Victorian society",
+          "social structures",
+          "daily life"
+        ]
+      },
+      "flashcards": [
+        {
+          "question": "Describe the physical landscape of James Bay.",
+          "answer": "James Bay featured mudflats, a wooden bridge, the harbour, and Beacon Hill Park, a blend of tamed and wild spaces."
+        },
+        {
+          "question": "What was the significance of Beacon Hill Park?",
+          "answer": "It was a public space for recreation and contained a wooded swamp where frogs would make loud noises in the spring."
+        },
+        {
+          "question": "How did the Chinese and Indigenous communities contribute to the fabric of Victoria?",
+          "answer": "The Chinese were involved in vegetable gardening and other forms of trade, while the Indigenous people were fishermen and maintained their own distinct cultural practices. Both communities interacted with the European settlers in various ways, both through trade and also through clashes of culture and perceptions."
+        },
+        {
+          "question": "Describe the social life and structures of Victoria at the time.",
+          "answer": "Victoria featured a mix of formal and informal social events, from large family gatherings to smaller, more exclusive social groups. The module explores the differences in social class and their impact on various aspects of daily life."
+        },
+        {
+          "question": "What role did servants play in Victorian society?",
+          "answer": "Servants, primarily Chinese boys, played a significant role in running households, highlighting the social dynamics and expectations of the time."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "What was the main street of Victoria?",
+          "options": {
+            "A": "Fort Street",
+            "B": "Yates Street",
+            "C": "Government Street",
+            "D": "Cook Street"
+          },
+          "correctAnswer": "C"
+        },
+        {
+          "question": "What was the name of the most important hotel in Victoria?",
+          "options": {
+            "A": "Empress Hotel",
+            "B": "Driard Hotel",
+            "C": "Roccabella",
+            "D": "Park Hotel"
+          },
+          "correctAnswer": "B"
+        },
+        {
+          "question": "Describe the layout of Victoria beyond the main streets.",
+          "options": {
+            "A": "Perfectly gridded.",
+            "B": "Organized based on rivers and coastlines.",
+            "C": "Higgledy-piggledy, following cow paths.",
+            "D": "Planned according to strict architectural designs."
+          },
+          "correctAnswer": "C"
+        }
+      ]
+    },
+    {
+      "moduleTitle": "Module 6: Change and Transformation in Victoria",
+      "notes": {
+        "summary": "This final module explores the significant changes and transformations that Victoria underwent during Emily Carr's childhood and beyond. It examines the shift from a small town to a growing city, the arrival of the Canadian Pacific Railway, and the modernization of infrastructure like the waterworks and sewage systems. The module also reflects on the changes in social dynamics, the displacement of Indigenous communities, and the fading of traditional ways of life. The narrative traces Victoria's transition from a predominantly English-influenced town to a more diverse and modern city, contrasting the old and new ways of life.",
+        "keywords": [
+          "urbanization",
+          "modernization",
+          "Canadian Pacific Railway",
+          "waterworks",
+          "sewerage",
+          "social change",
+          "Indigenous displacement",
+          "Empress Hotel",
+          "economic development",
+          "cultural change"
+        ]
+      },
+      "flashcards": [
+        {
+          "question": "What was the impact of the Canadian Pacific Railway on Victoria?",
+          "answer": "It led to increased economic growth and population but also caused tensions between Victoria and Vancouver, as Vancouver became the terminus of the railway."
+        },
+        {
+          "question": "Describe the changes in Victoria's infrastructure.",
+          "answer": "The arrival of the waterworks and sewerage systems modernized Victoria but also resulted in unexpected consequences like frozen pipes in the early years."
+        },
+        {
+          "question": "How did the development of the Empress Hotel reflect changes in Victoria?",
+          "answer": "It marked Victoria's transformation into a modern tourist destination, replacing the old Driard Hotel and symbolizing the city's growth and shift towards tourism."
+        },
+        {
+          "question": "What were the consequences of Victoria's modernization for its Indigenous population?",
+          "answer": "The expansion of the city led to the displacement of the Songhees people from their traditional lands."
+        },
+        {
+          "question": "What was the overall tone of the descriptions of Victoria's transformation?",
+          "answer": "The descriptions convey both a sense of excitement and loss, reflecting Carr's ambivalent feelings towards the changes in her childhood town."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "What new hotel replaced the Driard Hotel as Victoria's premier establishment?",
+          "options": {
+            "A": "The Empress Hotel",
+            "B": "The Fairmont Hotel",
+            "C": "The Royal Hotel",
+            "D": "The Pacific Hotel"
+          },
+          "correctAnswer": "A"
+        },
+        {
+          "question": "What major infrastructure project transformed James Bay?",
+          "options": {
+            "A": "The construction of a new bridge.",
+            "B": "The development of a new port.",
+            "C": "The construction of the Empress Hotel and Causeway.",
+            "D": "The expansion of the railway lines."
+          },
+          "correctAnswer": "C"
+        },
+        {
+          "question": "What was the primary reason for the rivalry between Victoria and Vancouver?",
+          "options": {
+            "A": "Political differences.",
+            "B": "Competition for tourism.",
+            "C": "Economic and infrastructural development.",
+            "D": "Cultural clashes."
+          },
+          "correctAnswer": "C"
+        }
+      ]
+    }
+  ]
+}
+```

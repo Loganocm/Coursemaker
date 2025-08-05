@@ -1,0 +1,96 @@
+--- AI RESPONSE THAT CAUSED ERROR ---
+```json
+[
+  {
+    "front": "What was the first activity in the Sunday morning routine?",
+    "back": "Bathing and prayers."
+  },
+  {
+    "front": "What scent is associated with the father's presence?",
+    "back": "Camphor."
+  },
+  {
+    "front": "What is the significance of family prayers?",
+    "back": "It highlights the importance of faith within the family structure and establishes a pious atmosphere."
+  },
+  {
+    "front": "What does church attendance signify?",
+    "back": "The family's commitment to religious practice and community engagement."
+  },
+  {
+    "front": "What suggests religious education for children?",
+    "back": "Sunday school."
+  },
+  {
+    "front": "What activity reinforces the importance of faith in shaping daily life?",
+    "back": "Recounting the sermon after church."
+  },
+  {
+    "front": "What social aspect is hinted at by the mention of 'the orphans'?",
+    "back": "Acts of charity or community involvement."
+  },
+  {
+    "front": "What social activity took place outside of the church and home?",
+    "back": "A walk through the lily field, possibly to or from the Park Hotel."
+  },
+  {
+    "front": "What needs more context to understand its significance in the Sunday routine?",
+    "back": "'The Little Dutchman'."
+  },
+  {
+    "front": "What was the main meat served for Sunday dinner?",
+    "back": "Cold mutton."
+  },
+  {
+    "front": "Name three side dishes served with the Sunday dinner.",
+    "back": "Red currant jelly, potato salad, pickled cabbage."
+  },
+  {
+    "front": "What dessert was served for Sunday dinner?",
+    "back": "Apple pie."
+  },
+  {
+    "front": "What overall feeling is evoked by the description of Sunday dinner?",
+    "back": "Comfort, tradition, and possibly a sense of class."
+  },
+  {
+    "front": "What does the cold mutton suggest about daily life?",
+    "back": "The practicalities of using leftovers."
+  },
+  {
+    "front": "What are the three main pillars of the described Sunday routine?",
+    "back": "Religious practice, family values, and communal engagement."
+  },
+  {
+    "front": "What kind of details create a vivid picture of the Sunday routine?",
+    "back": "Sensory details (like the camphor smell) and specific mentions of food and locations."
+  },
+  {
+    "front": "What is the purpose of the lily field in the narrative?",
+    "back": "It represents a beautiful natural setting for a Sunday stroll."
+  },
+  {
+    "front": "What aspect of the Sunday routine is most directly linked to community?",
+    "back": "Church attendance and possibly interactions with the orphans."
+  },
+  {
+    "front": "What is the significance of the Park Hotel in the context of Sunday?",
+    "back": "It suggests a social gathering place or a destination during the Sunday walk."
+  },
+  {
+    "front": "What element of the description highlights the importance of family?",
+    "back": "Family prayers and the shared Sunday dinner."
+  }
+]
+```
+
+
+--- ERROR DETAILS ---
+Error during step: flashcards-Sunday
+
+Error: Unexpected non-whitespace character after JSON at position 103 (line 1 column 104)
+
+Stack: SyntaxError: Unexpected non-whitespace character after JSON at position 103 (line 1 column 104)
+    at JSON.parse (<anonymous>)
+    at processPdfWithAgent (C:\Users\Logan\Desktop\Github\courseforge2\Coursemaker\server\agentProcessor.js:181:31)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)

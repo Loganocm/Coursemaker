@@ -1,0 +1,3 @@
+From the notes on Introduction to the Book, create a 10-question multiple-choice quiz. Each question should be a JSON object with a 'question' string, an array of 'options', and a string indicating the 'correct_answer'. Ensure distractors are plausible. Return a valid JSON array of these objects. Example format: [{ "question": "...", "options": [...], "correct_answer": "..." }, ...].
+
+Please provide me with the content from the Introduction to the Book (1942 Oxford University Press edition) you'd like me to summarize.  I need that text to create the notes.

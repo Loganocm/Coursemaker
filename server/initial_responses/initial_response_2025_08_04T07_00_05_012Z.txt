@@ -1,0 +1,392 @@
+Here is the completed JSON object:
+
+{
+  "courseTitle": "Introduction to Computer Architecture",
+  "modules": [
+    {
+      "moduleTitle": "Module 1: Introduction",
+      "notes": {
+        "summary": "This module provides an overview of the history and development of computer systems, from the earliest mechanical calculators to modern multicore processors. It introduces the main components of a computer system - the processor, memory, and I/O - and describes how they work together. The module also discusses standards organizations, the von Neumann architecture, and parallel computing.",
+        "keywords": [
+          "computer history",
+          "processor",
+          "memory",
+          "I/O",
+          "standards organizations",
+          "von Neumann architecture",
+          "parallel computing"
+        ]
+      },
+      "flashcards": [
+        {
+          "question": "What are the three main components of a computer system?",
+          "answer": "The three main components are the processor, memory, and I/O."
+        },
+        {
+          "question": "What is the von Neumann architecture?",
+          "answer": "The von Neumann architecture is a computer design that uses a single memory to store both data and instructions, and executes instructions sequentially."
+        },
+        {
+          "question": "What is parallel computing?",
+          "answer": "Parallel computing uses multiple processors or cores to solve problems simultaneously, improving performance over sequential processing."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "Which of the following is not a generation of computer development?",
+          "options": {
+            "A": "Mechanical Calculating Machines",
+            "B": "Quantum Computers",
+            "C": "Vacuum Tube Computers",
+            "D": "Integrated Circuit Computers"
+          },
+          "correctAnswer": "B"
+        },
+        {
+          "question": "What organization sets many standards for computer systems?",
+          "options": {
+            "A": "ANSI",
+            "B": "IEEE",
+            "C": "ISO",
+            "D": "All of the above"
+          },
+          "correctAnswer": "D"
+        }
+      ]
+    },
+    {
+      "moduleTitle": "Module 2: Data Representation",
+      "notes": {
+        "summary": "This module covers how computers represent and manipulate numerical and character data. It discusses number systems, signed integer representations, floating-point formats, and character encoding schemes like ASCII and Unicode. The module also introduces error detection and correction techniques.",
+        "keywords": [
+          "number systems",
+          "signed integers",
+          "floating-point",
+          "character encoding",
+          "error detection",
+          "error correction"
+        ]
+      },
+      "flashcards": [
+        {
+          "question": "What is the difference between one's complement and two's complement?",
+          "answer": "One's complement represents negative numbers by flipping all the bits, while two's complement represents negative numbers by flipping the bits and adding 1."
+        },
+        {
+          "question": "What is the IEEE 754 standard for floating-point representation?",
+          "answer": "The IEEE 754 standard defines a format for representing floating-point numbers that allows for a wide range and precision."
+        },
+        {
+          "question": "What is the purpose of parity bits and Hamming codes?",
+          "answer": "Parity bits and Hamming codes are error detection and correction techniques that add redundant bits to data to identify and fix errors."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "Which number representation can represent both positive and negative integers?",
+          "options": {
+            "A": "Binary-coded decimal",
+            "B": "Signed magnitude",
+            "C": "Excess-M",
+            "D": "Both B and C"
+          },
+          "correctAnswer": "D"
+        },
+        {
+          "question": "What is the main advantage of the IEEE 754 floating-point standard?",
+          "options": {
+            "A": "It uses less storage than previous formats",
+            "B": "It provides a standard way to represent a wide range of values with good precision",
+            "C": "It is easier to perform arithmetic operations",
+            "D": "It is compatible with older systems"
+          },
+          "correctAnswer": "B"
+        }
+      ]
+    },
+    {
+      "moduleTitle": "Module 3: Boolean Algebra and Digital Logic",
+      "notes": {
+        "summary": "This module introduces Boolean algebra and digital logic gates, which form the foundation for how computers operate at the most basic level. It covers Boolean expressions, logic gate symbols and operations, combinational and sequential circuits, and the design of simple digital components.",
+        "keywords": [
+          "Boolean algebra",
+          "logic gates",
+          "combinational circuits",
+          "sequential circuits",
+          "digital components"
+        ]
+      },
+      "flashcards": [
+        {
+          "question": "What is the purpose of a truth table?",
+          "answer": "A truth table shows all possible input combinations and the corresponding output for a logic gate or circuit."
+        },
+        {
+          "question": "What are the two main types of digital circuits?",
+          "answer": "Combinational circuits and sequential circuits."
+        },
+        {
+          "question": "What is the difference between hardwired control and microprogrammed control?",
+          "answer": "Hardwired control uses dedicated digital logic for instruction decoding and execution, while microprogrammed control uses a stored program of microinstructions to control instruction processing."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "Which of the following is a universal logic gate?",
+          "options": {
+            "A": "AND",
+            "B": "OR", 
+            "C": "NOT",
+            "D": "NAND"
+          },
+          "correctAnswer": "D"
+        },
+        {
+          "question": "What is the purpose of a flip-flop in a sequential circuit?",
+          "options": {
+            "A": "To store a single bit of data",
+            "B": "To perform arithmetic operations",
+            "C": "To generate clock signals",
+            "D": "To implement combinational logic"
+          },
+          "correctAnswer": "A"
+        }
+      ]
+    },
+    {
+      "moduleTitle": "Module 4: The MARIE Architecture",
+      "notes": {
+        "summary": "This module introduces a simple computer architecture called MARIE (Machine Architecture that is Really Intuitive and Easy) to help students understand the basic organization and operation of a computer system. It covers the CPU components, instruction set, and assembly language programming for MARIE.",
+        "keywords": [
+          "CPU components",
+          "instruction set",
+          "assembly language",
+          "fetch-decode-execute cycle",
+          "hardwired control",
+          "microprogrammed control"
+        ]
+      },
+      "flashcards": [
+        {
+          "question": "What are the main components of a CPU?",
+          "answer": "The main CPU components are the registers, the ALU, and the control unit."
+        },
+        {
+          "question": "What is the purpose of the fetch-decode-execute cycle?",
+          "answer": "The fetch-decode-execute cycle is the process by which the CPU fetches instructions from memory, decodes them, and executes the specified operations."
+        },
+        {
+          "question": "What is the difference between hardwired control and microprogrammed control?",
+          "answer": "Hardwired control uses dedicated digital logic for instruction decoding and execution, while microprogrammed control uses a stored program of microinstructions to control instruction processing."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "What is the purpose of the program counter in a CPU?",
+          "options": {
+            "A": "To store the current memory address being accessed",
+            "B": "To perform arithmetic and logical operations",
+            "C": "To control the flow of program execution",
+            "D": "All of the above"
+          },
+          "correctAnswer": "C"
+        },
+        {
+          "question": "In the MARIE architecture, how are instructions executed?",
+          "options": {
+            "A": "Using hardwired control",
+            "B": "Using microprogrammed control",
+            "C": "Both A and B are used",
+            "D": "Neither A nor B, MARIE has no control unit"
+          },
+          "correctAnswer": "C"
+        }
+      ]
+    },
+    {
+      "moduleTitle": "Module 5: Instruction Set Architectures",
+      "notes": {
+        "summary": "This module examines instruction set architectures (ISAs) in more detail. It covers instruction formats, addressing modes, and different types of instructions such as data movement, arithmetic, logic, and control transfer. The module also looks at real-world ISA examples including Intel, MIPS, ARM, and the Java Virtual Machine.",
+        "keywords": [
+          "instruction formats",
+          "addressing modes",
+          "data movement instructions",
+          "arithmetic instructions",
+          "logic instructions",
+          "control transfer instructions",
+          "pipelining"
+        ]
+      },
+      "flashcards": [
+        {
+          "question": "What is the purpose of instruction pipelining?",
+          "answer": "Instruction pipelining allows a processor to fetch, decode, and execute multiple instructions concurrently, improving performance."
+        },
+        {
+          "question": "What is the difference between RISC and CISC instruction sets?",
+          "answer": "RISC (Reduced Instruction Set Computer) architectures have a smaller, simpler instruction set, while CISC (Complex Instruction Set Computer) architectures have a larger, more complex instruction set."
+        },
+        {
+          "question": "What are the main types of addressing modes?",
+          "answer": "Common addressing modes include immediate, register, direct, and indirect addressing."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "What is the purpose of having multiple addressing modes in an ISA?",
+          "options": {
+            "A": "To allow more efficient use of memory",
+            "B": "To provide a standardized way to access memory",
+            "C": "To support a variety of programming constructs",
+            "D": "All of the above"
+          },
+          "correctAnswer": "D"
+        },
+        {
+          "question": "Which of the following is an example of a RISC architecture?",
+          "options": {
+            "A": "Intel x86",
+            "B": "MIPS",
+            "C": "VAX",
+            "D": "Both A and C"
+          },
+          "correctAnswer": "B"
+        }
+      ]
+    },
+    {
+      "moduleTitle": "Module 6: Memory Systems",
+      "notes": {
+        "summary": "This module covers the organization and operation of computer memory systems. It discusses the memory hierarchy, cache memory, virtual memory, and paging. The module also examines how memory interfaces with the CPU and the tradeoffs involved in memory design.",
+        "keywords": [
+          "memory hierarchy",
+          "cache memory",
+          "virtual memory",
+          "paging",
+          "memory addressing",
+          "memory performance"
+        ]
+      },
+      "flashcards": [
+        {
+          "question": "What is the purpose of cache memory?",
+          "answer": "Cache memory provides fast access to frequently used data and instructions, improving overall system performance."
+        },
+        {
+          "question": "How does virtual memory work?",
+          "answer": "Virtual memory uses a combination of main memory and disk storage to provide each process with the illusion of a large, contiguous address space."
+        },
+        {
+          "question": "What is the difference between direct mapping, associative mapping, and set-associative mapping in cache?",
+          "answer": "These are different cache mapping schemes that determine how data is stored and retrieved from the cache."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "What is the main advantage of using a memory hierarchy?",
+          "options": {
+            "A": "It allows for larger total memory capacity",
+            "B": "It provides faster average access time",
+            "C": "It reduces the cost of memory",
+            "D": "Both A and B"
+          },
+          "correctAnswer": "D"
+        },
+        {
+          "question": "What is the purpose of a translation lookaside buffer (TLB) in a virtual memory system?",
+          "options": {
+            "A": "To cache page table entries, improving virtual-to-physical address translation",
+            "B": "To manage the replacement of pages in main memory",
+            "C": "To encrypt and decrypt data stored in virtual memory",
+            "D": "To allocate and deallocate pages of virtual memory"
+          },
+          "correctAnswer": "A"
+        }
+      ]
+    },
+    {
+      "moduleTitle": "Module 7: Input/Output and Storage Systems",
+      "notes": {
+        "summary": "This module examines how computer systems interact with the outside world through input/output (I/O) interfaces and storage devices. It covers I/O architectures, data transmission modes, magnetic and optical storage technologies, and RAID storage configurations.",
+        "keywords": [
+          "I/O architectures",
+          "data transmission",
+          "magnetic storage",
+          "optical storage",
+          "RAID"
+        ]
+      },
+      "flashcards": [
+        {
+          "question": "What are the main methods of I/O control?",
+          "answer": "The main I/O control methods are programmed I/O, interrupt-driven I/O, and direct memory access (DMA)."
+        },
+        {
+          "question": "What are the advantages of RAID storage?",
+          "answer": "RAID provides improved performance, fault tolerance, and data redundancy compared to a single disk drive."
+        },
+        {
+          "question": "How do serial and parallel data transmission differ?",
+          "answer": "Serial transmission sends data one bit at a time over a single line, while parallel transmission sends multiple bits simultaneously over multiple lines."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "What is the purpose of a disk controller in a computer system?",
+          "options": {
+            "A": "To manage the mechanical operation of disk drives",
+            "B": "To translate between disk and CPU data formats",
+            "C": "To schedule and coordinate disk I/O requests",
+            "D": "All of the above"
+          },
+          "correctAnswer": "D"
+        },
+        {
+          "question": "Which RAID level provides the best fault tolerance?",
+          "options": {
+            "A": "RAID 0 (striping)",
+            "B": "RAID 1 (mirroring)", 
+            "C": "RAID 5 (striping with distributed parity)",
+            "D": "RAID 6 (striping with dual parity)"
+          },
+          "correctAnswer": "D"
+        }
+      ]
+    },
+    {
+      "moduleTitle": "Module 8: System Software",
+      "notes": {
+        "summary": "This module provides an overview of the system software that manages computer hardware and provides an interface for running application programs. It covers operating systems, programming tools like assemblers and compilers, and database and transaction processing software.",
+        "keywords": [
+          "operating systems",
+          "system calls",
+          "assemblers",
+          "linkers",
+          "compilers",
+          "interpreters",
+          "databases",
+          "transaction processing"
+        ]
+      },
+      "flashcards": [
+        {
+          "question": "What are the main functions of an operating system?",
+          "answer": "Key operating system functions include process management, memory management, file management, and I/O management."
+        },
+        {
+          "question": "What is the purpose of a compiler?",
+          "answer": "A compiler translates high-level programming language code into low-level machine code that can be executed by a computer."
+        },
+        {
+          "question": "How do database management systems differ from file systems?",
+          "answer": "Database systems provide advanced data management features like transactions, concurrency control, and query processing that are not found in basic file systems."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "Which of the following is not a common type of programming tool?",
+          "options": {
+            "A": "Assembler",
+            "B": "Linker",
+            "C": "Interpreter",
+            "D": "

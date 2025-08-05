@@ -1,0 +1,66 @@
+--- AI RESPONSE THAT CAUSED ERROR ---
+```json
+[
+  {
+    "question": "Which two universities collaborated on this research project?",
+    "options": ["University of Toronto and McGill University", "Ryerson University and Brock University", "York University and McMaster University", "Queen's University and Western University"],
+    "correct_answer": "Ryerson University and Brock University"
+  },
+  {
+    "question": "What was a key benefit of the inter-institutional collaboration?",
+    "options": ["Reduced research costs", "Simplified project management", "Increased competition among researchers", "Pooling expertise and resources"],
+    "correct_answer": "Pooling expertise and resources"
+  },
+  {
+    "question": "Effective team dynamics in this project emphasized which of the following?",
+    "options": ["Individual achievement", "Unclear roles and responsibilities", "Inefficient communication", "Shared goals and clear communication"],
+    "correct_answer": "Shared goals and clear communication"
+  },
+  {
+    "question": "Which government agency provided funding for the project?",
+    "options": ["Government of Canada", "Government of British Columbia", "Government of Ontario", "Government of Quebec"],
+    "correct_answer": "Government of Ontario"
+  },
+  {
+    "question": "Government funding for the project implies what?",
+    "options": ["Lack of accountability", "No alignment with strategic priorities", "Public investment in research", "Complete autonomy for the researchers"],
+    "correct_answer": "Public investment in research"
+  },
+  {
+    "question": "eCampusOntario's funding suggests a focus on what?",
+    "options": ["Traditional classroom learning", "International collaboration", "Digital learning technologies", "Purely theoretical research"],
+    "correct_answer": "Digital learning technologies"
+  },
+  {
+    "question": "What aspect of the project did eCampusOntario's support likely enhance?",
+    "options": ["Cost reduction", "Accessibility and scalability", "International partnerships", "Limited reach of the project"],
+    "correct_answer": "Accessibility and scalability"
+  },
+  {
+    "question": "The acknowledgement highlights the project's commitment to:",
+    "options": ["Minimizing research impact", "Technological stagnation", "Research mediocrity", "Research excellence and technological advancement"],
+    "correct_answer": "Research excellence and technological advancement"
+  },
+  {
+    "question": "One of the key outcomes of inter-institutional collaboration mentioned is:",
+    "options": ["Decreased research output", "Isolation of researchers", "Narrower research focus", "Expanded network and impact"],
+    "correct_answer": "Expanded network and impact"
+  },
+  {
+    "question": "What aspect is NOT explicitly mentioned as a benefit of government funding?",
+    "options": ["Strategic alignment with government priorities", "Accountability and transparency", "Increased research funding from private sources", "Public investment in research"],
+    "correct_answer": "Increased research funding from private sources"
+  }
+]
+```
+
+
+--- ERROR DETAILS ---
+Error during step: quiz-Acknowledgements
+
+Error: Unexpected non-whitespace character after JSON at position 345 (line 5 column 4)
+
+Stack: SyntaxError: Unexpected non-whitespace character after JSON at position 345 (line 5 column 4)
+    at JSON.parse (<anonymous>)
+    at processPdfWithAgent (C:\Users\Logan\Desktop\Github\courseforge2\Coursemaker\server\agentProcessor.js:200:25)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)

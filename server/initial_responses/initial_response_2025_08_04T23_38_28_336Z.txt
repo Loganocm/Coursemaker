@@ -1,0 +1,545 @@
+```json
+{
+  "courseTitle": "The Book of Small: A Glimpse into Early Victoria, British Columbia",
+  "modules": [
+    {
+      "moduleTitle": "Module 1: Life on Sunday",
+      "notes": {
+        "summary": "This module explores the meticulous and unchanging Sunday routine in the Carr household, offering a window into Victorian family life and religious observance. From Saturday night baths using brown Windsor soap and the meticulous storage of toys, to Father's camphor-scented presence and the children's uncomfortable church attire, every detail reinforces the day's solemnity. The narrative highlights the contrast between Father's strict Presbyterianism and Mother's gentler Anglicanism, influencing the children's dual religious experiences. Key moments include the walk to Dr. Reid's church, the formal cold mutton dinner followed by sermon recollection, and the highly structured Sunday School. The chapter also reveals a poignant conflict regarding a piece of land Father sold, which became a saloon, symbolizing the clash between his English ideals and the realities of the New World. Despite the rigidity, elements of childhood joy and rebellion subtly emerge.",
+        "keywords": [
+          "Victorian life",
+          "Sunday routine",
+          "family dynamics",
+          "religious observance",
+          "childhood experience"
+        ]
+      },
+      "flashcards": [
+        {
+          "question": "What was Father's distinct 'Sunday smell'?",
+          "answer": "Wright's coal-tar soap and camphor."
+        },
+        {
+          "question": "What was served for Sunday dinner at the Carr household?",
+          "answer": "Cold saddle of mutton with red currant jelly, potato salad, pickled cabbage, and deep apple pie with Devonshire cream."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "What was Father Carr's primary concern regarding the land he sold for the Park Hotel?",
+          "options": {
+            "A": "He thought the price was too low.",
+            "B": "Mrs. Lush built a saloon on it, breaking her promise.",
+            "C": "The hotel attracted too many English visitors.",
+            "D": "It blocked the view from his lily field."
+          },
+          "correctAnswer": "B"
+        },
+        {
+          "question": "Which book was NOT allowed out on Sundays in the Carr household?",
+          "options": {
+            "A": "The Peep of Day",
+            "B": "Bunyan's Pilgrim's Progress",
+            "C": "Grimm's Fairy Tales",
+            "D": "The Bible"
+          },
+          "correctAnswer": "C"
+        }
+      ]
+    },
+    {
+      "moduleTitle": "Module 2: The Cow Yard and Animal Companions",
+      "notes": {
+        "summary": "This module explores the 'Cow Yard' as a dynamic and symbolic space, particularly for Small. It describes the Cow as a central, maternal figure, and the Yard as a place of vibrant life and seasonal events, from bonfires where children roasted potatoes to the hatching of chicks. Small's imaginative world often intertwines with the animals, reflecting her deep connection to them, such as her desire for the Cow to have a colt. The module also introduces a darker element: 'The Killing Tree,' an ivy-covered tree that evokes fear and mystery for Small, associated with silence and death. This contrasts with the joyous new life in the yard, highlighting the blend of wonder, fantasy, and the raw realities of nature in a child's perception. The module showcases the unique personalities of the three sisters—Bigger's tidiness, Middle's motherly instincts, and Small's deep connection to the animals.",
+        "keywords": [
+          "Cow Yard",
+          "childhood play",
+          "animals",
+          "nature's cycle",
+          "imagination",
+          "The Killing Tree"
+        ]
+      },
+      "flashcards": [
+        {
+          "question": "Who was Bong in relation to the Cow?",
+          "answer": "He was the Chinaboy who milked the Cow and sang Chinese songs to her."
+        },
+        {
+          "question": "What was 'The Killing Tree' to Small, and why did she fear it?",
+          "answer": "It was an ivy-covered tree in the Cow Yard that she believed killed small creatures and was associated with a mysterious, sinister atmosphere."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "What was Small's unique wish for the Cow, contrasting with actual farm life?",
+          "options": {
+            "A": "She wished the Cow could fly.",
+            "B": "She wished the Cow would wear a bonnet.",
+            "C": "She wished the Cow would have a colt instead of a calf.",
+            "D": "She wished the Cow could talk."
+          },
+          "correctAnswer": "C"
+        }
+      ]
+    },
+    {
+      "moduleTitle": "Module 3: Childhood Impressions of Adults and Spirituality",
+      "notes": {
+        "summary": "This module delves into Small's early encounters with figures of authority and spirituality. It begins with her profound awe for the Bishop, viewing him as a holy, sky-connected figure, which contrasts with his polite, yet dismissive, interaction when she tries to share her joy about her new canary. The narrative then shifts to the family's 'hybrid' religious life, meticulously adhering to Father's stern Presbyterianism on Sunday mornings and Mother's gentle Anglicanism in the evenings. The children endure the long Presbyterian sermons but look forward to the Anglican service, especially the Bishop's 'splendid' blessing. This duality highlights the different facets of Victorian religious practice and its impact on children. Small's personal spiritual journey is shaped by these contrasting experiences, leading her to seek comfort and connection in both formal blessings and the simple joys of nature and personal possessions.",
+        "keywords": [
+          "Bishop",
+          "childhood awe",
+          "spirituality",
+          "Anglicanism",
+          "Presbyterianism",
+          "innocence"
+        ]
+      },
+      "flashcards": [
+        {
+          "question": "How did Small acquire her canary?",
+          "answer": "She earned it and was allowed to pick one from a cage of four young birds."
+        },
+        {
+          "question": "What was the Bishop's favorite word, typically uttered in contemplation?",
+          "answer": "'Ah!'"
+        }
+      ],
+      "quiz": [
+        {
+          "question": "What did Small perceive as the main difference between Father's and Mother's religious practices?",
+          "options": {
+            "A": "Father's was playful, while Mother's was serious.",
+            "B": "Father's was grim and Presbyterian, while Mother's was gentle and Anglican.",
+            "C": "Father's involved singing, while Mother's involved silent prayer.",
+            "D": "Father's was short, while Mother's was long."
+          },
+          "correctAnswer": "B"
+        }
+      ]
+    },
+    {
+      "moduleTitle": "Module 4: Small's Unique Expression and Family Dynamics",
+      "notes": {
+        "summary": "This module delves into Small's irrepressible nature, particularly her loud, joyful singing that her family considers a 'horrible row' but animals adore. It contrasts her uninhibited expression with her sisters' desire for decorum. The narrative then shifts to an unexpected revelation: the 'mother-ladies' (Mother and Mrs. Gregory) shedding their prim exteriors to sing old English songs, exposing a hidden emotional depth and connection to their past. This scene highlights the quiet resilience and longing for home among the early settlers. The module also explores Small's persistent desire for a dog, using the 'Praying Chair' in a childlike ritual, and the eventual, somewhat complicated, fulfillment of this lifelong wish. It portrays the evolving relationship with her Elder sister, who becomes a gatekeeper to her desires, and the eventual establishment of Small's own home filled with animals, fulfilling her childhood ark fantasy.",
+        "keywords": [
+          "singing",
+          "self-expression",
+          "family dynamics",
+          "childhood wishes",
+          "homesickness",
+          "Praying Chair"
+        ]
+      },
+      "flashcards": [
+        {
+          "question": "Why did Small's family dislike her singing?",
+          "answer": "They called it a 'horrible row' and found it vulgar and embarrassing before neighbors."
+        },
+        {
+          "question": "What was the significance of the 'Praying Chair' for Small?",
+          "answer": "It was Father's chair, which she believed helped prayers, and she used it to wish for a puppy."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "How did Small's perception of her mother and Mrs. Gregory change during their singing session?",
+          "options": {
+            "A": "She realized they were more strict than she thought.",
+            "B": "She saw them as silly and childish.",
+            "C": "She understood they carried a hidden longing for their English past and could still express joy.",
+            "D": "She learned they secretly disliked her singing."
+          },
+          "correctAnswer": "C"
+        }
+      ]
+    },
+    {
+      "moduleTitle": "Module 5: A Stay with Mrs. Crane: First Encounters and Discomfort",
+      "notes": {
+        "summary": "This module recounts Small's difficult stay at Mrs. Crane's house during her mother's illness. Small initially struggles to reconcile the overheard description of Mrs. Crane having a 'large heart' with her perception of Mrs. Crane's physically 'long and narrow' form and strict demeanor. The Cranes' household is portrayed as a place of stark contrasts to Small's home, with its formal routines, taxidermy, and Mr. Crane's hunting 'sport.' Small finds comfort in the family dog, Cricket, and experiences various forms of discipline and misunderstanding. Incidents like the braided antimacassar and the castor oil given to a hen highlight Mrs. Crane's rigidness and Small's developing empathy and independence. The module concludes with Small's profound, if reluctant, shift in understanding Mrs. Crane, recognizing a hidden warmth beneath her stern exterior, even as she expresses longing for her own home.",
+        "keywords": [
+          "childhood experience",
+          "Mrs. Crane",
+          "strictness",
+          "empathy",
+          "discomfort",
+          "perception"
+        ]
+      },
+      "flashcards": [
+        {
+          "question": "What initial impression did Small and Alice have of Mrs. Crane's physical appearance?",
+          "answer": "They found her 'long and narrow.'"
+        },
+        {
+          "question": "What creature provided comfort to Small during her stay at Mrs. Crane's, despite Mrs. Crane's disapproval of dogs?",
+          "answer": "The pinto pony, Cricket."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "What incident involving a hen at Mrs. Crane's house caused Small to feel immense shame?",
+          "options": {
+            "A": "Small accidentally let the hen into the house.",
+            "B": "Small and Helen gave the hen castor oil, causing it to splatter the house.",
+            "C": "Small tried to ride the hen like a horse.",
+            "D": "Small taught the hen to sing loud songs."
+          },
+          "correctAnswer": "B"
+        }
+      ]
+    },
+    {
+      "moduleTitle": "Module 6: Childhood Fantasies and Nature's Secrets",
+      "notes": {
+        "summary": "This module delves into Small's vivid imagination and her deep connection with the garden, particularly the white currant bush. This specific corner of the garden, often dismissed as a rubbish dump by adults, transforms into a magical realm for Small. Here, the 'mauvy-pink flower' (Rocket) and the translucent white currants become catalysts for her private fantasies of flying on white horses with an unseen boy. The sensory details—the scent of the flowers, the hum of bees, the shimmering butterflies—blend into a singular, beautiful experience, almost revealing a 'secret' about life itself. However, these moments of profound immersion are consistently shattered by the abrupt calls of grown-ups, pulling Small back to the mundane reality of garden chores. The module highlights the fragility of childhood wonder and the inherent conflict between a child's inner world and the demands of the adult world.",
+        "keywords": [
+          "imagination",
+          "childhood fantasy",
+          "nature",
+          "white currants",
+          "Rocket flower",
+          "perception"
+        ]
+      },
+      "flashcards": [
+        {
+          "question": "What fruit was the focus of Small's imaginative play in the garden?",
+          "answer": "White currants."
+        },
+        {
+          "question": "What was the real name of the 'mauvy-pink flower' that grew through the rubbish?",
+          "answer": "Rocket."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "What did Small hope to see by looking closely into the 'clearer' white currants?",
+          "options": {
+            "A": "Her own reflection.",
+            "B": "The tiny veins and seeds inside them.",
+            "C": "The 'living' essence of the currants.",
+            "D": "A map of fairyland."
+          },
+          "correctAnswer": "C"
+        }
+      ]
+    },
+    {
+      "moduleTitle": "Module 7: Social Etiquette and Children's Parties",
+      "notes": {
+        "summary": "This module vividly portrays the social pressures and expectations placed on Victorian children, particularly through the lens of Lizzie's shame and Small's unrestrained behavior at their first party. Mother's strict instructions on politeness and hygiene highlight the emphasis on proper deportment. Lizzie, at eight, embodies the desire to conform and be 'decent,' constantly mortified by Small's innocent but 'vulgar' actions, such as touching the cab's interior with gloved hands, spilling cocoa, and eating with her mouth full. The narrative details the games, the food, and the interactions with the adult hosts, emphasizing the chasm between adult expectations and a child's natural impulses. Despite Lizzie's attempts to control her younger sister, Small's uninhibited enjoyment and eventual defiance reveal a deeper, less conformist spirit. The module captures the often-painful process of socialization and the contrasting personalities within the Carr family.",
+        "keywords": [
+          "Victorian etiquette",
+          "children's party",
+          "social shame",
+          "childhood innocence",
+          "family expectations",
+          "deportment"
+        ]
+      },
+      "flashcards": [
+        {
+          "question": "What mode of transport took the girls to the Langleys' party?",
+          "answer": "Mr. Russell's hansom-cab."
+        },
+        {
+          "question": "What specific action by Small at the tea table caused Lizzie great shame?",
+          "answer": "Stuffing currant cake into both cheeks and asking for jelly cake with her mouth full."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "Why was Lizzie particularly concerned about Small's behavior at the party?",
+          "options": {
+            "A": "She feared Small would eat all the cake.",
+            "B": "She wanted Small to impress the hosts.",
+            "C": "She was worried Small would not behave 'decently' and shame her.",
+            "D": "She wanted to play hide-and-seek without Small."
+          },
+          "correctAnswer": "C"
+        }
+      ]
+    },
+    {
+      "moduleTitle": "Module 8: Mysteries of Nature and Time",
+      "notes": {
+        "summary": "This module explores Small's profound curiosity about the world and her developing understanding of abstract concepts, particularly 'Time' and the natural phenomena around her. It begins with her questioning the mysterious 'British Columbia Nightingale' (frogs), whose pervasive croaking fills her nights with wonder and a touch of fear, contrasting her vivid, often exaggerated, perceptions with the adults' casual explanations. The narrative then shifts to her contemplation of 'Time' during a family picnic, where she observes how a stream can compress or expand moments, making her question the rigidity of clocks. Encounters with nature, such as a golden-brown toad, further highlight her unique way of engaging with the world, often finding herself at odds with her more pragmatic sisters. The module underscores the imaginative richness of a child's mind as it grapples with the inexplicable, and the constant negotiation between inner reality and external definitions.",
+        "keywords": [
+          "childhood perception",
+          "nature's mysteries",
+          "concept of time",
+          "curiosity",
+          "British Columbia wildlife",
+          "imagination"
+        ]
+      },
+      "flashcards": [
+        {
+          "question": "What creature did Father jokingly refer to as the 'British Columbia nightingale'?",
+          "answer": "Green frogs in the Beacon Hill skunk-cabbage swamp."
+        },
+        {
+          "question": "How did Small perceive the passing of time during the picnic at Mill Stream?",
+          "answer": "She felt a stream could squeeze a whole afternoon into one minute, and a clock could spread one week into a whole year."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "What was Small's initial impression of the 'nightingale' creature based on its pervasive noise?",
+          "options": {
+            "A": "She thought it must be a very small, delicate bird.",
+            "B": "She imagined it as an enormous, monstrous creature.",
+            "C": "She believed it was a band playing music in the forest.",
+            "D": "She assumed it was a mechanical device."
+          },
+          "correctAnswer": "B"
+        }
+      ]
+    },
+    {
+      "moduleTitle": "Module 9: Victoria's Foundations: Land and People",
+      "notes": {
+        "summary": "This module delves into the foundational aspects of Victoria, British Columbia, as a burgeoning Crown Colony deeply rooted in English traditions. It traces Father Carr's journey from England to California and eventually to Victoria, where he transformed wild Canadian land into an orderly, English-style home and garden. The narrative highlights the blend of Old World loyalty and New World adaptation among early settlers, emphasizing their struggles and perseverance in taming the wilderness. The module details the layout of James' Bay district, its unique landscape, and the challenges posed by its environment. It also introduces the rich oral history of the Fort Camosun days, shared by 'still-fresh-yesterday' pioneers like Mrs. Lewis, offering vivid accounts of early colonial life, interactions with Indigenous peoples, and the arrival of the first piano, creating a strong sense of place and historical context.",
+        "keywords": [
+          "Victoria history",
+          "pioneers",
+          "colonialism",
+          "land development",
+          "Hudson's Bay Company",
+          "settlement"
+        ]
+      },
+      "flashcards": [
+        {
+          "question": "What was the original name of Victoria when it was a Hudson's Bay Fort?",
+          "answer": "Fort Camosun."
+        },
+        {
+          "question": "What unique feature did Father Carr incorporate into his 'new field' that was otherwise 'Canadian'?",
+          "answer": "An English stile built across the snake fence."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "What natural landmark bounded Victoria's southern horizon when viewed from Beacon Hill?",
+          "options": {
+            "A": "The Rocky Mountains",
+            "B": "The Strait of Georgia",
+            "C": "The snowy Olympic mountains",
+            "D": "Mount Tolmie"
+          },
+          "correctAnswer": "C"
+        }
+      ]
+    },
+    {
+      "moduleTitle": "Module 10: Urban Life and Commerce in Early Victoria",
+      "notes": {
+        "summary": "This module provides a vivid snapshot of early Victoria's urban landscape and commercial activities. It details the pervasive presence of saloons and road-houses, which, from a child's perspective, held a mysterious allure, strictly forbidden to be observed directly. The narrative highlights the unique characteristics of Father's wholesale import store on Wharf Street, its dark, cavernous interior, and his collection of 'wholesale cats.' It offers insights into the town's economy, driven by goods imported 'round the Horn,' and the interactions between different communities, notably the Indigenous people trading maggoty raisins. The challenges of transportation on dusty, unpaved roads and the diverse vehicles used, from chaises to dog-carts, are also described. Small's first exposure to American cities reveals Victoria's reputation as 'sleepy old Victoria,' a slow-paced town proud of its English heritage and quality goods, even if it meant waiting years for them.",
+        "keywords": [
+          "Victoria commerce",
+          "saloons",
+          "roadhouses",
+          "Victorian transportation",
+          "cultural perceptions",
+          "urban development"
+        ]
+      },
+      "flashcards": [
+        {
+          "question": "What did Small initially assume about saloons due to the presence of sailors?",
+          "answer": "That every saloon belonged to the Navy."
+        },
+        {
+          "question": "What items did Father Carr import and sell at his wholesale store?",
+          "answer": "Provisions, wines, and cigars."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "What unique feature did some road-houses have that made them attractive to children, despite being forbidden places?",
+          "options": {
+            "A": "Large playgrounds with swings.",
+            "B": "Cages of birds and wild animals like raccoons or baby bears.",
+            "C": "Free candy and lemonade.",
+            "D": "Beautiful flower gardens without fences."
+          },
+          "correctAnswer": "B"
+        }
+      ]
+    },
+    {
+      "moduleTitle": "Module 11: Community and Social Gatherings",
+      "notes": {
+        "summary": "This module illuminates the social fabric of early Victoria, focusing on the distinct customs and evolving nature of community gatherings. It details the practice of 'visiting matrons' who, due to large families and lack of easy transport, made all-day calls, bringing their children and often their needlework. These visits allowed children to play freely in gardens and bond over shared experiences. The module also describes various evening entertainments, including informal family parties with charades and music, as well as more structured church events like conversaziones and socials. It highlights the communal spirit where everyone contributed to the entertainment, regardless of perfection. The narrative notes a gradual shift as Victoria grew, with social groups becoming more exclusive and demanding higher standards of performance, reflecting the town's transition from a close-knit colonial outpost to a more stratified city.",
+        "keywords": [
+          "Victoria society",
+          "social customs",
+          "family visits",
+          "community entertainment",
+          "Victorian gatherings",
+          "social evolution"
+        ]
+      },
+      "flashcards": [
+        {
+          "question": "What was a common practice for Victoria matrons when making social calls?",
+          "answer": "They brought their entire family and stayed for the whole day."
+        },
+        {
+          "question": "What was the typical cost to attend a church conversazione?",
+          "answer": "Two bits, or twenty-five cents."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "Why did Father Carr disapprove of his daughters attending Navy balls?",
+          "options": {
+            "A": "He found the music too loud and modern.",
+            "B": "He believed the dresses were immodest.",
+            "C": "He disapproved of mothers scrambling to find husbands for their daughters among the Navy men.",
+            "D": "He thought the food was unhealthy."
+          },
+          "correctAnswer": "C"
+        }
+      ]
+    },
+    {
+      "moduleTitle": "Module 12: Domestic Life and Cultural Encounters",
+      "notes": {
+        "summary": "This module explores the unique dynamics of domestic service and cross-cultural interactions in early Victoria. It highlights the reliance on 'green little Chinese boys' and Indigenous women, like Wash Mary, as servants, contrasting their work ethic and cultural integration. While English servants sought marriage and social advancement, Chinese boys remained culturally aloof, sending earnings home. Wash Mary, an Indigenous washerwoman, is depicted with warmth and understanding, her physical strength and simple routines standing out. The module culminates in a poignant scene where an Indigenous family rescues a Chinaman struggling in the bay. This unstated act of kindness and shared humanity transcends cultural barriers, symbolized by the quiet offering and acceptance of a cup of tea. The narrative underscores the distinct contributions and differing positions of Chinese and Indigenous peoples in the developing colonial society.",
+        "keywords": [
+          "domestic service",
+          "Chinese immigrants",
+          "Indigenous people",
+          "cultural interaction",
+          "Victorian society",
+          "cross-cultural aid"
+        ]
+      },
+      "flashcards": [
+        {
+          "question": "What was the primary difference between English servants and Chinese 'China boys' in Victoria?",
+          "answer": "English servants aimed to marry and become masters, while Chinese boys worked frugally and sent money home, remaining culturally aloof."
+        },
+        {
+          "question": "What distinctive feature did Wash Mary, the Indian washerwoman, have regarding her hair?",
+          "answer": "It was roped into thick plaits on each side, united at her shoulder blades like a 'strong, splendid handle.'"
+        }
+      ],
+      "quiz": [
+        {
+          "question": "How did the Indian man and woman communicate with the Chinaman they rescued from the bay?",
+          "options": {
+            "A": "They spoke in broken English.",
+            "B": "Through loud shouts and gestures.",
+            "C": "Through quiet actions and gestures, culminating in the woman offering him a cup of tea.",
+            "D": "They used a shared dialect."
+          },
+          "correctAnswer": "C"
+        }
+      ]
+    },
+    {
+      "moduleTitle": "Module 13: Institutions and Modernization",
+      "notes": {
+        "summary": "This module comprehensively covers Victoria's foundational institutions and its journey towards modernization. It describes the symbolic importance of Christ Church Cathedral and the diverse burial practices in its cemeteries, including the unique Chinese customs. The evolution of education is highlighted, from exclusive English Ladies' Academies to the adoption of public schooling. Festive traditions like Christmas, with its blend of English customs and local sights, and the Queen's Birthday regattas, showcasing naval and Indigenous canoe races, offer insights into social life. The module also provides a glimpse into early medical and dental practices, characterized by the local doctor's holistic care and the dentist's deceptive methods. Finally, it details the use of the 'Chain Gang' for public works and the transformation of Cook Street from a dump to a highway, alongside the implementation of piped water, reflecting the city's slow but steady progress and its challenges.",
+        "keywords": [
+          "Victoria institutions",
+          "modernization",
+          "church history",
+          "education",
+          "public works",
+          "urban development",
+          "social change"
+        ]
+      },
+      "flashcards": [
+        {
+          "question": "What was the primary reason English settlers initially resisted Canadian public schools?",
+          "answer": "They called them 'free schools' and preferred private academies focused on manners over book learning."
+        },
+        {
+          "question": "What was the purpose of the 'Chain Gang' in Victoria?",
+          "answer": "To crush rocks for road making and work on grounds of Government House and Parliament Buildings."
+        },
+        {
+          "question": "What major infrastructure improvement transformed Victoria's domestic life?",
+          "answer": "The piping of Beaver Lake water, leading to indoor taps and new bathrooms."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "What specific practice did the Chinese community observe in the Quadra Street cemetery?",
+          "options": {
+            "A": "They planted specific flowers on graves.",
+            "B": "They erected a stone altar for offerings like roasted pigs, intending to ship bones back to China later.",
+            "C": "They built elaborate mausoleums.",
+            "D": "They held silent vigils nightly."
+          },
+          "correctAnswer": "B"
+        },
+        {
+          "question": "How did the dentist operate on Small, according to her perspective?",
+          "options": {
+            "A": "He was gentle and always used anesthesia.",
+            "B": "He would pretend to be gentle but then pull teeth without warning or anesthetic for 'little things.'",
+            "C": "He offered candy as a reward for bravery before procedures.",
+            "D": "He only filled teeth, never pulled them."
+          },
+          "correctAnswer": "B"
+        }
+      ]
+    },
+    {
+      "moduleTitle": "Module 14: Navigating Victoria: Journeys and Growth",
+      "notes": {
+        "summary": "This module follows Small's expanding world through her daily walks with Father, detailing the distinctive characters and landmarks along Carr Street, Toronto Street, Princess Avenue, and Birdcage Walk. These journeys paint a vibrant picture of a close-knit community, each neighbor contributing to the unique tapestry of her childhood. The module culminates in Victoria's transformation from a sleepy colonial town to a burgeoning city. It highlights major developments like the grand Parliament Buildings, the opulent Empress Hotel, and the functional Causeway, contrasting Victoria's deliberate, English-influenced growth with Vancouver's faster, more 'new-world' expansion. The narrative observes the inevitable changes—the disappearance of old customs, the shift in social demographics, and the continuous reshaping of the landscape—culminating in a reflection on Victoria's tranquil yet evolving identity as Canada's 'far Pacific edge,' a blend of Old World grace and Western resilience.",
+        "keywords": [
+          "Victoria urban development",
+          "childhood journey",
+          "community characters",
+          "urban transformation",
+          "city identity",
+          "historical change"
+        ]
+      },
+      "flashcards": [
+        {
+          "question": "What was Carr Street named after?",
+          "answer": "Small's Father, who donated land to widen the street."
+        },
+        {
+          "question": "What major infrastructure project transformed James' Bay and led to the building of the Empress Hotel?",
+          "answer": "The construction of a concrete causeway, replacing the old wooden bridge and reclaiming the mud flats."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "How did Victoria and Vancouver, British Columbia, generally contrast in their development and character?",
+          "options": {
+            "A": "Victoria was 'Old Country' and sought gentility; Vancouver was 'new-world' and focused on business and rapid growth.",
+            "B": "Victoria was primarily industrial; Vancouver was more focused on tourism.",
+            "C": "Victoria had a finer harbor; Vancouver was landlocked.",
+            "D": "Victoria embraced American culture; Vancouver remained strictly English."
+          },
+          "correctAnswer": "A"
+        },
+        {
+          "question": "What type of transportation became prevalent, replacing horse-drawn carriages, and how did it change the roads?",
+          "options": {
+            "A": "Bicycles, leading to dirt paths.",
+            "B": "Steam trains, leading to railway tracks through the city center.",
+            "C": "Automobiles, purring over oiled and paved highways.",
+            "D": "Cable cars, requiring steel tracks."
+          },
+          "correctAnswer": "C"
+        }
+      ]
+    }
+  ]
+}
+```

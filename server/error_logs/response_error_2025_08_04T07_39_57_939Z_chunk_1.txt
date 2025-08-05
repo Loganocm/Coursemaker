@@ -1,0 +1,367 @@
+Here is the complete JSON object with the new content integrated, formatted as requested:
+
+{
+  "courseTitle": "Introduction to Computer Architecture",
+  "modules": [
+    {
+      "moduleTitle": "Module 1: Introduction",
+      "notes": {
+        "summary": "This module provides an overview of the main components of a computer system and the historical development of computer technology from mechanical calculators to modern computers. It covers the distinction between computer organization and computer architecture, the concept of virtual machines, and an introduction to the von Neumann architecture and non-von Neumann models.",
+        "keywords": [
+          "computer components",
+          "computer history",
+          "organization vs architecture",
+          "virtual machines",
+          "von Neumann architecture",
+          "non-von Neumann models"
+        ]
+      },
+      "flashcards": [
+        {
+          "question": "What are the three main components of a computer?",
+          "answer": "A processor, memory, and a mechanism for transferring data to and from the outside world."
+        },
+        {
+          "question": "What is the difference between computer organization and computer architecture?",
+          "answer": "Computer organization addresses the physical implementation of a computer system, while computer architecture focuses on the logical and abstract aspects of system implementation as seen by the programmer."
+        },
+        {
+          "question": "What is the von Neumann architecture?",
+          "answer": "The von Neumann architecture is a computer model that consists of a CPU, memory, and I/O devices, with a single storage for instructions and data, and a single bus for fetching instructions and transferring data."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "Which of the following is not one of the main components of a computer?",
+          "options": {
+            "A": "Processor",
+            "B": "Memory",
+            "C": "Input/Output",
+            "D": "Operating System"
+          },
+          "correctAnswer": "D"
+        },
+        {
+          "question": "What is the key difference between computer organization and computer architecture?",
+          "options": {
+            "A": "Computer organization deals with the physical implementation, while computer architecture deals with the logical and abstract aspects.",
+            "B": "Computer organization deals with the logical and abstract aspects, while computer architecture deals with the physical implementation.",
+            "C": "There is no difference, they are the same thing.",
+            "D": "Computer organization is concerned with software, while computer architecture is concerned with hardware."
+          },
+          "correctAnswer": "A"
+        },
+        {
+          "question": "Which of the following is a characteristic of the von Neumann architecture?",
+          "options": {
+            "A": "It has separate storage for instructions and data.",
+            "B": "It processes instructions in parallel.",
+            "C": "It has a single path between memory and the control unit.",
+            "D": "It uses a Harvard architecture."
+          },
+          "correctAnswer": "C"
+        }
+      ]
+    },
+    {
+      "moduleTitle": "Module 2: Computer Technology Generations",
+      "notes": {
+        "summary": "This module explores the historical development of computer technology, dividing it into five generations based on the underlying hardware and software. It covers the progression from mechanical calculators to vacuum tubes, transistors, integrated circuits, and very large scale integration (VLSI), as well as the emergence of microcomputers and the concepts of Moore's Law and Rock's Law.",
+        "keywords": [
+          "computer generations",
+          "mechanical calculators",
+          "vacuum tubes",
+          "transistors",
+          "integrated circuits",
+          "VLSI",
+          "microcomputers",
+          "Moore's Law",
+          "Rock's Law"
+        ]
+      },
+      "flashcards": [
+        {
+          "question": "What was the first generation of computers based on?",
+          "answer": "Vacuum tubes."
+        },
+        {
+          "question": "What technology was used in the second generation of computers?",
+          "answer": "Transistors."
+        },
+        {
+          "question": "What is Moore's Law?",
+          "answer": "The prediction that the density of transistors in integrated circuits will double every 18 months."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "Which of the following was not a characteristic of the first generation of computers?",
+          "options": {
+            "A": "Used vacuum tubes",
+            "B": "Were large, power-hungry, and unreliable",
+            "C": "Had separate storage for instructions and data",
+            "D": "Were programmed using punched cards"
+          },
+          "correctAnswer": "C"
+        },
+        {
+          "question": "What was the key technology advancement that enabled the third generation of computers?",
+          "options": {
+            "A": "Vacuum tubes",
+            "B": "Transistors",
+            "C": "Integrated circuits",
+            "D": "VLSI"
+          },
+          "correctAnswer": "C"
+        },
+        {
+          "question": "According to Moore's Law, what happens to the density of transistors in integrated circuits every 18 months?",
+          "options": {
+            "A": "It doubles",
+            "B": "It increases by 50%",
+            "C": "It decreases by 50%",
+            "D": "It remains constant"
+          },
+          "correctAnswer": "A"
+        }
+      ]
+    },
+    {
+      "moduleTitle": "Module 3: Watson and the Jeopardy! Challenge",
+      "notes": {
+        "summary": "This module examines the technical challenges involved in building an AI system capable of competing against human champions on the television game show Jeopardy!. It covers the key innovations in Watson's natural language processing, question answering, and parallel architecture that enabled it to outperform the human contestants.",
+        "keywords": [
+          "Jeopardy!",
+          "Watson",
+          "natural language processing",
+          "question answering",
+          "parallel architecture",
+          "Deep QA"
+        ]
+      },
+      "flashcards": [
+        {
+          "question": "What were the key innovations that allowed Watson to compete successfully in Jeopardy!?",
+          "answer": "Watson used natural language processing, parallel processing, and a massive knowledge base to rapidly analyze clues and formulate answers."
+        },
+        {
+          "question": "How was Watson designed to emulate a human player in the Jeopardy! competition?",
+          "answer": "Watson was not connected to the internet or other computers, and had to physically press a plunger to 'buzz in' with an answer, just like the human contestants."
+        },
+        {
+          "question": "What is DeepQA, and how did it enable Watson's performance?",
+          "answer": "DeepQA is Watson's parallel processing architecture that allowed it to rapidly analyze clues and generate hypotheses about the answers, far faster than a human could."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "Why was it important for Watson to physically 'buzz in' to answer clues, rather than simply respond electronically?",
+          "options": {
+            "A": "To emulate the physical actions of human contestants",
+            "B": "To introduce random delays and make the game more fair",
+            "C": "To prevent Watson from accessing external information sources",
+            "D": "All of the above"
+          },
+          "correctAnswer": "D"
+        },
+        {
+          "question": "What key advantage did Watson's parallel processing architecture (DeepQA) provide compared to a human contestant?",
+          "options": {
+            "A": "It allowed Watson to consider many possible answers simultaneously",
+            "B": "It enabled Watson to rapidly retrieve information from its massive knowledge base",
+            "C": "It allowed Watson to quickly evaluate the probability of each possible answer",
+            "D": "All of the above"
+          },
+          "correctAnswer": "D"
+        },
+        {
+          "question": "How has Watson's technology been applied beyond the Jeopardy! competition?",
+          "options": {
+            "A": "It has been used for medical diagnosis and treatment recommendations",
+            "B": "It has been incorporated into commercial products for oncology and claims review",
+            "C": "It has demonstrated the ability to learn and draw inferences from unstructured data",
+            "D": "All of the above"
+          },
+          "correctAnswer": "D"
+        }
+      ]
+    },
+    {
+      "moduleTitle": "Module 4: Boolean Algebra and Digital Logic",
+      "notes": {
+        "summary": "This module introduces the fundamentals of Boolean algebra and its application to digital logic circuits. It covers the basic Boolean operators (AND, OR, NOT), Boolean identities and laws, and techniques for simplifying Boolean expressions. The relationship between Boolean logic and the design of digital computer components is also explored.",
+        "keywords": [
+          "Boolean algebra",
+          "Boolean operators",
+          "Boolean identities",
+          "Boolean expressions",
+          "digital logic circuits"
+        ]
+      },
+      "flashcards": [
+        {
+          "question": "What are the three basic Boolean operators?",
+          "answer": "AND, OR, and NOT."
+        },
+        {
+          "question": "How can Boolean expressions be simplified using Boolean identities?",
+          "answer": "Boolean identities like the Commutative, Associative, Distributive, and Absorption laws can be applied to simplify complex Boolean expressions."
+        },
+        {
+          "question": "What is the relationship between Boolean algebra and the design of digital computer components?",
+          "answer": "Boolean algebra provides the mathematical foundation for designing the logic gates and circuits that make up the basic building blocks of digital computer hardware."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "Which of the following is NOT a basic Boolean operator?",
+          "options": {
+            "A": "AND",
+            "B": "OR", 
+            "C": "XOR",
+            "D": "NOT"
+          },
+          "correctAnswer": "C"
+        },
+        {
+          "question": "What is the purpose of a truth table in Boolean algebra?",
+          "options": {
+            "A": "To list all possible input combinations and the corresponding output values",
+            "B": "To simplify complex Boolean expressions",
+            "C": "To prove the validity of Boolean identities",
+            "D": "All of the above"
+          },
+          "correctAnswer": "A"
+        },
+        {
+          "question": "How does Boolean algebra relate to the design of digital computer components?",
+          "options": {
+            "A": "It provides the mathematical foundation for logic gates and circuits",
+            "B": "It allows computer designers to optimize the efficiency of digital hardware",
+            "C": "It enables the representation of binary data and operations in computer systems",
+            "D": "All of the above"
+          },
+          "correctAnswer": "D"
+        }
+      ]
+    },
+    {
+      "moduleTitle": "Module 5: Combinational and Sequential Logic Design",
+      "notes": {
+        "summary": "This module delves deeper into the design of digital logic circuits, covering both combinational logic (where the output depends only on the current inputs) and sequential logic (where the output depends on the current inputs as well as the prior state of the system). It explores common logic gates, circuit minimization techniques, and the role of memory elements in sequential logic design.",
+        "keywords": [
+          "combinational logic",
+          "sequential logic",
+          "logic gates",
+          "circuit minimization",
+          "memory elements"
+        ]
+      },
+      "flashcards": [
+        {
+          "question": "What is the key difference between combinational and sequential logic circuits?",
+          "answer": "Combinational circuits produce outputs based solely on their current inputs, while sequential circuits also depend on their prior internal state."
+        },
+        {
+          "question": "What are some common logic gates used in digital circuit design?",
+          "answer": "Common logic gates include AND, OR, NOT, NAND, NOR, and XOR gates."
+        },
+        {
+          "question": "How can Boolean expressions be minimized to optimize digital logic circuits?",
+          "answer": "Techniques like Karnaugh maps and the Quine-McCluskey algorithm can be used to simplify Boolean expressions and minimize the number of logic gates required."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "Which of the following is an example of a combinational logic circuit?",
+          "options": {
+            "A": "A simple calculator",
+            "B": "A digital counter",
+            "C": "A memory register",
+            "D": "A state machine"
+          },
+          "correctAnswer": "A"
+        },
+        {
+          "question": "What is the purpose of using memory elements in sequential logic circuits?",
+          "options": {
+            "A": "To store the current state of the system",
+            "B": "To provide feedback from the outputs to the inputs",
+            "C": "To enable the circuit to respond to changes over time",
+            "D": "All of the above"
+          },
+          "correctAnswer": "D"
+        },
+        {
+          "question": "Which minimization technique can be used to simplify Boolean expressions with up to 4 variables?",
+          "options": {
+            "A": Karnaugh maps,
+            "B": Quine-McCluskey algorithm,
+            "C": Boolean identities,
+            "D": Both A and C"
+          },
+          "correctAnswer": "A"
+        }
+      ]
+    },
+    {
+      "moduleTitle": "Module 6: Memory and Storage Hierarchies",
+      "notes": {
+        "summary": "This module examines the various levels of the memory and storage hierarchy in computer systems, from high-speed processor caches to large-scale secondary storage devices. It covers the characteristics, organization, and performance trade-offs of different memory technologies, as well as techniques like virtual memory that allow efficient utilization of the storage hierarchy.",
+        "keywords": [
+          "memory hierarchy",
+          "cache memory",
+          "main memory",
+          "secondary storage",
+          "virtual memory"
+        ]
+      },
+      "flashcards": [
+        {
+          "question": "What are the key levels of the memory hierarchy in a typical computer system?",
+          "answer": "The memory hierarchy includes processor registers, cache memory, main memory, and secondary storage (e.g. hard disks, SSDs)."
+        },
+        {
+          "question": "How does virtual memory allow a computer to efficiently utilize its storage hierarchy?",
+          "answer": "Virtual memory uses a combination of main memory and secondary storage to provide each process with the illusion of a large, contiguous address space, transparently moving data between levels as needed."
+        },
+        {
+          "question": "What are the main performance trade-offs between the different levels of the memory hierarchy?",
+          "answer": "Higher levels of the hierarchy (e.g. registers, cache) provide faster access times but have lower capacity, while lower levels (e.g. secondary storage) have larger capacity but slower access."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "Which level of the memory hierarchy typically has the fastest access time?",
+          "options": {
+            "A": Cache memory",
+            "B": Main memory",
+            "C": Secondary storage",
+            "D": Virtual memory"
+          },
+          "correctAnswer": "A"
+        },
+        {
+          "question": "What is the primary purpose of the virtual memory system?",
+          "options": {
+            "A": To provide the illusion of a large, contiguous address space",
+            "B": To improve performance by caching frequently accessed data",
+            "C": To manage the allocation of physical memory among multiple processes",
+            "D": All of the above"
+          },
+          "correctAnswer": "D"
+        },
+        {
+          "question": "How do the performance characteristics of the memory hierarchy generally change as you move from higher to lower levels?",
+          "options": {
+            "A": Access time decreases and capacity increases",
+            "B": Access time increases and capacity decreases", 
+            "C": Both access time and capacity increase",
+            "D": Both access time and capacity decrease"
+          },
+          "correctAnswer": "B"
+        }
+      ]
+    }
+  ]
+}---end of response---

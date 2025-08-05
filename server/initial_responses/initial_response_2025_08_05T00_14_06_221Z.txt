@@ -1,0 +1,517 @@
+```json
+{
+  "courseTitle": "The Book of Small by Emily Carr",
+  "modules": [
+    {
+      "moduleTitle": "Module 1: Introduction to The Book of Small",
+      "notes": {
+        "summary": "The \"Public Domain Core Collection\" proudly presents Emily Carr's \"The Book of Small,\" an openly accessible work meticulously adapted from its 1942 Oxford University Press edition. This significant initiative, generously funded by the Government of Ontario and with crucial support from eCampusOntario's Virtual Learning Strategy, aims to enrich the educational landscape. Its core mission is to provide post-secondary students and faculty, particularly in Ontario, with relevant and frequently cited public domain texts. A key focus is the inclusion of underrepresented voices, ensuring a diverse and inclusive collection. \"The Book of Small\" is free of known copyright restrictions in Canada as of 2021, though international users should verify local public domain laws. All supplementary materials, including the series and book introductions, and acknowledgements, are thoughtfully licensed under a Creative Commons Attribution (CC BY) 4.0 license, promoting widespread adaptation and reuse with proper acknowledgment. Furthermore, the project prioritizes accessibility, offering the web version optimized for screen-reading technology with features like keyboard navigation, correct markup for links, headings, and tables, and descriptive text for all images. Alternative formats, such as digital PDF and epub, are also readily available to cater to diverse learning needs. The commitment to accessibility extends to active problem-solving, with users encouraged to report any issues for prompt resolution, ensuring that this valuable resource is truly available to everyone.",
+        "keywords": [
+          "Public Domain",
+          "Open Educational Resources",
+          "Creative Commons",
+          "Emily Carr",
+          "Accessibility",
+          "Post-secondary Education",
+          "eCampusOntario",
+          "Virtual Learning Strategy"
+        ]
+      },
+      "flashcards": [
+        {
+          "question": "What is the primary purpose of the Public Domain Core Collection?",
+          "answer": "To provide openly accessible, relevant public domain texts for post-secondary education, particularly in Ontario."
+        },
+        {
+          "question": "What is the copyright status of 'The Book of Small' in Canada as of 2021?",
+          "answer": "It is free of known copyright restrictions, being in the public domain."
+        },
+        {
+          "question": "What license applies to the supplementary materials in this collection?",
+          "answer": "Creative Commons Attribution (CC BY) 4.0 license."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "Which organization primarily funded the Public Domain Core Collection project?",
+          "options": {
+            "A": "Ryerson University",
+            "B": "Brock University",
+            "C": "Government of Ontario",
+            "D": "Oxford University Press"
+          },
+          "correctAnswer": "C"
+        },
+        {
+          "question": "What accessibility feature is NOT mentioned for the web version of 'The Book of Small'?",
+          "options": {
+            "A": "Keyboard navigation",
+            "B": "Proper markup for links and headings",
+            "C": "Audio recordings for all content",
+            "D": "Text descriptions for all images"
+          },
+          "correctAnswer": "C"
+        },
+        {
+          "question": "What is the main criterion for selecting titles for this collection?",
+          "options": {
+            "A": "Author's nationality",
+            "B": "Length of the work",
+            "C": "Relevance to post-secondary courses",
+            "D": "Publication date"
+          },
+          "correctAnswer": "C"
+        }
+      ]
+    },
+    {
+      "moduleTitle": "Module 2: A Child's Domestic World & Early Lessons",
+      "notes": {
+        "summary": "This module deeply explores the strict, ritualized domestic life of a Victorian child named Small, likely Emily Carr herself, in Victoria, BC. Sundays are depicted as rigidly structured, from the meticulous Saturday night baths with \"brown Windsor soap\" and cold house dashes, to stiff church clothes, lengthy sermons, and solemn evening Bible readings. The Father's stern, English-centric demeanor dictates much of the household's routine, emphasizing order and piety. However, Small finds solace and joy in the \"Cow Yard,\" a space of freedom and connection with animals like the Cow, rooster, and hens, where her uninhibited \"cow-songs\" often contrast with her family's social anxieties. Her relationship with the \"Praying Chair\" highlights a child's imaginative coping with unmet desires, while the \"Killing Tree\" offers an early, unsettling encounter with death and mystery. Social lessons, such as Lizzie's shame over Small's boisterous party behavior, underscore the pervasive emphasis on proper conduct. Through these experiences, the module paints a vivid picture of a childhood navigating the tension between rigid societal expectations and personal expression.",
+        "keywords": [
+          "Victorian childhood",
+          "domestic rituals",
+          "family life",
+          "strict upbringing",
+          "religious customs",
+          "animal connection",
+          "self-expression",
+          "social expectations",
+          "imagination",
+          "disappointment"
+        ]
+      },
+      "flashcards": [
+        {
+          "question": "Describe a typical Saturday night routine in Small's household.",
+          "answer": "Washing in a large wooden tub, airing clean clothes, and preparing for Sunday."
+        },
+        {
+          "question": "What was Father's 'Sunday smell'?",
+          "answer": "Wright's coal-tar soap and camphor."
+        },
+        {
+          "question": "What was Small's primary method of expressing her happiness in the Cow Yard?",
+          "answer": "Singing 'cow-songs' loudly and joyfully."
+        },
+        {
+          "question": "What did Small name the ivy-covered tree in the Cow Yard?",
+          "answer": "The 'Killing Tree.'"
+        },
+        {
+          "question": "What was the main lesson Lizzie tried to teach Small about behavior at parties?",
+          "answer": "To behave 'decently' and be polite, avoiding 'vulgar' actions."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "What food was typically served for Sunday dinner in Small's house?",
+          "options": {
+            "A": "Roasted chicken",
+            "B": "Cold saddle of mutton",
+            "C": "Hot beef stew",
+            "D": "Fried fish"
+          },
+          "correctAnswer": "B"
+        },
+        {
+          "question": "How did the Cow react to Bong's Chinese songs?",
+          "options": {
+            "A": "She ignored him",
+            "B": "She pulled hay and listened intently",
+            "C": "She stamped her feet",
+            "D": "She ran to the pasture"
+          },
+          "correctAnswer": "B"
+        },
+        {
+          "question": "What was the primary difference between Father's and Mother's religious practices?",
+          "options": {
+            "A": "Father was Anglican, Mother was Presbyterian",
+            "B": "Father was Presbyterian, Mother was Anglican",
+            "C": "Father attended church, Mother stayed home",
+            "D": "Father preferred hymns, Mother preferred sermons"
+          },
+          "correctAnswer": "B"
+        },
+        {
+          "question": "What did Small want for her birthday that she prayed for with Tibby and the praying chair?",
+          "options": {
+            "A": "A new doll",
+            "B": "A whistle",
+            "C": "A puppy",
+            "D": "A pony"
+          },
+          "correctAnswer": "C"
+        },
+        {
+          "question": "Why did Small's family often scold her singing?",
+          "options": {
+            "A": "It was off-key",
+            "B": "It shamed them before the neighbors",
+            "C": "It disturbed the animals",
+            "D": "She only sang sad songs"
+          },
+          "correctAnswer": "B"
+        }
+      ]
+    },
+    {
+      "moduleTitle": "Module 3: The Natural and Built Environment of Early Victoria",
+      "notes": {
+        "summary": "This module details the natural landscape and early urban development of Victoria, British Columbia, as seen through the eyes of a child. It describes the raw beauty of the West—from the profound silence of its forests to the vibrant wild lilies and a unique perspective on time, where a stream can compress an afternoon into a minute. The narrative covers the challenging pioneer experience of clearing land, contrasting with the child's playful explorations of ditches and meadows. It delves into specific geographical features like James' Bay, Dallas Road, and Beacon Hill Park, highlighting their distinct characteristics and the interplay between natural elements and human endeavors. The evolution of infrastructure, such as the gradual development of Cook Street from a garbage dump to a paved road, and the transition from wells to piped water systems, illustrates Victoria's journey towards modernization. The child's observations often imbue these physical spaces and processes with wonder, fear, or personal meaning, revealing a unique perception of the world around her, from the unseen \"nightingale monster\" to the transformation of humble garbage into foundational street.",
+        "keywords": [
+          "Victoria BC",
+          "pioneer life",
+          "natural landscape",
+          "urban development",
+          "childhood perception",
+          "infrastructure",
+          "environmental change",
+          "time perception",
+          "wilderness",
+          "modernization"
+        ]
+      },
+      "flashcards": [
+        {
+          "question": "What did Small's father do before settling in Victoria?",
+          "answer": "He traveled, was involved in the California gold rush, and transported wheat."
+        },
+        {
+          "question": "What was Beacon Hill Park originally known for?",
+          "answer": "Being a beautiful piece of wild land given to the people of Victoria by Sir James Douglas."
+        },
+        {
+          "question": "What did the pioneer men use to dislodge monster roots?",
+          "answer": "Blasting powder and sweat."
+        },
+        {
+          "question": "What was the 'British Columbia Nightingale' eventually revealed to be?",
+          "answer": "Little green frogs."
+        },
+        {
+          "question": "How was Cook Street primarily built in its early stages?",
+          "answer": "By dumping loads of garbage and refuse, which built a foundation."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "What distinctive feature did the wild Canadian lilies possess, as described?",
+          "options": {
+            "A": "Bright red petals pointing down",
+            "B": "White petals with bent necks and brown eyes",
+            "C": "Blue petals that changed color",
+            "D": "They only bloomed in winter"
+          },
+          "correctAnswer": "B"
+        },
+        {
+          "question": "What did the narrator discover was the primary difference between a stream's and a clock's perception of time?",
+          "options": {
+            "A": "Streams sped up time, clocks slowed it",
+            "B": "Streams had no time, clocks were always correct",
+            "C": "Streams could compress time, clocks could stretch it",
+            "D": "Both always kept accurate time"
+          },
+          "correctAnswer": "C"
+        },
+        {
+          "question": "Before piped water, where did many Victorians get their drinking water from?",
+          "options": {
+            "A": "River",
+            "B": "Lakes",
+            "C": "Natural springs",
+            "D": "Ocean"
+          },
+          "correctAnswer": "C"
+        },
+        {
+          "question": "Which street was named after Small's Father?",
+          "options": {
+            "A": "Fort Street",
+            "B": "Simcoe Street",
+            "C": "Carr Street",
+            "D": "Birdcage Walk"
+          },
+          "correctAnswer": "C"
+        },
+        {
+          "question": "What kind of fence was common in the 'New Field' and other undeveloped areas?",
+          "options": {
+            "A": "Picket fence",
+            "B": "Barbed wire fence",
+            "C": "Stone wall",
+            "D": "Snake fence"
+          },
+          "correctAnswer": "D"
+        }
+      ]
+    },
+    {
+      "moduleTitle": "Module 4: Social Fabric and Community Life in Victoria",
+      "notes": {
+        "summary": "This module paints a rich tapestry of social life and interactions in early Victoria, BC, through the observant eyes of a child. It details the various \"characters\" and social groups that populated the town, from the peculiar \"derelicts\" and Old Country \"darlings\" who struggled to adapt, to the strict \"maiden aunts\" upholding English manners. The narrative vividly portrays daily customs, such as matronly visits with large families, diverse transportation methods, and the strict societal rules governing everything from saloon visits to funeral processions. It explores the commercial heart of the town through Father's wholesale store, highlighting interactions with Indigenous traders and the presence of Chinatown. The module also delves into the unique cultural dynamics between English settlers, Chinese laborers, and Indigenous peoples, showing both collaboration and misunderstanding. Community events like Christmas celebrations and the annual Regatta are described, revealing the blend of tradition, entertainment, and underlying social stratification. Through these detailed vignettes, the module illuminates the evolving social norms, class distinctions, and the persistent \"Englishness\" that defined Victoria's identity, all filtered through a child's often humorous or bewildered perspective.",
+        "keywords": [
+          "Victorian society",
+          "social customs",
+          "cultural identity",
+          "class distinctions",
+          "community events",
+          "urban life",
+          "Old Country influence",
+          "Indigenous culture",
+          "Chinese immigrants",
+          "family businesses"
+        ]
+      },
+      "flashcards": [
+        {
+          "question": "How did Mrs. Crane's house appear 'backwards' to Small?",
+          "answer": "The back gate came first, then the front gate, and the front door was on the back of the house."
+        },
+        {
+          "question": "What types of animals were often kept in cages on road-house verandahs?",
+          "answer": "Panthers, raccoons, baby bears, and owls."
+        },
+        {
+          "question": "What was a common method of transportation in young Victoria for people without horses?",
+          "answer": "Walking on their own legs."
+        },
+        {
+          "question": "What did Father import and sell in his wholesale store?",
+          "answer": "Provisions, wines, and cigars."
+        },
+        {
+          "question": "What was a popular form of evening entertainment in early Victoria?",
+          "answer": "Family evening parties with charades, dumb crambo, guessing games, and forfeits."
+        },
+        {
+          "question": "How were Chinese servants typically described in Victoria?",
+          "answer": "Young boys (around 12), green, homesick, and learning English and Canadian ways."
+        },
+        {
+          "question": "What was the primary difference in how Chinese and Indian men were perceived regarding labor and spending?",
+          "answer": "Chinese men were frugal and sent money home, while Indian men took from nature and spent money immediately."
+        },
+        {
+          "question": "What material was the first Christ Church Cathedral built from?",
+          "answer": "Wood."
+        },
+        {
+          "question": "How were dead Chinese individuals handled in the Quadra Street cemetery?",
+          "answer": "They were temporarily buried, and their bones were later shipped back to China."
+        },
+        {
+          "question": "What did English settlers in Victoria initially call the Canadian public schools?",
+          "answer": "Free schools."
+        },
+        {
+          "question": "What kind of 'Santa Claus' did Mr. Saunders, the grocer, have in his window at Christmas?",
+          "answer": "A real Santa Claus grinding coffee."
+        },
+        {
+          "question": "What cruel event often concluded the Regatta?",
+          "answer": "A greased pole competition to dislodge a crate with a pig inside."
+        },
+        {
+          "question": "What was one common reason for 'strange characters' to come to Victoria from the Old Country?",
+          "answer": "Firm pushes from relatives who found them burdensome."
+        },
+        {
+          "question": "Who was Dr. Helmcken known for attending to in Victoria?",
+          "answer": "All ailments, from gout to stomach-aches, and even animal fits."
+        },
+        {
+          "question": "What characterized the 'Chain Gang' men working by the Parliament Buildings?",
+          "answer": "Shaved heads, working on rocks with hammers, and iron bars fastened to their legs."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "What was Mr. Crane's hobby, as described by his daughter Helen?",
+          "options": {
+            "A": "Fishing",
+            "B": "Sport hunting",
+            "C": "Gardening",
+            "D": "Reading"
+          },
+          "correctAnswer": "B"
+        },
+        {
+          "question": "What distinguishes the 'chaise' as a form of transport from the 'dog-cart'?",
+          "options": {
+            "A": "Chaises were two-wheeled, dog-carts were four-wheeled",
+            "B": "Chaises had passengers face the driver, dog-carts had passengers back-to-back",
+            "C": "Chaises were for men only, dog-carts for ladies",
+            "D": "Chaises were open-topped, dog-carts had hoods"
+          },
+          "correctAnswer": "B"
+        },
+        {
+          "question": "What was 'Wash Mary's' profession?",
+          "options": {
+            "A": "Cook",
+            "B": "Gardener",
+            "C": "Laundress",
+            "D": "Nanny"
+          },
+          "correctAnswer": "C"
+        },
+        {
+          "question": "What was the underlying 'clash of conscience' between Bishop Cridge and Bishop Hills that led to a church split?",
+          "options": {
+            "A": "Political differences",
+            "B": "'High' and 'Low' church controversies",
+            "C": "Financial disagreements",
+            "D": "Personal feuds"
+          },
+          "correctAnswer": "B"
+        },
+        {
+          "question": "What was a primary criticism Father faced for sending his younger children to Public School?",
+          "options": {
+            "A": "It was too far to walk",
+            "B": "The education quality was poor",
+            "C": "It was not considered proper for their social standing",
+            "D": "The teachers were not English"
+          },
+          "correctAnswer": "C"
+        },
+        {
+          "question": "What was the purpose of the 'Christmas Eve Father took us into town to see the shops lit up' ritual?",
+          "options": {
+            "A": "To buy last-minute gifts",
+            "B": "To admire the decorations and festive atmosphere",
+            "C": "To attend a Christmas service",
+            "D": "To meet Santa Claus"
+          },
+          "correctAnswer": "B"
+        },
+        {
+          "question": "What type of boat did the Navy use in the Regatta races?",
+          "options": {
+            "A": "Slender dugout canoes",
+            "B": "Heavy ships' boats",
+            "C": "Small fishing boats",
+            "D": "Steam-powered pinnaces"
+          },
+          "correctAnswer": "B"
+        },
+        {
+          "question": "What was the O'Flahty family's house in Toronto Street uniquely built from?",
+          "options": {
+            "A": "Bricks and mortar",
+            "B": "Driftwood",
+            "C": "Corrugated iron",
+            "D": "Logs and saplings"
+          },
+          "correctAnswer": "B"
+        },
+        {
+          "question": "What distinguished Victoria's dentist from Dr. Helmcken?",
+          "options": {
+            "A": "The dentist was always cheerful",
+            "B": "The dentist 'sham-sorried' and lied",
+            "C": "The dentist gave out candy",
+            "D": "The dentist used chloroform"
+          },
+          "correctAnswer": "B"
+        },
+        {
+          "question": "Why did the Chain Gang no longer have to smash rocks by hand after 'Lizzie' arrived?",
+          "options": {
+            "A": "Lizzie was a machine that chewed rocks",
+            "B": "They were given other jobs",
+            "C": "They rebelled and refused to work",
+            "D": "The city stopped building roads"
+          },
+          "correctAnswer": "A"
+        },
+        {
+          "question": "What was 'Kanaka Row' on Humboldt Street known for?",
+          "options": {
+            "A": "Being a high-class residential area",
+            "B": "Houses where working men with Indian wives lived",
+            "C": "A popular shopping district",
+            "D": "The location of the main fire station"
+          },
+          "correctAnswer": "B"
+        }
+      ]
+    },
+    {
+      "moduleTitle": "Module 5: Victoria's Transformation and Legacy",
+      "notes": {
+        "summary": "This module encapsulates Victoria's transition from a sleepy \"Old Country\"-loyal town to a growing, modern city, as seen through the lens of memory and change. It vividly contrasts Victoria's initial slow pace and strong English identity with the rapid development of its rival, Vancouver, and the eventual modernization that reshaped its landscape. Key transformations include the building of grand Parliament Buildings, the replacement of the old wooden James' Bay bridge with a concrete causeway, and the construction of the iconic Empress Hotel on reclaimed land that was once a garbage dump. These changes, driven partly by the Canadian Pacific Railway, signify Victoria's reluctant embrace of progress and a shift from its strict colonial past. The module notes the disappearance of old landmarks, social customs, and even the natural features, such as the Gorge becoming industrialized. While Victoria maintains its tranquil, deliberate nature, it acknowledges its evolution from a \"lying-down cow\" chewing cud to a city adapting to the demands of the West, demonstrating a complex legacy of preserving tradition amidst inevitable growth.",
+        "keywords": [
+          "Urban transformation",
+          "city development",
+          "modernization",
+          "Victoria BC",
+          "Vancouver",
+          "Canadian Pacific Railway",
+          "colonial identity",
+          "social change",
+          "historical memory",
+          "progress"
+        ]
+      },
+      "flashcards": [
+        {
+          "question": "What was Victoria's 'top grandness' hotel before the Empress?",
+          "answer": "The Driard Hotel."
+        },
+        {
+          "question": "What major infrastructure project linked East and West Canada and influenced Vancouver's growth?",
+          "answer": "The Canadian Pacific Railway (C.P.R.)."
+        },
+        {
+          "question": "What iconic Victoria hotel was built on reclaimed mud flats where the city's garbage dump once was?",
+          "answer": "The Empress Hotel."
+        },
+        {
+          "question": "What happened to the English Navy station at Esquimalt as Victoria modernized?",
+          "answer": "Canada navied herself, and the English Navy was no longer stationed there."
+        },
+        {
+          "question": "What happened to the old Quadra Street cemetery after the new Ross Bay burying ground was established?",
+          "answer": "It was left to go wild, and later the graves were tidied under lawns, with old headstones moved to a corner."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "What was the primary rivalry between Victoria and Vancouver?",
+          "options": {
+            "A": "Which city had more rain",
+            "B": "Which city was more English",
+            "C": "Which city had a better harbor and grew faster",
+            "D": "Which city had more saloons"
+          },
+          "correctAnswer": "C"
+        },
+        {
+          "question": "How did the C.P.R. transform James' Bay mud flats?",
+          "options": {
+            "A": "They built a new railway station on them",
+            "B": "They constructed a concrete causeway and Empress Hotel on reclaimed land",
+            "C": "They turned it into a public park",
+            "D": "They filled it with water for regattas"
+          },
+          "correctAnswer": "B"
+        },
+        {
+          "question": "What became of the Gorge, once a beauty spot for bathing and regattas?",
+          "options": {
+            "A": "It became a new residential area",
+            "B": "It was filled in to create more land",
+            "C": "It became infested with log booms and saw-mills",
+            "D": "It was turned into a wildlife sanctuary"
+          },
+          "correctAnswer": "C"
+        }
+      ]
+    }
+  ]
+}
+```

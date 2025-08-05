@@ -1,0 +1,3 @@
+From the notes on Credit Statement, create a 10-question multiple-choice quiz. Each question should be a JSON object with a 'question' string, an array of 'options', and a string indicating the 'correct_answer'. Ensure distractors are plausible. Return a valid JSON array of these objects. Example format: [{ "question": "...", "options": [...], "correct_answer": "..." }, ...].
+
+Please provide me with the content of the Credit Statement you wish me to use to create the expert teacher's notes.  I need the text of the statement to be able to complete your request.

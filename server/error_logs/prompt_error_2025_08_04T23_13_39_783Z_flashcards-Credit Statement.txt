@@ -1,0 +1,3 @@
+Based on the notes for Credit Statement, generate 20 flashcards. Each flashcard must be a JSON object with a 'front' (the question) and a 'back' (the answer). Focus on fundamental terms and concepts. Return a valid JSON array of these objects. Example format: [{ "front": "What is [term]?", "back": "[Explanation]" }, ...].
+
+Please provide me with the content of the Credit Statement you wish me to use to create the expert teacher's notes.  I need the text of the statement to be able to complete your request.

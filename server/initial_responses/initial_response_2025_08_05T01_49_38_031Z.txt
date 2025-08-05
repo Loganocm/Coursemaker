@@ -1,0 +1,492 @@
+{
+  "courseTitle": "Virginia Tech Corps of Cadets Family Guide 2024-2025",
+  "modules": [
+    {
+      "moduleTitle": "Module 1: The Basics of the VTCC Program",
+      "notes": {
+        "summary": "The Virginia Tech Corps of Cadets (VTCC) is a distinguished leadership development program, committed to molding global, ethical leaders. Unique as one of only two senior military colleges integrated within a larger public university, VTCC operates separately from federal ROTC programs. While ROTC enrollment requires Corps membership, cadets can pursue the Corps experience independently. The program provides two distinct pathways: the Military-Leader Track, designed for commissioning into military services, and the Citizen-Leader Track, which applies Corps leadership principles to careers in the private and public sectors. Cadets have the flexibility to transition between these tracks as their career aspirations evolve. The Corps' organizational structure centers around the Commandant, supported by Deputy Commandants, who oversee the daily supervision of cadet battalions. These Deputy Commandants serve as the most direct point of contact for families, acting as crucial advisors, mentors, counselors, supervisors, and disciplinarians. It is important for families to understand that due to the Federal Privacy Act (FERPA) and university policies, Deputy Commandants cannot divulge private student information such as grades or health details without explicit cadet consent. However, they are dedicated to partnering with families and cadets to navigate the complexities of university, Corps, and personal demands. The Corps deeply values family support, recognizing the significant challenge and immense rewards cadets undertake. Families are encouraged to reinforce the higher standards of conduct and performance expected of cadets, acknowledging that this commitment earns them respect. Your continued support and long-term perspective are vital in helping cadets make choices that align with their full potential, even when facing difficulties.",
+        "keywords": [
+          "Virginia Tech Corps of Cadets",
+          "VTCC",
+          "ROTC",
+          "Military-Leader Track",
+          "Citizen-Leader Track",
+          "Deputy Commandants",
+          "FERPA",
+          "leadership development"
+        ]
+      },
+      "flashcards": [
+        {
+          "question": "What is the primary mission of the Virginia Tech Corps of Cadets?",
+          "answer": "To train cadets to become global, ethical leaders, committed to their academic and leadership development success."
+        },
+        {
+          "question": "What is the key difference between the Corps and ROTC programs at Virginia Tech?",
+          "answer": "ROTC programs are federal and part of respective military services, while the Corps is part of the state university. A student must be in the Corps to be in ROTC, but not vice-versa."
+        },
+        {
+          "question": "What are the two tracks offered by the Corps of Cadets?",
+          "answer": "The Military-Leader Track (for commissioning) and the Citizen-Leader Track (for private/public sector careers)."
+        },
+        {
+          "question": "Who is the most direct point of contact for families with the commandant's staff?",
+          "answer": "The cadet’s Deputy Commandant."
+        },
+        {
+          "question": "What federal act binds Deputy Commandants regarding student confidentiality?",
+          "answer": "The Federal Privacy Act (FERPA)."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "A cadet who wishes to commission into the military service would typically follow which track?",
+          "options": {
+            "A": "Military-Leader Track",
+            "B": "Citizen-Leader Track",
+            "C": "Academic-Leader Track",
+            "D": "Global-Leader Track"
+          },
+          "correctAnswer": "A"
+        },
+        {
+          "question": "Which statement best describes the relationship between the Virginia Tech Corps of Cadets and ROTC programs?",
+          "options": {
+            "A": "They are entirely interchangeable programs.",
+            "B": "ROTC programs are federal, and the Corps is a state university program; ROTC students must be in the Corps, but Corps cadets are not required to join ROTC.",
+            "C": "The Corps is a prerequisite for all ROTC programs.",
+            "D": "All Corps cadets are automatically enrolled in ROTC."
+          },
+          "correctAnswer": "B"
+        },
+        {
+          "question": "What information are Deputy Commandants unable to divulge without a cadet's consent due to FERPA?",
+          "options": {
+            "A": "Study habits and preferred major.",
+            "B": "Grades and health information.",
+            "C": "Daily schedule and extracurricular activities.",
+            "D": "Career goals and leadership aspirations."
+          },
+          "correctAnswer": "B"
+        },
+        {
+          "question": "What is emphasized as a crucial role for families in supporting their cadets?",
+          "options": {
+            "A": "Providing financial aid for all needs.",
+            "B": "Directly communicating with professors about academic performance.",
+            "C": "Understanding and reinforcing the higher standards of performance and conduct expected from cadets.",
+            "D": "Making all career decisions for the cadet."
+          },
+          "correctAnswer": "C"
+        }
+      ]
+    },
+    {
+      "moduleTitle": "Module 2: Academic & Leadership Success",
+      "notes": {
+        "summary": "Academic success forms a critical leg of the Corps' comprehensive leader development, balanced with leadership experiences and physical fitness. Cadets adhere to structured study times, Evening Call-to-Quarters (ECQ), ensuring focused academic priority in residence halls, with flexibility for external study. Virginia Tech offers extensive free academic resources like the Student Success Center, Writing Center, and Career and Professional Development. The Corps' Rice Center for Leader Development directly supports cadets through coursework, practical leadership opportunities, ethics training, and guest speakers. First-year cadets participate in an accredited leader development course that aids in college transition, covering essential skills like note-taking and time management, and benefit from peer mentoring by successful upper-class cadets. For deeper engagement, cadets can declare the Corps' Leadership Studies minor, integrating Corps/ROTC/Citizen-Leader courses, business/ethics classes, and mandatory leadership roles. Strong collaboration with the Virginia Tech Honors College allows eligible cadets to apply Corps activities towards Honors diplomas and certifications. The Corps fosters a progressive, four-year leadership development model: first-year focuses on 'leading self,' sophomore on 'leading people,' junior on 'leading organizations,' and senior on 'leading for the future,' with fall semesters for skill learning and spring for application. Cadets gain invaluable experience through participation in national leadership conferences and diverse global opportunities. These include the Corps’ Global Scholars Program, offering a seminar and overseas battlefield trips funded by alumni, the Olmsted Foundation Undergraduate Scholars program for foreign cultural understanding, and ROTC-specific Project GO, which provides fully funded language and regional study abroad. The Cutchins Leadership Lecture Series and Leaders in Contact panels regularly feature notable speakers, including Medal of Honor recipients and Corps alumni, who share insights on leadership, ethics, and career application, enriching the overall developmental experience.",
+        "keywords": [
+          "Academic success",
+          "Evening Call-to-Quarters (ECQ)",
+          "Rice Center for Leader Development",
+          "Leadership Studies minor",
+          "Honors College",
+          "progressive leadership program",
+          "Global Scholars Program",
+          "Olmsted Foundation",
+          "Project GO",
+          "Cutchins Leadership Lecture Series"
+        ]
+      },
+      "flashcards": [
+        {
+          "question": "What is the primary purpose of Evening Call-to-Quarters (ECQ)?",
+          "answer": "To provide dedicated study time for cadets in residence halls, prioritizing academics and minimizing noise."
+        },
+        {
+          "question": "Name two academic resources available to all Virginia Tech students.",
+          "answer": "The Student Success Center, The Writing Center, or Career and Professional Development."
+        },
+        {
+          "question": "What is the focus of the Corps' leadership development for first-year cadets?",
+          "answer": "Leading self, preparing to be a fire team leader."
+        },
+        {
+          "question": "Describe the Corps' Global Scholars Program.",
+          "answer": "A three-credit seminar followed by a weeklong trip to overseas battlefields, focused on leadership, national security, and global competency, largely alumni-funded."
+        },
+        {
+          "question": "What is the purpose of Project GO?",
+          "answer": "To improve language skills, regional expertise, and intercultural communication ability of future military officers, focusing on specific world regions."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "The Corps' minor in Leadership Studies requires cadets to complete a certain number of approved leadership roles. How many?",
+          "options": {
+            "A": "At least one",
+            "B": "At least two",
+            "C": "At least three",
+            "D": "At least four"
+          },
+          "correctAnswer": "C"
+        },
+        {
+          "question": "Which of the following is NOT one of the focuses of the Corps' four-year progressive leader development program?",
+          "options": {
+            "A": "Leading self",
+            "B": "Leading people",
+            "C": "Leading organizations",
+            "D": "Leading finances"
+          },
+          "correctAnswer": "D"
+        },
+        {
+          "question": "The Cutchins Leadership Lecture Series often features which type of notable speakers?",
+          "options": {
+            "A": "Sports celebrities",
+            "B": "Popular musicians",
+            "C": "Medal of Honor recipients and experts on leadership and ethics",
+            "D": "Renowned chefs"
+          },
+          "correctAnswer": "C"
+        },
+        {
+          "question": "What specific topic is covered in the first-year leader development course to help with the transition from high school to college?",
+          "options": {
+            "A": "Advanced physics",
+            "B": "Reading skills, note-taking, and time management",
+            "C": "Foreign languages",
+            "D": "Complex engineering principles"
+          },
+          "correctAnswer": "B"
+        }
+      ]
+    },
+    {
+      "moduleTitle": "Module 3: Financial Support & Philanthropy",
+      "notes": {
+        "summary": "The Virginia Tech Corps of Cadets offers various scholarships to support its members, primarily through the generosity of alumni and friends. Emerging Leader Scholarships (ELS) are exclusively for cadets, requiring recipients to maintain Corps physical fitness standards and a cumulative GPA of at least 2.5 by their junior year to continue eligibility. ELS can be suspended or lost due to disciplinary action or early departure. Beyond the first year, cadets become eligible to compete for Commandant’s Scholarships, which are generally prioritized for Citizen-Leader Track cadets or those without an ROTC scholarship, with selection based on a holistic review. Additional financial opportunities for rising juniors and seniors in good standing include the Major General and Mrs. Randy Fullhart Horizon Fund. The Commandant’s Response Scholarship Fund exists to provide aid during unforeseen financial crises. A crucial requirement for all cadets receiving any scholarship is the annual submission of the Free Application for Federal Student Aid (FAFSA), even if no other financial aid is being received. This ensures compliance with federal regulations and helps the university track student financial needs. Families interested in contributing to the Corps' mission through scholarship support or other philanthropic endeavors are encouraged to contact Kelley Corvin, highlighting the vital role of donations in sustaining these opportunities for cadets.",
+        "keywords": [
+          "Scholarships",
+          "Emerging Leader Scholarships (ELS)",
+          "Commandant’s Scholarships",
+          "FAFSA",
+          "Major General and Mrs. Randy Fullhart Horizon Fund",
+          "Commandant’s Response Scholarship Fund",
+          "Philanthropy",
+          "financial aid"
+        ]
+      },
+      "flashcards": [
+        {
+          "question": "What GPA is required for the Emerging Leader Scholarships (ELS) by junior year?",
+          "answer": "A cumulative 2.5 GPA."
+        },
+        {
+          "question": "Who is generally given preference for Commandant's Scholarships?",
+          "answer": "Citizen-Leader Track cadets or cadets without an ROTC scholarship."
+        },
+        {
+          "question": "Why must cadets receiving scholarships file the FAFSA annually?",
+          "answer": "It is a requirement, even if no other form of financial aid is received, to comply with federal regulations."
+        },
+        {
+          "question": "What is the purpose of the Commandant’s Response Scholarship Fund?",
+          "answer": "To aid cadets experiencing unforeseen financial crises due to emergent situations."
+        },
+        {
+          "question": "Who should families contact for information on supporting the Corps through philanthropy?",
+          "answer": "Kelley Corvin."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "Which scholarship is exclusively offered to cadets?",
+          "options": {
+            "A": "ROTC Scholarships",
+            "B": "Emerging Leader Scholarships (ELS)",
+            "C": "Dean's List Scholarships",
+            "D": "University Merit Scholarships"
+          },
+          "correctAnswer": "B"
+        },
+        {
+          "question": "What could result in the suspension or loss of an Emerging Leader Scholarship?",
+          "options": {
+            "A": "Joining a study group.",
+            "B": "Disciplinary action or departure prior to the end of the semester.",
+            "C": "Participating in a global experience.",
+            "D": "Maintaining a perfect attendance record."
+          },
+          "correctAnswer": "B"
+        },
+        {
+          "question": "The Major General and Mrs. Randy Fullhart Horizon Fund provides opportunities for which group of cadets?",
+          "options": {
+            "A": "First-year cadets",
+            "B": "Rising juniors and seniors in good standing",
+            "C": "All cadets regardless of academic standing",
+            "D": "Cadets on the Military-Leader Track only"
+          },
+          "correctAnswer": "B"
+        },
+        {
+          "question": "Where can families find details about filing the Free Application for Federal Student Aid (FAFSA)?",
+          "options": {
+            "A": "Only at the Corps administrative office.",
+            "B": "fafsa.ed.gov or finaid.vt.edu.",
+            "C": "Through the ROTC programs exclusively.",
+            "D": "By contacting the cadet’s deputy commandant."
+          },
+          "correctAnswer": "B"
+        }
+      ]
+    },
+    {
+      "moduleTitle": "Module 4: Wellness & Personal Development",
+      "notes": {
+        "summary": "The Virginia Tech Corps of Cadets is dedicated to cultivating physical and mental well-being, encouraging lifelong fitness habits. All cadets participate in routines, with ROTC cadets needing to meet specific physical fitness standards for program continuation and scholarships; Citizen-Leader Track cadets must meet these by their junior year. On-campus training facilities include an obstacle course, rappel tower, and Upper Quad workout areas. Virginia Tech supports health and nutrition through free sessions from the Department of Human Nutrition, Foods, and Exercise. Schiffert Health Center provides comprehensive on-campus healthcare, largely covered by student fees. Cook Counseling Center offers confidential mental health services for issues like stress and anxiety, adhering to Virginia's confidentiality laws, meaning staff cannot discuss specific student counseling without written consent. However, families can contact Cook Counseling or the cadet’s Deputy Commandant/Senior Enlisted Advisor to express concerns. The Corps also embraces the 'whole person' development, aligned with Virginia Tech Student Affairs’ Aspirations for Student Learning, which promote curiosity, integrity, civility, courageous leadership, and the motto 'Ut Prosim' (service). Students are encouraged to identify and develop their inherent talents through the CliftonStrengths® assessment, enhancing self-awareness and engagement. Furthermore, the university's Inclusive VT initiative fosters a diverse, welcoming community that values all backgrounds and perspectives, crucial for every student's sense of belonging and overall success.",
+        "keywords": [
+          "Physical fitness",
+          "Schiffert Health Center",
+          "Cook Counseling Center",
+          "confidentiality",
+          "Aspirations for Student Learning",
+          "Ut Prosim",
+          "CliftonStrengths®",
+          "Inclusive VT"
+        ]
+      },
+      "flashcards": [
+        {
+          "question": "By what year are Citizen-Leader Track cadets expected to meet physical fitness standards?",
+          "answer": "By their junior year."
+        },
+        {
+          "question": "What is the primary on-campus healthcare center for Virginia Tech students?",
+          "answer": "Schiffert Health Center."
+        },
+        {
+          "question": "Why can Cook Counseling Center staff not confirm if a student has been seen without their permission?",
+          "answer": "Due to confidentiality protected in the Commonwealth of Virginia."
+        },
+        {
+          "question": "Name one of the 'Aspirations for Student Learning' promoted by Virginia Tech Student Affairs.",
+          "answer": "Commit to unwavering curiosity, Pursue self-understanding and integrity, Practice civility, Prepare for a life of courageous leadership, or Embrace Ut Prosim as a way of life."
+        },
+        {
+          "question": "What assessment tool helps students identify and develop their talents into strengths?",
+          "answer": "CliftonStrengths®."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "Which department offers free, one-on-one nutrition sessions for cadets?",
+          "options": {
+            "A": "Engineering Department",
+            "B": "Department of Human Nutrition, Foods, and Exercise",
+            "C": "Athletics Department",
+            "D": "Business School"
+          },
+          "correctAnswer": "B"
+        },
+        {
+          "question": "If a parent has concerns about their cadet's mental well-being but understands confidentiality, who else can they contact in the Corps?",
+          "options": {
+            "A": "The university president only.",
+            "B": "The cadet’s Deputy Commandant or Senior Enlisted Advisor.",
+            "C": "Only the cadet’s roommate.",
+            "D": "Nobody, if the cadet doesn't give permission."
+          },
+          "correctAnswer": "B"
+        },
+        {
+          "question": "What does the Virginia Tech motto 'Ut Prosim' mean, and how is it embraced by students?",
+          "options": {
+            "A": "'Knowledge is Power'; by excelling academically.",
+            "B": "'Service That I May Serve'; by enriching lives through service to others.",
+            "C": "'Mind and Body'; by focusing on physical fitness.",
+            "D": "'Tradition and Excellence'; by upholding historical values."
+          },
+          "correctAnswer": "B"
+        },
+        {
+          "question": "Consistent physical fitness test failures can result in what for an ROTC scholarship recipient?",
+          "options": {
+            "A": "A minor disciplinary warning.",
+            "B": "Loss of an ROTC scholarship or disenrollment from the ROTC program.",
+            "C": "An extended leave from campus.",
+            "D": "A mandatory change to the Citizen-Leader Track."
+          },
+          "correctAnswer": "B"
+        }
+      ]
+    },
+    {
+      "moduleTitle": "Module 5: Corps Policies & Standards",
+      "notes": {
+        "summary": "The Virginia Tech Corps of Cadets enforces rigorous standards vital for cadet development, education, and safety, with strong family support being crucial. Central to this is the Cadet Honor Code: 'A cadet will not lie, cheat or steal, nor tolerate those who do.' Violations are met with significant sanctions. Hazing is strictly forbidden as a criminal offense and antithetical to leadership; allegations are reported and can lead to suspension or dismissal from the Corps, plus university or state penalties. Mutual respect and safety are paramount; harassment and assault are not tolerated and may incur criminal sanctions. The Corps' alcohol policy is notably stringent, with immediate and severe repercussions for underage or irresponsible consumption, and possession of a false ID is an Honor Code violation. All alcohol-related incidents are adjudicated, with cadets required to report violations. A first alcohol offense can lead to a year of military probation and scholarship loss; a second, a one-year Corps suspension; a third, dismissal. Assisting underage cadets in acquiring alcohol can also result in dismissal. Corps sanctions are always accompanied by university sanctions and can negatively impact ROTC standing, scholarships, and commissioning eligibility. Cadets must sign an Acknowledgment of Understanding for key policies. The Withdrawal Policy states that first-semester cadets leaving the Corps before October 4th must withdraw from the university for that semester, though they can re-enroll as civilian students in spring. Upper-class cadets can request civilian status change anytime, potentially remaining in cadet halls under Corps rules if civilian housing isn't immediately available.",
+        "keywords": [
+          "Cadet Honor Code",
+          "Hazing",
+          "Alcohol Policy",
+          "false identification",
+          "disciplinary sanctions",
+          "withdrawal policy",
+          "Acknowledgment of Understanding",
+          "mutual respect"
+        ]
+      },
+      "flashcards": [
+        {
+          "question": "What is the core principle of the Cadet Honor Code?",
+          "answer": "'A cadet will not lie, cheat or steal, nor tolerate those who do.'"
+        },
+        {
+          "question": "Is hazing permitted in the Corps of Cadets?",
+          "answer": "No, it is a criminal offense in Virginia and is strictly prohibited, leading to severe sanctions."
+        },
+        {
+          "question": "What is considered an Honor Code violation related to the alcohol policy?",
+          "answer": "Possession of a false identification card."
+        },
+        {
+          "question": "What is the sanction for a first offense of the Corps alcohol policy?",
+          "answer": "A year of military probation and potential loss of Emerging Leader Scholarships for a minimum of one semester."
+        },
+        {
+          "question": "What is the university's withdrawal policy for a first-semester cadet who wishes to leave the Corps before October 4th?",
+          "answer": "They must also withdraw from the university for the remainder of the fall semester but can return as a civilian student in the spring."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "What happens if a cadet is found guilty of a second alcohol policy offense?",
+          "options": {
+            "A": "They receive a verbal warning.",
+            "B": "They could face a one-year suspension from the Corps.",
+            "C": "They are required to attend a single counseling session.",
+            "D": "Their scholarship is immediately doubled."
+          },
+          "correctAnswer": "B"
+        },
+        {
+          "question": "Alleged violations of the university's hazing policy will be reported to which offices?",
+          "options": {
+            "A": "Only the cadet's parents.",
+            "B": "The Virginia Tech Police, the Office of Student Activities, or the Student Conduct Office.",
+            "C": "Only the ROTC professor.",
+            "D": "The academic advisor only."
+          },
+          "correctAnswer": "B"
+        },
+        {
+          "question": "What is required of all cadets after being briefed on key policies like alcohol and hazing?",
+          "options": {
+            "A": "To attend an extra physical fitness session.",
+            "B": "To sign an Acknowledgment of Understanding.",
+            "C": "To write an essay on the policies.",
+            "D": "To volunteer for additional duties."
+          },
+          "correctAnswer": "B"
+        },
+        {
+          "question": "If an upper-class cadet requests to change to civilian status, but no civilian residence hall bed is available, what might happen?",
+          "options": {
+            "A": "The cadet must leave campus immediately.",
+            "B": "The cadet may continue to live in the cadet residence halls until a bed is available, while still adhering to Corps regulations.",
+            "C": "The cadet is automatically dismissed from the university.",
+            "D": "The cadet is reassigned to a different Corps battalion."
+          },
+          "correctAnswer": "B"
+        }
+      ]
+    },
+    {
+      "moduleTitle": "Module 6: Key Events & Practical Information",
+      "notes": {
+        "summary": "The Virginia Tech Corps of Cadets participates in numerous traditional and mandatory university activities throughout the academic year. Key events include public Parades and Formal Retreats, showcasing regimental discipline. The Caldwell March, a 26-mile, two-part trek, serves as a capstone for first-year cadet training, with families welcome at its conclusion. Cadets must attend all home football games, marching in with the regiment and sitting in designated Corps seating in the South End Zone; visitors are not permitted in this section. Campus departures involve requesting a 'pass' (within 50 miles) or 'leave' (beyond 50 miles), requiring specific approvals. A 'Family Pass' allows first-year cadets overnight hotel stays with visiting family, generally after mandatory Corps functions on 'closed weekends.' These 'Closed Weekends' restrict overnight leave, except for verified major family events or emergencies. While cadets observe all university holidays, first-years may have limited leave until Thanksgiving due to training. All students must depart within 24 hours of their last final. For mail, new cadets use a specific CLMS address only during New Cadet Week; afterward, all mail and packages go through VT Mail Services to residence hall addresses. Visiting families must adhere to campus parking rules, utilizing paid options like the North End Center garage. The guide provides important 2024-2025 dates (move-in, classes, holidays, Corps events, finals, graduation) and essential contact information for Deputy Commandants, administrative, and ROTC offices, plus social media links for family reference.",
+        "keywords": [
+          "Parades",
+          "Formal Retreats",
+          "Caldwell March",
+          "Home Football Games",
+          "Pass",
+          "Leave",
+          "Family Pass",
+          "Closed Weekends",
+          "Mail Services",
+          "Package Delivery",
+          "Parking",
+          "Important Dates",
+          "Contact Information"
+        ]
+      },
+      "flashcards": [
+        {
+          "question": "What is the significance of the Caldwell March for first-year cadets?",
+          "answer": "It is a 26-mile trek, divided into fall and spring parts, serving as a capstone event for new cadet training."
+        },
+        {
+          "question": "Where are cadets required to sit during home football games?",
+          "answer": "In the designated Corps seating in the South End Zone."
+        },
+        {
+          "question": "What is the difference between a 'pass' and 'leave' for cadets requesting to leave campus?",
+          "answer": "A 'pass' is for travel within 50 miles of campus (expires at midnight), while 'leave' is for travel beyond 50 miles."
+        },
+        {
+          "question": "During which period do new cadets receive mail at the CLMS Building address?",
+          "answer": "Only during New Cadet Week. Afterward, it's via VT Mail Services."
+        },
+        {
+          "question": "What is generally restricted during 'Closed Weekends' for cadets?",
+          "answer": "Overnight leave from campus, except for verified major family events or emergencies."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "How long do formal retreats typically last?",
+          "options": {
+            "A": "About 15 minutes",
+            "B": "About an hour",
+            "C": "All evening",
+            "D": "A full day"
+          },
+          "correctAnswer": "A"
+        },
+        {
+          "question": "All students must depart within how many hours after their last final?",
+          "options": {
+            "A": "12 hours",
+            "B": "24 hours",
+            "C": "48 hours",
+            "D": "72 hours"
+          },
+          "correctAnswer": "B"
+        },
+        {
+          "question": "Where can families find the most up-to-date Corps calendar?",
+          "options": {
+            "A": "Only in the printed Family Guide.",
+            "B": "On social media accounts.",
+            "C": "On the vtcc.vt.edu website.",
+            "D": "By calling the main office."
+          },
+          "correctAnswer": "C"
+        },
+        {
+          "question": "Which of the following is NOT a general exception for overnight leave during 'closed weekends'?",
+          "options": {
+            "A": "Major family events (e.g., weddings).",
+            "B": "Family emergencies.",
+            "C": "Medical appointments.",
+            "D": "Non-mandatory social outings."
+          },
+          "correctAnswer": "D"
+        }
+      ]
+    }
+  ]
+}

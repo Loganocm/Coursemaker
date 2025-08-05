@@ -1,0 +1,387 @@
+Here is the JSON output:
+
+{
+  "courseTitle": "Introduction to Computer Architecture",
+  "modules": [
+    {
+      "moduleTitle": "Module 1: Introduction",
+      "notes": {
+        "summary": "This module provides an overview of the fundamental concepts in computer organization and architecture. It covers the main components of a computer system, a historical perspective on the development of computers, and the basic principles of the von Neumann architecture. The module also introduces key terminology and discusses the relationship between hardware and software.",
+        "keywords": [
+          "computer components",
+          "computer history",
+          "von Neumann architecture",
+          "hardware-software interaction"
+        ]
+      },
+      "flashcards": [
+        {
+          "question": "What are the three main components of a computer system?",
+          "answer": "The three main components are the processor, memory, and input/output mechanism."
+        },
+        {
+          "question": "What is the von Neumann architecture?",
+          "answer": "The von Neumann architecture is a computer design that uses a single memory to store both instructions and data, and uses a single bus to fetch instructions and transfer data."
+        },
+        {
+          "question": "What is the relationship between hardware and software?",
+          "answer": "Hardware and software are interdependent - algorithms are implemented in hardware, and hardware supports the execution of software."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "Which of the following is not a main component of a computer system?",
+          "options": {
+            "A": "Processor",
+            "B": "Memory",
+            "C": "Input/Output",
+            "D": "Compiler"
+          },
+          "correctAnswer": "D"
+        },
+        {
+          "question": "What is the key principle behind the von Neumann architecture?",
+          "options": {
+            "A": "Separate storage for instructions and data",
+            "B": "Separate buses for instructions and data",
+            "C": "Stored-program concept",
+            "D": "Hardwired control unit"
+          },
+          "correctAnswer": "C"
+        }
+      ]
+    },
+    {
+      "moduleTitle": "Module 2: Data Representation",
+      "notes": {
+        "summary": "This module covers how computers represent and manipulate numerical and non-numerical data. It discusses number systems, signed integer representations, floating-point formats, and character encoding schemes. The module also introduces concepts related to error detection and correction.",
+        "keywords": [
+          "number systems",
+          "signed integers",
+          "floating-point",
+          "character encoding",
+          "error detection and correction"
+        ]
+      },
+      "flashcards": [
+        {
+          "question": "What is the difference between signed magnitude and 2's complement representation of signed integers?",
+          "answer": "Signed magnitude uses the most significant bit to indicate the sign, while 2's complement uses the sign bit to directly represent the sign of the number."
+        },
+        {
+          "question": "What is the IEEE 754 standard for floating-point representation?",
+          "answer": "The IEEE 754 standard defines the formats and arithmetic for representing floating-point numbers in computers."
+        },
+        {
+          "question": "What is the purpose of error detection and correction codes?",
+          "answer": "Error detection and correction codes, such as parity bits and Hamming codes, allow computers to detect and in some cases correct errors in stored or transmitted data."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "Which of the following is a benefit of 2's complement representation over signed magnitude?",
+          "options": {
+            "A": "Simpler arithmetic operations",
+            "B": "More efficient storage",
+            "C": "Easier to detect negative numbers",
+            "D": "All of the above"
+          },
+          "correctAnswer": "D"
+        },
+        {
+          "question": "What is the main purpose of the IEEE 754 floating-point standard?",
+          "options": {
+            "A": "To define formats for representing real numbers",
+            "B": "To specify how to perform arithmetic on floating-point numbers",
+            "C": "To ensure portability of floating-point code across different platforms",
+            "D": "All of the above"
+          },
+          "correctAnswer": "D"
+        }
+      ]
+    },
+    {
+      "moduleTitle": "Module 3: Boolean Algebra and Digital Logic",
+      "notes": {
+        "summary": "This module introduces Boolean algebra and the digital logic circuits that implement Boolean functions. It covers the basic logic gates, Boolean identities and simplification, combinational and sequential circuits, and the design process from problem description to digital circuit.",
+        "keywords": [
+          "Boolean algebra",
+          "logic gates",
+          "combinational circuits",
+          "sequential circuits",
+          "circuit design"
+        ]
+      },
+      "flashcards": [
+        {
+          "question": "What are the three basic logic gates?",
+          "answer": "The three basic logic gates are AND, OR, and NOT."
+        },
+        {
+          "question": "What is the difference between combinational and sequential circuits?",
+          "answer": "Combinational circuits have outputs that depend only on the current inputs, while sequential circuits have outputs that depend on both the current inputs and the previous state of the circuit."
+        },
+        {
+          "question": "What is the process for designing a digital circuit?",
+          "answer": "The process involves: 1) Describing the problem, 2) Representing the problem using Boolean expressions, 3) Simplifying the expressions, 4) Implementing the simplified expressions using logic gates."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "Which of the following is a universal logic gate?",
+          "options": {
+            "A": "AND",
+            "B": "OR", 
+            "C": "NAND",
+            "D": "NOR"
+          },
+          "correctAnswer": "C"
+        },
+        {
+          "question": "What is the main difference between combinational and sequential circuits?",
+          "options": {
+            "A": "Combinational circuits use memory elements, sequential circuits do not",
+            "B": "Combinational circuits have no feedback, sequential circuits have feedback",
+            "C": "Combinational circuits have outputs that depend only on current inputs, sequential circuits depend on current inputs and previous state",
+            "D": "Combinational circuits are faster than sequential circuits"
+          },
+          "correctAnswer": "C"
+        }
+      ]
+    },
+    {
+      "moduleTitle": "Module 4: The MARIE Architecture",
+      "notes": {
+        "summary": "This module introduces MARIE, a simple computer architecture designed for instructional purposes. It covers the basic components of MARIE, including registers, buses, the arithmetic logic unit, and the control unit. The module also explains the instruction set, assembly language programming, and the fetch-decode-execute cycle.",
+        "keywords": [
+          "computer architecture",
+          "registers",
+          "buses",
+          "arithmetic logic unit",
+          "control unit",
+          "instruction set",
+          "assembly language",
+          "fetch-decode-execute cycle"
+        ]
+      },
+      "flashcards": [
+        {
+          "question": "What are the main components of the MARIE architecture?",
+          "answer": "The main components are the registers, buses, arithmetic logic unit, and control unit."
+        },
+        {
+          "question": "How does the fetch-decode-execute cycle work in MARIE?",
+          "answer": "The control unit fetches the next instruction from memory, decodes it, and then executes the instruction by directing the datapath components."
+        },
+        {
+          "question": "What is the purpose of using assembly language with the MARIE architecture?",
+          "answer": "Assembly language provides a way to directly program the machine-level instructions of the MARIE architecture, helping to understand computer organization concepts."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "Which component of MARIE is responsible for interpreting and executing instructions?",
+          "options": {
+            "A": "Registers",
+            "B": "Buses",
+            "C": "Arithmetic Logic Unit",
+            "D": "Control Unit"
+          },
+          "correctAnswer": "D"
+        },
+        {
+          "question": "What is the purpose of using assembly language with MARIE?",
+          "options": {
+            "A": "To provide a high-level programming language for MARIE",
+            "B": "To translate MARIE instructions to machine code",
+            "C": "To understand the low-level organization of MARIE",
+            "D": "To allow MARIE to run programs written in a variety of languages"
+          },
+          "correctAnswer": "C"
+        }
+      ]
+    },
+    {
+      "moduleTitle": "Module 5: Instruction Set Architectures",
+      "notes": {
+        "summary": "This module provides a closer look at instruction set architectures (ISAs). It covers instruction formats, instruction types, addressing modes, and pipelining. The module also examines real-world ISAs such as Intel x86, MIPS, ARM, and the Java Virtual Machine.",
+        "keywords": [
+          "instruction formats",
+          "instruction types",
+          "addressing modes",
+          "instruction pipelining",
+          "x86 architecture",
+          "MIPS architecture",
+          "ARM architecture",
+          "Java Virtual Machine"
+        ]
+      },
+      "flashcards": [
+        {
+          "question": "What are the main components of an instruction format?",
+          "answer": "The main components are the opcode, operands, and addressing modes."
+        },
+        {
+          "question": "What is instruction pipelining and how does it improve performance?",
+          "answer": "Instruction pipelining breaks the execution of an instruction into multiple stages, allowing multiple instructions to be in different stages of execution simultaneously, improving throughput."
+        },
+        {
+          "question": "How do the Intel x86, MIPS, and ARM architectures differ in their instruction set designs?",
+          "answer": "x86 has a complex instruction set with variable-length instructions, MIPS has a simple RISC instruction set, and ARM is also a RISC architecture but with a different instruction set than MIPS."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "Which of the following is not a typical component of an instruction format?",
+          "options": {
+            "A": "Opcode",
+            "B": "Operands",
+            "C": "Addressing modes",
+            "D": "Program counter"
+          },
+          "correctAnswer": "D"
+        },
+        {
+          "question": "What is the main benefit of instruction pipelining?",
+          "options": {
+            "A": "Reduced code size",
+            "B": "Increased throughput",
+            "C": "Simplified control logic",
+            "D": "Decreased power consumption"
+          },
+          "correctAnswer": "B"
+        }
+      ]
+    },
+    {
+      "moduleTitle": "Module 6: Memory Systems",
+      "notes": {
+        "summary": "This module covers the different types of memory used in computer systems, including RAM, ROM, and cache memory. It discusses the memory hierarchy, cache mapping schemes, virtual memory, and related performance issues. The module also examines real-world examples of memory management.",
+        "keywords": [
+          "RAM",
+          "ROM",
+          "cache memory",
+          "memory hierarchy",
+          "cache mapping",
+          "virtual memory",
+          "memory performance"
+        ]
+      },
+      "flashcards": [
+        {
+          "question": "What is the purpose of cache memory?",
+          "answer": "Cache memory provides a fast buffer between the processor and main memory to reduce the average memory access time."
+        },
+        {
+          "question": "How does virtual memory work?",
+          "answer": "Virtual memory uses a combination of main memory and disk storage to provide each process with the illusion of a large, contiguous address space."
+        },
+        {
+          "question": "What are the key factors that affect memory system performance?",
+          "answer": "Key factors include the memory access time, hit ratio of the cache, and the effectiveness of the virtual memory management."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "What is the main purpose of cache memory?",
+          "options": {
+            "A": "To provide non-volatile storage",
+            "B": "To increase the capacity of main memory",
+            "C": "To reduce the average memory access time",
+            "D": "To manage virtual to physical address translation"
+          },
+          "correctAnswer": "C"
+        },
+        {
+          "question": "Which of the following is a key factor in virtual memory performance?",
+          "options": {
+            "A": "Cache hit ratio",
+            "B": "Memory access time",
+            "C": "Page replacement policy",
+            "D": "All of the above"
+          },
+          "correctAnswer": "D"
+        }
+      ]
+    },
+    {
+      "moduleTitle": "Module 7: Input/Output and Storage Systems",
+      "notes": {
+        "summary": "This module examines the I/O subsystem and various storage technologies used in computer systems. It covers I/O control methods, data transmission modes, magnetic disk drives, optical disks, and RAID storage architectures. The module also includes a focus on data compression techniques.",
+        "keywords": [
+          "I/O control",
+          "data transmission",
+          "magnetic disks",
+          "optical disks",
+          "RAID",
+          "data compression"
+        ]
+      },
+      "flashcards": [
+        {
+          "question": "What are the main data transmission modes used in computer I/O?",
+          "answer": "The main modes are parallel transmission and serial transmission."
+        },
+        {
+          "question": "How does RAID improve storage system performance and reliability?",
+          "answer": "RAID uses multiple disks in an array to provide increased performance, capacity, and fault tolerance."
+        },
+        {
+          "question": "What are some common data compression techniques used in computer systems?",
+          "answer": "Techniques include Huffman coding, arithmetic coding, Lempel-Ziv coding, and techniques specific to image and audio/video formats."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "Which I/O control method allows the CPU to execute other tasks while waiting for I/O to complete?",
+          "options": {
+            "A": "Programmed I/O",
+            "B": "Interrupt-driven I/O",
+            "C": "Direct memory access",
+            "D": "Polling"
+          },
+          "correctAnswer": "C"
+        },
+        {
+          "question": "What is the primary purpose of RAID storage systems?",
+          "options": {
+            "A": "To increase storage capacity",
+            "B": "To improve I/O performance",
+            "C": "To provide fault tolerance",
+            "D": "All of the above"
+          },
+          "correctAnswer": "D"
+        }
+      ]
+    },
+    {
+      "moduleTitle": "Module 8: System Software",
+      "notes": {
+        "summary": "This module provides an overview of system software, including operating systems, programming tools, and database management systems. It covers the history and services of operating systems, as well as the role of compilers, linkers, and interpreters. The module also examines the capabilities of Java as a system programming language.",
+        "keywords": [
+          "operating systems",
+          "system services",
+          "compilers",
+          "linkers",
+          "interpreters",
+          "Java programming"
+        ]
+      },
+      "flashcards": [
+        {
+          "question": "What are the primary services provided by an operating system?",
+          "answer": "Key OS services include process management, memory management, file management, and I/O management."
+        },
+        {
+          "question": "What is the role of a compiler versus an interpreter?",
+          "answer": "A compiler translates a high-level language program into machine code, while an interpreter executes the program directly without first translating it."
+        },
+        {
+          "question": "How does Java provide system programming capabilities?",
+          "answer": "Java includes features like memory management, thread support, and platform-independent execution that allow it to be used for system-level programming."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "Which of the following is a primary function of an operating system?",
+          "options":
