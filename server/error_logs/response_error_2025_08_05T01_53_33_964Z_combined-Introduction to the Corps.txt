@@ -1,0 +1,204 @@
+--- AI RESPONSE THAT CAUSED ERROR ---
+```json
+{
+  "notes": "## Introduction to the Corps\n\nThis chapter provides an essential overview of the Corps, detailing its unique structure, purpose, and expectations for cadets.\n\n### Program Overview\n*   **Senior Military College (SMC) Status:** The Corps operates within the framework of a Senior Military College, a distinct educational institution category in the United States. This designation implies a comprehensive military-style environment integrated with academic pursuits.\n    *   **Key Characteristic:** At an SMC, participation in the Corps program is typically mandatory for designated students, leading to a full immersion experience in a military lifestyle alongside their academic studies.\n*   **Distinction from ROTC:** While ROTC (Reserve Officer Training Corps) programs exist at many universities, the Corps at an SMC differs significantly:\n    *   **Full Immersion:** Cadets live, study, and train within a military-style environment daily, often residing in barracks and adhering to a structured schedule.\n    *   **Mandatory Participation:** For Corps members, military training and discipline are integral to their educational experience, not an optional extracurricular.\n    *   **Institutional Identity:** The Corps defines a significant part of the institution's identity and culture, going beyond being just a program offered by a university.\n\n### Cadet Tracks\nCadets generally pursue one of two distinct tracks, aligning with their post-graduation aspirations:\n*   **Military-Leader Track:**\n    *   **Purpose:** This track is designed for cadets who aspire to commission as officers into the U.S. Armed Forces (Army, Navy, Air Force, Marine Corps, Space Force) upon graduation.\n    *   **Outcome:** Cadets on this track typically fulfill requirements for military service alongside their academic degrees, preparing them for leadership roles in the uniformed services.\n*   **Citizen-Leader Track:**\n    *   **Purpose:** This track is for cadets who seek to develop exceptional leadership, discipline, and character skills without the intention of commissioning into the military.\n    *   **Outcome:** Graduates are prepared for leadership roles in various civilian sectors, including business, government, non-profit organizations, and public service, leveraging the discipline and values learned in the Corps.\n\n### Corps Organization\nUnderstanding the Corps' organizational structure is crucial for cadets and their families.\n*   **Commandant's Office:** The Commandant leads the Corps, overseeing all aspects of cadet life, training, and discipline.\n*   **Deputy Commandants:** These officers serve as vital links in the chain of command and are often the primary points of contact for cadets and their families.\n    *   **Role:** Deputy Commandants are responsible for specific battalions, companies, or areas of cadet life, providing direct supervision, mentorship, and support.\n    *   **Primary Contact:** They are the first line of support and information for issues related to cadet performance, conduct, wellness, and day-to-day operations.\n*   **Commandant's Staff:** This team supports the Commandant in strategic planning, program development, administrative functions, and ensuring the overall well-being and success of the Corps.\n\n### Key Resources\n*   **Purpose of the Family Guide:** The Family Guide is an indispensable resource designed to assist and inform the families of cadets.\n    *   **Content:** It typically includes information on Corps policies, schedules, important dates, points of contact, cadet life, traditions, and advice for families to best support their cadet.\n    *   **Goal:** To foster a supportive environment for cadets by keeping their families informed and engaged.\n\n### Expectations for Cadets\nCadets are held to high standards across all facets of their experience within the Corps.\n*   **Performance:** This encompasses a cadet's achievement in various areas:\n    *   **Academic Excellence:** Maintaining required GPA and successfully completing coursework.\n    *   **Physical Fitness:** Meeting and exceeding physical training standards.\n    *   **Leadership Development:** Actively participating in leadership roles, demonstrating initiative, and developing command presence and decision-making skills.\n*   **Conduct:** This refers to a cadet's behavior and adherence to the Corps' values and regulations:\n    *   **Discipline:** Upholding strict adherence to rules, regulations, and the Corps' code of conduct.\n    *   **Upholding Values:** Demonstrating integrity, respect, honor, duty, and other core values of the institution and military profession (where applicable).\n    *   **Professionalism:** Maintaining a high standard of personal and professional conduct at all times, both on and off campus."
+  ,
+  "flashcards": [
+    {
+      "front": "What is the institutional designation of the Corps program mentioned?",
+      "back": "Senior Military College (SMC)"
+    },
+    {
+      "front": "What is a key difference between the Corps at an SMC and a traditional ROTC program?",
+      "back": "The Corps involves a full immersion military lifestyle and often mandatory participation for designated students, unlike ROTC which is often an extracurricular."
+    },
+    {
+      "front": "Which cadet track is designed for individuals aspiring to become commissioned officers?",
+      "back": "Military-Leader Track"
+    },
+    {
+      "front": "What is the primary objective of the Citizen-Leader Track?",
+      "back": "To develop strong leadership, discipline, and character skills for civilian careers."
+    },
+    {
+      "front": "Who leads the overall Corps organization?",
+      "back": "The Commandant"
+    },
+    {
+      "front": "Who are typically the primary contact points for cadets and their families regarding daily operations and support?",
+      "back": "Deputy Commandants"
+    },
+    {
+      "front": "What is the main purpose of the Family Guide?",
+      "back": "To provide information and support to the families of cadets, keeping them informed about Corps life and policies."
+    },
+    {
+      "front": "What are the two broad areas of expectations for cadets?",
+      "back": "Performance and Conduct"
+    },
+    {
+      "front": "What does 'performance' for a cadet typically encompass?",
+      "back": "Academic excellence, physical fitness, and leadership development."
+    },
+    {
+      "front": "What does 'conduct' for a cadet primarily refer to?",
+      "back": "Discipline, adherence to rules, and upholding institutional values."
+    },
+    {
+      "front": "Do all cadets in a Senior Military College program intend to join the military?",
+      "back": "No, cadets can choose either the Military-Leader Track or the Citizen-Leader Track."
+    },
+    {
+      "front": "Who provides overall strategic leadership and administrative support to the Commandant?",
+      "back": "The Commandant's Staff"
+    },
+    {
+      "front": "If a cadet has a question about their company's daily schedule or specific rules, who would be their primary contact?",
+      "back": "A Deputy Commandant"
+    },
+    {
+      "front": "Is physical training a required part of a cadet's 'performance' expectations?",
+      "back": "Yes, meeting and exceeding physical training standards is an expectation."
+    },
+    {
+      "front": "What kind of information might families find in the Family Guide?",
+      "back": "Corps policies, schedules, important dates, points of contact, and advice for supporting their cadet."
+    },
+    {
+      "front": "What is a core value expected of cadets regarding their behavior?",
+      "back": "Integrity, respect, honor, duty, and professionalism (upholding institutional values)."
+    },
+    {
+      "front": "Does a cadet on the Citizen-Leader Track receive a military commission upon graduation?",
+      "back": "No."
+    },
+    {
+      "front": "What unique aspect of an SMC differentiates it from a university with only an ROTC program regarding daily life?",
+      "back": "Cadets at an SMC often live in barracks and are immersed in a structured military-style environment daily."
+    },
+    {
+      "front": "Beyond academic success, what is a key element of a cadet's expected 'performance' related to leadership?",
+      "back": "Active participation in leadership roles and developing command presence."
+    },
+    {
+      "front": "Who is responsible for the direct supervision and mentorship of specific units within the Corps?",
+      "back": "Deputy Commandants"
+    }
+  ],
+  "quiz": [
+    {
+      "question": "What designation describes the Corps' institutional status?",
+      "options": [
+        "Junior Reserve Officer Training Corps",
+        "Community College with Military Emphasis",
+        "Senior Military College",
+        "Civilian University with an ROTC Program"
+      ],
+      "correct_answer": "Senior Military College"
+    },
+    {
+      "question": "What is a key difference between the Corps and a traditional ROTC program?",
+      "options": [
+        "ROTC programs are always larger.",
+        "Corps participation often involves a full immersion military lifestyle.",
+        "ROTC programs do not offer commissions.",
+        "The Corps does not require physical training."
+      ],
+      "correct_answer": "Corps participation often involves a full immersion military lifestyle."
+    },
+    {
+      "question": "Which track is designed for cadets aspiring to commission into the armed forces?",
+      "options": [
+        "Citizen-Leader Track",
+        "Civilian-Leadership Track",
+        "Military-Leader Track",
+        "Professional Development Track"
+      ],
+      "correct_answer": "Military-Leader Track"
+    },
+    {
+      "question": "Who are typically the primary contact points for cadets and their families regarding daily operations and support?",
+      "options": [
+        "The University President",
+        "The Dean of Students",
+        "The Deputy Commandants",
+        "Alumni Relations Office"
+      ],
+      "correct_answer": "The Deputy Commandants"
+    },
+    {
+      "question": "What is the main purpose of the Family Guide provided by the Corps?",
+      "options": [
+        "To solicit donations from families.",
+        "To serve as a course catalog for new students.",
+        "To provide information and support for cadet families.",
+        "To outline the university's academic policies only."
+      ],
+      "correct_answer": "To provide information and support for cadet families."
+    },
+    {
+      "question": "Which of the following is NOT typically an expectation for a cadet's 'performance'?",
+      "options": [
+        "Academic excellence",
+        "Physical fitness",
+        "Regular social media updates",
+        "Leadership development"
+      ],
+      "correct_answer": "Regular social media updates"
+    },
+    {
+      "question": "What does the 'Citizen-Leader Track' emphasize for cadets?",
+      "options": [
+        "Preparation for immediate military deployment.",
+        "Development of leadership skills for civilian careers.",
+        "Exclusive focus on academic research.",
+        "A waiver from all Corps requirements."
+      ],
+      "correct_answer": "Development of leadership skills for civilian careers."
+    },
+    {
+      "question": "Who provides overall strategic leadership and support to the Corps, overseeing the Deputy Commandants?",
+      "options": [
+        "The ROTC Detachment Commander",
+        "The Commandant",
+        "The Head of Student Life",
+        "The University Provost"
+      ],
+      "correct_answer": "The Commandant"
+    },
+    {
+      "question": "What is a core aspect of expected cadet 'conduct'?",
+      "options": [
+        "Negotiating terms of discipline.",
+        "Adherence to rules and upholding institutional values.",
+        "Prioritizing personal interests over Corps duties.",
+        "Avoiding all forms of group activities."
+      ],
+      "correct_answer": "Adherence to rules and upholding institutional values."
+    },
+    {
+      "question": "A cadet who does not wish to commission into the military would likely pursue which track?",
+      "options": [
+        "Military-Leader Track",
+        "Officer Training Track",
+        "Citizen-Leader Track",
+        "Active Duty Track"
+      ],
+      "correct_answer": "Citizen-Leader Track"
+    }
+  ]
+}
+```
+
+--- ERROR DETAILS ---
+Error during step: combined-Introduction to the Corps
+
+Error: modelParams.model.includes is not a function
+
+Stack: TypeError: modelParams.model.includes is not a function
+    at new GenerativeModel (C:\Users\Logan\Desktop\Github\courseforge2\Coursemaker\server\node_modules\@google\generative-ai\dist\index.js:1237:31)
+    at GoogleGenerativeAI.getGenerativeModel (C:\Users\Logan\Desktop\Github\courseforge2\Coursemaker\server\node_modules\@google\generative-ai\dist\index.js:1335:16)
+    at factCheckWithAI (C:\Users\Logan\Desktop\Github\courseforge2\Coursemaker\server\agentProcessor.js:43:34)
+    at processPdfWithAgent (C:\Users\Logan\Desktop\Github\courseforge2\Coursemaker\server\agentProcessor.js:282:49)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async C:\Users\Logan\Desktop\Github\courseforge2\Coursemaker\server\index.js:53:32
