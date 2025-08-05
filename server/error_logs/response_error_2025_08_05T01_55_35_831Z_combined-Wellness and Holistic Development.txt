@@ -1,0 +1,203 @@
+--- AI RESPONSE THAT CAUSED ERROR ---
+```json
+{
+  "notes": "# Wellness and Holistic Development\n\nThis chapter focuses on the various aspects of wellness and the resources available to support students' holistic development during their time at the university. It covers physical health, mental well-being, and personal growth aligned with the university's core values.\n\n## I. Physical Wellness & Fitness\n\nMaintaining physical health is crucial for academic success and overall well-being. The university provides various resources and facilities to support students' physical fitness needs.\n\n*   **Physical Fitness Standards:**\n    *   **ROTC (Reserve Officer Training Corps):** Students involved in ROTC programs are expected to meet specific physical fitness standards relevant to military readiness.\n    *   **Citizen-Leader Track:** This track involves physical fitness requirements aimed at developing disciplined and capable individuals.\n*   **Corps Training Facilities:** These facilities offer practical environments for physical training and development.\n    *   **Obstacle Course:** Designed for agility, strength, and endurance training.\n    *   **Rappel Tower:** Used for developing courage, discipline, and specific skills related to rappelling.\n    *   **Workout Areas:** General fitness spaces equipped for strength and cardiovascular training.\n*   **Health and Nutrition Resources:**\n    *   **General Resources:** The university provides access to various resources promoting healthy eating habits and overall well-being.\n    *   **Schiffert Health Center:**\n        *   **On-Campus Health Care:** Provides primary health care services for students. This includes consultations, treatment for illnesses and injuries, preventive care, and referrals.\n\n## II. Mental and Emotional Wellness\n\nSupporting students' mental and emotional health is a priority, with dedicated services to ensure their well-being.\n\n*   **Cook Counseling Center:**\n    *   **Mental Health Services:** Offers a range of psychological services including individual counseling, group therapy, crisis intervention, and workshops.\n    *   **Confidentiality:** Emphasizes strict confidentiality for student sessions, ensuring a safe and private space for discussion.\n    *   **Parental Contact:** Policies regarding parental contact are handled with sensitivity and typically require student consent, adhering to privacy regulations.\n\n## III. Holistic Development & Student Success\n\nBeyond physical and mental health, the university emphasizes the development of well-rounded individuals prepared for leadership and service.\n\n*   **Virginia Tech Student Affairs' Aspirations for Student Learning:** These are core principles guiding student development and learning outcomes.\n    *   **Curiosity:** Fostering a desire to explore, question, and learn continuously.\n    *   **Self-understanding:** Encouraging introspection to recognize one's strengths, values, and areas for growth.\n    *   **Integrity:** Promoting honesty, ethical conduct, and moral courage.\n    *   **Civility:** Emphasizing respectful interaction, open dialogue, and appreciation for diverse perspectives.\n    *   **Courageous Leadership:** Developing the ability to lead with conviction, take initiative, and inspire others, especially in challenging situations.\n    *   **Ut Prosim (That I May Serve):** The university's motto, embodying a commitment to service to others and community engagement. This underpins many of the aspirations.\n*   **CliftonStrengths® Assessment:**\n    *   **Purpose:** A tool designed to help students identify their natural talents and strengths.\n    *   **Benefit:** Understanding individual strengths can aid in academic planning, career development, and personal growth.\n*   **Inclusive VT:**\n    *   **Focus:** An initiative dedicated to fostering diversity and belonging within the university community.\n    *   **Goal:** To create an environment where all individuals feel valued, respected, and have equitable opportunities to succeed, regardless of background or identity.\n",
+  "flashcards": [
+    {
+      "front": "What are two physical fitness standards mentioned in the chapter?",
+      "back": "ROTC and Citizen-Leader Track."
+    },
+    {
+      "front": "Name one of the Corps training facilities mentioned for physical development.",
+      "back": "Obstacle course, Rappel tower, or Workout areas."
+    },
+    {
+      "front": "Which on-campus center provides general health care services for students?",
+      "back": "Schiffert Health Center."
+    },
+    {
+      "front": "What type of services does the Cook Counseling Center primarily offer?",
+      "back": "Mental health services."
+    },
+    {
+      "front": "What is a key principle of the Cook Counseling Center regarding student sessions?",
+      "back": "Confidentiality."
+    },
+    {
+      "front": "What is the Virginia Tech motto that reflects a commitment to service?",
+      "back": "Ut Prosim."
+    },
+    {
+      "front": "What does \"Ut Prosim\" mean?",
+      "back": "\"That I May Serve.\""
+    },
+    {
+      "front": "Which assessment helps students identify their natural talents and strengths?",
+      "back": "CliftonStrengths®."
+    },
+    {
+      "front": "What is the main focus of Inclusive VT?",
+      "back": "Diversity and belonging."
+    },
+    {
+      "front": "Name one of the Virginia Tech Student Affairs' Aspirations for Student Learning related to continuous exploration and questioning.",
+      "back": "Curiosity."
+    },
+    {
+      "front": "Which aspiration for student learning involves understanding one's own values and identity?",
+      "back": "Self-understanding."
+    },
+    {
+      "front": "Which aspiration emphasizes honesty, ethical conduct, and moral courage?",
+      "back": "Integrity."
+    },
+    {
+      "front": "Which aspiration promotes respectful interaction and open dialogue?",
+      "back": "Civility."
+    },
+    {
+      "front": "What kind of leadership is encouraged as an aspiration for student learning?",
+      "back": "Courageous Leadership."
+    },
+    {
+      "front": "What specific Corps training facility is used for developing courage and discipline related to descending from heights?",
+      "back": "Rappel Tower."
+    },
+    {
+      "front": "What kind of fitness standards are relevant to the ROTC program?",
+      "back": "Physical fitness standards (relevant to military readiness)."
+    },
+    {
+      "front": "Besides the obstacle course and rappel tower, what other general Corps training facility is mentioned?",
+      "back": "Workout areas."
+    },
+    {
+      "front": "What specific type of health care does Schiffert Health Center provide on campus?",
+      "back": "Primary health care."
+    },
+    {
+      "front": "The Cook Counseling Center generally requires what for parental contact regarding a student's session?",
+      "back": "Student consent."
+    },
+    {
+      "front": "What is the purpose of physical fitness requirements for the Citizen-Leader Track?",
+      "back": "To develop disciplined and capable individuals."
+    }
+  ],
+  "quiz": [
+    {
+      "question": "Which on-campus center provides primary general health care services for students?",
+      "options": [
+        "Cook Counseling Center",
+        "Schiffert Health Center",
+        "Student Affairs Office",
+        "ROTC Headquarters"
+      ],
+      "correct_answer": "Schiffert Health Center"
+    },
+    {
+      "question": "The Cook Counseling Center emphasizes what key principle regarding student privacy in their sessions?",
+      "options": [
+        "Open communication with parents",
+        "Mandatory reporting to academic advisors",
+        "Confidentiality",
+        "Public session records"
+      ],
+      "correct_answer": "Confidentiality"
+    },
+    {
+      "question": "\"Ut Prosim,\" the Virginia Tech motto, is directly associated with which core concept in the Aspirations for Student Learning?",
+      "options": [
+        "Curiosity",
+        "Self-understanding",
+        "Service to others",
+        "Financial literacy"
+      ],
+      "correct_answer": "Service to others"
+    },
+    {
+      "question": "Which assessment tool is designed to help students identify their natural talents and strengths?",
+      "options": [
+        "Myers-Briggs Type Indicator",
+        "CliftonStrengths®",
+        "Academic Proficiency Test",
+        "Career Aptitude Survey"
+      ],
+      "correct_answer": "CliftonStrengths®"
+    },
+    {
+      "question": "What is the primary focus of the Inclusive VT initiative?",
+      "options": [
+        "Academic excellence and scholarships",
+        "Promoting diversity and belonging",
+        "Athletic program development",
+        "International student exchange programs"
+      ],
+      "correct_answer": "Promoting diversity and belonging"
+    },
+    {
+      "question": "Which of the following is NOT mentioned as a Corps training facility?",
+      "options": [
+        "Obstacle course",
+        "Rappel tower",
+        "Workout areas",
+        "Swimming pool"
+      ],
+      "correct_answer": "Swimming pool"
+    },
+    {
+      "question": "One of the Virginia Tech Student Affairs' Aspirations for Student Learning is \"Integrity.\" What does this aspiration primarily encourage?",
+      "options": [
+        "Developing physical fitness",
+        "Honesty and ethical conduct",
+        "Learning new languages",
+        "Networking with alumni"
+      ],
+      "correct_answer": "Honesty and ethical conduct"
+    },
+    {
+      "question": "Physical fitness standards are mentioned for which two groups/tracks?",
+      "options": [
+        "International Students and Graduate Students",
+        "Faculty and Staff",
+        "ROTC and Citizen-Leader Track",
+        "Arts and Sciences Majors and Engineering Majors"
+      ],
+      "correct_answer": "ROTC and Citizen-Leader Track"
+    },
+    {
+      "question": "What specific aspiration for student learning involves fostering respectful interaction and appreciation for diverse perspectives?",
+      "options": [
+        "Curiosity",
+        "Civility",
+        "Courageous Leadership",
+        "Self-understanding"
+      ],
+      "correct_answer": "Civility"
+    },
+    {
+      "question": "What type of wellness is primarily addressed by the services of the Cook Counseling Center?",
+      "options": [
+        "Physical wellness",
+        "Financial wellness",
+        "Mental and emotional wellness",
+        "Environmental wellness"
+      ],
+      "correct_answer": "Mental and emotional wellness"
+    }
+  ]
+}
+```
+
+--- ERROR DETAILS ---
+Error during step: combined-Wellness and Holistic Development
+
+Error: modelParams.model.includes is not a function
+
+Stack: TypeError: modelParams.model.includes is not a function
+    at new GenerativeModel (C:\Users\Logan\Desktop\Github\courseforge2\Coursemaker\server\node_modules\@google\generative-ai\dist\index.js:1237:31)
+    at GoogleGenerativeAI.getGenerativeModel (C:\Users\Logan\Desktop\Github\courseforge2\Coursemaker\server\node_modules\@google\generative-ai\dist\index.js:1335:16)
+    at factCheckWithAI (C:\Users\Logan\Desktop\Github\courseforge2\Coursemaker\server\agentProcessor.js:43:34)
+    at processPdfWithAgent (C:\Users\Logan\Desktop\Github\courseforge2\Coursemaker\server\agentProcessor.js:282:49)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async C:\Users\Logan\Desktop\Github\courseforge2\Coursemaker\server\index.js:53:32

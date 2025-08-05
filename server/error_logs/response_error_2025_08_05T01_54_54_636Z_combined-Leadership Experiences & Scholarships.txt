@@ -1,0 +1,203 @@
+--- AI RESPONSE THAT CAUSED ERROR ---
+```json
+{
+  "notes": "## Leadership Experiences & Scholarships\n\nThis chapter outlines a comprehensive program for developing leaders, offering various experiential learning opportunities, and providing access to scholarships.\n\n### I. Four-Year Progressive Leader Development Program\n*   **Purpose:** A structured, sequential program designed to cultivate leadership skills progressively.\n*   **Stages:**\n    *   **Leading Self:** Focuses on self-awareness, personal discipline, and foundational leadership traits.\n    *   **Leading People:** Develops skills in motivating, guiding, and managing teams or groups.\n    *   **Leading Organizations:** Teaches principles of organizational management, strategy, and large-scale influence.\n    *   **Leading Future:** Emphasizes foresight, innovation, strategic thinking, and preparing for future challenges in leadership roles.\n\n### II. Experiential Learning Opportunities\n\n#### A. Leadership Conferences\n*   **Benefit:** Provides opportunities for networking, learning from experts, and engaging with leadership concepts in a formal setting.\n\n#### B. Global Experiences\n*   **Benefit:** Offers unique opportunities to develop a global perspective, cross-cultural competence, and apply leadership skills in international contexts.\n*   **Specific Programs Mentioned:**\n    *   **Corps’ Global Scholars Program:** A program likely designed for in-depth global engagement and study.\n    *   **Olmsted Foundation Undergraduate Scholars program:** Focuses on developing future leaders with international understanding, often through immersive experiences.\n    *   **Project Global Officer (Project GO):** A Department of Defense initiative that promotes critical language acquisition and cross-cultural communication skills for ROTC students.\n\n### III. Guest Speakers & Lecture Series\n\n*   **Purpose:** To provide exposure to diverse leadership styles, experiences, and insights from prominent figures.\n*   **Specific Series Mentioned:**\n    *   **Cutchins Leadership Lecture Series:** Likely features individual, distinguished leaders sharing their experiences and wisdom.\n    *   **Leaders in Contact panels:** Suggests group discussions or Q&A sessions with multiple leaders, offering varied perspectives on specific topics.\n\n### IV. Scholarship Opportunities\n\n*   **Purpose:** To provide financial support to deserving students, enabling them to pursue their educational and leadership development goals.\n*   **Types of Scholarships Mentioned:**\n    *   **Emerging Leader Scholarships (ELS):** Likely aimed at students showing early promise in leadership.\n    *   **Commandant’s Scholarships:** Scholarships directly associated with the leadership of the institution or program (e.g., a military academy commandant).\n    *   **Additional Scholarship Opportunities:**\n        *   **Fullhart Horizon Fund:** A named scholarship fund, suggesting a focus on broader horizons or future endeavors.\n        *   **Commandant’s Response Scholarship Fund:** Implies a fund available for responsive financial needs or specific initiatives dictated by the commandant.\n\n*   **Key Requirement:**\n    *   **FAFSA (Free Application for Federal Student Aid) requirement:** Indicates that most scholarships require applicants to complete the FAFSA to determine financial need and eligibility.\n\n### V. Philanthropic Support Opportunities\n*   **Purpose:** To allow alumni, donors, and supporters to contribute financially to the leadership programs and scholarships, ensuring their continued availability and growth.",
+  "flashcards": [
+    {
+      "front": "What are the four stages of the progressive leader development program?",
+      "back": "Leading Self, Leading People, Leading Organizations, Leading Future"
+    },
+    {
+      "front": "What is the primary focus of the 'Leading Self' stage?",
+      "back": "Self-awareness, personal discipline, and foundational leadership traits."
+    },
+    {
+      "front": "Which stage of leader development focuses on motivating and guiding teams?",
+      "back": "Leading People"
+    },
+    {
+      "front": "What kind of skills are developed in the 'Leading Organizations' stage?",
+      "back": "Principles of organizational management, strategy, and large-scale influence."
+    },
+    {
+      "front": "The 'Leading Future' stage emphasizes what key aspects?",
+      "back": "Foresight, innovation, strategic thinking, and preparing for future challenges."
+    },
+    {
+      "front": "Name one type of experiential learning opportunity mentioned.",
+      "back": "Leadership Conferences or Global Experiences."
+    },
+    {
+      "front": "Which global experience program promotes critical language acquisition?",
+      "back": "Project Global Officer (Project GO)"
+    },
+    {
+      "front": "What is the name of the program for in-depth global engagement for Corps members?",
+      "back": "Corps’ Global Scholars Program"
+    },
+    {
+      "front": "Which foundation's undergraduate scholars program focuses on international understanding?",
+      "back": "Olmsted Foundation Undergraduate Scholars program"
+    },
+    {
+      "front": "What is the purpose of guest speaker series and lecture panels?",
+      "back": "To provide exposure to diverse leadership styles, experiences, and insights from prominent figures."
+    },
+    {
+      "front": "What is the name of the lecture series featuring individual, distinguished leaders?",
+      "back": "Cutchins Leadership Lecture Series"
+    },
+    {
+      "front": "Which guest speaker format suggests group discussions with multiple leaders?",
+      "back": "Leaders in Contact panels"
+    },
+    {
+      "front": "What is a general name for scholarships aimed at students showing early leadership promise?",
+      "back": "Emerging Leader Scholarships (ELS)"
+    },
+    {
+      "front": "What specific scholarships are directly associated with the leadership of the institution?",
+      "back": "Commandant’s Scholarships"
+    },
+    {
+      "front": "Name one of the additional scholarship funds mentioned.",
+      "back": "Fullhart Horizon Fund or Commandant’s Response Scholarship Fund"
+    },
+    {
+      "front": "What is a crucial financial aid application required for most scholarships mentioned?",
+      "back": "FAFSA (Free Application for Federal Student Aid)"
+    },
+    {
+      "front": "What does 'FAFSA' stand for?",
+      "back": "Free Application for Federal Student Aid"
+    },
+    {
+      "front": "What is the purpose of philanthropic support opportunities?",
+      "back": "To allow alumni, donors, and supporters to contribute financially to leadership programs and scholarships."
+    },
+    {
+      "front": "What is the benefit of participating in global experiences?",
+      "back": "To develop a global perspective, cross-cultural competence, and apply leadership skills internationally."
+    },
+    {
+      "front": "How do leadership conferences benefit students?",
+      "back": "By providing opportunities for networking, learning from experts, and engaging with leadership concepts."
+    }
+  ],
+  "quiz": [
+    {
+      "question": "What is the final stage in the four-year progressive leader development program?",
+      "options": [
+        "A) Leading People",
+        "B) Leading Organizations",
+        "C) Leading Self",
+        "D) Leading Future"
+      ],
+      "correct_answer": "D) Leading Future"
+    },
+    {
+      "question": "Which of the following is NOT a global experience program mentioned?",
+      "options": [
+        "A) Corps’ Global Scholars Program",
+        "B) Project Global Officer (Project GO)",
+        "C) International Student Exchange Program",
+        "D) Olmsted Foundation Undergraduate Scholars program"
+      ],
+      "correct_answer": "C) International Student Exchange Program"
+    },
+    {
+      "question": "The Cutchins Leadership Lecture Series primarily features what kind of speakers?",
+      "options": [
+        "A) Panels of multiple leaders discussing a topic",
+        "B) Individual, distinguished leaders",
+        "C) Student leaders sharing their experiences",
+        "D) Alumni discussing career opportunities"
+      ],
+      "correct_answer": "B) Individual, distinguished leaders"
+    },
+    {
+      "question": "What is a mandatory requirement for most scholarships mentioned, related to financial aid?",
+      "options": [
+        "A) A minimum GPA of 3.5",
+        "B) Completion of the FAFSA",
+        "C) A personal essay on leadership",
+        "D) Participation in a leadership capstone project"
+      ],
+      "correct_answer": "B) Completion of the FAFSA"
+    },
+    {
+      "question": "Which scholarship fund is described as being available for responsive financial needs or specific initiatives?",
+      "options": [
+        "A) Emerging Leader Scholarships",
+        "B) Fullhart Horizon Fund",
+        "C) Commandant’s Response Scholarship Fund",
+        "D) Global Scholars Program Scholarship"
+      ],
+      "correct_answer": "C) Commandant’s Response Scholarship Fund"
+    },
+    {
+      "question": "The 'Leading People' stage of leader development focuses on:",
+      "options": [
+        "A) Strategic planning for global markets",
+        "B) Managing personal finances and well-being",
+        "C) Motivating, guiding, and managing teams",
+        "D) Understanding organizational charts and structures"
+      ],
+      "correct_answer": "C) Motivating, guiding, and managing teams"
+    },
+    {
+      "question": "What is the primary goal of Project Global Officer (Project GO)?",
+      "options": [
+        "A) To fund international internships for all students",
+        "B) To promote critical language acquisition and cross-cultural communication",
+        "C) To organize international leadership conferences",
+        "D) To provide scholarships for global studies majors"
+      ],
+      "correct_answer": "B) To promote critical language acquisition and cross-cultural communication"
+    },
+    {
+      "question": "Scholarships directly associated with the leadership of the institution are known as:",
+      "options": [
+        "A) Emerging Leader Scholarships",
+        "B) Horizon Fund Scholarships",
+        "C) Commandant’s Scholarships",
+        "D) Philanthropic Support Scholarships"
+      ],
+      "correct_answer": "C) Commandant’s Scholarships"
+    },
+    {
+      "question": "What is the purpose of 'Leaders in Contact panels'?",
+      "options": [
+        "A) To provide one-on-one mentorship with leaders",
+        "B) To feature individual, distinguished speakers",
+        "C) To conduct group discussions with multiple leaders",
+        "D) To showcase student leadership projects"
+      ],
+      "correct_answer": "C) To conduct group discussions with multiple leaders"
+    },
+    {
+      "question": "The 'Leading Organizations' stage teaches principles related to:",
+      "options": [
+        "A) Personal goal setting and reflection",
+        "B) Individual communication skills",
+        "C) Organizational management and large-scale influence",
+        "D) Ethical decision-making in small groups"
+      ],
+      "correct_answer": "C) Organizational management and large-scale influence"
+    }
+  ]
+}
+```
+
+--- ERROR DETAILS ---
+Error during step: combined-Leadership Experiences & Scholarships
+
+Error: modelParams.model.includes is not a function
+
+Stack: TypeError: modelParams.model.includes is not a function
+    at new GenerativeModel (C:\Users\Logan\Desktop\Github\courseforge2\Coursemaker\server\node_modules\@google\generative-ai\dist\index.js:1237:31)
+    at GoogleGenerativeAI.getGenerativeModel (C:\Users\Logan\Desktop\Github\courseforge2\Coursemaker\server\node_modules\@google\generative-ai\dist\index.js:1335:16)
+    at factCheckWithAI (C:\Users\Logan\Desktop\Github\courseforge2\Coursemaker\server\agentProcessor.js:43:34)
+    at processPdfWithAgent (C:\Users\Logan\Desktop\Github\courseforge2\Coursemaker\server\agentProcessor.js:282:49)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async C:\Users\Logan\Desktop\Github\courseforge2\Coursemaker\server\index.js:53:32

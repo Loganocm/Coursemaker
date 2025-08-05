@@ -1,0 +1,203 @@
+--- AI RESPONSE THAT CAUSED ERROR ---
+```json
+{
+  "notes": "## Key Events & Logistics\n\nThis module outlines essential events, procedures, and logistical information crucial for cadets, especially during their first year. Understanding these aspects ensures smooth integration into cadet life and adherence to institutional expectations.\n\n### 1. Parades and Formal Retreats\n*   **Nature:** These are highly ceremonial events that are integral to the cadet experience.\n*   **Purpose:** They serve to uphold tradition, demonstrate discipline, and honor the military heritage of the institution.\n*   **Frequency/Significance:** Cadets are expected to participate regularly, as these events are a fundamental part of cadet life and training.\n\n### 2. Caldwell March\n*   **Participants:** This event is specifically for first-year cadets.\n*   **Significance:** It is described as the 'first-year cadet training capstone.' This means it is the culminating event or a significant milestone marking the completion of their initial training period.\n*   **Nature:** Likely a physically and mentally challenging event designed to test and solidify their training.\n\n### 3. Home Football Games\n*   **Attendance:** Attendance at home football games is **mandatory** for all cadets.\n*   **Seating:** Cadets have specific seating arrangements, which are typically designated sections where the entire corps sits together to demonstrate unity and support.\n*   **Purpose:** These games are not just recreational; they are opportunities to foster camaraderie, school spirit, and represent the corps publicly.\n\n### 4. Mail and Package Delivery Procedures\n*   **Two Primary Systems:** Cadets utilize two main systems for mail and package delivery:\n    *   **CLMS Address:** This is a specific mailing address system tailored for cadet-related mail and packages. It's designed to streamline delivery to the cadet corps.\n    *   **VT Mail Services:** This refers to the general university mail services, used for standard university business and possibly for non-cadet specific personal mail.\n*   **Package Pickup:** Packages sent to cadets, regardless of the system used, typically require pickup at a designated location (e.g., a central mail center or cadet specific mailroom), rather than direct delivery to dorm rooms.\n*   **Distinction:** It's critical to use the correct address (CLMS or VT Mail Services) depending on the nature of the mail or package to ensure proper delivery.\n\n### 5. Parking Information for Families on Campus\n*   **Target Audience:** This information is specifically for families or visitors who are driving to campus.\n*   **Key Aspects:** It would include details on:\n    *   **Designated Parking Areas:** Where visitors are permitted to park.\n    *   **Permit Requirements:** Whether temporary permits are needed and how to obtain them.\n    *   **Restrictions:** Awareness of parking restrictions, especially during large events like football games or move-in/out days, is crucial to avoid citations.",
+  "flashcards": [
+    {
+      "front": "What event serves as the capstone for first-year cadet training?",
+      "back": "The Caldwell March."
+    },
+    {
+      "front": "Is attendance mandatory for cadets at Home Football Games?",
+      "back": "Yes, attendance is mandatory."
+    },
+    {
+      "front": "What are the two primary systems for mail and package delivery for cadets?",
+      "back": "CLMS Address and VT Mail Services."
+    },
+    {
+      "front": "What is a key characteristic of Parades and Formal Retreats?",
+      "back": "They are highly ceremonial events."
+    },
+    {
+      "front": "What does the Caldwell March signify for first-year cadets?",
+      "back": "It is the capstone of their training, marking a significant milestone."
+    },
+    {
+      "front": "What kind of arrangements are mentioned for cadets at Home Football Games regarding seating?",
+      "back": "Specific, designated seating arrangements."
+    },
+    {
+      "front": "Which mail system is specifically tailored for cadet-related mail?",
+      "back": "CLMS Address."
+    },
+    {
+      "front": "Where do families typically find information about parking on campus?",
+      "back": "University parking services or dedicated visitor information resources."
+    },
+    {
+      "front": "What is a common procedure for package pickup for cadets?",
+      "back": "Packages typically require pickup at a designated location."
+    },
+    {
+      "front": "What is a key purpose of Parades and Formal Retreats for cadets?",
+      "back": "To uphold tradition and demonstrate discipline."
+    },
+    {
+      "front": "Who participates in the Caldwell March?",
+      "back": "First-year cadets."
+    },
+    {
+      "front": "What type of event are Parades and Formal Retreats considered?",
+      "back": "Integral and fundamental parts of cadet life and training."
+    },
+    {
+      "front": "What should families be aware of regarding parking on campus?",
+      "back": "Designated parking areas, permit requirements, and potential restrictions."
+    },
+    {
+      "front": "Which mail system should be used for general university business or non-cadet specific mail?",
+      "back": "VT Mail Services."
+    },
+    {
+      "front": "Beyond recreation, what is the role of mandatory attendance at home football games for cadets?",
+      "back": "To foster camaraderie, school spirit, and public representation of the corps."
+    },
+    {
+      "front": "What does 'capstone' mean in the context of the Caldwell March?",
+      "back": "It's a culminating event that marks the completion of initial training."
+    },
+    {
+      "front": "Why is it important to use the correct mail system (CLMS vs. VT Mail Services)?",
+      "back": "To ensure proper and timely delivery of mail or packages."
+    },
+    {
+      "front": "Are Parades and Formal Retreats a regular occurrence for cadets?",
+      "back": "Yes, cadets are expected to participate regularly."
+    },
+    {
+      "front": "What is one potential restriction families might face when parking on campus?",
+      "back": "Restrictions during large events like football games."
+    },
+    {
+      "front": "What aspect of cadet life is emphasized through Parades?",
+      "back": "Discipline and adherence to tradition."
+    }
+  ],
+  "quiz": [
+    {
+      "question": "What event serves as the capstone for first-year cadet training?",
+      "options": [
+        "Spring Review",
+        "Fall Orientation",
+        "Caldwell March",
+        "Senior Walk"
+      ],
+      "correct_answer": "Caldwell March"
+    },
+    {
+      "question": "Are cadets required to attend home football games?",
+      "options": [
+        "Optional, but recommended",
+        "Mandatory",
+        "Only for upperclassmen",
+        "Only when playing rival teams"
+      ],
+      "correct_answer": "Mandatory"
+    },
+    {
+      "question": "Which of the following is NOT a characteristic of Parades and Formal Retreats?",
+      "options": [
+        "Highly ceremonial",
+        "Casual social gatherings",
+        "Emphasize discipline",
+        "Uphold tradition"
+      ],
+      "correct_answer": "Casual social gatherings"
+    },
+    {
+      "question": "What are the two primary systems for mail and package delivery for cadets?",
+      "options": [
+        "USPS and FedEx",
+        "CLMS Address and VT Mail Services",
+        "Campus Post Office and Private Couriers",
+        "Dorm Mailboxes and Central Dispatch"
+      ],
+      "correct_answer": "CLMS Address and VT Mail Services"
+    },
+    {
+      "question": "What is the significance of the Caldwell March for first-year cadets?",
+      "options": [
+        "It is an optional charity walk",
+        "It is a team-building exercise with no specific training significance",
+        "It is the capstone of their first-year training",
+        "It is a parent visitation event"
+      ],
+      "correct_answer": "It is the capstone of their first-year training"
+    },
+    {
+      "question": "Where do families typically find information about parking on campus?",
+      "options": [
+        "The student handbook only",
+        "Their cadet's dorm RA",
+        "University parking services or dedicated visitor information",
+        "Campus security office directly at the gate"
+      ],
+      "correct_answer": "University parking services or dedicated visitor information"
+    },
+    {
+      "question": "What kind of seating arrangements are mentioned for cadets at home football games?",
+      "options": [
+        "Open seating, first-come, first-served",
+        "Assigned specific sections for the entire corps",
+        "VIP boxes for upperclassmen",
+        "Cadets are allowed to stand anywhere they like"
+      ],
+      "correct_answer": "Assigned specific sections for the entire corps"
+    },
+    {
+      "question": "Which mail system should be used for general university mail, not specifically cadet-related?",
+      "options": [
+        "CLMS address",
+        "Dorm mailbox",
+        "VT Mail Services",
+        "Direct personal delivery to the cadet's room"
+      ],
+      "correct_answer": "VT Mail Services"
+    },
+    {
+      "question": "What is a key purpose of Parades and Formal Retreats?",
+      "options": [
+        "To provide entertainment for visitors",
+        "To generate revenue for the university",
+        "To promote tradition and demonstrate discipline",
+        "To serve as a forum for academic discussions"
+      ],
+      "correct_answer": "To promote tradition and demonstrate discipline"
+    },
+    {
+      "question": "What detail is specifically mentioned regarding package delivery for cadets?",
+      "options": [
+        "Packages are delivered directly to dorm rooms.",
+        "Packages are left at the front desk of the cadet's building.",
+        "Packages typically require pickup at a designated location.",
+        "Packages are only available through personal courier services."
+      ],
+      "correct_answer": "Packages typically require pickup at a designated location."
+    }
+  ]
+}
+```
+
+--- ERROR DETAILS ---
+Error during step: combined-Key Events & Logistics
+
+Error: modelParams.model.includes is not a function
+
+Stack: TypeError: modelParams.model.includes is not a function
+    at new GenerativeModel (C:\Users\Logan\Desktop\Github\courseforge2\Coursemaker\server\node_modules\@google\generative-ai\dist\index.js:1237:31)
+    at GoogleGenerativeAI.getGenerativeModel (C:\Users\Logan\Desktop\Github\courseforge2\Coursemaker\server\node_modules\@google\generative-ai\dist\index.js:1335:16)
+    at factCheckWithAI (C:\Users\Logan\Desktop\Github\courseforge2\Coursemaker\server\agentProcessor.js:43:34)
+    at processPdfWithAgent (C:\Users\Logan\Desktop\Github\courseforge2\Coursemaker\server\agentProcessor.js:282:49)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async C:\Users\Logan\Desktop\Github\courseforge2\Coursemaker\server\index.js:53:32

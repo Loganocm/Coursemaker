@@ -1,0 +1,203 @@
+--- AI RESPONSE THAT CAUSED ERROR ---
+```json
+{
+  "notes": "## Introduction\nThis chapter, \"Important Dates & Contacts,\" serves as an essential guide for all cadets, providing critical logistical and administrative information necessary for successful navigation of the academic year. It compiles vital schedules, contact details for key personnel and offices, communication channels, and mail delivery information.\n\n## I. Important Dates (2024-25 Academic Year)\n*   **Purpose:** To provide a comprehensive calendar of all significant events, deadlines, and breaks for both the Fall and Spring semesters.\n*   **Key Information Included:**\n    *   **Fall Semester Calendar:** Specific dates for the start and end of classes, mid-terms, holidays, and other significant academic milestones.\n    *   **Spring Semester Calendar:** Similar detailed schedule for the second half of the academic year.\n    *   **Key Events:** Important institutional events, ceremonies, and special activities throughout the year.\n    *   **Holidays:** Official academic breaks and holidays observed by the institution.\n    *   **Finals:** Schedule and dates for final examinations for both semesters.\n    *   **Graduation:** Dates and details concerning graduation ceremonies and related events.\n*   **Importance:** Crucial for planning academic schedules, personal leave, and participation in institutional activities.\n\n## II. Key Contact Information\n*   **Purpose:** To provide easy access to contact details for various departments and personnel critical to cadet life and administration.\n*   **Key Information Included:**\n    *   **Deputy Commandants & Senior Enlisted Advisors:** Contacts for leadership, disciplinary, and cadet welfare issues.\n    *   **Advancement Office:** Information for questions regarding cadet progression, academic standing, and other advancement-related matters.\n    *   **Administrative Offices:** General administrative support, records, and procedural inquiries (e.g., Registrar, Bursar, Financial Aid, etc.).\n    *   **ROTC Offices:** Contacts for specific ROTC program details, requirements, and personnel.\n*   **Importance:** Facilitates efficient communication and problem-solving by directing cadets to the correct resources.\n\n## III. Social Media Presence\n*   **Purpose:** To provide links to official social media channels, enabling cadets to stay updated on news, announcements, and community engagement.\n*   **Key Information Included:**\n    *   **Official Social Media Links:** URLs or handles for official institutional pages on various social media platforms (e.g., Facebook, Twitter, Instagram, etc.).\n*   **Importance:** Offers an alternative and often more immediate source of information and community updates.\n\n## IV. Cadet Mail Addresses\n*   **Purpose:** To provide specific mailing instructions and addresses for cadets to receive personal mail.\n*   **Key Information Included:**\n    *   **Academic Year Mail Address:** The designated address for receiving mail during regular academic sessions.\n    *   **New Cadet Week Mail Address:** A separate, often temporary, address for receiving mail during the initial orientation and training period for new cadets.\n*   **Importance:** Ensures cadets can receive correspondence and care packages from family and friends.",
+  "flashcards": [
+    {
+      "front": "What broad category of information does the 'Important Dates & Contacts' chapter cover?",
+      "back": "Schedules, contact details, communication channels, and mail delivery information."
+    },
+    {
+      "front": "What specific academic period calendars are included in the 'Important Dates' section?",
+      "back": "Fall and Spring Semester calendars."
+    },
+    {
+      "front": "What types of events are highlighted in the 'Important Dates' section beyond standard class schedules?",
+      "back": "Key events, holidays, finals, and graduation."
+    },
+    {
+      "front": "Why is the 'Important Dates' section crucial for cadets?",
+      "back": "For planning academic schedules, personal leave, and institutional activity participation."
+    },
+    {
+      "front": "Which key personnel's contact information is listed for leadership and cadet welfare?",
+      "back": "Deputy Commandants & Senior Enlisted Advisors."
+    },
+    {
+      "front": "Where would a cadet find information regarding their academic progress and standing?",
+      "back": "The Advancement Office."
+    },
+    {
+      "front": "What type of offices are covered under 'Administrative Offices' contact information?",
+      "back": "General administrative support, records, and procedural inquiries."
+    },
+    {
+      "front": "Which specific military training program offices have their contact details listed?",
+      "back": "ROTC Offices."
+    },
+    {
+      "front": "What is the primary benefit of having 'Key Contact Information' readily available?",
+      "back": "Facilitates efficient communication and problem-solving by directing cadets to the correct resources."
+    },
+    {
+      "front": "What is the purpose of providing 'Social Media links' in this chapter?",
+      "back": "To enable cadets to stay updated on news, announcements, and community engagement."
+    },
+    {
+      "front": "What kind of links would be found under 'Social Media links'?",
+      "back": "Official URLs or handles for institutional pages on various social media platforms."
+    },
+    {
+      "front": "What specific types of mail addresses are provided in the 'Cadet Mail Addresses' section?",
+      "back": "Academic Year Mail Address and New Cadet Week Mail Address."
+    },
+    {
+      "front": "Why are there different mail addresses for the academic year and New Cadet Week?",
+      "back": "New Cadet Week often has a separate, temporary address for initial orientation."
+    },
+    {
+      "front": "What is the main utility of the 'Cadet Mail Addresses' section?",
+      "back": "To ensure cadets can receive correspondence and care packages."
+    },
+    {
+      "front": "If a cadet needs to know the exact date of Spring semester finals, which section should they consult?",
+      "back": "Important Dates."
+    },
+    {
+      "front": "If a cadet has a question about their ROTC program, which part of 'Contact Information' is most relevant?",
+      "back": "ROTC Offices."
+    },
+    {
+      "front": "What information would you expect to find under 'Key Events' within the Important Dates section?",
+      "back": "Significant institutional events, ceremonies, and special activities."
+    },
+    {
+      "front": "Which section provides channels for general administrative support?",
+      "back": "Administrative Offices (under Key Contact Information)."
+    },
+    {
+      "front": "What is the purpose of the '2024-25' designation for Important Dates?",
+      "back": "To specify the academic year for which the dates are valid."
+    },
+    {
+      "front": "What is the overall goal of the 'Important Dates & Contacts' chapter for cadets?",
+      "back": "To provide essential logistical and administrative information for successful navigation of the academic year."
+    }
+  ],
+  "quiz": [
+    {
+      "question": "Which section of the chapter would a cadet consult to find the specific dates for the Fall Semester holidays?",
+      "options": [
+        "A) Key Contact Information",
+        "B) Social Media links",
+        "C) Important Dates (2024-25)",
+        "D) Cadet Mail Addresses"
+      ],
+      "correct_answer": "C"
+    },
+    {
+      "question": "If a cadet needs to reach a Deputy Commandant for assistance, under which main heading would they find the contact details?",
+      "options": [
+        "A) Important Dates",
+        "B) Key Contact Information",
+        "C) Social Media Presence",
+        "D) Cadet Mail Addresses"
+      ],
+      "correct_answer": "B"
+    },
+    {
+      "question": "The 'Advancement Office' contact information is relevant for questions concerning what type of matters?",
+      "options": [
+        "A) Financial aid applications",
+        "B) Cadet progression and academic standing",
+        "C) Dining hall schedules",
+        "D) Sports team tryouts"
+      ],
+      "correct_answer": "B"
+    },
+    {
+      "question": "What is the primary purpose of the 'Social Media links' section within this chapter?",
+      "options": [
+        "A) To provide entertainment during study breaks.",
+        "B) To offer official channels for news, announcements, and engagement.",
+        "C) To facilitate personal communication among cadets.",
+        "D) To submit official academic assignments."
+      ],
+      "correct_answer": "B"
+    },
+    {
+      "question": "Which of the following is NOT explicitly mentioned as a category of information found in the 'Important Dates' section description?",
+      "options": [
+        "A) Key Events",
+        "B) Holiday Schedule",
+        "C) Daily Class Schedule",
+        "D) Graduation Dates"
+      ],
+      "correct_answer": "C"
+    },
+    {
+      "question": "The 'Cadet Mail Addresses' section provides specific addresses for which two periods?",
+      "options": [
+        "A) Summer Break and Winter Break",
+        "B) Academic Year and New Cadet Week",
+        "C) Freshman Year and Senior Year",
+        "D) Official Business and Personal Mail"
+      ],
+      "correct_answer": "B"
+    },
+    {
+      "question": "Why is having readily accessible 'ROTC Offices' contact information important for cadets?",
+      "options": [
+        "A) For ordering new uniforms.",
+        "B) To inquire about specific program details and requirements.",
+        "C) To register for intramural sports.",
+        "D) To book travel arrangements."
+      ],
+      "correct_answer": "B"
+    },
+    {
+      "question": "What information would you expect to find under 'Administrative Offices' within the Key Contact Information?",
+      "options": [
+        "A) Sports team rosters",
+        "B) General administrative support and procedural inquiries",
+        "C) Library operating hours",
+        "D) Student club meeting times"
+      ],
+      "correct_answer": "B"
+    },
+    {
+      "question": "The chapter 'Important Dates & Contacts' aims to provide cadets with:",
+      "options": [
+        "A) Only academic deadlines.",
+        "B) Only contact numbers for emergencies.",
+        "C) Essential logistical and administrative information.",
+        "D) A list of campus dining options."
+      ],
+      "correct_answer": "C"
+    },
+    {
+      "question": "If a cadet wishes to find the official social media presence of the institution, which part of the chapter would be most helpful?",
+      "options": [
+        "A) Important Dates",
+        "B) Key Contact Information",
+        "C) Social Media links",
+        "D) Cadet Mail Addresses"
+      ],
+      "correct_answer": "C"
+    }
+  ]
+}
+```
+
+--- ERROR DETAILS ---
+Error during step: combined-Important Dates & Contacts
+
+Error: modelParams.model.includes is not a function
+
+Stack: TypeError: modelParams.model.includes is not a function
+    at new GenerativeModel (C:\Users\Logan\Desktop\Github\courseforge2\Coursemaker\server\node_modules\@google\generative-ai\dist\index.js:1237:31)
+    at GoogleGenerativeAI.getGenerativeModel (C:\Users\Logan\Desktop\Github\courseforge2\Coursemaker\server\node_modules\@google\generative-ai\dist\index.js:1335:16)
+    at factCheckWithAI (C:\Users\Logan\Desktop\Github\courseforge2\Coursemaker\server\agentProcessor.js:43:34)
+    at processPdfWithAgent (C:\Users\Logan\Desktop\Github\courseforge2\Coursemaker\server\agentProcessor.js:282:49)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async C:\Users\Logan\Desktop\Github\courseforge2\Coursemaker\server\index.js:53:32

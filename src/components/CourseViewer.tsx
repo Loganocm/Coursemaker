@@ -161,7 +161,7 @@ const CourseViewer: React.FC<CourseViewerProps> = ({ course, onBack }) => {
                 {isModuleCompleted(module.id) && (
                   <CheckCircle className="w-4 h-4 mr-2" />
                 )}
-                Module {index + 1}
+                {module.title}
               </div>
             </button>
           ))}

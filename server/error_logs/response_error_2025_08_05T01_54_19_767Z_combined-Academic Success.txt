@@ -1,0 +1,203 @@
+--- AI RESPONSE THAT CAUSED ERROR ---
+```json
+{
+  "notes": "## Academic Success: Key Resources and Support\n\nAcademic success in a university environment, especially within a structured Corps setting, is supported by a variety of dedicated resources and initiatives. These resources aim to provide students with the tools, time, and guidance necessary to excel academically and develop holistically.\n\n### I. Dedicated Study Time\n*   **Evening Call-to-Quarters (ECQ):**\n    *   A designated, structured period set aside specifically for academic study.\n    *   Promotes discipline, time management, and a focused environment for learning.\n    *   Ensures that cadets have dedicated time to complete assignments, review material, and prepare for exams.\n\n### II. University Academic Resources\n*   **Student Success Center:**\n    *   Provides broad academic support services to all university students.\n    *   Offers tutoring, academic advising, study skills workshops, and resources for time management and test-taking strategies.\n    *   A central hub for students seeking to improve their overall academic performance.\n*   **Writing Center:**\n    *   Specializes in assisting students with all aspects of written assignments.\n    *   Offers feedback on essays, research papers, reports, and other written work.\n    *   Helps students improve grammar, syntax, argumentation, citation, and overall writing clarity.\n*   **Career & Professional Development:**\n    *   Focuses on preparing students for their post-graduation careers.\n    *   Provides services such as resume and cover letter review, interview preparation, job search strategies, and networking opportunities.\n    *   Assists with internship placements and connects students with potential employers.\n\n### III. Corps-Specific Academic & Leader Development\n*   **Corps' Rice Center for Leader Development:**\n    *   A specialized center within the Corps dedicated to cultivating leadership skills.\n    *   Offers programs, workshops, and experiences designed to enhance cadets' leadership capabilities, ethical decision-making, and teamwork.\n    *   Complements academic learning with practical leadership application.\n*   **New Cadet Leader Development Coursework:**\n    *   Specific curriculum and training modules designed for new cadets.\n    *   Aims to introduce fundamental leadership principles and development practices early in their academic career.\n    *   Helps new cadets integrate into the Corps' structure and embrace its leadership philosophy.\n*   **Company S-5 (Academic) Staff Support:**\n    *   An academic support structure present within each cadet company.\n    *   Cadets can receive peer-to-peer or direct staff assistance with academic challenges.\n    *   Provides localized and immediate academic guidance and resources for company members.\n*   **Corps Leadership Minor:**\n    *   An academic minor available to cadets, offering an in-depth study of leadership theory and practice.\n    *   Allows cadets to formally integrate leadership education into their degree program.\n    *   Provides a structured academic pathway to develop expertise in leadership.\n*   **Honors College Opportunities for Cadets:**\n    *   Access for high-achieving cadets to the university's Honors College programs.\n    *   Offers enhanced academic challenges, specialized courses, research opportunities, and a more rigorous intellectual environment.\n    *   Provides an avenue for exceptional cadets to pursue advanced scholarship while maintaining their Corps commitments.",
+  "flashcards": [
+    {
+      "front": "What does ECQ stand for?",
+      "back": "Evening Call-to-Quarters."
+    },
+    {
+      "front": "What is the primary purpose of Evening Call-to-Quarters (ECQ)?",
+      "back": "To provide dedicated, structured study time for academic success."
+    },
+    {
+      "front": "Which university resource offers general academic support and success strategies?",
+      "back": "Student Success Center."
+    },
+    {
+      "front": "Where can students go for help with improving their writing skills and reviewing papers?",
+      "back": "Writing Center."
+    },
+    {
+      "front": "Which resource assists students with career planning, internships, and job search strategies?",
+      "back": "Career & Professional Development."
+    },
+    {
+      "front": "What is the name of the Corps' center dedicated to developing leadership skills?",
+      "back": "Rice Center for Leader Development."
+    },
+    {
+      "front": "What type of coursework is specifically designed to develop leadership abilities in new cadets?",
+      "back": "New cadet leader development coursework."
+    },
+    {
+      "front": "Within a cadet company, who provides academic staff support?",
+      "back": "Company S-5 (academic) staff."
+    },
+    {
+      "front": "What academic minor is available specifically focusing on leadership for Corps members?",
+      "back": "Corps Leadership Minor."
+    },
+    {
+      "front": "Which program offers enhanced academic experiences and challenges for high-achieving cadets?",
+      "back": "Honors College opportunities."
+    },
+    {
+      "front": "What is a key structured study period for cadets?",
+      "back": "Evening Call-to-Quarters (ECQ)."
+    },
+    {
+      "front": "If a cadet needs help with a challenging course, which university resource is a good starting point?",
+      "back": "Student Success Center."
+    },
+    {
+      "front": "For assistance with resumes and interview preparation, which university department should be consulted?",
+      "back": "Career & Professional Development."
+    },
+    {
+      "front": "What unique academic opportunity provides in-depth study of leadership principles for cadets?",
+      "back": "Corps Leadership Minor."
+    },
+    {
+      "front": "Who is responsible for providing direct academic support within a cadet company?",
+      "back": "Company S-5 (academic) staff."
+    },
+    {
+      "front": "What is an example of a specific initiative focused on developing leaders within the Corps?",
+      "back": "Rice Center for Leader Development."
+    },
+    {
+      "front": "What kind of training do new cadets receive to help them grow as leaders?",
+      "back": "New cadet leader development coursework."
+    },
+    {
+      "front": "Which university resource is essential for improving written assignments and research papers?",
+      "back": "Writing Center."
+    },
+    {
+      "front": "What type of academic opportunities are specifically tailored for high-achieving cadets?",
+      "back": "Honors College opportunities."
+    },
+    {
+      "front": "What overarching goal do dedicated study time and academic resources aim to achieve for students?",
+      "back": "Academic success and comprehensive development."
+    }
+  ],
+  "quiz": [
+    {
+      "question": "What does ECQ stand for, and what is its primary purpose?",
+      "options": [
+        "a) Evening Cadet Quarters; a social gathering period",
+        "b) Extended Course Questions; a time for faculty office hours",
+        "c) Evening Call-to-Quarters; dedicated study time for cadets",
+        "d) Early Cadet Qualification; a physical training session"
+      ],
+      "correct_answer": "c) Evening Call-to-Quarters; dedicated study time for cadets"
+    },
+    {
+      "question": "Which university resource provides general academic support, tutoring, and study skills workshops?",
+      "options": [
+        "a) Writing Center",
+        "b) Career & Professional Development",
+        "c) Student Success Center",
+        "d) Health Services"
+      ],
+      "correct_answer": "c) Student Success Center"
+    },
+    {
+      "question": "If a cadet needs help improving their essay writing or reviewing a research paper, which resource should they utilize?",
+      "options": [
+        "a) Student Success Center",
+        "b) Writing Center",
+        "c) Career & Professional Development",
+        "d) Rice Center for Leader Development"
+      ],
+      "correct_answer": "b) Writing Center"
+    },
+    {
+      "question": "Which university department assists students with resume building, interview skills, and securing internships or jobs after graduation?",
+      "options": [
+        "a) Honors College",
+        "b) Student Success Center",
+        "c) Career & Professional Development",
+        "d) Admissions Office"
+      ],
+      "correct_answer": "c) Career & Professional Development"
+    },
+    {
+      "question": "What is the main focus of the Corps' Rice Center for Leader Development?",
+      "options": [
+        "a) Providing financial aid to cadets",
+        "b) Developing leadership skills",
+        "c) Offering physical fitness training",
+        "d) Organizing social events for cadets"
+      ],
+      "correct_answer": "b) Developing leadership skills"
+    },
+    {
+      "question": "Who provides direct academic support to cadets within their individual companies?",
+      "options": [
+        "a) University Registrar",
+        "b) Company S-5 (academic) staff",
+        "c) Athletic Coaches",
+        "d) Student Government representatives"
+      ],
+      "correct_answer": "b) Company S-5 (academic) staff"
+    },
+    {
+      "question": "What specific academic program allows cadets to earn a credential focused entirely on leadership principles?",
+      "options": [
+        "a) Military Science Major",
+        "b) General Studies Minor",
+        "c) Corps Leadership Minor",
+        "d) Advanced Tactical Certification"
+      ],
+      "correct_answer": "c) Corps Leadership Minor"
+    },
+    {
+      "question": "Which opportunities are available for high-achieving cadets seeking enhanced academic experiences and rigorous coursework?",
+      "options": [
+        "a) Study Abroad programs exclusively",
+        "b) Community Service Initiatives",
+        "c) Honors College opportunities",
+        "d) Intramural Sports Leagues"
+      ],
+      "correct_answer": "c) Honors College opportunities"
+    },
+    {
+      "question": "Beyond university-wide resources, what kind of specialized coursework is mentioned as being available for new cadets related to their development?",
+      "options": [
+        "a) Advanced Calculus for Engineers",
+        "b) New cadet leader development coursework",
+        "c) Foreign Language Immersion",
+        "d) Basic Computer Programming"
+      ],
+      "correct_answer": "b) New cadet leader development coursework"
+    },
+    {
+      "question": "All the listed resources and initiatives (ECQ, Student Success Center, Corps Leadership Minor, etc.) primarily aim to contribute to what for students?",
+      "options": [
+        "a) Their social life and entertainment",
+        "b) Their physical fitness and athletic performance",
+        "c) Their academic success and comprehensive development",
+        "d) Their financial independence"
+      ],
+      "correct_answer": "c) Their academic success and comprehensive development"
+    }
+  ]
+}
+```
+
+--- ERROR DETAILS ---
+Error during step: combined-Academic Success
+
+Error: modelParams.model.includes is not a function
+
+Stack: TypeError: modelParams.model.includes is not a function
+    at new GenerativeModel (C:\Users\Logan\Desktop\Github\courseforge2\Coursemaker\server\node_modules\@google\generative-ai\dist\index.js:1237:31)
+    at GoogleGenerativeAI.getGenerativeModel (C:\Users\Logan\Desktop\Github\courseforge2\Coursemaker\server\node_modules\@google\generative-ai\dist\index.js:1335:16)
+    at factCheckWithAI (C:\Users\Logan\Desktop\Github\courseforge2\Coursemaker\server\agentProcessor.js:43:34)
+    at processPdfWithAgent (C:\Users\Logan\Desktop\Github\courseforge2\Coursemaker\server\agentProcessor.js:282:49)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async C:\Users\Logan\Desktop\Github\courseforge2\Coursemaker\server\index.js:53:32

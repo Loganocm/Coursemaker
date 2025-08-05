@@ -1,0 +1,203 @@
+--- AI RESPONSE THAT CAUSED ERROR ---
+```json
+{
+  "notes": "## Passes and Leave: Essential Guidelines for Student Travel\n\nThis chapter outlines the regulations and types of permissions required for students to leave the campus premises. Understanding the distinctions between different pass types and specific conditions like 'Closed Weekends' is crucial for compliance.\n\n### 1. Distinction Between Pass and Leave\n*   **Pass:** Permits travel **within 50 miles** of the campus.\n    *   Generally for shorter excursions or visits to nearby areas.\n*   **Leave:** Permits travel **beyond 50 miles** from the campus.\n    *   Required for longer trips or visits to destinations further away.\n\n### 2. Closed Weekends\n*   **Definition:** Specific weekends designated by the institution where mandatory events or activities are scheduled.\n*   **Travel Restriction:** During 'Closed Weekends,' passes and leaves are generally **not allowed**.\n*   **Exceptions:** Very limited and require specific, pre-approved circumstances or emergencies.\n\n### 3. Types of Travel Permissions\n*   **Regular Pass:**\n    *   The standard permission for travel within the 50-mile radius.\n    *   Specific duration and return times will be stipulated.\n*   **Regular Leave:**\n    *   The standard permission for travel beyond the 50-mile radius.\n    *   Requires more detailed planning and approval due to the greater distance.\n*   **Family Pass:**\n    *   A special type of pass that allows for **overnight stays with family members**.\n    *   Typically still falls within the 50-mile 'pass' radius, but the key distinction is the permission for overnight accommodation away from campus.\n\n### 4. University Holidays\n*   **Significance:** Periods of academic break where students may be granted extended passes or leaves.\n*   **Planning:** Students are encouraged to plan their travel arrangements well in advance for university holidays, adhering to any specific procedures.\n\n### 5. Travel Plans After Finals\n*   **Departure Planning:** Students are required to make concrete travel plans for departure from campus **immediately after their final examinations**.\n*   **Procedures:** Specific institutional procedures for post-finals travel, including deadlines for vacating residences, must be followed.",
+  "flashcards": [
+    {
+      "front": "What is the primary distinction between a 'Pass' and 'Leave'?",
+      "back": "The distance allowed for travel from campus."
+    },
+    {
+      "front": "What is the maximum mileage for a 'Pass'?",
+      "back": "Within 50 miles."
+    },
+    {
+      "front": "What is the minimum mileage for 'Leave'?",
+      "back": "Beyond 50 miles."
+    },
+    {
+      "front": "What is a 'Closed Weekend'?",
+      "back": "A weekend with mandatory events where passes and leaves are generally not allowed."
+    },
+    {
+      "front": "Are passes or leaves typically allowed during 'Closed Weekends'?",
+      "back": "No, they are generally not allowed, except in pre-approved exceptions."
+    },
+    {
+      "front": "What is a 'Regular Pass'?",
+      "back": "The standard permission for travel within 50 miles."
+    },
+    {
+      "front": "What is a 'Regular Leave'?",
+      "back": "The standard permission for travel beyond 50 miles."
+    },
+    {
+      "front": "What is a unique feature of a 'Family Pass'?",
+      "back": "It allows for overnight stays with family members."
+    },
+    {
+      "front": "When do students typically need to make travel plans for departure?",
+      "back": "Immediately after their final examinations."
+    },
+    {
+      "front": "What is the relevance of 'University Holidays' to travel permissions?",
+      "back": "They are periods when students may be granted extended passes or leaves."
+    },
+    {
+      "front": "If you need to travel 35 miles from campus, what permission do you need?",
+      "back": "A Pass."
+    },
+    {
+      "front": "If you need to travel 100 miles from campus, what permission do you need?",
+      "back": "Leave."
+    },
+    {
+      "front": "What kind of pass permits overnight stays?",
+      "back": "A Family Pass."
+    },
+    {
+      "front": "True or False: A 'Closed Weekend' means all students must leave campus.",
+      "back": "False. It means mandatory events are scheduled, and travel is restricted."
+    },
+    {
+      "front": "Which type of permission is for longer distances?",
+      "back": "Leave."
+    },
+    {
+      "front": "What type of travel is a 'Regular Pass' for?",
+      "back": "Travel within 50 miles."
+    },
+    {
+      "front": "What is the purpose of distinguishing between a 'Pass' and 'Leave'?",
+      "back": "To categorize and regulate travel based on distance from campus."
+    },
+    {
+      "front": "What happens if a student needs to travel during a 'Closed Weekend' due to an emergency?",
+      "back": "It would require specific, pre-approved circumstances or emergency protocols."
+    },
+    {
+      "front": "When should students prepare their plans for leaving campus for good at the end of the academic period?",
+      "back": "After Finals."
+    },
+    {
+      "front": "Are 'University Holidays' considered 'Closed Weekends'?",
+      "back": "No, 'University Holidays' are periods for potential extended travel, while 'Closed Weekends' restrict travel."
+    }
+  ],
+  "quiz": [
+    {
+      "question": "What is the maximum distance from campus for which a 'Pass' is typically required?",
+      "options": [
+        "A) Exactly 50 miles",
+        "B) Beyond 50 miles",
+        "C) Within 50 miles",
+        "D) Anywhere within the state"
+      ],
+      "correct_answer": "C) Within 50 miles"
+    },
+    {
+      "question": "If a student needs to travel 75 miles from campus, what type of permission is generally required?",
+      "options": [
+        "A) Regular Pass",
+        "B) Family Pass",
+        "C) Leave",
+        "D) University Holiday Pass"
+      ],
+      "correct_answer": "C) Leave"
+    },
+    {
+      "question": "Which term describes a weekend with mandatory events where travel permissions are typically restricted?",
+      "options": [
+        "A) Open Weekend",
+        "B) University Holiday",
+        "C) Closed Weekend",
+        "D) Study Weekend"
+      ],
+      "correct_answer": "C) Closed Weekend"
+    },
+    {
+      "question": "The primary distinguishing feature of a 'Family Pass' compared to a 'Regular Pass' is that it allows for:",
+      "options": [
+        "A) Travel beyond 50 miles",
+        "B) Overnight stays with family members",
+        "C) Participation in mandatory events",
+        "D) Extended travel during university holidays"
+      ],
+      "correct_answer": "B) Overnight stays with family members"
+    },
+    {
+      "question": "When should students typically finalize their major travel plans for departure from campus?",
+      "options": [
+        "A) Before the semester begins",
+        "B) After mid-terms",
+        "C) During University Holidays",
+        "D) After Finals"
+      ],
+      "correct_answer": "D) After Finals"
+    },
+    {
+      "question": "A 'Regular Leave' permits travel:",
+      "options": [
+        "A) Only within 50 miles",
+        "B) Only for family emergencies",
+        "C) Beyond 50 miles",
+        "D) Only during weekends"
+      ],
+      "correct_answer": "C) Beyond 50 miles"
+    },
+    {
+      "question": "During which period might students be granted more extensive travel permissions than usual?",
+      "options": [
+        "A) Closed Weekends",
+        "B) Exam Week",
+        "C) University Holidays",
+        "D) First week of classes"
+      ],
+      "correct_answer": "C) University Holidays"
+    },
+    {
+      "question": "What is the main purpose of differentiating between a 'Pass' and 'Leave'?",
+      "options": [
+        "A) To distinguish between academic and personal travel",
+        "B) To categorize travel based on distance from campus",
+        "C) To determine if parental consent is needed",
+        "D) To track travel frequency"
+      ],
+      "correct_answer": "B) To categorize travel based on distance from campus"
+    },
+    {
+      "question": "Which statement about 'Closed Weekends' is TRUE?",
+      "options": [
+        "A) All students are encouraged to take leave",
+        "B) They are specifically for family visits",
+        "C) Mandatory events typically restrict travel",
+        "D) They are always followed by a university holiday"
+      ],
+      "correct_answer": "C) Mandatory events typically restrict travel"
+    },
+    {
+      "question": "If a student is granted a 'Pass,' it means they can travel:",
+      "options": [
+        "A) Anywhere outside the state",
+        "B) Within a 50-mile radius of campus",
+        "C) Only to their family home",
+        "D) For an unlimited distance"
+      ],
+      "correct_answer": "B) Within a 50-mile radius of campus"
+    }
+  ]
+}
+```
+
+--- ERROR DETAILS ---
+Error during step: combined-Passes and Leave
+
+Error: modelParams.model.includes is not a function
+
+Stack: TypeError: modelParams.model.includes is not a function
+    at new GenerativeModel (C:\Users\Logan\Desktop\Github\courseforge2\Coursemaker\server\node_modules\@google\generative-ai\dist\index.js:1237:31)
+    at GoogleGenerativeAI.getGenerativeModel (C:\Users\Logan\Desktop\Github\courseforge2\Coursemaker\server\node_modules\@google\generative-ai\dist\index.js:1335:16)
+    at factCheckWithAI (C:\Users\Logan\Desktop\Github\courseforge2\Coursemaker\server\agentProcessor.js:43:34)
+    at processPdfWithAgent (C:\Users\Logan\Desktop\Github\courseforge2\Coursemaker\server\agentProcessor.js:282:49)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async C:\Users\Logan\Desktop\Github\courseforge2\Coursemaker\server\index.js:53:32

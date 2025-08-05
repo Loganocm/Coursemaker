@@ -1,0 +1,203 @@
+--- AI RESPONSE THAT CAUSED ERROR ---
+```json
+{
+  "notes": "## Protocols & Standards\n\nThis chapter outlines essential policies and standards governing cadet conduct, safety, and academic standing within the Corps.\n\n### 1. Cadet Honor Code\n*   **Core Principle:** Upholding unwavering integrity, honesty, and a strong moral compass.\n*   **Expectation:** Cadets are expected to embody the principle: 'I will not lie, cheat, or steal, nor tolerate those who do.' This code is fundamental to fostering trust and respect within the Corps community.\n\n### 2. Policy on Hazing\n*   **Definition (Implicit):** Any activity that intends to cause humiliation, physical or emotional harm, or creates a hostile, intimidating, or demeaning environment, often as a condition for membership or status within the Corps.\n*   **Key Classifications & Consequences:\n    *   **Criminal Offense:** Hazing is a serious crime under state and federal law, leading to potential legal prosecution.\n    *   **University Policy Violation:** It is strictly prohibited by all university regulations, regardless of legal action.\n    *   **Disciplinary Actions:** Violators will face severe disciplinary measures from the university, which may include suspension, expulsion, and other penalties, in addition to potential criminal charges.\n\n### 3. Mutual Respect and Safety\n*   **Core Principle:** Fostering an inclusive environment of dignity, respect, and physical/emotional safety for all individuals.\n*   **Prohibited Behaviors:\n    *   **Harassment:** Any unwelcome verbal, non-verbal, or physical conduct based on protected characteristics (e.g., race, gender, religion, sexual orientation) that creates an intimidating, hostile, or offensive environment.\n    *   **Assaults:** Prohibits all forms of physical assault, sexual assault, or any act that threatens the physical safety or well-being of another person. These are considered grave offenses with severe consequences.\n\n### 4. Alcohol Policy\n*   **Purpose:** To ensure responsible conduct and adherence to legal standards regarding alcohol consumption by cadets.\n*   **Prohibited Actions:\n    *   **Underage Consumption:** Strictly forbidden for any cadet under the legal drinking age, regardless of location.\n    *   **Irresponsible Consumption:** Includes, but is not limited to, binge drinking, public intoxication, impaired judgment, or any consumption that leads to unsafe behavior or disruption of the Corps environment.\n    *   **False Identification:** Using, possessing, or manufacturing false identification to purchase or consume alcohol is strictly prohibited.\n*   **Reporting Violations:** Cadets are expected to report violations of the alcohol policy to appropriate Corps or university authorities.\n*   **Sanctions:** Violations will result in disciplinary actions, which can range from warnings and educational interventions to suspension or expulsion.\n*   **ROTC Implications:** Violations may also have specific implications for a cadet's standing and future in ROTC programs, potentially affecting scholarships, commissions, or participation opportunities.\n\n### 5. Sanctions for Violations of Corps Policies\n*   **General Principle:** Violations of any Corps policy (including the Honor Code, Hazing, Mutual Respect, Alcohol Policy, etc.) will result in disciplinary action.\n*   **Severity:** Sanctions vary depending on the nature and severity of the offense, the cadet's disciplinary history, and the impact of the violation on the community.\n*   **Potential Sanctions:** Can include, but are not limited to, verbal warnings, written reprimands, loss of privileges, probation, suspension, and expulsion from the Corps or university.\n\n### 6. Acknowledgment of Understanding\n*   **Requirement:** All cadets are required to formally acknowledge that they have read, understood, and agree to abide by all Corps and university policies and regulations.\n*   **Implication:** This acknowledgment signifies personal responsibility for adhering to the rules and understanding the consequences of non-compliance.\n\n### 7. Withdrawal Policy\n*   **Purpose:** Outlines the specific procedures, deadlines, and potential implications for cadets wishing to withdraw from the Corps or the university.\n*   **Specific Categories:\n    *   **First-Semester Cadets:** Specific guidelines and deadlines may apply for withdrawal during their initial semester, often with different financial or academic implications.\n    *   **Upper-Class Cadets:** Procedures for withdrawal for second, third, and fourth-year cadets, which may involve different administrative processes, financial obligations, or academic considerations.\n    *   **Second-Semester First-Year Cadets:** Distinct policies may exist for cadets withdrawing in their second semester of their first year, potentially bridging initial entry rules with those for more established cadets.",
+  "flashcards": [
+    {
+      "front": "What is the core principle of the Cadet Honor Code?",
+      "back": "To not lie, cheat, steal, or tolerate those who do, upholding integrity and honesty."
+    },
+    {
+      "front": "What are the three classifications of hazing violations?",
+      "back": "Criminal offense, university policy violation, and subject to disciplinary actions."
+    },
+    {
+      "front": "What kind of conduct is prohibited under the 'Mutual Respect and Safety' policy?",
+      "back": "Harassment and assaults (physical, sexual, or any threat to safety/well-being)."
+    },
+    {
+      "front": "Is underage alcohol consumption permitted if it occurs off-campus?",
+      "back": "No, underage alcohol consumption is strictly forbidden regardless of location."
+    },
+    {
+      "front": "What are the potential consequences of violating Corps policies?",
+      "back": "Disciplinary actions ranging from warnings to suspension or expulsion, depending on severity."
+    },
+    {
+      "front": "What is the purpose of the 'Acknowledgment of Understanding'?",
+      "back": "To formally confirm that cadets have read, understood, and agreed to abide by all Corps and university policies."
+    },
+    {
+      "front": "What is 'irresponsible alcohol consumption' according to the policy?",
+      "back": "Binge drinking, public intoxication, impaired judgment, or any consumption leading to unsafe behavior or disruption."
+    },
+    {
+      "front": "What is the specific implication of hazing as a 'criminal offense'?",
+      "back": "It can lead to legal prosecution in addition to university disciplinary action."
+    },
+    {
+      "front": "What does 'harassment' entail under the Mutual Respect and Safety policy?",
+      "back": "Any unwelcome conduct based on protected characteristics that creates an intimidating, hostile, or offensive environment."
+    },
+    {
+      "front": "Can using a false ID to purchase alcohol lead to a violation?",
+      "back": "Yes, using or possessing false identification for alcohol is prohibited."
+    },
+    {
+      "front": "Who is expected to report violations of the alcohol policy?",
+      "back": "Cadets are expected to report violations to appropriate authorities."
+    },
+    {
+      "front": "What are 'ROTC implications' regarding alcohol policy violations?",
+      "back": "Violations can affect a cadet's standing, scholarships, commissions, or participation in ROTC programs."
+    },
+    {
+      "front": "How do sanctions for Corps policy violations vary?",
+      "back": "They vary depending on the nature and severity of the offense, past disciplinary history, and impact."
+    },
+    {
+      "front": "What is a common example of a serious disciplinary action for policy violations?",
+      "back": "Suspension or expulsion."
+    },
+    {
+      "front": "For which groups are specific withdrawal policies outlined?",
+      "back": "First-semester cadets, upper-class cadets, and second-semester first-year cadets."
+    },
+    {
+      "front": "What type of acts are considered 'assaults' under the Mutual Respect and Safety policy?",
+      "back": "All forms of physical assault, sexual assault, or any act threatening physical safety/well-being."
+    },
+    {
+      "front": "What is the Cadet Honor Code's stance on tolerating violations?",
+      "back": "Cadets are expected not to tolerate those who lie, cheat, or steal."
+    },
+    {
+      "front": "Does the alcohol policy allow for public intoxication?",
+      "back": "No, public intoxication is considered irresponsible consumption and is prohibited."
+    },
+    {
+      "front": "What is the significance of the 'Acknowledgment of Understanding'?",
+      "back": "It signifies personal responsibility for adhering to rules and consequences."
+    },
+    {
+      "front": "What distinguishes the withdrawal policy for first-semester cadets?",
+      "back": "Specific guidelines and deadlines, often with different financial or academic implications than for other groups."
+    }
+  ],
+  "quiz": [
+    {
+      "question": "Which of the following is NOT a core principle of the Cadet Honor Code?",
+      "options": [
+        "A) Not to lie",
+        "B) Not to cheat",
+        "C) Not to tolerate rule-breakers",
+        "D) To report all minor infractions immediately"
+      ],
+      "correct_answer": "D"
+    },
+    {
+      "question": "Hazing is categorized as which of the following?",
+      "options": [
+        "A) A minor offense only",
+        "B) A criminal offense and a university policy violation",
+        "C) An acceptable tradition if all participants agree",
+        "D) Only an issue if physical harm occurs"
+      ],
+      "correct_answer": "B"
+    },
+    {
+      "question": "The 'Mutual Respect and Safety' policy primarily prohibits:",
+      "options": [
+        "A) Loud conversations in dorms",
+        "B) Harassment and assaults",
+        "C) Non-uniform attire",
+        "D) Eating outside designated areas"
+      ],
+      "correct_answer": "B"
+    },
+    {
+      "question": "Under the Alcohol Policy, which of these actions is strictly forbidden?",
+      "options": [
+        "A) Consuming alcohol responsibly at an off-campus event if over 21",
+        "B) Underage consumption of alcohol",
+        "C) Having an alcoholic beverage with a meal in the dining hall",
+        "D) Discussing alcohol-related topics"
+      ],
+      "correct_answer": "B"
+    },
+    {
+      "question": "What is a potential consequence of using false identification to obtain alcohol?",
+      "options": [
+        "A) A verbal warning",
+        "B) Immediate expulsion, regardless of other factors",
+        "C) Disciplinary action under the Alcohol Policy",
+        "D) Only a fine from local law enforcement"
+      ],
+      "correct_answer": "C"
+    },
+    {
+      "question": "What is the purpose of the 'Acknowledgment of Understanding' requirement?",
+      "options": [
+        "A) To confirm receipt of the student handbook only",
+        "B) To formally agree to abide by all Corps and university policies",
+        "C) To provide feedback on policy clarity",
+        "D) To sign up for extracurricular activities"
+      ],
+      "correct_answer": "B"
+    },
+    {
+      "question": "How do sanctions for Corps policy violations typically vary?",
+      "options": [
+        "A) They are always the same for all violations",
+        "B) They depend on the time of day the violation occurred",
+        "C) They depend on the nature and severity of the offense",
+        "D) They are determined solely by a peer committee"
+      ],
+      "correct_answer": "C"
+    },
+    {
+      "question": "For which group of cadets might there be specific guidelines and deadlines for withdrawal with different financial implications?",
+      "options": [
+        "A) Upper-class cadets",
+        "B) Second-semester first-year cadets",
+        "C) First-semester cadets",
+        "D) All cadets have the same withdrawal policy"
+      ],
+      "correct_answer": "C"
+    },
+    {
+      "question": "What are the potential 'ROTC implications' of an alcohol policy violation?",
+      "options": [
+        "A) Mandatory enlistment in the armed forces",
+        "B) Impact on scholarships, commissions, or program participation",
+        "C) Requirement to lead alcohol awareness workshops",
+        "D) Automatic promotion within ROTC ranks"
+      ],
+      "correct_answer": "B"
+    },
+    {
+      "question": "Which of the following is considered 'irresponsible consumption' under the Alcohol Policy?",
+      "options": [
+        "A) Enjoying a single drink responsibly at a private event",
+        "B) Binge drinking leading to public intoxication",
+        "C) Ordering a non-alcoholic beverage at a social gathering",
+        "D) Discussing the effects of alcohol in a classroom setting"
+      ],
+      "correct_answer": "B"
+    }
+  ]
+}
+```
+
+--- ERROR DETAILS ---
+Error during step: combined-Protocols & Standards
+
+Error: modelParams.model.includes is not a function
+
+Stack: TypeError: modelParams.model.includes is not a function
+    at new GenerativeModel (C:\Users\Logan\Desktop\Github\courseforge2\Coursemaker\server\node_modules\@google\generative-ai\dist\index.js:1237:31)
+    at GoogleGenerativeAI.getGenerativeModel (C:\Users\Logan\Desktop\Github\courseforge2\Coursemaker\server\node_modules\@google\generative-ai\dist\index.js:1335:16)
+    at factCheckWithAI (C:\Users\Logan\Desktop\Github\courseforge2\Coursemaker\server\agentProcessor.js:43:34)
+    at processPdfWithAgent (C:\Users\Logan\Desktop\Github\courseforge2\Coursemaker\server\agentProcessor.js:282:49)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async C:\Users\Logan\Desktop\Github\courseforge2\Coursemaker\server\index.js:53:32

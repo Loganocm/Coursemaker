@@ -1,0 +1,9 @@
+Based on the content for the chapter "Wellness and Holistic Development", generate a complete learning module. This module should include:
+
+1.  **Notes:** Detailed, easy-to-understand notes covering all the key concepts. Use bullet points and sub-headings to make them highly readable. The notes should be concise but comprehensive.
+2.  **Flashcards:** 20 flashcards, each with a "front" (a question) and a "back" (the answer). Focus on fundamental terms and concepts.
+3.  **Quiz:** A 10-question multiple-choice quiz. Each question should have a "question" string, an array of "options", and a string indicating the "correct_answer". Ensure distractors are plausible.
+
+Return the entire module as a single, valid JSON object with the following structure: { "notes": "...", "flashcards": [...], "quiz": [...] }. If the provided text is insufficient to generate any of these, return an empty object for that key (e.g., "flashcards": []).
+
+Physical fitness standards (ROTC and Citizen-Leader Track), Corps training facilities (obstacle course, rappel tower, workout areas), health and nutrition resources, Schiffert Health Center (on-campus health care), Cook Counseling Center (mental health services, confidentiality, parental contact), Virginia Tech Student Affairs' Aspirations for Student Learning (curiosity, self-understanding, integrity, civility, courageous leadership, Ut Prosim), CliftonStrengths® assessment, Inclusive VT (diversity and belonging).
