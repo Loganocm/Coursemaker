@@ -1,0 +1,621 @@
+```json
+{
+  "courseTitle": "The Essentials of Computer Organization and Architecture",
+  "modules": [
+    {
+      "moduleTitle": "Module 1: Introduction to Computer Architecture",
+      "notes": {
+        "summary": "This course provides a comprehensive overview of the function and design of computer components, presenting modern computer systems as a series of hierarchical layers. The approach is bottom-up, starting from the foundational digital logic level and building up to the application level. A central theme is the critical importance of understanding hardware for computer science professionals, as this knowledge is essential for writing efficient software, debugging complex errors like segmentation faults, and working in specialized fields such as compiler design, embedded systems, and performance benchmarking. The curriculum is aligned with the ACM/IEEE CS2013 guidelines for computer architecture. To make complex concepts accessible, the course utilizes a pedagogical tool called MARIE (Machine Architecture that is Really Intuitive and Easy). MARIE is a simple, custom-designed architecture that allows students to grasp fundamental principles of instruction processing, memory organization, and system control without the overwhelming complexity of real-world commercial processors like Intel or MIPS. This model-based learning is supported by simulators, enabling students to write, assemble, and debug programs for this simplified machine, thereby reinforcing theoretical knowledge with practical application. The course also explores modern topics like cloud computing, parallelism, and various computing models, including the traditional Von Neumann and alternative non-Von Neumann architectures.",
+        "keywords": [
+          "Computer Organization",
+          "Computer Architecture",
+          "Computer Level Hierarchy",
+          "MARIE",
+          "Von Neumann Model",
+          "Bottom-up Approach",
+          "System Fundamentals",
+          "Instructional Model",
+          "ACM/IEEE CS2013"
+        ]
+      },
+      "flashcards": [
+        {
+          "question": "What is the fundamental difference between computer architecture and computer organization?",
+          "answer": "Computer architecture refers to the logical aspects of a system visible to a programmer (e.g., instruction set, data types), while computer organization refers to the physical implementation and interconnection of components (e.g., control signals, memory types)."
+        },
+        {
+          "question": "What is the purpose of the MARIE architecture in this course?",
+          "answer": "MARIE (Machine Architecture that is Really Intuitive and Easy) is a simple, custom-designed computer architecture used as a pedagogical tool to teach fundamental concepts without the complexity of real-world processors."
+        },
+        {
+          "question": "What is the Computer Level Hierarchy?",
+          "answer": "It is an abstract model that views a computer system as a series of layers, from the lowest level of digital logic and hardware, through micro-architecture and instruction sets, up to the high-level language and user application levels."
+        },
+        {
+          "question": "According to the preface, why is it crucial for a Computer Science major to understand hardware?",
+          "answer": "Understanding hardware is crucial for writing efficient software, understanding system-level errors (like segmentation faults), and for careers in specialized fields like compiler design, device drivers, and system benchmarking."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "The instructional approach of this course is described as:",
+          "options": {
+            "A": "Top-down, starting with applications and moving to hardware.",
+            "B": "Side-in, focusing only on software interfaces.",
+            "C": "Bottom-up, starting with digital logic and building to higher levels.",
+            "D": "Random-access, covering topics in any order."
+          },
+          "correctAnswer": "C"
+        },
+        {
+          "question": "MARIE is used in the course primarily to:",
+          "options": {
+            "A": "Teach students how to program high-performance commercial systems.",
+            "B": "Provide a simplified model for understanding core architectural concepts.",
+            "C": "Demonstrate the latest advances in quantum computing.",
+            "D": "Serve as a platform for developing new operating systems."
+          },
+          "correctAnswer": "B"
+        },
+        {
+          "question": "Which of the following falls under the category of 'computer organization' rather than 'computer architecture'?",
+          "options": {
+            "A": "The instruction set available to the programmer.",
+            "B": "The number and types of addressing modes.",
+            "C": "The type of memory technology used (e.g., DRAM).",
+            "D": "The number of general-purpose registers."
+          },
+          "correctAnswer": "C"
+        },
+        {
+          "question": "The course content is designed to align with the curriculum guidelines from which professional bodies?",
+          "options": {
+            "A": "ISO and BSI",
+            "B": "DARPA and NSF",
+            "C": "Intel and AMD",
+            "D": "ACM and IEEE"
+          },
+          "correctAnswer": "D"
+        }
+      ]
+    },
+    {
+      "moduleTitle": "Module 2: Digital Logic and Circuit Design",
+      "notes": {
+        "summary": "This module delves into the foundational principles of digital logic, the building blocks of all computer systems. It begins with Boolean algebra, covering expressions, identities, and simplification techniques which are crucial for creating efficient circuits. The core components are logic gates (AND, OR, NOT), which are used to construct two primary types of circuits. Combinational logic circuits, such as adders and decoders, produce outputs based solely on their current inputs. In contrast, sequential logic circuits, like registers and memory, incorporate state using elements like flip-flops, meaning their output depends on both current inputs and previous states. These sequential circuits can be modeled as Finite State Machines (FSMs), such as Moore and Mealy machines. A key focus is on an advanced application of these concepts: convolutional coding for error correction. This method encodes a continuous data stream where the output is a function of the current and previous input bits. The encoded stream is then decoded by a Viterbi decoder, which uses a trellis diagram to find the most probable path, or correct data sequence, by minimizing the Hamming distance between the received and all possible valid patterns. This combination is an industry standard for noisy communication channels. The module concludes by discussing the Principle of Equivalence of Hardware and Software, noting that any algorithm can be implemented in either, with hardware often being faster and software being easier to create.",
+        "keywords": [
+          "Boolean Algebra",
+          "Logic Gates",
+          "Combinational Circuit",
+          "Sequential Circuit",
+          "Flip-Flop",
+          "Finite State Machine (FSM)",
+          "Convolutional Coding",
+          "Viterbi Decoding",
+          "Hamming Distance",
+          "Trellis Diagram",
+          "Mealy Machine",
+          "Karnaugh Maps"
+        ]
+      },
+      "flashcards": [
+        {
+          "question": "What is the key difference between a combinational circuit and a sequential circuit?",
+          "answer": "A combinational circuit's output depends only on its current inputs. A sequential circuit's output depends on both its current inputs and its current state (stored in memory elements like flip-flops)."
+        },
+        {
+          "question": "What is convolutional coding?",
+          "answer": "It is a method of error correction suitable for continuous data streams, where the encoded output is a function of the current input bit and a number of previously received bits, creating a context for accurate decoding."
+        },
+        {
+          "question": "How does a Viterbi decoder correct errors?",
+          "answer": "It uses a trellis diagram to find the most likely original data sequence. It calculates the Hamming distance between the received pattern and all valid transitions, and chooses the path with the smallest accumulated error."
+        },
+        {
+          "question": "What is the Principle of Equivalence of Hardware and Software?",
+          "answer": "It states that any task that can be performed by software can also be performed by hardware, and vice versa. The choice involves trade-offs between speed (hardware is often faster) and ease of development (software is often easier)."
+        },
+        {
+          "question": "What is a Mealy Machine?",
+          "answer": "A type of Finite State Machine (FSM) where the output is determined by both the current state and the current inputs. It is used to model sequential circuits like the convolutional encoder."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "Which of the following is an example of a sequential logic circuit?",
+          "options": {
+            "A": "An adder",
+            "B": "A decoder",
+            "C": "A register",
+            "D": "A multiplexer"
+          },
+          "correctAnswer": "C"
+        },
+        {
+          "question": "A Viterbi decoder uses which metric to determine the most likely path through a trellis diagram?",
+          "options": {
+            "A": "Euclidean Distance",
+            "B": "Manhattan Distance",
+            "C": "Boolean Sum",
+            "D": "Hamming Distance"
+          },
+          "correctAnswer": "D"
+        },
+        {
+          "question": "In the context of the convolutional encoder described, what determines the 'state' of the system?",
+          "options": {
+            "A": "The current input bit (A).",
+            "B": "The contents of the two previous-bit flip-flops (B and C).",
+            "C": "The XOR of all input bits.",
+            "D": "The clock speed."
+          },
+          "correctAnswer": "B"
+        },
+        {
+          "question": "Which statement best describes the primary application of convolutional coding combined with Viterbi decoding?",
+          "options": {
+            "A": "Compressing large text files for storage.",
+            "B": "Encrypting data for secure transmission.",
+            "C": "Correcting errors in data transmitted over noisy media like satellite links.",
+            "D": "Executing instructions in a pipelined processor."
+          },
+          "correctAnswer": "C"
+        }
+      ]
+    },
+    {
+      "moduleTitle": "Module 3: Input/Output and Storage Systems",
+      "notes": {
+        "summary": "This module explores the critical role of Input/Output (I/O) and storage systems in overall computer performance. System speed is often limited by I/O, not the CPU, a concept quantified by Amdahl's Law, which states that overall speedup is limited by the fraction of time an enhanced component is used. The module details five I/O control methods: Programmed I/O (inefficient polling), Interrupt-Driven I/O (more efficient, device-initiated), Memory-Mapped I/O (simplified addressing), Direct Memory Access (DMA, which offloads transfers from the CPU), and Channel I/O (intelligent I/O processors in mainframes). It also differentiates between character and block I/O devices. The discussion then moves to storage technologies, starting with magnetic disks. It contrasts Hard Disk Drives (HDDs), with performance metrics like seek time and rotational delay, against Solid State Drives (SSDs), which offer faster access and better durability but have limited write endurance. Optical disks (CD, DVD, Blu-Ray) and magnetic tape for archival are also covered. A significant portion is dedicated to RAID (Redundant Array of Independent Disks), a technology to improve performance and/or reliability. Key RAID levels are explained: RAID-0 (striping for speed, no redundancy), RAID-1 (mirroring for full redundancy), and RAID-5 (distributed parity for a balance of speed, cost, and reliability). The module concludes by looking at the future of storage, including technologies like holographic and biological storage, which aim to overcome the physical limits of current magnetic media.",
+        "keywords": [
+          "Amdahl’s Law",
+          "Programmed I/O",
+          "Interrupt-Driven I/O",
+          "Direct Memory Access (DMA)",
+          "Channel I/O",
+          "Hard Disk Drive (HDD)",
+          "Solid State Drive (SSD)",
+          "Seek Time",
+          "Rotational Delay",
+          "RAID",
+          "RAID-0 (Striping)",
+          "RAID-1 (Mirroring)",
+          "RAID-5 (Distributed Parity)"
+        ]
+      },
+      "flashcards": [
+        {
+          "question": "What is Amdahl's Law?",
+          "answer": "A formula stating that the overall performance improvement of a system is limited by the fraction of time the faster component is actually used. It highlights the law of diminishing returns in system optimization."
+        },
+        {
+          "question": "Contrast Programmed I/O with Interrupt-Driven I/O.",
+          "answer": "In Programmed I/O, the CPU repeatedly polls a device, wasting cycles in 'busy waiting'. In Interrupt-Driven I/O, the device signals the CPU via an interrupt when it is ready, allowing the CPU to perform other tasks while waiting."
+        },
+        {
+          "question": "What is the primary function of a Direct Memory Access (DMA) controller?",
+          "answer": "A DMA controller manages data transfers directly between I/O devices and main memory, offloading this task from the CPU. The CPU only initiates the transfer and is interrupted upon completion."
+        },
+        {
+          "question": "What are the main advantages of an SSD over an HDD?",
+          "answer": "SSDs are significantly faster (no seek time or rotational delay), more durable (no moving parts), and consume less power than traditional HDDs."
+        },
+        {
+          "question": "Explain the difference between RAID-0 and RAID-1.",
+          "answer": "RAID-0 (striping) splits data across multiple disks to increase performance but offers no fault tolerance. RAID-1 (mirroring) duplicates data on two disks, providing full redundancy at the cost of 100% storage overhead."
+        },
+        {
+          "question": "What is the key feature of RAID-5?",
+          "answer": "RAID-5 provides a balance of performance and reliability by striping data and distributing parity information across all drives. It can withstand the failure of a single drive."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "A system spends 70% of its time on CPU tasks and 30% on disk I/O. If you upgrade the disk to be twice as fast, what is the overall system speedup according to Amdahl's Law?",
+          "options": {
+            "A": "2.0",
+            "B": "1.3",
+            "C": "1.18",
+            "D": "1.5"
+          },
+          "correctAnswer": "C"
+        },
+        {
+          "question": "Which I/O control method involves an intelligent, programmable I/O processor and is typically found in mainframe computers?",
+          "options": {
+            "A": "Direct Memory Access (DMA)",
+            "B": "Programmed I/O",
+            "C": "Memory-Mapped I/O",
+            "D": "Channel I/O"
+          },
+          "correctAnswer": "D"
+        },
+        {
+          "question": "The time it takes for a read/write head on an HDD to position itself over the correct track is called:",
+          "options": {
+            "A": "Rotational Delay",
+            "B": "Transfer Time",
+            "C": "Access Time",
+            "D": "Seek Time"
+          },
+          "correctAnswer": "D"
+        },
+        {
+          "question": "Which RAID level is designed to provide the best performance but offers no data redundancy?",
+          "options": {
+            "A": "RAID-1",
+            "B": "RAID-5",
+            "C": "RAID-0",
+            "D": "RAID-10"
+          },
+          "correctAnswer": "C"
+        },
+        {
+          "question": "What is 'wear leveling' in the context of Solid State Drives (SSDs)?",
+          "options": {
+            "A": "A technique to make the drive's physical surface perfectly flat.",
+            "B": "A method to distribute write operations evenly across memory cells to maximize the drive's lifespan.",
+            "C": "A process for balancing the load across multiple SSDs in a RAID array.",
+            "D": "A software tool that reports on the physical degradation of the drive."
+          },
+          "correctAnswer": "B"
+        }
+      ]
+    },
+    {
+      "moduleTitle": "Module 4: System Software",
+      "notes": {
+        "summary": "System software acts as a crucial abstraction layer, simplifying the use of complex hardware for users and applications. The cornerstone of system software is the Operating System (OS), an event-driven program that manages hardware, resources, and processes. OSs evolved from manual batch processing to modern timesharing systems using context switching. The OS kernel, its core, can be monolithic (all services in one process for speed) or a microkernel (minimal core for flexibility and security). Key OS services include process management (scheduling tasks), resource management (allocating memory and I/O), and providing protection between processes. To achieve this protection, systems use protected environments like Virtual Machines (VMs), which emulate a complete hardware system, allowing multiple, isolated OS instances on one physical machine—a concept heavily used in server consolidation. The module also covers the programming toolchain: assemblers translate mnemonics to machine code, linkers combine object files into an executable, and compilers translate entire high-level programs, while interpreters execute them line-by-line. Java presents a hybrid model, compiling to platform-neutral bytecode that is then interpreted by a Java Virtual Machine (JVM). Finally, the module touches on Database Management Systems (DBMS), which ensure data integrity using transactions that follow the ACID properties (Atomicity, Consistency, Isolation, Durability) to prevent corruption in multi-user environments.",
+        "keywords": [
+          "Operating System (OS)",
+          "Kernel",
+          "Virtual Machine (VM)",
+          "Context Switching",
+          "Compiler",
+          "Interpreter",
+          "Linker",
+          "Java Virtual Machine (JVM)",
+          "Bytecode",
+          "Database Management System (DBMS)",
+          "ACID Properties",
+          "Server Consolidation"
+        ]
+      },
+      "flashcards": [
+        {
+          "question": "What are the three main tasks of an operating system?",
+          "answer": "Process management (managing the lifecycle and scheduling of programs), resource management (allocating CPU, memory, I/O), and providing protection and security between processes."
+        },
+        {
+          "question": "What is a Virtual Machine (VM)?",
+          "answer": "A protected environment created by a control program that emulates a complete hardware system, allowing a guest operating system to run in isolation on the host machine."
+        },
+        {
+          "question": "How does Java achieve its 'write once, run anywhere' portability?",
+          "answer": "Java code is compiled into platform-neutral bytecode. This bytecode is then executed by a Java Virtual Machine (JVM), which is a software-based interpreter specific to the host platform, translating the bytecode into native machine instructions."
+        },
+        {
+          "question": "What are the ACID properties of a database transaction?",
+          "answer": "Atomicity (all-or-nothing), Consistency (transaction brings database from one valid state to another), Isolation (concurrent transactions don't interfere with each other), and Durability (once committed, changes are permanent)."
+        },
+        {
+          "question": "What is the difference between a monolithic kernel and a microkernel?",
+          "answer": "A monolithic kernel contains all OS services within a single, large process for performance. A microkernel provides only essential core functions, with most services running as separate user-space processes for better modularity and security."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "The OS procedure for saving the state of a currently running process and loading the state of the next one is called:",
+          "options": {
+            "A": "Linking",
+            "B": "Compiling",
+            "C": "Context Switching",
+            "D": "Paging"
+          },
+          "correctAnswer": "C"
+        },
+        {
+          "question": "Which programming tool is responsible for combining separate object files and resolving external references to create a single executable file?",
+          "options": {
+            "A": "Compiler",
+            "B": "Assembler",
+            "C": "Interpreter",
+            "D": "Linker"
+          },
+          "correctAnswer": "D"
+        },
+        {
+          "question": "The 'I' in the ACID properties for database transactions stands for:",
+          "options": {
+            "A": "Integrity",
+            "B": "Isolation",
+            "C": "Interoperability",
+            "D": "Inheritance"
+          },
+          "correctAnswer": "B"
+        },
+        {
+          "question": "Modern data centers often replace many physical servers with virtual machines on a single large machine. This practice is known as:",
+          "options": {
+            "A": "Server clustering",
+            "B": "Grid computing",
+            "C": "Server consolidation",
+            "D": "Cloud formation"
+          },
+          "correctAnswer": "C"
+        }
+      ]
+    },
+    {
+      "moduleTitle": "Module 5: Alternative and Parallel Architectures",
+      "notes": {
+        "summary": "As single-processor performance nears physical limits, parallel and alternative architectures are essential for continued performance gains. This module begins by contrasting two major design philosophies: RISC (Reduced Instruction Set Computer) and CISC (Complex Instruction Set Computer). RISC emphasizes a small set of simple, fast instructions, shifting complexity to the compiler, whereas CISC uses a large set of powerful, complex instructions. To classify parallel systems, Flynn’s Taxonomy is introduced, categorizing architectures based on instruction and data streams: SISD (traditional uniprocessor), SIMD (single instruction, multiple data, e.g., vector processors), and MIMD (multiple instruction, multiple data, e.g., multi-core CPUs). The module then explores various methods for exploiting parallelism. At the instruction level, Superscalar architectures dynamically dispatch multiple instructions to parallel execution units, while VLIW (Very Long Instruction Word) relies on the compiler to pack independent instructions for parallel execution. For data-level parallelism, Vector Processors operate on entire arrays at once. For higher-level parallelism, shared memory multiprocessors are discussed, distinguishing between UMA (Uniform Memory Access) and NUMA (Non-Uniform Memory Access), the latter of which introduces the cache coherence problem. The module also covers distributed computing and alternative models like dataflow computing and neural networks. It concludes with an introduction to quantum computing, a revolutionary paradigm using qubits that can exist in a superposition of states, offering exponential speedups for specific problems, though significant challenges like decoherence remain.",
+        "keywords": [
+          "RISC",
+          "CISC",
+          "Flynn’s Taxonomy",
+          "SIMD",
+          "MIMD",
+          "Superscalar",
+          "VLIW",
+          "Vector Processor",
+          "NUMA",
+          "Cache Coherence",
+          "Distributed Computing",
+          "Quantum Computing",
+          "Qubit"
+        ]
+      },
+      "flashcards": [
+        {
+          "question": "What is the core philosophical difference between RISC and CISC architectures?",
+          "answer": "RISC favors a small set of simple, fixed-length instructions that execute quickly, shifting complexity to the compiler. CISC uses a large set of complex, variable-length instructions, shifting complexity to the hardware's microcode."
+        },
+        {
+          "question": "What are the four categories in Flynn’s Taxonomy?",
+          "answer": "SISD (Single Instruction, Single Data), SIMD (Single Instruction, Multiple Data), MISD (Multiple Instruction, Single Data), and MIMD (Multiple Instruction, Multiple Data)."
+        },
+        {
+          "question": "What is the cache coherence problem in shared memory multiprocessors?",
+          "answer": "It is the challenge of ensuring that all processors have a consistent view of data when each processor maintains its own local cache of a shared main memory. A modification in one cache must be propagated to others."
+        },
+        {
+          "question": "How does a qubit in a quantum computer differ from a classical bit?",
+          "answer": "A classical bit can only be 0 or 1. A qubit can exist in a superposition of both 0 and 1 simultaneously, allowing a quantum computer to perform many calculations at once (quantum parallelism)."
+        },
+        {
+          "question": "What is the difference between Superscalar and VLIW architectures?",
+          "answer": "Both execute multiple instructions in parallel. In Superscalar architecture, the hardware dynamically identifies and dispatches independent instructions. In VLIW, the compiler is responsible for statically packing multiple non-conflicting instructions into a single long instruction word."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "A modern GPU, which applies the same operation to many different data points (e.g., pixels) simultaneously, is a classic example of which Flynn's Taxonomy category?",
+          "options": {
+            "A": "SISD",
+            "B": "SIMD",
+            "C": "MISD",
+            "D": "MIMD"
+          },
+          "correctAnswer": "B"
+        },
+        {
+          "question": "In which type of shared memory system does memory access time depend on the physical location of the data relative to the processor?",
+          "options": {
+            "A": "UMA (Uniform Memory Access)",
+            "B": "NUMA (Non-Uniform Memory Access)",
+            "C": "VLIW (Very Long Instruction Word)",
+            "D": "COW (Cluster of Workstations)"
+          },
+          "correctAnswer": "B"
+        },
+        {
+          "question": "The main challenge of maintaining a qubit's fragile quantum state is known as:",
+          "options": {
+            "A": "Entanglement",
+            "B": "Superposition",
+            "C": "Decoherence",
+            "D": "Coherence"
+          },
+          "correctAnswer": "C"
+        },
+        {
+          "question": "A multi-core processor in a standard laptop, where each core can execute a different instruction stream on different data, best fits which Flynn's Taxonomy category?",
+          "options": {
+            "A": "SISD",
+            "B": "SIMD",
+            "C": "MISD",
+            "D": "MIMD"
+          },
+          "correctAnswer": "D"
+        }
+      ]
+    },
+    {
+      "moduleTitle": "Module 6: Embedded Systems",
+      "notes": {
+        "summary": "Embedded systems are specialized computers integrated within larger, often non-computer, devices. This module provides an in-depth look at their unique design principles, which are dominated by severe constraints on cost, power, and physical size, and often require hard real-time performance where a late reaction is a system failure. Embedded hardware is categorized into three types: off-the-shelf components like microcontrollers and Systems on a Chip (SOCs); configurable hardware like FPGAs, which allow for reprogrammable logic; and fully custom-designed Application-Specific Integrated Circuits (ASICs) for high-volume or high-performance needs. The design process often involves Hardware Definition Languages (HDLs) like Verilog and VHDL, with a modern trend towards 'codesign', where hardware and software are developed concurrently to shorten time-to-market. Embedded software operates under distinct constraints. Virtual memory is rarely used due to its non-deterministic timing. Programmers must manage a complex memory map of RAM, ROM, and flash, and often avoid dynamic memory allocation to prevent memory leaks in long-running systems. For complex tasks, embedded operating systems are used, which prioritize predictable responsiveness and a small memory footprint. A key challenge in these real-time systems is 'priority inversion,' where a high-priority task gets blocked by a lower-priority one. Development and debugging are also specialized, requiring tools like in-circuit emulators (ICE) and logic analyzers to diagnose timing-sensitive issues that simple debuggers would miss.",
+        "keywords": [
+          "Embedded System",
+          "Real-Time System",
+          "Microcontroller",
+          "System on a Chip (SOC)",
+          "FPGA (Field-Programmable Gate Array)",
+          "ASIC (Application-Specific Integrated Circuit)",
+          "Watchdog Timer",
+          "VHDL",
+          "Codesign",
+          "Priority Inversion",
+          "In-Circuit Emulator (ICE)"
+        ]
+      },
+      "flashcards": [
+        {
+          "question": "What are three key constraints that define embedded systems?",
+          "answer": "Severe constraints on cost, power consumption, and physical size/weight. They also often have real-time processing requirements."
+        },
+        {
+          "question": "What is the purpose of a watchdog timer in an embedded system?",
+          "answer": "It is a fail-safe mechanism that automatically resets the system if the main program hangs or stops responding. The program must periodically 'tickle' the timer to prevent a reset."
+        },
+        {
+          "question": "What is the primary difference between an FPGA and an ASIC?",
+          "answer": "An FPGA (Field-Programmable Gate Array) is a configurable chip that can be reprogrammed after manufacturing, making it ideal for prototyping. An ASIC (Application-Specific Integrated Circuit) is a fully custom-designed chip for one specific function, which is faster and cheaper in high volumes but cannot be changed."
+        },
+        {
+          "question": "What is 'priority inversion' in a real-time operating system?",
+          "answer": "A scenario where a high-priority task is blocked from running because a lower-priority task currently holds a resource it needs. This can cause critical deadlines to be missed."
+        },
+        {
+          "question": "Why is virtual memory rarely used in embedded systems?",
+          "answer": "Because the process of swapping pages between memory and disk introduces unpredictable delays (non-deterministic timing), which is unacceptable in time-constrained or hard real-time systems."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "A company is developing a new smartphone and expects to sell millions of units. To achieve the best performance and lowest per-unit cost, which hardware solution would be most appropriate for the main processor?",
+          "options": {
+            "A": "An FPGA",
+            "B": "A microcontroller",
+            "C": "An ASIC",
+            "D": "A set of discrete logic gates"
+          },
+          "correctAnswer": "C"
+        },
+        {
+          "question": "The modern design methodology where hardware and software are developed simultaneously using system-level languages is known as:",
+          "options": {
+            "A": "Waterfall model",
+            "B": "Agile development",
+            "C": "Codesign",
+            "D": "Refactoring"
+          },
+          "correctAnswer": "C"
+        },
+        {
+          "question": "Which of the following is NOT a primary concern when selecting an operating system for an embedded device?",
+          "options": {
+            "A": "Memory footprint",
+            "B": "Interrupt latency and responsiveness",
+            "C": "Support for a wide range of desktop applications",
+            "D": "Licensing fees and royalties"
+          },
+          "correctAnswer": "C"
+        },
+        {
+          "question": "A programming practice often debated in embedded systems is the use of unstructured 'spaghetti' code and global variables. What is the main argument IN FAVOR of this practice?",
+          "options": {
+            "A": "It is easier for new programmers to understand.",
+            "B": "It reduces overhead from subprogram calls, saving critical CPU cycles.",
+            "C": "It is required by all embedded compilers.",
+            "D": "It makes debugging timing issues simpler."
+          },
+          "correctAnswer": "B"
+        }
+      ]
+    },
+    {
+      "moduleTitle": "Module 7: Key Terminology Review",
+      "notes": {
+        "summary": "A strong command of terminology is fundamental to understanding computer organization and architecture. This module provides a review of critical terms spanning from low-level digital logic to high-level system concepts. The glossary defines concepts like addressing modes (Direct, Indirect), data representation (Big Endian, Biased Exponent), system performance (Amdahl's Law, Benchmarking), networking (Protocol, TCP/IP), and storage (RAID, SSD). Mastering these terms is essential for discussing, designing, and analyzing computer systems effectively. This review reinforces the language used to describe the intricate layers of a computer, from the physical hardware of a bus and cache to the abstract software constructs of a compiler and virtual machine. A solid vocabulary enables clearer communication and a deeper comprehension of how these diverse components interoperate to form a cohesive, functioning system. This curated selection of flashcards and quiz questions draws from the broader glossary to test your knowledge on some of the most important concepts covered throughout the course, ensuring you have a firm grasp of the essential lexicon of the field.",
+        "keywords": [
+          "ALU",
+          "Big Endian",
+          "Cache Coherence",
+          "CISC",
+          "DMA",
+          "Flynn's Taxonomy",
+          "Pipelining",
+          "RAID",
+          "RISC",
+          "Virtual Memory",
+          "Assembler",
+          "Bus"
+        ]
+      },
+      "flashcards": [
+        {
+          "question": "What is an Arithmetic Logic Unit (ALU)?",
+          "answer": "The combinational circuit within a CPU that performs arithmetic (e.g., addition, subtraction) and logic (e.g., AND, OR, NOT) operations."
+        },
+        {
+          "question": "What is Big Endian byte ordering?",
+          "answer": "A memory storage method where the most significant byte of a multi-byte word is stored at the lowest memory address."
+        },
+        {
+          "question": "What is an Assembler?",
+          "answer": "A program that translates assembly language, which uses human-readable mnemonics, into the corresponding machine code for a specific computer architecture."
+        },
+        {
+          "question": "What is a Bus in a computer system?",
+          "answer": "A shared set of electrical wires used to transmit data, addresses, and control signals between different components of a computer, such as the CPU, memory, and I/O devices."
+        },
+        {
+          "question": "Define 'Pipelining' in the context of a CPU.",
+          "answer": "A technique that allows multiple instructions to be in different stages of execution simultaneously, similar to an assembly line. It improves instruction throughput by overlapping fetching, decoding, executing, and writing back."
+        },
+        {
+          "question": "What is Virtual Memory?",
+          "answer": "A memory management technique that provides a program with the illusion of having a large, contiguous main memory, when in fact its physical memory may be non-contiguous and partially stored on disk."
+        },
+        {
+          "question": "What is a Checksum?",
+          "answer": "A value derived from a block of data, used for error detection. The sender calculates the checksum, and the receiver recalculates it to check if the data has been altered during transmission. CRC is a common example."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "Which term describes a computer architecture philosophy that uses a large number of complex, variable-length instructions?",
+          "options": {
+            "A": "RISC",
+            "B": "CISC",
+            "C": "VLIW",
+            "D": "SIMD"
+          },
+          "correctAnswer": "B"
+        },
+        {
+          "question": "A network device that operates at Layer 2 (Data Link) and joins two similar networks by storing and forwarding packets is called a:",
+          "options": {
+            "A": "Hub",
+            "B": "Router",
+            "C": "Bridge",
+            "D": "Repeater"
+          },
+          "correctAnswer": "C"
+        },
+        {
+          "question": "The process of a computer starting itself using a small initial program to load the full operating system is known as:",
+          "options": {
+            "A": "Compiling",
+            "B": "Context Switching",
+            "C": "Bootstrapping",
+            "D": "Linking"
+          },
+          "correctAnswer": "C"
+        },
+        {
+          "question": "Which of the following terms refers to the loss of electrical signal strength as it travels over a distance?",
+          "options": {
+            "A": "Bandwidth",
+            "B": "Attenuation",
+            "C": "Baud",
+            "D": "Skew"
+          },
+          "correctAnswer": "B"
+        },
+        {
+          "question": "What is the primary purpose of a 'benchmark suite'?",
+          "options": {
+            "A": "To provide a set of drivers for all system hardware.",
+            "B": "To debug errors in application software.",
+            "C": "To provide a collection of programs for objectively assessing system performance.",
+            "D": "To ensure data integrity during storage and transmission."
+          },
+          "correctAnswer": "C"
+        }
+      ]
+    }
+  ]
+}
+```
